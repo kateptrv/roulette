@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Roulette Study (Prolific + DataPipe)</title>
+
+    <!-- Load jsPsych core and plugins -->
+    <script src="https://unpkg.com/jspsych@8.2.2"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@2.1.0"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-survey-likert@2.1.0"></script>
+
+    <!-- DataPipe plugin (jspsych-contrib) -->
+    <script src="https://unpkg.com/@jspsych-contrib/plugin-pipe"></script>
+    <!-- ^ DataPipe examples/documentation recommend loading jsPsychPipe from jspsych-contrib via unpkg -->
+    <!--  [oai_citation:4‡GitHub](https://github.com/jspsych/datapipe-examples/blob/main/jspsych/README.md?utm_source=chatgpt.com) -->
+
+    <link href="https://unpkg.com/jspsych@8.2.2/css/jspsych.css" rel="stylesheet" />
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+      .roulette-grid {
+        display: grid;
+        grid-template-columns: repeat(6, 60px);
+        grid-gap: 8px;
+        justify-content: center;
+        margin-top: 20px;
+      }
+      .roulette-number {
+        padding: 15px;
+        border: 1px solid #000;
+        cursor: pointer;
+        border-radius: 6px;
+        background-color: lightgray;
+      }
+      .roulette-number.hot {
+        background-color: gold;
+      }
+      .roulette-number.selected {
+        background-color: lightgreen;
+      }
+
+      #balance-display {
+        font-weight: bold;
+        margin-top: 20px;
+      }
+      #banner {
+        color: red;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+
+  <body></body>
+
+  <script>
+    /***************************************************
+     * PROLIFIC + DATAPIPE CONFIG
+     ***************************************************/
+    // 1) Put your DataPipe experiment ID here (from pipe.jspsych.org dashboard)
+    const DATAPIPE_EXPERIMENT_ID = "YOUR_DATAPIPE_EXPERIMENT_ID";
+
+    // 2) Put your Prolific completion code here (from Prolific study settings)
+    const PROLIFIC_COMPLETION_CODE = "YOUR_COMPLETION_CODE";
+
+    // Prolific passes these as URL params when you set the study URL correctly:
+    // ?PROLIFIC_PID=...&STUDY_ID=...&SESSION_ID=...
+    //  [oai_citation:5‡jsPsych](https://www.jspsych.org/v7/overview/prolific/?utm_source=chatgpt.com)
+    const urlParams = new URLSearchParams(window.location.search);
+    const PROLIFIC_PID = urlParams.get("PROLIFIC_PID") || "NA";
+    const STUDY_ID = urlParams.get("STUDY_ID") || "NA";
+    const SESSION_ID = urlParams.get("SESSION_ID") || "NA";
+
+    // Prolific completion URL format (recommended redirect)
+    //  [oai_citation:6‡jsPsych](https://www.jspsych.org/v7/overview/prolific/?utm_source=chatgpt.com)
+    const PROLIFIC_COMPLETE_URL =
+      "https://app.prolific.com/submissions/complete?cc=" + encodeURIComponent(PROLIFIC_COMPLETION_CODE);
+
+    /***************************************************
+     * CHUNK 1: INIT JSPYSCH (move addProperties UP FRONT)
+     ***************************************************/
+    var jsPsych = initJsPsych({
+      on_finish: function() {
+        // IMPORTANT: don't localSave() on Prolific by default.
+        // Data are saved via DataPipe in a timeline trial at the end.
+      }
+    });
+
+    // Add identifiers immediately so they appear on every trial row.
+    // jsPsych supports adding properties globally.  [oai_citation:7‡jsPsych](https://www.jspsych.org/v8/reference/jspsych-data/?utm_source=chatgpt.com)
+    jsPsych.data.addProperties({
+      participant_id: PROLIFIC_PID,      // make Prolific PID the main participant id
+      prolific_pid: PROLIFIC_PID,
+      prolific_study_id: STUDY_ID,
+      prolific_session_id: SESSION_ID,
+      date_iso: new Date().toISOString()
+    });
+
+    /***************************************************
+     * CHUNK 1b: TRIAL STRUCTURE LOGIC (your original)
+     ***************************************************/
+    const TOTAL_TRIALS = 24;
+    const HOT_SET_SIZES = [1, 2, 3, 8, 16];
+    const NUMBERS = Array.from({ length: 36 }, (_, i) => i + 1);
+    const WIN_BLOCKS = 4;
+
+    const win_positions = [];
+    for (let b = 0; b < WIN_BLOCKS; b++) {
+      const posWithinBlock = jsPsych.randomization.sampleWithoutReplacement([2, 3, 4, 5], 1)[0];
+      win_positions.push(b * 6 + posWithinBlock);
+    }
+
+    let trials = Array.from({ length: TOTAL_TRIALS }, () => ({
+      banner: 0,
+      win_status: 0,
+      hot_set_size: 0,
+      outcome_rel_to_hot: "NA"
+    }));
+
+    win_positions.forEach((pos) => {
+      trials[pos] = { banner: 0, win_status: 1, hot_set_size: 0, outcome_rel_to_hot: "NA" };
+    });
+
+    let banner_templates = [];
+    HOT_SET_SIZES.forEach((size) => {
+      banner_templates.push({
+        banner: 1,
+        win_status: 0,
+        hot_set_size: size,
+        outcome_rel_to_hot: "hot_win_number"
+      });
+      banner_templates.push({
+        banner: 1,
+        win_status: 0,
+        hot_set_size: size,
+        outcome_rel_to_hot: "nonhot_win_number"
+      });
+    });
+
+    let nonwin_indices = trials
+      .map((t, i) => (t.win_status === 0 ? i : null))
+      .filter((i) => i !== null);
+
+    let chosen_indices = jsPsych.randomization.sampleWithoutReplacement(
+      nonwin_indices,
+      banner_templates.length
+    );
+    chosen_indices.forEach((idx, j) => (trials[idx] = banner_templates[j]));
+
+    console.table(trials);
+
+    /***************************************************
+     * CHUNK 2: GAME LOGIC (your original)
+     ***************************************************/
+    let balance = 10;
+
+    function makeRouletteGrid(hotNumbers) {
+      let html = `<div class='roulette-grid'>`;
+      NUMBERS.forEach((n) => {
+        const hotClass = hotNumbers.includes(n) ? "hot" : "";
+        html += `<div class='roulette-number ${hotClass}' data-num='${n}'>${n}</div>`;
+      });
+      html += `</div>`;
+      return html;
+    }
+
+    let timeline = [];
+
+    /***************************************************
+     * PREPHASE INSTRUCTIONS (your original)
+     ***************************************************/
+    let instructions = {
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: `
+        <h2>Welcome to the Roulette Game!</h2>
+        <p>You will start with <b>$10</b>.</p>
+        <p>In each round, you will see a roulette table with numbers 1–36.</p>
+        <p>Click a number to place your bet (you always bet $1).</p>
+        <p>After you choose, one number will win:</p>
+        <ul style="text-align:left; display:inline-block;">
+          <li>If your number wins, you <b>gain $3</b>.</li>
+          <li>If your number loses, you <b>lose $1</b>.</li>
+        </ul>
+        <p>Sometimes, a banner will appear saying <b>HOT NUMBERS!</b> — 
+        these are numbers that have been lucky lately.</p>
+        <p>Your goal is simply to play through all ${TOTAL_TRIALS} rounds 
+        and try to maximize your balance.</p>
+        <p>Press any key when you’re ready to begin.</p>
+      `
+    };
+    timeline.push(instructions);
+
+    /***************************************************
+     * MAIN LOOP (your original)
+     ***************************************************/
+    trials.forEach((trial, idx) => {
+      timeline.push({
+        type: jsPsychHtmlKeyboardResponse,
+        stimulus: function() {
+          let hotNumbers = [];
+          if (trial.banner === 1) {
+            hotNumbers = jsPsych.randomization.sampleWithoutReplacement(
+              NUMBERS,
+              trial.hot_set_size
+            );
+          }
+          trial.hot_numbers = hotNumbers;
+
+          let bannerHTML = trial.banner
+            ? `<div id='banner'>HOT NUMBERS: ${hotNumbers.join(", ")}</div>`
+            : "";
+
+          return `
+            ${bannerHTML}
+            <h2>Trial ${idx + 1} of ${TOTAL_TRIALS}</h2>
+            <p>Select a number to bet on!</p>
+            <div id="balance-display">Balance: $${balance}</div>
+            ${makeRouletteGrid(hotNumbers)}
+            <p><i>Click a number to continue.</i></p>
+          `;
+        },
+        choices: "NO_KEYS",
+        on_load: function() {
+          document.querySelectorAll(".roulette-number").forEach((el) => {
+            el.addEventListener("click", () => {
+              let choice = parseInt(el.dataset.num);
+
+              let outcome;
+              if (trial.win_status === 1) {
+                outcome = choice;
+              } else {
+                if (trial.banner === 1) {
+                  let H = trial.hot_numbers;
+                  if (trial.outcome_rel_to_hot === "hot_win_number") {
+                    outcome = jsPsych.randomization.sampleWithoutReplacement(
+                      H.filter((n) => n !== choice),
+                      1
+                    )[0];
+                  } else {
+                    const nonHot = NUMBERS.filter((n) => !H.includes(n) && n !== choice);
+                    outcome = jsPsych.randomization.sampleWithoutReplacement(nonHot, 1)[0];
+                  }
+                } else {
+                  outcome = jsPsych.randomization.sampleWithoutReplacement(
+                    NUMBERS.filter((n) => n !== choice),
+                    1
+                  )[0];
+                }
+              }
+
+              if (outcome === choice) balance += 3;
+              else balance -= 1;
+
+              jsPsych.finishTrial({
+                trial_index: idx,
+                choice: choice,
+                outcome: outcome,
+                balance: balance,
+                banner: trial.banner,
+                win_status: trial.win_status,
+                hot_set_size: trial.hot_set_size,
+                hot_numbers: trial.hot_numbers,
+                outcome_rel_to_hot: trial.outcome_rel_to_hot
+              });
+            });
+          });
+        }
+      });
+
+      timeline.push({
+        type: jsPsychHtmlKeyboardResponse,
+        stimulus: function() {
+          let last = jsPsych.data.get().last(1).values()[0];
+          let win = last.choice === last.outcome;
+          let color = win ? "green" : "red";
+          return `
+            <h2 style='color:${color};'>
+              ${win ? "You WON!" : "You lost."}
+            </h2>
+            <p>Winning number: ${last.outcome}</p>
+            <div id="balance-display">Balance: $${balance}</div>
+            <p>Press any key to continue.</p>
+          `;
+        }
+      });
+
+      timeline.push({
+        type: jsPsychSurveyLikert,
+        preamble: function() {
+          let all_data = jsPsych.data.get().values();
+          let last_with_choice = [...all_data].reverse().find(t => t.choice !== undefined && t.outcome !== undefined);
+          let choice = last_with_choice.choice;
+          let outcome = last_with_choice.outcome;
+
+          return `
+            <h3>Reflection</h3>
+            <p>You chose number <b>${choice}</b>.</p>
+            <p>The winning number was <b>${outcome}</b>.</p>
+          `;
+        },
+        questions: function() {
+          let all_data = jsPsych.data.get().values();
+          let last_with_choice = [...all_data].reverse().find(t => t.choice !== undefined && t.outcome !== undefined);
+          let choice = last_with_choice.choice;
+          let outcome = last_with_choice.outcome;
+          let banner = last_with_choice.banner;
+          let hot_numbers = last_with_choice.hot_numbers || [];
+
+          let q = [
+            {
+              prompt: `How much do you regret choosing ${choice}?`,
+              labels: ["Not at all", "Slightly", "Moderately", "Strongly", "Extremely"],
+              required: true
+            }
+          ];
+
+          if (choice !== outcome) {
+            q.push({
+              prompt: `How much do you regret NOT choosing ${outcome}?`,
+              labels: ["Not at all", "Slightly", "Moderately", "Strongly", "Extremely"],
+              required: true
+            });
+          }
+
+          if (banner === 1 && hot_numbers.length > 0) {
+            let nonChosenHot = hot_numbers.filter((n) => n !== choice && n !== outcome);
+            if (nonChosenHot.length > 0) {
+              let probe = jsPsych.randomization.sampleWithoutReplacement(nonChosenHot, 1)[0];
+              q.push({
+                prompt: `How much do you regret NOT choosing hot number ${probe}?`,
+                labels: ["Not at all", "Slightly", "Moderately", "Strongly", "Extremely"],
+                required: true
+              });
+            }
+          }
+
+          return q;
+        }
+      });
+    });
+
+    /***************************************************
+     * DATAPIPE SAVE TRIAL (critical)
+     ***************************************************/
+    // DataPipe API: data is posted as text with unique filename.  [oai_citation:8‡DataPipe](https://pipe.jspsych.org/api-docs?utm_source=chatgpt.com)
+    // DataPipe guide: use jsPsychPipe to send data to DataPipe.  [oai_citation:9‡DataPipe](https://pipe.jspsych.org/getting-started?utm_source=chatgpt.com)
+    const save_data = {
+      type: jsPsychPipe,
+      action: "save",
+      experiment_id: DATAPIPE_EXPERIMENT_ID,
+      filename: function() {
+        // Must be unique; include pid + timestamp
+        const ts = new Date().toISOString().replace(/[:.]/g, "-");
+        return `roulette_pid-${PROLIFIC_PID}_sess-${SESSION_ID}_${ts}.csv`;
+      },
+      data_string: function() {
+        return jsPsych.data.get().csv();
+      },
+      on_finish: function(data){
+        // If save succeeds, proceed; if it fails, you might want to show a message or retry.
+        // (Minimal here: we just continue.)
+      }
+    };
+    timeline.push(save_data);
+
+    /***************************************************
+     * END + PROLIFIC REDIRECT
+     ***************************************************/
+    timeline.push({
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: `
+        <h2>All done!</h2>
+        <p>Your responses have been saved.</p>
+        <p>Press any key to return to Prolific and complete your submission.</p>
+      `,
+      on_finish: function() {
+        window.location.href = PROLIFIC_COMPLETE_URL;
+      }
+    });
+
+    jsPsych.run(timeline);
+  </script>
+</html>
