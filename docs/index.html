@@ -413,7 +413,7 @@
 
       `
       <div class="instr-wrap">
-        <img class="instr-hero" src="img/roulette.png" alt="Roulette illustration">
+        <img class="instr-hero" src="img/choose_screen.png" alt="Roulette illustration">
         <div class="instr-text">
           <p>This game is simpler than real roulette and works a little differently.</p>
           <p>On each round:</p>
@@ -430,7 +430,7 @@
 
       `
       <div class="instr-wrap">
-        <img class="instr-hero" src="img/roulette.png" alt="Roulette illustration">
+        <img class="instr-hero" src="img/choose_screen.png" alt="Roulette illustration">
         <div class="instr-text">
           <p>At the start of the game, you will have <b>30 cents</b> in your wallet.</p>
           <p>You will use this money to place your bets across the game.</p>
@@ -715,18 +715,43 @@
         }
       });
 
-      // feedback screen
+      // feedback screen (with win/loss image)
       timeline.push({
         type: jsPsychHtmlKeyboardResponse,
         stimulus: function() {
-          let last = jsPsych.data.get().last(1).values()[0];
-          let win = last.choice === last.outcome;
-          let color = win ? "green" : "red";
+          const last = jsPsych.data.get().last(1).values()[0];
+          const win = last.choice === last.outcome;
+
+          const imgSrc = win ? "img/gain.png" : "img/loss.png";
+          const headingText = win ? "You WON!" : "You lost.";
+          const headingColor = win ? "#1a7f37" : "#b3122a";
+
           return `
-            <h2 style='color:${color};'>${win ? "You WON!" : "You lost."}</h2>
-            <p>Winning number: ${last.outcome}</p>
-            <div id="balance-display">Balance: $${balance.toFixed(2)}</div>
-            <p>Press any key to continue.</p>
+            <div style="max-width:720px; margin:0 auto;">
+              <img
+                src="${imgSrc}"
+                alt="${win ? "Win" : "Loss"}"
+                style="
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                "
+              />
+
+              <h2 style="color:${headingColor}; margin-bottom:6px;">
+                ${headingText}
+              </h2>
+
+              <p>Winning number: <b>${last.outcome}</b></p>
+
+              <div id="balance-display">
+                Balance: $${balance.toFixed(2)}
+              </div>
+
+              <p style="margin-top:14px;">Press any key to continue.</p>
+            </div>
           `;
         }
       });
