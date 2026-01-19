@@ -656,19 +656,40 @@
               let choice = parseInt(el.dataset.num);
 
               let outcome;
+
               if (trial.win_status === 1) {
                 outcome = choice;
               } else {
                 if (trial.banner === 1) {
-                  let H = trial.hot_numbers;
+                  const H = trial.hot_numbers || [];
+
                   if (trial.outcome_rel_to_hot === "hot_win_number") {
-                    outcome = jsPsych.randomization.sampleWithoutReplacement(H.filter((n) => n !== choice), 1)[0];
+                    // Safeguard if participant chooses the only hot number
+                    const hotNotChoice = H.filter(n => n !== choice);
+
+                    if (hotNotChoice.length > 0) {
+                      outcome = jsPsych.randomization.sampleWithoutReplacement(hotNotChoice, 1)[0];
+                    } else {
+                      // Choose any non-chosen number
+                      const notChoice = NUMBERS.filter(n => n !== choice);
+                      outcome = jsPsych.randomization.sampleWithoutReplacement(notChoice, 1)[0];
+                    }
                   } else {
                     const nonHot = NUMBERS.filter((n) => !H.includes(n) && n !== choice);
-                    outcome = jsPsych.randomization.sampleWithoutReplacement(nonHot, 1)[0];
+
+                    // Technically this shouldn't ever be empty, but just in case
+                    if (nonHot.length > 0) {
+                      outcome = jsPsych.randomization.sampleWithoutReplacement(nonHot, 1)[0];
+                    } else {
+                      const notChoice = NUMBERS.filter(n => n !== choice);
+                      outcome = jsPsych.randomization.sampleWithoutReplacement(notChoice, 1)[0];
+                    }
                   }
                 } else {
-                  outcome = jsPsych.randomization.sampleWithoutReplacement(NUMBERS.filter((n) => n !== choice), 1)[0];
+                  outcome = jsPsych.randomization.sampleWithoutReplacement(
+                    NUMBERS.filter((n) => n !== choice),
+                    1
+                  )[0];
                 }
               }
 
