@@ -37,7 +37,7 @@
       .instr-wrap {
         max-width: 860px;
         margin: 0 auto;
-        text-align: left;
+        text-align: center;
       }
 
       .instr-hero {
@@ -59,13 +59,22 @@
 
       .instr-text {
         font-size: 16px;
-        line-height: 1.45;
+        line-height: 1.55;
         color: rgba(0,0,0,0.82);
+        text-align: center;
+      }
+
+      .instr-text p {
+        margin: 10px auto;
+        max-width: 760px;
       }
 
       .instr-list {
-        margin: 10px 0 0;
-        padding-left: 22px;           /* controls bullet indent */
+        display: inline-block;        /* lets the list sit centered as a block */
+        text-align: left;             /* keeps bullets/text aligned nicely */
+        margin: 12px auto 0;
+        padding-left: 22px;
+        max-width: 760px;
       }
 
       .instr-list li {
@@ -84,6 +93,7 @@
         border: 1px solid rgba(0,0,0,0.08);
         background: rgba(0,0,0,0.03);
         color: rgba(0,0,0,0.75);
+        text-align: center;
       }
       /* ---- Roulette tiles: modern red/black ---- */
       .roulette-number {
@@ -468,10 +478,10 @@ HOT_SET_SIZES.forEach((size) => {
 
       `
       <div class="instr-wrap">
-        <img class="instr-hero" src="img/roulette.png" alt="Roulette illustration">
+        <img class="instr-hero" src="img/bonus.png" alt="Roulette illustration">
         <div class="instr-text">
-          <p>At the end of the game, the money left in your wallet will be paid to you as a bonus on Prolific.</p>
-          <div class="instr-note"><b>Your goal is to earn as much money as you can during the game.</b></div>
+          <p>Your goal is to earn as much money as you can during the game.</p>
+          <div class="instr-note"><b>At the end of the game, the money left in your wallet will be paid to you as a bonus on Prolific.</b></div>
         </div>
       </div>
       `,
@@ -482,7 +492,7 @@ HOT_SET_SIZES.forEach((size) => {
         <div class="instr-text">
           <p>After seeing the outcome, you will be asked to reflect on your feelings about your most recent bet and its outcome.</p>
           <p>Use your mouse to record your answer and press “Continue” to proceed to the next round.</p>
-          <div class="instr-note"><b>Please report your feelings openly and honestly</b> regardless of how strong or weak they are. There are no right or wrong answers.</div>
+          <div class="instr-note"><b>Please report your feelings openly and honestly</b> regardless of how strong or weak they are! There are no right or wrong answers.</div>
         </div>
       </div>
       `,
@@ -492,18 +502,26 @@ HOT_SET_SIZES.forEach((size) => {
         <img class="instr-hero" src="img/hot_numbers.png" alt="Roulette illustration">
         <div class="instr-text">
           <p>On some rounds, you will see a banner above the roulette grid that says <b>HOT NUMBERS</b>.</p>
-          <p>Hot numbers are numbers that have been winning frequently in the past. The number of hot numbers can vary.</p>
-          <p>Hot numbers are provided for your information only and you do not have to choose a hot number.</p>
-          <div class="instr-note">(You are always free to choose any number from 1 to 36.)</div>
+          <p>Hot numbers are numbers that have been winning frequently in the past. The number of hot numbers can vary.</p></p>
+          <div class="instr-note">Hot numbers are provided for your information only and you do NOT have to choose a hot number.</div>
         </div>
       </div>
       `,
 
       `
       <div class="instr-wrap">
-        <img class="instr-hero" src="img/roulette.png" alt="Roulette illustration">
+        <img class="instr-hero" src="img/survey.png" alt="Roulette illustration">
         <div class="instr-text">
           <p>After the game is finished, we will ask you a few general questions about yourself.</p>
+        </div>
+      </div>
+      `,
+
+              `
+      <div class="instr-wrap">
+        <img class="instr-hero" src="img/roulette.png" alt="Roulette illustration">
+        <div class="instr-text">
+          <p>You are now almost ready to begin the game! Please proceed to the next page for a quick comprehension check.</p>
         </div>
       </div>
       `
