@@ -333,11 +333,16 @@
       trials[pos] = { banner: 0, win_status: 1, hot_set_size: 0, outcome_rel_to_hot: "NA" };
     });
 
-    let banner_templates = [];
-    HOT_SET_SIZES.forEach((size) => {
-      banner_templates.push({ banner: 1, win_status: 0, hot_set_size: size, outcome_rel_to_hot: "hot_win_number" });
-      banner_templates.push({ banner: 1, win_status: 0, hot_set_size: size, outcome_rel_to_hot: "nonhot_win_number" });
-    });
+let banner_templates = [];
+HOT_SET_SIZES.forEach((size) => {
+  if (size === 1) {
+    banner_templates.push({ banner: 1, win_status: 0, hot_set_size: size, outcome_rel_to_hot: "nonhot_win_number" });
+    banner_templates.push({ banner: 1, win_status: 0, hot_set_size: size, outcome_rel_to_hot: "nonhot_win_number" });
+  } else {
+    banner_templates.push({ banner: 1, win_status: 0, hot_set_size: size, outcome_rel_to_hot: "hot_win_number" });
+    banner_templates.push({ banner: 1, win_status: 0, hot_set_size: size, outcome_rel_to_hot: "nonhot_win_number" });
+  }
+});
 
     let nonwin_indices = trials
       .map((t, i) => (t.win_status === 0 ? i : null))
@@ -716,7 +721,9 @@
       timeline.push({
         type: jsPsychHtmlKeyboardResponse,
         stimulus: function() {
-          const last = jsPsych.data.get().last(1).values()[0];
+          const last = jsPsych.data.get()
+            .filterCustom(d => d.choice !== undefined && d.outcome !== undefined)
+            .last(1).values()[0];
           const win = last.choice === last.outcome;
 
           const imgSrc = win ? "img/gain.png" : "img/loss.png";
