@@ -434,7 +434,7 @@
         <div class="instr-text">
           <p>At the start of the game, you will have <b>30 cents</b> in your wallet.</p>
           <p>You will use this money to place your bets across the game.</p>
-          <div class="instr-note">You will be able to see how much money you have at all times in the upper right corner of your screen.</div>
+          <div class="instr-note">You will be able to see how much money you have right above the roulette grid.</div>
         </div>
       </div>
       `,
@@ -512,7 +512,7 @@
         <img class="instr-hero" src="img/roulette.png" alt="Roulette illustration">
         <div class="instr-text">
           <p>After seeing the outcome, you will be asked to reflect on your feelings about your most recent bet and its outcome.</p>
-          <p>Use your mouse to record your answer and press “Continue” to proceed to the next trial.</p>
+          <p>Use your mouse to record your answer and press “Continue” to proceed to the next round.</p>
           <div class="instr-note"><b>Please report your feelings openly and honestly</b> regardless of how strong or weak they are. There are no right or wrong answers.</div>
         </div>
       </div>
@@ -666,9 +666,9 @@
 
           return `
             ${bannerHTML}
-            <h2>Trial ${idx + 1} of ${TOTAL_TRIALS}</h2>
+            <h2>Round ${idx + 1} of ${TOTAL_TRIALS}</h2>
             <p>Select a number to bet on!</p>
-            <div id="balance-display">Balance: $${balance}</div>
+            <div id="balance-display">Balance: $${balance.toFixed(2)}</div>
             ${makeRouletteGrid(hotNumbers)}
             <p><i>Click a number to continue.</i></p>
           `;
@@ -725,7 +725,7 @@
           return `
             <h2 style='color:${color};'>${win ? "You WON!" : "You lost."}</h2>
             <p>Winning number: ${last.outcome}</p>
-            <div id="balance-display">Balance: $${balance}</div>
+            <div id="balance-display">Balance: $${balance.toFixed(2)}</div>
             <p>Press any key to continue.</p>
           `;
         }
