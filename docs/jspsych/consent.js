@@ -11,8 +11,7 @@ const consent = {
         ' looking at images or videos, listening to sounds, reading' +
         ' scenarios, or playing games. You may be asked a number of' +
         // careful about single quotes
-        " different questions about making judgments and intepreting" +
-        " people's actions. All information collected will remain" +
+        " different questions about your feelings and yourself. All information collected will remain" +
         ' confidential. </p>' +
         ' <p> <b>Risks and benefits:</b> Risks involved in this study' +
         ' are the same as those normally associated with using a' +
@@ -28,9 +27,7 @@ const consent = {
         ' your employment, medical care, and/or grades in school. </p>' +
         '<p><b>Time involvement:</b> Your participation in this' +
         ' experiment will take ' + time + '. </p>' +
-        '<p><b> Payment:</b> If recruitment materials indicate payment' +
-        ' (e.g., Prolific or other recruitment), you will receive' +
-        ' compensation as indicated. </p>' +
+        '<p><b> Payment:</b> You will receive compensation as indicated in the Prolific listing. </p>' +
         "<p><b>Subject's rights:</b> If you have read this notice and" +
         ' have decided to participate in this project, please understand' +
         ' your participation is voluntary and you have the right to' +
@@ -43,8 +40,7 @@ const consent = {
         '<p><b>Contact information:</b> If you have any questions,' +
         ' concerns or complaints about this research study, its' +
         ' procedures, or risks and benefits, you should ask the' +
-        ' Protocol Director, (Professor Tobias Gerstenberg, Phone:' +
-        ' (650) 725-2431; Email: gerstenberg@stanford.edu). </p>' +
+        ' Protocol Director, (Kate Petrova, Email: kpetrova@stanford.edu). </p>' +
         '<p><b>Independent contact:</b> If you are not satisfied' +
         ' with how this study is being conducted, or if you have' +
         ' any concerns, complaints, or general questions about the' +

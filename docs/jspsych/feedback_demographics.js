@@ -4,41 +4,40 @@ const feedback_demographics = {
       <div style="max-width:700px; margin:auto; text-align:left;">
         <p style="text-align:center;">Please provide the following information to complete the study:</p>
   
-        <!-- Open-ended feedback -->
-        <p><strong>What factors influenced how you decided to respond?
-        Do you have any questions or comments regarding the experiment?</strong></p>
-        <textarea name="feedback" cols="50" rows="6" autofocus style="width:100%;">
-        </textarea>
-  
-        <!-- Best Tree -->
-        <p><strong>Which tree do you think was the best one?</strong></p>
-        <label><input type="radio" name="best_tree" value="left"> Left</label><br>
-        <label><input type="radio" name="best_tree" value="center"> Center</label><br>
-        <label><input type="radio" name="best_tree" value="right"> Right</label><br>
-  
-        <!-- Confidence -->
-        <p><strong>How confident are you that you found the best tree?</strong></p>
-        <label><input type="radio" name="confidence" value="not_at_all_confident"> 
-          Not at all confident
-        </label><br>
-        <label><input type="radio" name="confidence" value="a_little_bit_confident"> 
-          A little bit confident
-        </label><br>
-        <label><input type="radio" name="confidence" value="moderately_confident"> 
-          Moderately confident
-        </label><br>
-        <label><input type="radio" name="confidence" value="extremely_confident"> 
-          Extremely confident
-        </label><br>
-        
-        <!-- Proportion of Ripe Fruit -->
-        <p><strong>On what proportion of the trials do you think the tree that you've 
-        identified as the best one returned ripe fruit?</strong>
-        (Enter a number between 0% and 100%)</p>
-        <input type="number" name="ripe_proportion" min="0" max="100" 
-               style="width:100%; max-width:150px;"/>
-        <br><br>
-  
+        <!-- Feedback Section -->
+        <div style="margin-bottom:2em;">
+          <label for="feedback"><strong>Feedback:</strong></label><br>
+          <textarea name="feedback" id="feedback" rows="4" 
+                    style="width:100%;"
+                    placeholder="Please provide any feedback you have about the experiment."></textarea>
+        </div>
+
+      <!-- Gambling History Section -->
+      <div style="margin-bottom:2em;">
+        <div style="margin-bottom:0.75em;"><strong>Gambling history</strong></div>
+
+        <div style="margin-bottom:1.25em;">
+          <div style="margin-bottom:0.5em;">
+            In the past <strong>12 months</strong>, how often have you gambled for money (including online betting, casinos, sports betting, lottery, etc.)?
+          </div>
+          <label style="display:block; margin:0.25em 0;">
+            <input type="radio" name="gamble_freq_12mo" value="Never"> Never
+          </label>
+          <label style="display:block; margin:0.25em 0;">
+            <input type="radio" name="gamble_freq_12mo" value="A few times"> A few times
+          </label>
+          <label style="display:block; margin:0.25em 0;">
+            <input type="radio" name="gamble_freq_12mo" value="About once a month"> About once a month
+          </label>
+          <label style="display:block; margin:0.25em 0;">
+            <input type="radio" name="gamble_freq_12mo" value="About once a week"> About once a week
+          </label>
+          <label style="display:block; margin:0.25em 0;">
+            <input type="radio" name="gamble_freq_12mo" value="Daily or almost daily"> Daily or almost daily
+          </label>
+        </div>
+
+
         <!-- Demographics Section -->
         <div style="
           display: grid; 
@@ -99,9 +98,7 @@ const feedback_demographics = {
       let response = {};
       response.feedback = data.response.feedback;
       response.age = parseInt(data.response.age);
-      response.confidence = data.response.confidence;
-      response.best_tree = data.response.best_tree;
-      response.ripe_proportion = parseInt(data.response.ripe_proportion);
+      response.gamble_freq_12mo = data.response.gamble_freq_12mo;
   
       // Race
       response.race =

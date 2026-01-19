@@ -12,6 +12,8 @@
     <script src="https://unpkg.com/@jspsych/plugin-html-button-response@2.1.0"></script>
     <script src="https://unpkg.com/@jspsych-contrib/plugin-pipe"></script>
     <link href="https://unpkg.com/jspsych@8.2.2/css/jspsych.css" rel="stylesheet" />
+    <script src="jspsych/consent.js"></script>
+    <script src="jspsych/feedback-demographics.js"></script>
 
     <style>
       body { font-family: Arial, sans-serif; text-align: center; }
@@ -611,7 +613,7 @@
       `
     };
 
-    // Then in your main timeline:
+    timeline.push(consent);
     timeline.push(loop_node);
     timeline.push(ready_to_begin);
 
@@ -837,6 +839,7 @@
       });
     });
 
+    timeline.push(feedback_demographics);
     /***************************************************
      * DATAPIPE SAVE + REDIRECT
      ***************************************************/
