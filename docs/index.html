@@ -33,7 +33,7 @@
       }
 
 
-      /* ---- Instruction page styling ---- */
+      /* ---- Instruction style ---- */
       .instr-wrap {
         max-width: 860px;
         margin: 0 auto;
@@ -70,8 +70,8 @@
       }
 
       .instr-list {
-        display: inline-block;        /* lets the list sit centered as a block */
-        text-align: left;             /* keeps bullets/text aligned nicely */
+        display: inline-block;       
+        text-align: left;             
         margin: 12px auto 0;
         padding-left: 22px;
         max-width: 760px;
@@ -79,7 +79,7 @@
 
       .instr-list li {
         margin: 8px 0;
-        padding-left: 4px;            /* aligns text nicely after bullet */
+        padding-left: 4px;          
       }
 
       .instr-list li::marker {
@@ -95,7 +95,7 @@
         color: rgba(0,0,0,0.75);
         text-align: center;
       }
-      /* ---- Roulette tiles: modern red/black ---- */
+      /* ---- Roulette tiles ---- */
       .roulette-number {
         padding: 14px 0;
         border-radius: 12px;
@@ -120,7 +120,6 @@
         box-shadow: 0 6px 16px rgba(0,0,0,0.08);
       }
 
-      /* red/black number colors */
       .roulette-number.red {
         color: #b3122a;
       }
@@ -135,7 +134,7 @@
       }
 
       #balance-display { font-weight: bold; margin-top: 20px; }
-      /* ---- Modern outlined banner ---- */
+      /* ---- Hot numbers ---- */
       #banner {
         max-width: 820px;
         margin: 10px auto 14px;
@@ -167,7 +166,7 @@
         font-weight: 600;
       }
 
-      /* ---- Modern regret slider UI ---- */
+      /* ---- Regret questions ---- */
       .regret-card {
         max-width: 820px;
         margin: 24px auto 0;
@@ -236,13 +235,9 @@
         font-size: 13px;
         color: rgba(0,0,0,0.62);
       }
-
-      /* Better base font for this page */
       .regret-card, .regret-card * {
         font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
       }
-
-      /* Range styling */
       .regret-range {
         -webkit-appearance: none;
         appearance: none;
@@ -253,7 +248,6 @@
         outline: none;
       }
 
-      /* WebKit thumb */
       .regret-range::-webkit-slider-thumb {
         -webkit-appearance: none;
         appearance: none;
@@ -266,7 +260,6 @@
         cursor: pointer;
       }
 
-      /* Firefox thumb */
       .regret-range::-moz-range-thumb {
         width: 18px;
         height: 18px;
@@ -277,7 +270,6 @@
         cursor: pointer;
       }
 
-      /* Firefox track */
       .regret-range::-moz-range-track {
         height: 6px;
         border-radius: 999px;
@@ -289,9 +281,11 @@
   <body></body>
 
   <script>
-    /***************************************************
-     * PROLIFIC + DATAPIPE CONFIG
-     ***************************************************/
+
+    /**********************************
+     Prolific and Datapipe integration
+    ***********************************/
+
     const DATAPIPE_EXPERIMENT_ID = "z22US4du5wwq";
     const PROLIFIC_COMPLETION_CODE = "C3W77LI9";
 
@@ -304,12 +298,8 @@
       "https://app.prolific.com/submissions/complete?cc=" +
       encodeURIComponent(PROLIFIC_COMPLETION_CODE);
 
-    /***************************************************
-     * INIT JSPYSCH (ONCE)
-     ***************************************************/
     const jsPsych = initJsPsych();
 
-    // Add identifiers immediately so they appear on every row
     jsPsych.data.addProperties({
       participant_id: PROLIFIC_PID,
       prolific_pid: PROLIFIC_PID,
@@ -318,20 +308,23 @@
       date_iso: new Date().toISOString()
     });
 
-    /***************************************************
-     * TRIAL STRUCTURE LOGIC
-     ***************************************************/
+    /**********************************
+     Trial structure
+    ***********************************/
+
     const TOTAL_TRIALS = 24;
-    const HOT_SET_SIZES = [1, 2, 3, 8, 16];
+    const HOT_SET_SIZES = [1, 2, 3, 8, 16]; // hot bar size 
     const NUMBERS = Array.from({ length: 36 }, (_, i) => i + 1);
     const WIN_BLOCKS = 4;
 
+    // spreading out winning trials so that they are not all clumped together
     const win_positions = [];
     for (let b = 0; b < WIN_BLOCKS; b++) {
       const posWithinBlock = jsPsych.randomization.sampleWithoutReplacement([2, 3, 4, 5], 1)[0];
       win_positions.push(b * 6 + posWithinBlock);
     }
 
+    // default 
     let trials = Array.from({ length: TOTAL_TRIALS }, () => ({
       banner: 0,
       win_status: 0,
@@ -339,20 +332,23 @@
       outcome_rel_to_hot: "NA"
     }));
 
+
     win_positions.forEach((pos) => {
       trials[pos] = { banner: 0, win_status: 1, hot_set_size: 0, outcome_rel_to_hot: "NA" };
     });
 
-let banner_templates = [];
-HOT_SET_SIZES.forEach((size) => {
-  if (size === 1) {
-    banner_templates.push({ banner: 1, win_status: 0, hot_set_size: size, outcome_rel_to_hot: "nonhot_win_number" });
-    banner_templates.push({ banner: 1, win_status: 0, hot_set_size: size, outcome_rel_to_hot: "nonhot_win_number" });
-  } else {
-    banner_templates.push({ banner: 1, win_status: 0, hot_set_size: size, outcome_rel_to_hot: "hot_win_number" });
-    banner_templates.push({ banner: 1, win_status: 0, hot_set_size: size, outcome_rel_to_hot: "nonhot_win_number" });
-  }
-});
+    let banner_templates = [];
+    HOT_SET_SIZES.forEach((size) => {
+      if (size === 1) {
+        banner_templates.push({ banner: 1, win_status: 0, hot_set_size: size, outcome_rel_to_hot: "nonhot_win_number" });
+        banner_templates.push({ banner: 1, win_status: 0, hot_set_size: size, outcome_rel_to_hot: "nonhot_win_number" });
+      } else {
+        banner_templates.push({ banner: 1, win_status: 0, hot_set_size: size, outcome_rel_to_hot: "hot_win_number" });
+        banner_templates.push({ banner: 1, win_status: 0, hot_set_size: size, outcome_rel_to_hot: "nonhot_win_number" });
+      }
+    });
+
+    //console.table(banner_templates);
 
     let nonwin_indices = trials
       .map((t, i) => (t.win_status === 0 ? i : null))
@@ -361,11 +357,8 @@ HOT_SET_SIZES.forEach((size) => {
     let chosen_indices = jsPsych.randomization.sampleWithoutReplacement(nonwin_indices, banner_templates.length);
     chosen_indices.forEach((idx, j) => (trials[idx] = banner_templates[j]));
 
-    console.table(trials);
+    //console.table(trials);
 
-    /***************************************************
-     * GAME LOGIC
-     ***************************************************/
     let balance = 0.30;
 
     // Standard roulette colors for 1–36
@@ -376,9 +369,6 @@ HOT_SET_SIZES.forEach((size) => {
       NUMBERS.forEach((n) => {
         const colorClass = RED_NUMBERS.has(n) ? "red" : "black";
 
-        // If you do NOT want any in-grid hot highlighting, set hotClass to "" always:
-        // const hotClass = "";
-        // If you want the subtle outline, keep this:
         const hotClass = (hotNumbers && hotNumbers.includes(n)) ? "hot" : "";
 
         html += `<div class='roulette-number ${colorClass} ${hotClass}' data-num='${n}'>${n}</div>`;
@@ -387,11 +377,15 @@ HOT_SET_SIZES.forEach((size) => {
       return html;
     }
 
+    /**********************************
+     Start
+    ***********************************/
+
     let timeline = [];
 
-    // ************************
-    // ***** INSTRUCTIONS *****
-    // ************************
+    /**********************************
+     Instructions
+    ***********************************/
 
     function instrPage(innerHtml, opts = {}) {
       const title = opts.title ? `<div class="instr-title">${opts.title}</div>` : "";
@@ -406,14 +400,15 @@ HOT_SET_SIZES.forEach((size) => {
       `;
     }
 
+    // Lisst of instruction pages
     var instructions_pages = [
       `
       <div class="instr-wrap">
         <img class="instr-hero" src="img/roulette.png" alt="Roulette illustration">
         <div class="instr-title">Welcome to the roulette game!</div>
         <div class="instr-text">
-          <p><b>We will now explain how the game works.</b> The instructions are spread across several screens.</p>
-          <p>Please read each screen carefully. You can use the buttons on the screen (or your keyboard) to navigate.</p>
+          <p><b>We will now explain how the game works.</b> The instructions are spread across several pages.</p>
+          <p>Please read each page carefully. You can use the buttons on the screen (or your keyboard) to navigate.</p>
         </div>
       </div>
       `,
@@ -535,10 +530,7 @@ HOT_SET_SIZES.forEach((size) => {
       button_label_next: "Next"
     };
 
-    // *******************************
-    // ***** COMPREHENSION CHECK *****
-    // *******************************
-
+    // Comprehension check
     const comprehension = {
       type: jsPsychSurveyMultiChoice,
       preamble: `
@@ -573,7 +565,6 @@ HOT_SET_SIZES.forEach((size) => {
         }
       ],
       on_finish: function(data) {
-        // jsPsychSurveyMultiChoice uses Q0, Q1, ... by default
         data.correct =
           (data.response["Q0"] === "False" &&
           data.response["Q1"] === "True"  &&
@@ -583,10 +574,7 @@ HOT_SET_SIZES.forEach((size) => {
       }
     };
 
-    // *************************************
-    // ***** FAIL SCREEN (CONDITIONAL) *****
-    // *************************************
-
+    // Fail comprehension
     const fail_comprehension = {
       timeline: [{
         type: jsPsychHtmlButtonResponse,
@@ -598,7 +586,6 @@ HOT_SET_SIZES.forEach((size) => {
         choices: ["Review"]
       }],
       conditional_function: function() {
-        // Pull the most recent comprehension row explicitly (robust)
         const last_comp = jsPsych.data.get()
           .filter({ trial_type: "survey-multi-choice" })
           .last(1).values()[0];
@@ -607,9 +594,7 @@ HOT_SET_SIZES.forEach((size) => {
       }
     };
 
-    // ******************************
-    // ***** LOOP UNTIL CORRECT *****
-    // ******************************
+   // Loop until they get it right
 
     const loop_node = {
       timeline: [instructions, comprehension, fail_comprehension],
@@ -622,9 +607,9 @@ HOT_SET_SIZES.forEach((size) => {
       }
     };
 
-    // **********************************
-    // ***** READY / BEGIN GAME PAGE *****
-    // **********************************
+    // TO DO: count how many times they failed comprehension
+
+    // Ready to begin
 
     const ready_to_begin = {
       type: jsPsychHtmlKeyboardResponse,
@@ -640,9 +625,9 @@ HOT_SET_SIZES.forEach((size) => {
     timeline.push(loop_node);
     timeline.push(ready_to_begin);
 
-    /***************************************************
-     * MAIN LOOP
-     ***************************************************/
+    /**********************************
+     Main trial sequence
+    ***********************************/
     trials.forEach((trial, idx) => {
       // choice screen
       timeline.push({
@@ -693,7 +678,6 @@ HOT_SET_SIZES.forEach((size) => {
                     if (hotNotChoice.length > 0) {
                       outcome = jsPsych.randomization.sampleWithoutReplacement(hotNotChoice, 1)[0];
                     } else {
-                      // Choose any non-chosen number
                       const notChoice = NUMBERS.filter(n => n !== choice);
                       outcome = jsPsych.randomization.sampleWithoutReplacement(notChoice, 1)[0];
                     }
@@ -735,7 +719,7 @@ HOT_SET_SIZES.forEach((size) => {
         }
       });
 
-      // feedback screen (with win/loss image)
+      // feedback screen 
       timeline.push({
         type: jsPsychHtmlKeyboardResponse,
         stimulus: function() {
@@ -778,7 +762,7 @@ HOT_SET_SIZES.forEach((size) => {
         }
       });
 
-      // regret survey (0–100 sliders via custom HTML)
+      // regret questions
       timeline.push({
         type: jsPsychSurveyHtmlForm,
         html: function() {
@@ -885,10 +869,12 @@ HOT_SET_SIZES.forEach((size) => {
       });
     });
 
+    // demographics
     timeline.push(feedback_demographics);
-    /***************************************************
-     * DATAPIPE SAVE + REDIRECT
-     ***************************************************/
+
+    /**********************************
+     Record data and redirect to Prolific
+    ***********************************/
     timeline.push({
       type: jsPsychPipe,
       action: "save",
