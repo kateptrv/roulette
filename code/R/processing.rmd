@@ -1,0 +1,69 @@
+---
+output:
+  reprex::reprex_document:
+    venue: "gh"
+    advertise: FALSE
+    session_info: TRUE
+    style: TRUE
+    comment: "#;-)"
+    tidyverse_quiet: FALSE
+    std_out_err: TRUE
+knit: reprex::reprex_render
+---
+
+```{r}
+if(!suppressWarnings(require(pacman))){install.packages("pacman");library("pacman")}
+p_load(tidyverse, tidyr, dplyr, ggplot2, stats, sjPlot, readr, ggpubr, patchwork, lubridate, ggthemr, ggdist, ggpubr, showtext, usethis, data.table, png, grid, purrr, ggimage, osfr, jsonlite)
+```
+
+```{r}
+data_raw <- read_csv("../../data/data_raw.csv")
+```
+
+```{r}
+data_clean <- data_raw |>
+  filter(trial_type != "instructions" & trial_type != "survey-multi-choice") |>
+  select(prolific_pid, balance, choice, outcome, response, banner, win_status, hot_set_size, hot_numbers, outcome_rel_to_hot, trial_type, rt) |>
+  group_by(prolific_pid) |>
+  mutate(response = lead(response, 2)) |>
+  ungroup() |>
+  filter(!(is.na(balance) & is.na(hot_numbers))) |>
+  filter(!(is.na(balance))) |>
+  group_by(prolific_pid) |>
+  mutate(trial = row_number()) |>
+  ungroup() |>
+  select(-c(trial_type, rt, hot_numbers)) |>
+    mutate(
+    response_parsed = map(response, ~ fromJSON(.x))
+  ) %>%
+  mutate(
+    regret_chosen = map_dbl(response_parsed, ~ .x$regret_chosen %||% NA_real_),
+    regret_notchosen_winner = map_dbl(response_parsed, ~ .x$regret_not_winner %||% NA_real_),
+    regret_notchosen_hot_loser = map_dbl(response_parsed, ~ .x$regret_not_hot_probe %||% NA_real_)
+  ) %>%
+  select(-c(response, response_parsed)) |>
+  rename(winner_number = outcome,
+         chosen_number = choice,
+         banner_yn = banner) |>
+  relocate(trial, .after = prolific_pid)
+
+write_csv(data_clean, "../../data/data_clean.csv")
+  
+```
+
+```{r}
+# participant bonus is balance at trial_index = 24, all should be 1.5
+
+bonus_payment <- data_clean |>
+  filter(trial == 24) |>
+  select(prolific_pid, balance) 
+
+cat(paste(bonus_payment$prolific_pid, bonus_payment$balance, sep = ","), sep = "\n")
+  
+```
+
+```{r}
+# session info
+sessionInfo() |>
+  capture.output("processing_session_info.txt")
+```

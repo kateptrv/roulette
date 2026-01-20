@@ -1,0 +1,707 @@
+"rt","stimulus","response","trial_type","trial_index","plugin_version","time_elapsed","participant_id","prolific_pid","prolific_study_id","prolific_session_id","date_iso","view_history","question_order","correct","choice","outcome","balance","banner","win_status","hot_set_size","hot_numbers","outcome_rel_to_hot"
+"17728","<p><b>Consent Form</b></p> <div style=""text-align:left;background-color:lightblue; padding:20px; max-width:900px;""><p><b>Description:</b> Welcome! You are invited to participate in a research study in cognitive psychology. You will be asked to perform various tasks on a computer which may include: looking at images or videos, listening to sounds, reading scenarios, or playing games. You may be asked a number of different questions about your feelings and yourself. All information collected will remain confidential. </p> <p> <b>Risks and benefits:</b> Risks involved in this study are the same as those normally associated with using a computer (e.g., mild eye/arm strain). If you have any pre- existing conditions that might make reading and completing a computer-based survey strenuous for you, you should probably elect to not participate in this study. If at any time during the study you feel unable to participate because you are experiencing strain, you may end your participation without penalty. We cannot and do not guarantee or promise that you will receive any benefits from this study. Your decision whether or not to participate in this study will not affect your employment, medical care, and/or grades in school. </p><p><b>Time involvement:</b> Your participation in this experiment will take 5-10 minutes. </p><p><b> Payment:</b> You will receive compensation as indicated in the Prolific listing. </p><p><b>Subject's rights:</b> If you have read this notice and have decided to participate in this project, please understand your participation is voluntary and you have the right to withdraw your consent or discontinue participation at any time without penalty or loss of benefits to which you are otherwise entitled. You have the right to refuse to answer particular questions. Your individual privacy will be maintained in all published and written data resulting from the study. </p><p><b>Contact information:</b> If you have any questions, concerns or complaints about this research study, its procedures, or risks and benefits, you should ask the Protocol Director, (Kate Petrova, Email: kpetrova@stanford.edu). </p><p><b>Independent contact:</b> If you are not satisfied with how this study is being conducted, or if you have any concerns, complaints, or general questions about the research or your rights as a participant, please contact the Stanford Institutional Review Board (IRB) to speak to someone independent of the research team via email at irb2-manager@lists.stanford.edu, or via phone at (650) 723-2480 or toll free at 1-866-680-2906. You can also write to the Stanford IRB, Stanford University, 3000 El Camino Real, Five Palo Alto Square, 4th Floor, Palo Alto, CA 94306. </p><p>You may want to print a copy of this consent form to keep. By clicking the button below, you acknowledge that you have read the above information, that you are 18 years of age, or older and give your consent to participate in our internet-based study and consent for us to analyze the resulting data. </p> </div><p> Do you agree with the terms of the experiment as explained above? </p>","0","html-button-response","0","2.1.0","17730","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","","","","","","","",""
+"75198","","","instructions","1","2.1.0","92930","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","[{""page_index"":0,""viewing_time"":5037},{""page_index"":1,""viewing_time"":7042},{""page_index"":2,""viewing_time"":11924},{""page_index"":3,""viewing_time"":5642},{""page_index"":4,""viewing_time"":6508},{""page_index"":5,""viewing_time"":7112},{""page_index"":6,""viewing_time"":4411},{""page_index"":7,""viewing_time"":12642},{""page_index"":8,""viewing_time"":8573},{""page_index"":9,""viewing_time"":1682},{""page_index"":8,""viewing_time"":925},{""page_index"":9,""viewing_time"":1709},{""page_index"":10,""viewing_time"":1992}]","","","","","","","","","",""
+"56209","","{""Q0"":""False"",""Q1"":""True"",""Q2"":""False"",""Q3"":""True"",""Q4"":""True""}","survey-multi-choice","2","2.1.0","149141","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","[0,1,2,3,4]","true","","","","","","","",""
+"16258","
+        <h3>You are now ready to begin the game.</h3>
+        <p>Remember, your goal is to earn as much money as you can.</p>
+        <p><b>May the odds be in your favor!</b></p>
+        <p>Press any key to start.</p>
+      "," ","html-keyboard-response","4","2.1.0","165409","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","","","","","","","",""
+"","","","html-keyboard-response","5","2.1.0","180595","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","25","24","0.29","1","0","16","[13,15,25,12,26,18,7,28,17,36,16,9,11,30,23,22]","nonhot_win_number"
+"4284","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/loss.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You lost.
+              </h2>
+
+              <p>Winning number: <b>24</b></p>
+
+              <div id=""balance-display"">
+                Balance: $0.29
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","6","2.1.0","184881","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","","","","","","","",""
+"17712","","{""regret_chosen"":10,""regret_not_winner"":49,""regret_not_hot_probe"":6}","survey-html-form","7","2.1.0","202596","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","25","24","","1","","","[13,15,25,12,26,18,7,28,17,36,16,9,11,30,23,22]","nonhot_win_number"
+"","","","html-keyboard-response","8","2.1.0","206781","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","25","17","0.27999999999999997","0","0","0","[]","NA"
+"2564","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/loss.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You lost.
+              </h2>
+
+              <p>Winning number: <b>17</b></p>
+
+              <div id=""balance-display"">
+                Balance: $0.28
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","9","2.1.0","209346","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","","","","","","","",""
+"12344","","{""regret_chosen"":13,""regret_not_winner"":28}","survey-html-form","10","2.1.0","221691","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","25","17","","0","","","[]","NA"
+"","","","html-keyboard-response","11","2.1.0","223916","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","25","12","0.26999999999999996","0","0","0","[]","NA"
+"3634","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/loss.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You lost.
+              </h2>
+
+              <p>Winning number: <b>12</b></p>
+
+              <div id=""balance-display"">
+                Balance: $0.27
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","12","2.1.0","227551","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","","","","","","","",""
+"9182","","{""regret_chosen"":20,""regret_not_winner"":30}","survey-html-form","13","2.1.0","236733","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","25","12","","0","","","[]","NA"
+"","","","html-keyboard-response","14","2.1.0","239265","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","25","12","0.25999999999999995","0","0","0","[]","NA"
+"4291","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/loss.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You lost.
+              </h2>
+
+              <p>Winning number: <b>12</b></p>
+
+              <div id=""balance-display"">
+                Balance: $0.26
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","15","2.1.0","243556","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","","","","","","","",""
+"7489","","{""regret_chosen"":18,""regret_not_winner"":50}","survey-html-form","16","2.1.0","251046","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","25","12","","0","","","[]","NA"
+"","","","html-keyboard-response","17","2.1.0","253684","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","25","3","0.24999999999999994","0","0","0","[]","NA"
+"3021","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/loss.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You lost.
+              </h2>
+
+              <p>Winning number: <b>3</b></p>
+
+              <div id=""balance-display"">
+                Balance: $0.25
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","18","2.1.0","256706","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","","","","","","","",""
+"8753","","{""regret_chosen"":18,""regret_not_winner"":29}","survey-html-form","19","2.1.0","265460","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","25","3","","0","","","[]","NA"
+"","","","html-keyboard-response","20","2.1.0","267900","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","25","25","0.5999999999999999","0","1","0","[]","NA"
+"7381","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/gain.png""
+                alt=""Win""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#1a7f37; margin-bottom:6px;"">
+                You WON!
+              </h2>
+
+              <p>Winning number: <b>25</b></p>
+
+              <div id=""balance-display"">
+                Balance: $0.60
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","21","2.1.0","275281","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","","","","","","","",""
+"7664","","{""regret_chosen"":0}","survey-html-form","22","2.1.0","282945","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","25","25","","0","","","[]","NA"
+"","","","html-keyboard-response","23","2.1.0","308036","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","9","28","0.5899999999999999","1","0","2","[19,9]","nonhot_win_number"
+"5191","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/loss.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You lost.
+              </h2>
+
+              <p>Winning number: <b>28</b></p>
+
+              <div id=""balance-display"">
+                Balance: $0.59
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","24","2.1.0","313227","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","","","","","","","",""
+"14005","","{""regret_chosen"":30,""regret_not_winner"":10,""regret_not_hot_probe"":0}","survey-html-form","25","2.1.0","327234","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","9","28","","1","","","[19,9]","nonhot_win_number"
+"","","","html-keyboard-response","26","2.1.0","339423","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","36","28","0.5799999999999998","0","0","0","[]","NA"
+"3352","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/loss.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You lost.
+              </h2>
+
+              <p>Winning number: <b>28</b></p>
+
+              <div id=""balance-display"">
+                Balance: $0.58
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","27","2.1.0","342776","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","","","","","","","",""
+"10730","","{""regret_chosen"":12,""regret_not_winner"":51}","survey-html-form","28","2.1.0","353507","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","36","28","","0","","","[]","NA"
+"","","","html-keyboard-response","29","2.1.0","376895","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","9","34","0.5699999999999998","1","0","16","[17,34,23,12,4,11,9,27,5,14,22,32,20,29,8,25]","hot_win_number"
+"3420","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/loss.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You lost.
+              </h2>
+
+              <p>Winning number: <b>34</b></p>
+
+              <div id=""balance-display"">
+                Balance: $0.57
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","30","2.1.0","380316","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","","","","","","","",""
+"14402","","{""regret_chosen"":8,""regret_not_winner"":17,""regret_not_hot_probe"":0}","survey-html-form","31","2.1.0","394719","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","9","34","","1","","","[17,34,23,12,4,11,9,27,5,14,22,32,20,29,8,25]","hot_win_number"
+"","","","html-keyboard-response","32","2.1.0","404359","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","9","17","0.5599999999999998","1","0","1","[26]","nonhot_win_number"
+"3383","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/loss.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You lost.
+              </h2>
+
+              <p>Winning number: <b>17</b></p>
+
+              <div id=""balance-display"">
+                Balance: $0.56
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","33","2.1.0","407743","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","","","","","","","",""
+"10023","","{""regret_chosen"":10,""regret_not_winner"":17,""regret_not_hot_probe"":0}","survey-html-form","34","2.1.0","417767","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","9","17","","1","","","[26]","nonhot_win_number"
+"","","","html-keyboard-response","35","2.1.0","427385","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","9","9","0.9099999999999998","0","1","0","[]","NA"
+"9766","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/gain.png""
+                alt=""Win""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#1a7f37; margin-bottom:6px;"">
+                You WON!
+              </h2>
+
+              <p>Winning number: <b>9</b></p>
+
+              <div id=""balance-display"">
+                Balance: $0.91
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","36","2.1.0","437152","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","","","","","","","",""
+"9171","","{""regret_chosen"":0}","survey-html-form","37","2.1.0","446323","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","9","9","","0","","","[]","NA"
+"","","","html-keyboard-response","38","2.1.0","460833","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","36","9","0.8999999999999998","0","0","0","[]","NA"
+"5768","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/loss.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You lost.
+              </h2>
+
+              <p>Winning number: <b>9</b></p>
+
+              <div id=""balance-display"">
+                Balance: $0.90
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","39","2.1.0","466601","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","","","","","","","",""
+"9432","","{""regret_chosen"":51,""regret_not_winner"":76}","survey-html-form","40","2.1.0","476034","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","36","9","","0","","","[]","NA"
+"","","","html-keyboard-response","41","2.1.0","484404","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","25","22","0.8899999999999998","0","0","0","[]","NA"
+"2600","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/loss.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You lost.
+              </h2>
+
+              <p>Winning number: <b>22</b></p>
+
+              <div id=""balance-display"">
+                Balance: $0.89
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","42","2.1.0","487004","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","","","","","","","",""
+"6430","","{""regret_chosen"":12,""regret_not_winner"":20}","survey-html-form","43","2.1.0","493436","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","25","22","","0","","","[]","NA"
+"","","","html-keyboard-response","44","2.1.0","495034","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","9","28","0.8799999999999998","0","0","0","[]","NA"
+"2177","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/loss.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You lost.
+              </h2>
+
+              <p>Winning number: <b>28</b></p>
+
+              <div id=""balance-display"">
+                Balance: $0.88
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","45","2.1.0","497212","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","","","","","","","",""
+"12981","","{""regret_chosen"":7,""regret_not_winner"":11}","survey-html-form","46","2.1.0","510193","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","9","28","","0","","","[]","NA"
+"","","","html-keyboard-response","47","2.1.0","525762","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","36","11","0.8699999999999998","1","0","3","[7,11,29]","hot_win_number"
+"3245","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/loss.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You lost.
+              </h2>
+
+              <p>Winning number: <b>11</b></p>
+
+              <div id=""balance-display"">
+                Balance: $0.87
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","48","2.1.0","529007","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","","","","","","","",""
+"15523","","{""regret_chosen"":14,""regret_not_winner"":26,""regret_not_hot_probe"":0}","survey-html-form","49","2.1.0","544531","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","36","11","","1","","","[7,11,29]","hot_win_number"
+"","","","html-keyboard-response","50","2.1.0","549286","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","36","26","0.8599999999999998","1","0","8","[36,27,6,35,33,2,23,10]","nonhot_win_number"
+"3641","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/loss.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You lost.
+              </h2>
+
+              <p>Winning number: <b>26</b></p>
+
+              <div id=""balance-display"">
+                Balance: $0.86
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","51","2.1.0","552927","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","","","","","","","",""
+"11004","","{""regret_chosen"":11,""regret_not_winner"":17,""regret_not_hot_probe"":0}","survey-html-form","52","2.1.0","563932","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","36","26","","1","","","[36,27,6,35,33,2,23,10]","nonhot_win_number"
+"","","","html-keyboard-response","53","2.1.0","565659","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","36","36","1.2099999999999997","0","1","0","[]","NA"
+"6223","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/gain.png""
+                alt=""Win""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#1a7f37; margin-bottom:6px;"">
+                You WON!
+              </h2>
+
+              <p>Winning number: <b>36</b></p>
+
+              <div id=""balance-display"">
+                Balance: $1.21
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","54","2.1.0","571883","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","","","","","","","",""
+"6029","","{""regret_chosen"":0}","survey-html-form","55","2.1.0","577913","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","36","36","","0","","","[]","NA"
+"","","","html-keyboard-response","56","2.1.0","598290","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","36","25","1.1999999999999997","0","0","0","[]","NA"
+"22357","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/loss.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You lost.
+              </h2>
+
+              <p>Winning number: <b>25</b></p>
+
+              <div id=""balance-display"">
+                Balance: $1.20
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","57","2.1.0","620647","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","","","","","","","",""
+"6672","","{""regret_chosen"":38,""regret_not_winner"":100}","survey-html-form","58","2.1.0","627320","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","36","25","","0","","","[]","NA"
+"","","","html-keyboard-response","59","2.1.0","632432","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","36","3","1.1899999999999997","1","0","3","[36,17,29]","nonhot_win_number"
+"2902","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/loss.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You lost.
+              </h2>
+
+              <p>Winning number: <b>3</b></p>
+
+              <div id=""balance-display"">
+                Balance: $1.19
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","60","2.1.0","635334","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","","","","","","","",""
+"9764","","{""regret_chosen"":16,""regret_not_winner"":20,""regret_not_hot_probe"":0}","survey-html-form","61","2.1.0","645099","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","36","3","","1","","","[36,17,29]","nonhot_win_number"
+"","","","html-keyboard-response","62","2.1.0","650751","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","36","25","1.1799999999999997","1","0","8","[25,12,26,20,10,36,8,31]","hot_win_number"
+"5893","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/loss.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You lost.
+              </h2>
+
+              <p>Winning number: <b>25</b></p>
+
+              <div id=""balance-display"">
+                Balance: $1.18
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","63","2.1.0","656644","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","","","","","","","",""
+"17640","","{""regret_chosen"":51,""regret_not_winner"":100,""regret_not_hot_probe"":0}","survey-html-form","64","2.1.0","674285","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","36","25","","1","","","[25,12,26,20,10,36,8,31]","hot_win_number"
+"","","","html-keyboard-response","65","2.1.0","676273","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","36","3","1.1699999999999997","1","0","2","[3,12]","hot_win_number"
+"2019","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/loss.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You lost.
+              </h2>
+
+              <p>Winning number: <b>3</b></p>
+
+              <div id=""balance-display"">
+                Balance: $1.17
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","66","2.1.0","678292","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","","","","","","","",""
+"7006","","{""regret_chosen"":19,""regret_not_winner"":28,""regret_not_hot_probe"":0}","survey-html-form","67","2.1.0","685300","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","36","3","","1","","","[3,12]","hot_win_number"
+"","","","html-keyboard-response","68","2.1.0","688648","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","36","10","1.1599999999999997","1","0","1","[15]","nonhot_win_number"
+"2136","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/loss.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You lost.
+              </h2>
+
+              <p>Winning number: <b>10</b></p>
+
+              <div id=""balance-display"">
+                Balance: $1.16
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","69","2.1.0","690785","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","","","","","","","",""
+"24769","","{""regret_chosen"":17,""regret_not_winner"":27,""regret_not_hot_probe"":0}","survey-html-form","70","2.1.0","715554","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","36","10","","1","","","[15]","nonhot_win_number"
+"","","","html-keyboard-response","71","2.1.0","717726","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","36","36","1.5099999999999998","0","1","0","[]","NA"
+"4988","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/gain.png""
+                alt=""Win""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#1a7f37; margin-bottom:6px;"">
+                You WON!
+              </h2>
+
+              <p>Winning number: <b>36</b></p>
+
+              <div id=""balance-display"">
+                Balance: $1.51
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","72","2.1.0","722715","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","","","","","","","",""
+"3302","","{""regret_chosen"":0}","survey-html-form","73","2.1.0","726017","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","36","36","","0","","","[]","NA"
+"","","","html-keyboard-response","74","2.1.0","759567","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","36","6","1.4999999999999998","0","0","0","[]","NA"
+"3767","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/loss.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You lost.
+              </h2>
+
+              <p>Winning number: <b>6</b></p>
+
+              <div id=""balance-display"">
+                Balance: $1.50
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","75","2.1.0","763334","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","","","","","","","",""
+"5389","","{""regret_chosen"":0,""regret_not_winner"":0}","survey-html-form","76","2.1.0","768723","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","36","6","","0","","","[]","NA"
+"99580","","{""feedback"":""Asking if I regret a choice I didn't choose that also wasn't the winning number was very confusing."",""age"":27,""gamble_freq_12mo"":""Never"",""race"":""Black/African American"",""gender"":""Female"",""ethnicity"":""Non-Hispanic""}","survey-html-form","77","2.1.0","868305","6942cbf167c9650a2b6c9b11","6942cbf167c9650a2b6c9b11","696a97ad50e2fdc7466c7392","696ed61811cae7b4342f6387","2026-01-20T01:11:08.577Z","","","","","","","","","","",""
