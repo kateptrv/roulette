@@ -45,7 +45,9 @@ data_clean <- data_raw |>
   rename(winner_number = outcome,
          chosen_number = choice,
          banner_yn = banner) |>
-  relocate(trial, .after = prolific_pid)
+  relocate(trial, .after = prolific_pid) |>
+  mutate(win_status = ifelse(win_status == 0, "Lost", "Won"),
+         banner_yn = ifelse(banner_yn == 0, "No Banner", "Banner"))
 
 write_csv(data_clean, "../../data/data_clean.csv")
   

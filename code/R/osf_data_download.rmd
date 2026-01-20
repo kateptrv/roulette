@@ -16,6 +16,7 @@ if(!suppressWarnings(require(pacman))){install.packages("pacman");library("pacma
 p_load(tidyverse, tidyr, dplyr, osfr, jsonlite)
 ```
 
+
 ```{r}
 Sys.getenv("HOME")
 normalizePath("~")
@@ -23,7 +24,8 @@ normalizePath("~")
 
 ```{r}
 osf_auth(Sys.getenv("OSF_PAT")) # authenticating with OSF using a personal access token in the .Renviron in the home directory
-roulette_osf <- osf_retrieve_node("https://osf.io/u36hw/")
+roulette_osf <- osf_retrieve_node("u36hw")
+roulette_osf <- osf_refresh(roulette_osf)
 ```
 
 ```{r}
@@ -32,10 +34,19 @@ data_files
 ```
 
 ```{r}
+getwd()
+list.files(".", all.files = TRUE)
+normalizePath("data", mustWork = FALSE)
+dir.exists("data")
+list.files("data", all.files = TRUE)
+```
+
+
+```{r}
 #download all files in the osf project into ../../data
 osf_retrieve_node("https://osf.io/u36hw/") |>
-  osf_ls_files() |>
-  osf_download(path = "data")
+  osf_ls_files(n_max = Inf) |>
+  osf_download(conflicts = "overwrite", path = "data/")
 ```
 
 ```{r}
