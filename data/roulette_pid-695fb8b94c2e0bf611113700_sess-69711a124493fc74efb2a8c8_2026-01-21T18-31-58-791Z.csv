@@ -1,0 +1,169 @@
+"rt","stimulus","response","trial_type","trial_index","plugin_version","time_elapsed","participant_id","prolific_pid","prolific_study_id","prolific_session_id","date_iso","view_history","question_order","correct","choice","outcome","balance","banner","win_status","hot_set_size","hot_numbers","outcome_rel_to_hot"
+"13161","<p><b>Consent Form</b></p> <div style=""text-align:left;background-color:lightblue; padding:20px; max-width:900px;""><p><b>Description:</b> Welcome! You are invited to participate in a research study in cognitive psychology. You will be asked to perform various tasks on a computer which may include: looking at images or videos, listening to sounds, reading scenarios, or playing games. You may be asked a number of different questions about your feelings and yourself. All information collected will remain confidential. </p> <p> <b>Risks and benefits:</b> Risks involved in this study are the same as those normally associated with using a computer (e.g., mild eye/arm strain). If you have any pre- existing conditions that might make reading and completing a computer-based survey strenuous for you, you should probably elect to not participate in this study. If at any time during the study you feel unable to participate because you are experiencing strain, you may end your participation without penalty. We cannot and do not guarantee or promise that you will receive any benefits from this study. Your decision whether or not to participate in this study will not affect your employment, medical care, and/or grades in school. </p><p><b>Time involvement:</b> Your participation in this experiment will take 5-10 minutes. </p><p><b> Payment:</b> You will receive compensation as indicated in the Prolific listing. </p><p><b>Subject's rights:</b> If you have read this notice and have decided to participate in this project, please understand your participation is voluntary and you have the right to withdraw your consent or discontinue participation at any time without penalty or loss of benefits to which you are otherwise entitled. You have the right to refuse to answer particular questions. Your individual privacy will be maintained in all published and written data resulting from the study. </p><p><b>Contact information:</b> If you have any questions, concerns or complaints about this research study, its procedures, or risks and benefits, you should ask the Protocol Director, (Kate Petrova, Email: kpetrova@stanford.edu). </p><p><b>Independent contact:</b> If you are not satisfied with how this study is being conducted, or if you have any concerns, complaints, or general questions about the research or your rights as a participant, please contact the Stanford Institutional Review Board (IRB) to speak to someone independent of the research team via email at irb2-manager@lists.stanford.edu, or via phone at (650) 723-2480 or toll free at 1-866-680-2906. You can also write to the Stanford IRB, Stanford University, 3000 El Camino Real, Five Palo Alto Square, 4th Floor, Palo Alto, CA 94306. </p><p>You may want to print a copy of this consent form to keep. By clicking the button below, you acknowledge that you have read the above information, that you are 18 years of age, or older and give your consent to participate in our internet-based study and consent for us to analyze the resulting data. </p> </div><p> Do you agree with the terms of the experiment as explained above? </p>","0","html-button-response","0","2.1.0","13165","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","","","","","","","","","","",""
+"70070","","","instructions","1","2.1.0","83235","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","[{""page_index"":0,""viewing_time"":3519},{""page_index"":1,""viewing_time"":5656},{""page_index"":2,""viewing_time"":9518},{""page_index"":3,""viewing_time"":9244},{""page_index"":4,""viewing_time"":4010},{""page_index"":5,""viewing_time"":17160},{""page_index"":6,""viewing_time"":2414},{""page_index"":7,""viewing_time"":8300},{""page_index"":8,""viewing_time"":6679},{""page_index"":9,""viewing_time"":1384},{""page_index"":10,""viewing_time"":2185}]","","","","","","","","","",""
+"12480","","{""Q0"":""False"",""Q1"":""True"",""Q2"":""True"",""Q3"":""True"",""Q4"":""True""}","survey-multi-choice","2","2.1.0","95718","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","","[0,1,2,3,4]","false","","","","","","","",""
+"1498","
+          <h3>Oh no!</h3>
+          <p>You got one or more questions wrong.</p>
+          <p>Please go back, review the instructions, and try the comprehension check again!</p>
+        ","0","html-button-response","3","2.1.0","97217","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","","","","","","","","","","",""
+"23370","","","instructions","4","2.1.0","120588","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","[{""page_index"":0,""viewing_time"":1486},{""page_index"":1,""viewing_time"":2558},{""page_index"":2,""viewing_time"":4135},{""page_index"":3,""viewing_time"":4275},{""page_index"":4,""viewing_time"":2307},{""page_index"":5,""viewing_time"":1428},{""page_index"":6,""viewing_time"":3108},{""page_index"":7,""viewing_time"":1167},{""page_index"":8,""viewing_time"":1190},{""page_index"":9,""viewing_time"":838},{""page_index"":10,""viewing_time"":878}]","","","","","","","","","",""
+"10910","","{""Q0"":""False"",""Q1"":""True"",""Q2"":""True"",""Q3"":""True"",""Q4"":""False""}","survey-multi-choice","5","2.1.0","131499","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","","[0,1,2,3,4]","false","","","","","","","",""
+"1582","
+          <h3>Oh no!</h3>
+          <p>You got one or more questions wrong.</p>
+          <p>Please go back, review the instructions, and try the comprehension check again!</p>
+        ","0","html-button-response","6","2.1.0","133083","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","","","","","","","","","","",""
+"36375","","","instructions","7","2.1.0","169458","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","[{""page_index"":0,""viewing_time"":6938},{""page_index"":1,""viewing_time"":2944},{""page_index"":2,""viewing_time"":12436},{""page_index"":3,""viewing_time"":2338},{""page_index"":4,""viewing_time"":1236},{""page_index"":5,""viewing_time"":1945},{""page_index"":6,""viewing_time"":2569},{""page_index"":7,""viewing_time"":1075},{""page_index"":8,""viewing_time"":3232},{""page_index"":9,""viewing_time"":1003},{""page_index"":10,""viewing_time"":658}]","","","","","","","","","",""
+"23427","","{""Q0"":""False"",""Q1"":""True"",""Q2"":""True"",""Q3"":""True"",""Q4"":""True""}","survey-multi-choice","8","2.1.0","192886","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","","[0,1,2,3,4]","false","","","","","","","",""
+"1166","
+          <h3>Oh no!</h3>
+          <p>You got one or more questions wrong.</p>
+          <p>Please go back, review the instructions, and try the comprehension check again!</p>
+        ","0","html-button-response","9","2.1.0","194053","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","","","","","","","","","","",""
+"21339","","","instructions","10","2.1.0","215393","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","[{""page_index"":0,""viewing_time"":790},{""page_index"":1,""viewing_time"":3020},{""page_index"":2,""viewing_time"":3762},{""page_index"":3,""viewing_time"":1095},{""page_index"":4,""viewing_time"":818},{""page_index"":5,""viewing_time"":731},{""page_index"":6,""viewing_time"":858},{""page_index"":5,""viewing_time"":3758},{""page_index"":6,""viewing_time"":859},{""page_index"":7,""viewing_time"":762},{""page_index"":8,""viewing_time"":935},{""page_index"":9,""viewing_time"":842},{""page_index"":8,""viewing_time"":1497},{""page_index"":9,""viewing_time"":742},{""page_index"":10,""viewing_time"":870}]","","","","","","","","","",""
+"17035","","{""Q0"":""False"",""Q1"":""True"",""Q2"":""True"",""Q3"":""True"",""Q4"":""True""}","survey-multi-choice","11","2.1.0","232429","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","","[0,1,2,3,4]","false","","","","","","","",""
+"1174","
+          <h3>Oh no!</h3>
+          <p>You got one or more questions wrong.</p>
+          <p>Please go back, review the instructions, and try the comprehension check again!</p>
+        ","0","html-button-response","12","2.1.0","233604","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","","","","","","","","","","",""
+"7623","","","instructions","13","2.1.0","241227","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","[{""page_index"":0,""viewing_time"":619},{""page_index"":1,""viewing_time"":188},{""page_index"":2,""viewing_time"":1167},{""page_index"":3,""viewing_time"":637},{""page_index"":4,""viewing_time"":932},{""page_index"":5,""viewing_time"":395},{""page_index"":6,""viewing_time"":449},{""page_index"":7,""viewing_time"":923},{""page_index"":8,""viewing_time"":1007},{""page_index"":9,""viewing_time"":786},{""page_index"":10,""viewing_time"":521}]","","","","","","","","","",""
+"9528","","{""Q0"":""False"",""Q1"":""True"",""Q2"":""True"",""Q3"":""True"",""Q4"":""True""}","survey-multi-choice","14","2.1.0","250757","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","","[0,1,2,3,4]","false","","","","","","","",""
+"1079","
+          <h3>Oh no!</h3>
+          <p>You got one or more questions wrong.</p>
+          <p>Please go back, review the instructions, and try the comprehension check again!</p>
+        ","0","html-button-response","15","2.1.0","251836","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","","","","","","","","","","",""
+"8250","","","instructions","16","2.1.0","260087","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","[{""page_index"":0,""viewing_time"":657},{""page_index"":1,""viewing_time"":181},{""page_index"":2,""viewing_time"":1011},{""page_index"":3,""viewing_time"":690},{""page_index"":4,""viewing_time"":694},{""page_index"":5,""viewing_time"":642},{""page_index"":6,""viewing_time"":1244},{""page_index"":7,""viewing_time"":742},{""page_index"":8,""viewing_time"":1232},{""page_index"":9,""viewing_time"":706},{""page_index"":10,""viewing_time"":453}]","","","","","","","","","",""
+"10131","","{""Q0"":""False"",""Q1"":""True"",""Q2"":""True"",""Q3"":""True"",""Q4"":""False""}","survey-multi-choice","17","2.1.0","270219","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","","[0,1,2,3,4]","false","","","","","","","",""
+"1207","
+          <h3>Oh no!</h3>
+          <p>You got one or more questions wrong.</p>
+          <p>Please go back, review the instructions, and try the comprehension check again!</p>
+        ","0","html-button-response","18","2.1.0","271427","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","","","","","","","","","","",""
+"8984","","","instructions","19","2.1.0","280412","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","[{""page_index"":0,""viewing_time"":854},{""page_index"":1,""viewing_time"":228},{""page_index"":2,""viewing_time"":1300},{""page_index"":3,""viewing_time"":2326},{""page_index"":4,""viewing_time"":742},{""page_index"":5,""viewing_time"":209},{""page_index"":6,""viewing_time"":213},{""page_index"":7,""viewing_time"":923},{""page_index"":8,""viewing_time"":806},{""page_index"":9,""viewing_time"":903},{""page_index"":10,""viewing_time"":481}]","","","","","","","","","",""
+"13875","","{""Q0"":""False"",""Q1"":""True"",""Q2"":""False"",""Q3"":""True"",""Q4"":""True""}","survey-multi-choice","20","2.1.0","294288","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","","[0,1,2,3,4]","true","","","","","","","",""
+"12318","
+        <h3>You are now ready to begin the game.</h3>
+        <p>Remember, your goal is to earn as much money as you can.</p>
+        <p><b>May the odds be in your favor!</b></p>
+        <p>Press any key to start.</p>
+      ","h","html-keyboard-response","22","2.1.0","306608","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","","","","","","","","","","",""
+"","","","html-keyboard-response","23","2.1.0","310632","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","","","","19","14","0.09000000000000001","0","0","0","[]","NA"
+"3302","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/loss.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You lost.
+              </h2>
+
+              <p>Winning number: <b>14</b></p>
+
+              <div id=""balance-display"">
+                Balance: $0.09
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          ","k","html-keyboard-response","24","2.1.0","313935","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","","","","","","","","","","",""
+"10704","","{""regret_chosen"":10,""regret_not_winner"":6}","survey-html-form","25","2.1.0","324643","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","","","","19","14","","0","","","[]","NA"
+"","","","html-keyboard-response","26","2.1.0","329757","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","","","","8","30","0.08000000000000002","1","0","2","[30,8]","hot_win_number"
+"3117","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/loss.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You lost.
+              </h2>
+
+              <p>Winning number: <b>30</b></p>
+
+              <div id=""balance-display"">
+                Balance: $0.08
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          ","k","html-keyboard-response","27","2.1.0","332875","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","","","","","","","","","","",""
+"5998","","{""regret_chosen"":44,""regret_not_winner"":42}","survey-html-form","28","2.1.0","338875","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","","","","8","30","","1","","","[30,8]","hot_win_number"
+"","","","html-keyboard-response","29","2.1.0","353825","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","","","","29","21","0.07000000000000002","1","0","16","[24,4,34,28,8,36,20,14,3,29,23,31,7,1,21,27]","hot_win_number"
+"2822","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/loss.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You lost.
+              </h2>
+
+              <p>Winning number: <b>21</b></p>
+
+              <div id=""balance-display"">
+                Balance: $0.07
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          ","k","html-keyboard-response","30","2.1.0","356648","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","","","","","","","","","","",""
+"7091","","{""regret_chosen"":23,""regret_not_winner"":31,""regret_not_hot_probe"":23}","survey-html-form","31","2.1.0","363741","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","","","","29","21","","1","","","[24,4,34,28,8,36,20,14,3,29,23,31,7,1,21,27]","hot_win_number"
+"","","","html-keyboard-response","32","2.1.0","368633","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","","","","4","4","0.42","0","1","0","[]","NA"
+"2208","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/gain.png""
+                alt=""Win""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#1a7f37; margin-bottom:6px;"">
+                You WON!
+              </h2>
+
+              <p>Winning number: <b>4</b></p>
+
+              <div id=""balance-display"">
+                Balance: $0.42
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          ","k","html-keyboard-response","33","2.1.0","370842","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","","","","","","","","","","",""
+"5129","","{""regret_chosen"":0}","survey-html-form","34","2.1.0","375972","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","","","","4","4","","0","","","[]","NA"
+"12882","","{""feedback"":""N/A"",""age"":35,""gamble_freq_12mo"":""Never"",""race"":""White"",""gender"":""Female"",""ethnicity"":""Non-Hispanic""}","survey-html-form","35","2.1.0","388856","695fb8b94c2e0bf611113700","695fb8b94c2e0bf611113700","696a97ad50e2fdc7466c7392","69711a124493fc74efb2a8c8","2026-01-21T18:25:29.929Z","","","","","","","","","","",""

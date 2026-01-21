@@ -21,7 +21,31 @@ data_raw <- read_csv("../../data/data_raw.csv")
 ```
 
 ```{r}
-data_clean <- data_raw |>
+comp_attempts <- data_raw |>
+  filter(trial_type == "survey-multi-choice") |>
+  group_by(prolific_pid) |>
+  summarise(
+    comp_attempts = n(),
+    comp_passed = any(correct %in% TRUE),
+    # "tries it took to get it right" = index of first TRUE
+    comp_tries_to_pass = {
+      idx <- which(correct %in% TRUE)
+      if (length(idx) == 0) NA_integer_ else min(idx)
+    },
+    .groups = "drop"
+  )
+```
+
+# Full (24 trials)
+
+## Processing
+
+```{r}
+data_clean_full <- data_raw |>
+  group_by(prolific_pid) |>
+  mutate(max_trial = max(trial_index)) |>
+  ungroup() |>
+  filter(max_trial >= 60) |>
   filter(trial_type != "instructions" & trial_type != "survey-multi-choice") |>
   select(prolific_pid, balance, choice, outcome, response, banner, win_status, hot_set_size, hot_numbers, outcome_rel_to_hot, trial_type, rt) |>
   group_by(prolific_pid) |>
@@ -31,9 +55,14 @@ data_clean <- data_raw |>
   filter(!(is.na(balance))) |>
   group_by(prolific_pid) |>
   mutate(trial = row_number()) |>
-  ungroup() |>
-  select(-c(trial_type, rt, hot_numbers)) |>
-    mutate(
+  ungroup() %>% 
+  mutate(choice_hot = map2_lgl(choice, hot_numbers, ~ {
+    hot_nums <- fromJSON(.y)
+    .x %in% hot_nums
+  })) %>%
+  mutate(choice_hot = case_when(choice_hot == TRUE ~ "Chose Hot Number", TRUE ~ "Chose Non-Hot Number")) |>
+  select(-c(trial_type, rt, hot_numbers)) %>% 
+  mutate(
     response_parsed = map(response, ~ fromJSON(.x))
   ) %>%
   mutate(
@@ -42,25 +71,97 @@ data_clean <- data_raw |>
     regret_notchosen_hot_loser = map_dbl(response_parsed, ~ .x$regret_not_hot_probe %||% NA_real_)
   ) %>%
   select(-c(response, response_parsed)) |>
-  rename(winner_number = outcome,
-         chosen_number = choice,
-         banner_yn = banner) |>
+  rename(
+    winner_number = outcome,
+    chosen_number = choice,
+    banner_yn = banner
+  ) |>
   relocate(trial, .after = prolific_pid) |>
-  mutate(win_status = ifelse(win_status == 0, "Lost", "Won"),
-         banner_yn = ifelse(banner_yn == 0, "No Banner", "Banner"))
+  mutate(
+    win_status = ifelse(win_status == 0, "Lost", "Won"),
+    banner_yn = ifelse(banner_yn == 0, "No Banner", "Banner")
+  ) |>
+  left_join(comp_attempts, by = "prolific_pid") |>
+  select(-c(comp_attempts, comp_passed))
 
-write_csv(data_clean, "../../data/data_clean.csv")
-  
+write_csv(data_clean_full, "../../data/data_clean_full.csv")
+
 ```
+
+## Bonuses
 
 ```{r}
 # participant bonus is balance at trial_index = 24, all should be 1.5
 
-bonus_payment <- data_clean |>
+bonus_payment_full <- data_clean_full |>
   filter(trial == 24) |>
   select(prolific_pid, balance) 
 
-cat(paste(bonus_payment$prolific_pid, bonus_payment$balance, sep = ","), sep = "\n")
+cat(paste(bonus_payment_full$prolific_pid, bonus_payment_full$balance, sep = ","), sep = "\n")
+  
+```
+
+# Slim (4 trials)
+
+## Processing
+
+```{r}
+data_clean_slim <- data_raw |>
+  group_by(prolific_pid) |>
+  mutate(max_trial = max(trial_index)) |>
+  ungroup() |>
+  filter(max_trial <= 40) |>
+  filter(trial_type != "instructions" & trial_type != "survey-multi-choice") |>
+  select(prolific_pid, balance, choice, outcome, response, banner, win_status, hot_set_size, hot_numbers, outcome_rel_to_hot, trial_type, rt) |>
+  group_by(prolific_pid) |>
+  mutate(response = lead(response, 2)) |>
+  ungroup() |>
+  filter(!(is.na(balance) & is.na(hot_numbers))) |>
+  filter(!(is.na(balance))) |>
+  group_by(prolific_pid) |>
+  mutate(trial = row_number()) |>
+  ungroup() %>% 
+  mutate(choice_hot = map2_lgl(choice, hot_numbers, ~ {
+    hot_nums <- fromJSON(.y)
+    .x %in% hot_nums
+  })) %>%
+  mutate(choice_hot = case_when(choice_hot == TRUE ~ "Chose Hot Number", TRUE ~ "Chose Non-Hot Number")) |>
+  select(-c(trial_type, rt, hot_numbers)) %>% 
+  mutate(
+    response_parsed = map(response, ~ fromJSON(.x))
+  ) %>%
+  mutate(
+    regret_chosen = map_dbl(response_parsed, ~ .x$regret_chosen %||% NA_real_),
+    regret_notchosen_winner = map_dbl(response_parsed, ~ .x$regret_not_winner %||% NA_real_),
+    regret_notchosen_hot_loser = map_dbl(response_parsed, ~ .x$regret_not_hot_probe %||% NA_real_)
+  ) %>%
+  select(-c(response, response_parsed)) |>
+  rename(
+    winner_number = outcome,
+    chosen_number = choice,
+    banner_yn = banner
+  ) |>
+  relocate(trial, .after = prolific_pid) |>
+  mutate(
+    win_status = ifelse(win_status == 0, "Lost", "Won"),
+    banner_yn = ifelse(banner_yn == 0, "No Banner", "Banner")
+  ) |>
+  left_join(comp_attempts, by = "prolific_pid") |>
+  select(-c(comp_attempts, comp_passed))
+
+write_csv(data_clean_slim, "../../data/data_clean_slim.csv")
+  
+```
+
+## Bonuses 
+```{r}
+# participant bonus is balance at trial_index = 4, all should be 0.42
+
+bonus_payment_slim <- data_clean_slim |>
+  filter(trial == 4) |>
+  select(prolific_pid, balance) 
+
+cat(paste(bonus_payment_slim$prolific_pid, bonus_payment_slim$balance, sep = ","), sep = "\n")
   
 ```
 
