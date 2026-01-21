@@ -312,23 +312,54 @@
      Trial structure
     ***********************************/
 
-    const TOTAL_TRIALS = 4;
+    const TOTAL_TRIALS = 24;
+    const HOT_SET_SIZES = [1, 2, 3, 8, 16]; // hot bar size 
     const NUMBERS = Array.from({ length: 36 }, (_, i) => i + 1);
+    const WIN_BLOCKS = 4;
 
-    // We only need these two hot-set sizes for the pilot
-    const HOT_SET_SIZES = [2, 16];
+    // spreading out winning trials so that they are not all clumped together
+    const win_positions = [];
+    for (let b = 0; b < WIN_BLOCKS; b++) {
+      const posWithinBlock = jsPsych.randomization.sampleWithoutReplacement([2, 3, 4, 5], 1)[0];
+      win_positions.push(b * 6 + posWithinBlock);
+    }
 
-    // Fixed 4-trial sequence:
-    // 1) loss, no banner
-    // 2) loss, banner size 2, HOT number wins
-    // 3) loss, banner size 16, HOT number wins
-    // 4) win, no banner
-    let trials = [
-      { banner: 0, win_status: 0, hot_set_size: 0,  outcome_rel_to_hot: "NA" },
-      { banner: 1, win_status: 0, hot_set_size: 2,  outcome_rel_to_hot: "hot_win_number" },
-      { banner: 1, win_status: 0, hot_set_size: 16, outcome_rel_to_hot: "hot_win_number" },
-      { banner: 0, win_status: 1, hot_set_size: 0,  outcome_rel_to_hot: "NA" }
-    ];
+    // default 
+    let trials = Array.from({ length: TOTAL_TRIALS }, () => ({
+      banner: 0,
+      win_status: 0,
+      hot_set_size: 0,
+      outcome_rel_to_hot: "NA"
+    }));
+
+
+    win_positions.forEach((pos) => {
+      trials[pos] = { banner: 0, win_status: 1, hot_set_size: 0, outcome_rel_to_hot: "NA" };
+    });
+
+    let banner_templates = [];
+    HOT_SET_SIZES.forEach((size) => {
+      if (size === 1) {
+        banner_templates.push({ banner: 1, win_status: 0, hot_set_size: size, outcome_rel_to_hot: "nonhot_win_number" });
+        banner_templates.push({ banner: 1, win_status: 0, hot_set_size: size, outcome_rel_to_hot: "nonhot_win_number" });
+      } else {
+        banner_templates.push({ banner: 1, win_status: 0, hot_set_size: size, outcome_rel_to_hot: "hot_win_number" });
+        banner_templates.push({ banner: 1, win_status: 0, hot_set_size: size, outcome_rel_to_hot: "nonhot_win_number" });
+      }
+    });
+
+    //console.table(banner_templates);
+
+    let nonwin_indices = trials
+      .map((t, i) => (t.win_status === 0 ? i : null))
+      .filter((i) => i !== null);
+
+    let chosen_indices = jsPsych.randomization.sampleWithoutReplacement(nonwin_indices, banner_templates.length);
+    chosen_indices.forEach((idx, j) => (trials[idx] = banner_templates[j]));
+
+    //console.table(trials);
+
+    let balance = 0.30;
 
     // Standard roulette colors for 1–36
     const RED_NUMBERS = new Set([1,3,5,7,9,12,14,16,18,19,21,23,25,27,30,32,34,36]);
@@ -345,8 +376,6 @@
       html += `</div>`;
       return html;
     }
-
-    let balance = 0.10;
 
     /**********************************
      Start
@@ -406,7 +435,7 @@
             <li>You will always bet exactly <b>1 cent</b></li>
             <li>There are no other types of bets in this game</li>
           </ul>
-          <div class="instr-note">The game consists of <b>4 rounds</b>.</div>
+          <div class="instr-note">The game consists of <b>24 rounds</b>.</div>
         </div>
       </div>
       `,
@@ -415,7 +444,7 @@
       <div class="instr-wrap">
         <img class="instr-hero" src="img/choose_screen.png" alt="Roulette illustration">
         <div class="instr-text">
-          <p>At the start of the game, you will have <b>10 cents</b> in your wallet.</p>
+          <p>At the start of the game, you will have <b>30 cents</b> in your wallet.</p>
           <p>You will use this money to place your bets across the game.</p>
           <div class="instr-note">You will be able to see how much money you have right above the roulette grid.</div>
         </div>
