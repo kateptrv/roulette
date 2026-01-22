@@ -18,14 +18,20 @@ p_load(tidyverse, tidyr, dplyr, ggplot2, stats, sjPlot, readr, ggpubr, patchwork
 
 ```{r}
 data_slim <- read_csv("../../data/data_clean_slim.csv") |>
-  filter(comp_tries_to_pass <= 1)
+  filter(comp_tries_to_pass <= 2)
 
 data_full <- read_csv("../../data/data_clean_full.csv") |>
-  filter(comp_tries_to_pass <= 1) |>
+  filter(comp_tries_to_pass <= 2) |>
   group_by(prolific_pid) |>
   filter(max(trial) == 24) |>
   mutate(n_hot_choice = sum(choice_hot == "Chose Hot")) |>
   ungroup() 
+
+data_mc_full <- read_csv("../../data/data_clean_mc_full.csv") |>
+  filter(comp_tries_to_pass <= 2) |>
+  group_by(prolific_pid) |>
+  filter(max(trial) == 24) |>
+  ungroup()
 ```
 
 ```{r}
@@ -45,7 +51,7 @@ pal_combined <- c(
 ```
 
 ```{r}
-data_slim |>
+data_mc_full |>
   ggplot(aes(x = win_status, y = regret_chosen, color = win_status, fill = win_status)) +
   geom_point(aes(alpha = 0.2), position = position_jitter(w = 0.1)) +
   stat_summary(
@@ -59,7 +65,7 @@ data_slim |>
 ```
 
 ```{r}
-data_full |>
+data_mc_full |>
   filter(win_status == "Lost" & hot_set_size > 0) |>
   ggplot(aes(x = outcome_rel_to_hot, y = regret_notchosen_winner, color = outcome_rel_to_hot, fill = outcome_rel_to_hot)) +
   stat_summary(
@@ -73,8 +79,8 @@ data_full |>
 ```
 ```{r}
 
-p1 <- data_full |>
-  filter(win_status == "Lost") |>
+p1 <- data_mc_full |>
+  filter(win_status == "Lost" & outcome_rel_to_hot == "hot_win_number") |>
   ggplot(aes(x = as.factor(hot_set_size), y = regret_chosen, color = choice_hot, fill = choice_hot)) +
   stat_summary(
   fun.data = mean_cl_boot, conf.int = .95, B = 5000,
@@ -91,8 +97,8 @@ p1 <- data_full |>
   theme(legend.position = "bottom") +
   facet_wrap(~choice_hot)
 
-p2 <- data_full |>
-  filter(win_status == "Lost") |>
+p2 <- data_mc_full |>
+  filter(win_status == "Lost" & outcome_rel_to_hot == "hot_win_number") |>
   ggplot(aes(x = as.factor(hot_set_size), y = regret_notchosen_winner, color = choice_hot, fill = choice_hot)) +
   stat_summary(
   fun.data = mean_cl_boot, conf.int = .95, B = 5000,
@@ -114,7 +120,7 @@ p1 + p2
 ```
 
 ```{r}
-p1 <- data_full |>
+p1 <- data_mc_full |>
   filter(win_status == "Lost" & outcome_rel_to_hot == "hot_win_number") |>
   group_by(prolific_pid) |>
   mutate(regret_chosen_pmc = regret_chosen - mean(regret_chosen, na.rm = TRUE)) |>
@@ -136,7 +142,7 @@ p1 <- data_full |>
   theme(legend.position = "bottom") +
   facet_wrap(~choice_hot)
 
-p2 <- data_full |>
+p2 <- data_mc_full |>
   filter(win_status == "Lost" & outcome_rel_to_hot == "hot_win_number") |>
   group_by(prolific_pid) |>
   mutate(regret_notchosen_winner_pmc = regret_notchosen_winner - mean(regret_notchosen_winner, na.rm = TRUE)) |>
@@ -178,7 +184,7 @@ data_slim |>
 ```
 
 ```{r}
-data_lost <- data_full |>
+data_lost <- data_mc_full |>
   filter(win_status == "Lost" & outcome_rel_to_hot == "hot_win_number")
 
 model1 <- lmer(regret_notchosen_winner ~ choice_hot * hot_set_size + (1|prolific_pid), data = data_lost)
@@ -253,7 +259,7 @@ data_slim |>
 
 
 ```{r}
-data_full |>
+data_mc_full |>
   filter(win_status == "Lost" & outcome_rel_to_hot == "hot_win_number") |>
   pivot_longer(cols = c(regret_chosen, regret_notchosen_winner), names_to = "regret_type", values_to = "regret_value") |>
   ggplot(aes(x = choice_hot, y = regret_value, color = interaction(regret_type, choice_hot), fill = interaction(regret_type, choice_hot))) +
@@ -274,7 +280,7 @@ data_full |>
 ```
 
 ```{r}
-data_full |>
+data_mc_full |>
   filter(win_status == "Lost" & outcome_rel_to_hot == "hot_win_number") |>
   pivot_longer(cols = c(regret_chosen, regret_notchosen_winner), names_to = "regret_type", values_to = "regret_value") |>
   group_by(prolific_pid) |>

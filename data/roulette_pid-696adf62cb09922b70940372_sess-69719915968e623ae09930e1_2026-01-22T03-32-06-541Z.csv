@@ -1,0 +1,780 @@
+"rt","stimulus","response","trial_type","trial_index","plugin_version","time_elapsed","participant_id","prolific_pid","prolific_study_id","prolific_session_id","date_iso","view_history","question_order","correct","choice","outcome","balance","banner","win_status","hot_set_size","hot_numbers","outcome_rel_to_hot"
+"5343","<p><b>Consent Form</b></p> <div style=""text-align:left;background-color:lightblue; padding:20px; max-width:900px;""><p><b>Description:</b> Welcome! You are invited to participate in a research study in cognitive psychology. You will be asked to perform various tasks on a computer which may include: looking at images or videos, listening to sounds, reading scenarios, or playing games. You may be asked a number of different questions about your feelings and yourself. All information collected will remain confidential. </p> <p> <b>Risks and benefits:</b> Risks involved in this study are the same as those normally associated with using a computer (e.g., mild eye/arm strain). If you have any pre- existing conditions that might make reading and completing a computer-based survey strenuous for you, you should probably elect to not participate in this study. If at any time during the study you feel unable to participate because you are experiencing strain, you may end your participation without penalty. We cannot and do not guarantee or promise that you will receive any benefits from this study. Your decision whether or not to participate in this study will not affect your employment, medical care, and/or grades in school. </p><p><b>Time involvement:</b> Your participation in this experiment will take 5-10 minutes. </p><p><b> Payment:</b> You will receive compensation as indicated in the Prolific listing. </p><p><b>Subject's rights:</b> If you have read this notice and have decided to participate in this project, please understand your participation is voluntary and you have the right to withdraw your consent or discontinue participation at any time without penalty or loss of benefits to which you are otherwise entitled. You have the right to refuse to answer particular questions. Your individual privacy will be maintained in all published and written data resulting from the study. </p><p><b>Contact information:</b> If you have any questions, concerns or complaints about this research study, its procedures, or risks and benefits, you should ask the Protocol Director, (Kate Petrova, Email: kpetrova@stanford.edu). </p><p><b>Independent contact:</b> If you are not satisfied with how this study is being conducted, or if you have any concerns, complaints, or general questions about the research or your rights as a participant, please contact the Stanford Institutional Review Board (IRB) to speak to someone independent of the research team via email at irb2-manager@lists.stanford.edu, or via phone at (650) 723-2480 or toll free at 1-866-680-2906. You can also write to the Stanford IRB, Stanford University, 3000 El Camino Real, Five Palo Alto Square, 4th Floor, Palo Alto, CA 94306. </p><p>You may want to print a copy of this consent form to keep. By clicking the button below, you acknowledge that you have read the above information, that you are 18 years of age, or older and give your consent to participate in our internet-based study and consent for us to analyze the resulting data. </p> </div><p> Do you agree with the terms of the experiment as explained above? </p>","0","html-button-response","0","2.1.0","5346","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","","","","","","","",""
+"48047","","","instructions","1","2.1.0","53394","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","[{""page_index"":0,""viewing_time"":5063},{""page_index"":1,""viewing_time"":7016},{""page_index"":2,""viewing_time"":4667},{""page_index"":3,""viewing_time"":1683},{""page_index"":4,""viewing_time"":2883},{""page_index"":5,""viewing_time"":11767},{""page_index"":6,""viewing_time"":11118},{""page_index"":7,""viewing_time"":1532},{""page_index"":8,""viewing_time"":2317}]","","","","","","","","","",""
+"19399","","{""Q0"":""False"",""Q1"":""True"",""Q2"":""False"",""Q3"":""True"",""Q4"":""True""}","survey-multi-choice","2","2.1.0","72797","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","[0,1,2,3,4]","true","","","","","","","",""
+"3397","
+        <h3>You are now ready to begin the game.</h3>
+        <img class=""instr-hero"" src=""img/heart.png"" alt=""Minecraft illustration"">
+        <p>Remember, your goal is to mine as many emeralds as you can.</p>
+        <p><b>Happy mining!</b></p>
+        <p>Press any key to start.</p>
+      "," ","html-keyboard-response","4","2.1.0","76197","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","","","","","","","",""
+"","","","html-keyboard-response","5","2.1.0","83679","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","11","9","-0.01","1","0","8","[15,35,14,36,21,9,17,13]","hot_win_number"
+"2237","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/creeper.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You got nothing.
+              </h2>
+
+              <p>Block that had an emerald: <b>9</b></p>
+              <p>Block that you chose: <b>11</b></p>
+
+              <div class=""wins-display"" aria-label=""Wins so far"">
+                <img src=""img/emerald.png"" alt=""Emerald"">
+                <span class=""wins-label"">Wins:</span>
+                <span class=""wins-count"">0</span>
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","6","2.1.0","85918","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","","","","","","","",""
+"12489","","{""regret_chosen"":17,""regret_not_winner"":42}","survey-html-form","7","2.1.0","98410","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","11","9","","1","","","[15,35,14,36,21,9,17,13]","hot_win_number"
+"","","","html-keyboard-response","8","2.1.0","100359","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","5","28","-0.02","0","0","0","[]","NA"
+"1269","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/creeper.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You got nothing.
+              </h2>
+
+              <p>Block that had an emerald: <b>28</b></p>
+              <p>Block that you chose: <b>5</b></p>
+
+              <div class=""wins-display"" aria-label=""Wins so far"">
+                <img src=""img/emerald.png"" alt=""Emerald"">
+                <span class=""wins-label"">Wins:</span>
+                <span class=""wins-count"">0</span>
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","9","2.1.0","101629","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","","","","","","","",""
+"7562","","{""regret_chosen"":36,""regret_not_winner"":28}","survey-html-form","10","2.1.0","109192","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","5","28","","0","","","[]","NA"
+"","","","html-keyboard-response","11","2.1.0","115141","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","21","25","-0.03","0","0","0","[]","NA"
+"1533","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/creeper.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You got nothing.
+              </h2>
+
+              <p>Block that had an emerald: <b>25</b></p>
+              <p>Block that you chose: <b>21</b></p>
+
+              <div class=""wins-display"" aria-label=""Wins so far"">
+                <img src=""img/emerald.png"" alt=""Emerald"">
+                <span class=""wins-label"">Wins:</span>
+                <span class=""wins-count"">0</span>
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","12","2.1.0","116675","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","","","","","","","",""
+"5632","","{""regret_chosen"":33,""regret_not_winner"":53}","survey-html-form","13","2.1.0","122310","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","21","25","","0","","","[]","NA"
+"","","","html-keyboard-response","14","2.1.0","124110","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","12","5","-0.04","0","0","0","[]","NA"
+"885","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/creeper.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You got nothing.
+              </h2>
+
+              <p>Block that had an emerald: <b>5</b></p>
+              <p>Block that you chose: <b>12</b></p>
+
+              <div class=""wins-display"" aria-label=""Wins so far"">
+                <img src=""img/emerald.png"" alt=""Emerald"">
+                <span class=""wins-label"">Wins:</span>
+                <span class=""wins-count"">0</span>
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","15","2.1.0","124996","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","","","","","","","",""
+"4412","","{""regret_chosen"":31,""regret_not_winner"":11}","survey-html-form","16","2.1.0","129410","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","12","5","","0","","","[]","NA"
+"","","","html-keyboard-response","17","2.1.0","130958","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","1","1","0.31","0","1","0","[]","NA"
+"1604","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/emerald.png""
+                alt=""Win""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#1a7f37; margin-bottom:6px;"">
+                You got emerald!
+              </h2>
+
+              <p>Block that had an emerald: <b>1</b></p>
+              <p>Block that you chose: <b>1</b></p>
+
+              <div class=""wins-display"" aria-label=""Wins so far"">
+                <img src=""img/emerald.png"" alt=""Emerald"">
+                <span class=""wins-label"">Wins:</span>
+                <span class=""wins-count"">1</span>
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","18","2.1.0","132563","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","","","","","","","",""
+"3329","","{""regret_chosen"":0}","survey-html-form","19","2.1.0","135894","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","1","1","","0","","","[]","NA"
+"","","","html-keyboard-response","20","2.1.0","139226","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","30","16","0.3","1","0","16","[1,16,17,26,3,5,15,29,28,32,11,8,36,18,23,24]","hot_win_number"
+"941","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/creeper.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You got nothing.
+              </h2>
+
+              <p>Block that had an emerald: <b>16</b></p>
+              <p>Block that you chose: <b>30</b></p>
+
+              <div class=""wins-display"" aria-label=""Wins so far"">
+                <img src=""img/emerald.png"" alt=""Emerald"">
+                <span class=""wins-label"">Wins:</span>
+                <span class=""wins-count"">1</span>
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","21","2.1.0","140168","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","","","","","","","",""
+"3906","","{""regret_chosen"":47,""regret_not_winner"":5}","survey-html-form","22","2.1.0","144075","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","30","16","","1","","","[1,16,17,26,3,5,15,29,28,32,11,8,36,18,23,24]","hot_win_number"
+"","","","html-keyboard-response","23","2.1.0","147192","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","6","11","0.29","0","0","0","[]","NA"
+"793","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/creeper.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You got nothing.
+              </h2>
+
+              <p>Block that had an emerald: <b>11</b></p>
+              <p>Block that you chose: <b>6</b></p>
+
+              <div class=""wins-display"" aria-label=""Wins so far"">
+                <img src=""img/emerald.png"" alt=""Emerald"">
+                <span class=""wins-label"">Wins:</span>
+                <span class=""wins-count"">1</span>
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","24","2.1.0","147986","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","","","","","","","",""
+"5338","","{""regret_chosen"":19,""regret_not_winner"":3}","survey-html-form","25","2.1.0","153325","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","6","11","","0","","","[]","NA"
+"","","","html-keyboard-response","26","2.1.0","154508","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","1","27","0.27999999999999997","0","0","0","[]","NA"
+"697","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/creeper.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You got nothing.
+              </h2>
+
+              <p>Block that had an emerald: <b>27</b></p>
+              <p>Block that you chose: <b>1</b></p>
+
+              <div class=""wins-display"" aria-label=""Wins so far"">
+                <img src=""img/emerald.png"" alt=""Emerald"">
+                <span class=""wins-label"">Wins:</span>
+                <span class=""wins-count"">1</span>
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","27","2.1.0","155206","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","","","","","","","",""
+"4701","","{""regret_chosen"":43,""regret_not_winner"":10}","survey-html-form","28","2.1.0","159908","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","1","27","","0","","","[]","NA"
+"","","","html-keyboard-response","29","2.1.0","163643","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","9","36","0.26999999999999996","1","0","2","[7,9]","nonhot_win_number"
+"678","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/creeper.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You got nothing.
+              </h2>
+
+              <p>Block that had an emerald: <b>36</b></p>
+              <p>Block that you chose: <b>9</b></p>
+
+              <div class=""wins-display"" aria-label=""Wins so far"">
+                <img src=""img/emerald.png"" alt=""Emerald"">
+                <span class=""wins-label"">Wins:</span>
+                <span class=""wins-count"">1</span>
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","30","2.1.0","164322","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","","","","","","","",""
+"4486","","{""regret_chosen"":89,""regret_not_winner"":22}","survey-html-form","31","2.1.0","168809","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","9","36","","1","","","[7,9]","nonhot_win_number"
+"","","","html-keyboard-response","32","2.1.0","171810","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","28","3","0.25999999999999995","1","0","3","[7,28,29]","nonhot_win_number"
+"508","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/creeper.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You got nothing.
+              </h2>
+
+              <p>Block that had an emerald: <b>3</b></p>
+              <p>Block that you chose: <b>28</b></p>
+
+              <div class=""wins-display"" aria-label=""Wins so far"">
+                <img src=""img/emerald.png"" alt=""Emerald"">
+                <span class=""wins-label"">Wins:</span>
+                <span class=""wins-count"">1</span>
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","33","2.1.0","172319","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","","","","","","","",""
+"3722","","{""regret_chosen"":63,""regret_not_winner"":18}","survey-html-form","34","2.1.0","176043","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","28","3","","1","","","[7,28,29]","nonhot_win_number"
+"","","","html-keyboard-response","35","2.1.0","177559","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","26","26","0.6099999999999999","0","1","0","[]","NA"
+"868","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/emerald.png""
+                alt=""Win""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#1a7f37; margin-bottom:6px;"">
+                You got emerald!
+              </h2>
+
+              <p>Block that had an emerald: <b>26</b></p>
+              <p>Block that you chose: <b>26</b></p>
+
+              <div class=""wins-display"" aria-label=""Wins so far"">
+                <img src=""img/emerald.png"" alt=""Emerald"">
+                <span class=""wins-label"">Wins:</span>
+                <span class=""wins-count"">2</span>
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","36","2.1.0","178429","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","","","","","","","",""
+"2428","","{""regret_chosen"":0}","survey-html-form","37","2.1.0","180859","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","26","26","","0","","","[]","NA"
+"","","","html-keyboard-response","38","2.1.0","183924","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","36","24","0.5999999999999999","1","0","3","[17,36,24]","hot_win_number"
+"437","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/creeper.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You got nothing.
+              </h2>
+
+              <p>Block that had an emerald: <b>24</b></p>
+              <p>Block that you chose: <b>36</b></p>
+
+              <div class=""wins-display"" aria-label=""Wins so far"">
+                <img src=""img/emerald.png"" alt=""Emerald"">
+                <span class=""wins-label"">Wins:</span>
+                <span class=""wins-count"">2</span>
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","39","2.1.0","184362","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","","","","","","","",""
+"4662","","{""regret_chosen"":59,""regret_not_winner"":16}","survey-html-form","40","2.1.0","189025","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","36","24","","1","","","[17,36,24]","hot_win_number"
+"","","","html-keyboard-response","41","2.1.0","190275","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","21","35","0.5899999999999999","1","0","8","[22,15,33,24,36,21,13,16]","nonhot_win_number"
+"580","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/creeper.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You got nothing.
+              </h2>
+
+              <p>Block that had an emerald: <b>35</b></p>
+              <p>Block that you chose: <b>21</b></p>
+
+              <div class=""wins-display"" aria-label=""Wins so far"">
+                <img src=""img/emerald.png"" alt=""Emerald"">
+                <span class=""wins-label"">Wins:</span>
+                <span class=""wins-count"">2</span>
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","42","2.1.0","190856","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","","","","","","","",""
+"4034","","{""regret_chosen"":66,""regret_not_winner"":11}","survey-html-form","43","2.1.0","194892","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","21","35","","1","","","[22,15,33,24,36,21,13,16]","nonhot_win_number"
+"","","","html-keyboard-response","44","2.1.0","196225","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","6","15","0.5799999999999998","0","0","0","[]","NA"
+"391","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/creeper.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You got nothing.
+              </h2>
+
+              <p>Block that had an emerald: <b>15</b></p>
+              <p>Block that you chose: <b>6</b></p>
+
+              <div class=""wins-display"" aria-label=""Wins so far"">
+                <img src=""img/emerald.png"" alt=""Emerald"">
+                <span class=""wins-label"">Wins:</span>
+                <span class=""wins-count"">2</span>
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","45","2.1.0","196617","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","","","","","","","",""
+"3589","","{""regret_chosen"":26,""regret_not_winner"":5}","survey-html-form","46","2.1.0","200207","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","6","15","","0","","","[]","NA"
+"","","","html-keyboard-response","47","2.1.0","201159","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","1","2","0.5699999999999998","0","0","0","[]","NA"
+"353","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/creeper.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You got nothing.
+              </h2>
+
+              <p>Block that had an emerald: <b>2</b></p>
+              <p>Block that you chose: <b>1</b></p>
+
+              <div class=""wins-display"" aria-label=""Wins so far"">
+                <img src=""img/emerald.png"" alt=""Emerald"">
+                <span class=""wins-label"">Wins:</span>
+                <span class=""wins-count"">2</span>
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","48","2.1.0","201514","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","","","","","","","",""
+"3111","","{""regret_chosen"":39,""regret_not_winner"":23}","survey-html-form","49","2.1.0","204626","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","1","2","","0","","","[]","NA"
+"","","","html-keyboard-response","50","2.1.0","205392","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","26","26","0.9199999999999998","0","1","0","[]","NA"
+"620","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/emerald.png""
+                alt=""Win""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#1a7f37; margin-bottom:6px;"">
+                You got emerald!
+              </h2>
+
+              <p>Block that had an emerald: <b>26</b></p>
+              <p>Block that you chose: <b>26</b></p>
+
+              <div class=""wins-display"" aria-label=""Wins so far"">
+                <img src=""img/emerald.png"" alt=""Emerald"">
+                <span class=""wins-label"">Wins:</span>
+                <span class=""wins-count"">3</span>
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","51","2.1.0","206014","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","","","","","","","",""
+"2610","","{""regret_chosen"":0}","survey-html-form","52","2.1.0","208626","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","26","26","","0","","","[]","NA"
+"","","","html-keyboard-response","53","2.1.0","209708","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","10","6","0.9099999999999998","0","0","0","[]","NA"
+"386","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/creeper.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You got nothing.
+              </h2>
+
+              <p>Block that had an emerald: <b>6</b></p>
+              <p>Block that you chose: <b>10</b></p>
+
+              <div class=""wins-display"" aria-label=""Wins so far"">
+                <img src=""img/emerald.png"" alt=""Emerald"">
+                <span class=""wins-label"">Wins:</span>
+                <span class=""wins-count"">3</span>
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","54","2.1.0","210095","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","","","","","","","",""
+"6679","","{""regret_chosen"":31,""regret_not_winner"":21}","survey-html-form","55","2.1.0","216776","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","10","6","","0","","","[]","NA"
+"","","","html-keyboard-response","56","2.1.0","218741","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","5","15","0.8999999999999998","0","0","0","[]","NA"
+"404","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/creeper.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You got nothing.
+              </h2>
+
+              <p>Block that had an emerald: <b>15</b></p>
+              <p>Block that you chose: <b>5</b></p>
+
+              <div class=""wins-display"" aria-label=""Wins so far"">
+                <img src=""img/emerald.png"" alt=""Emerald"">
+                <span class=""wins-label"">Wins:</span>
+                <span class=""wins-count"">3</span>
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","57","2.1.0","219145","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","","","","","","","",""
+"2745","","{""regret_chosen"":20,""regret_not_winner"":8}","survey-html-form","58","2.1.0","221892","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","5","15","","0","","","[]","NA"
+"","","","html-keyboard-response","59","2.1.0","223878","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","35","22","0.8899999999999998","1","0","1","[35]","nonhot_win_number"
+"518","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/creeper.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You got nothing.
+              </h2>
+
+              <p>Block that had an emerald: <b>22</b></p>
+              <p>Block that you chose: <b>35</b></p>
+
+              <div class=""wins-display"" aria-label=""Wins so far"">
+                <img src=""img/emerald.png"" alt=""Emerald"">
+                <span class=""wins-label"">Wins:</span>
+                <span class=""wins-count"">3</span>
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","60","2.1.0","224397","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","","","","","","","",""
+"5343","","{""regret_chosen"":94,""regret_not_winner"":6}","survey-html-form","61","2.1.0","229742","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","35","22","","1","","","[35]","nonhot_win_number"
+"","","","html-keyboard-response","62","2.1.0","231324","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","2","19","0.8799999999999998","0","0","0","[]","NA"
+"293","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/creeper.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You got nothing.
+              </h2>
+
+              <p>Block that had an emerald: <b>19</b></p>
+              <p>Block that you chose: <b>2</b></p>
+
+              <div class=""wins-display"" aria-label=""Wins so far"">
+                <img src=""img/emerald.png"" alt=""Emerald"">
+                <span class=""wins-label"">Wins:</span>
+                <span class=""wins-count"">3</span>
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","63","2.1.0","231618","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","","","","","","","",""
+"5338","","{""regret_chosen"":19,""regret_not_winner"":10}","survey-html-form","64","2.1.0","236958","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","2","19","","0","","","[]","NA"
+"","","","html-keyboard-response","65","2.1.0","238899","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","34","19","0.8699999999999998","1","0","1","[34]","nonhot_win_number"
+"373","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/creeper.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You got nothing.
+              </h2>
+
+              <p>Block that had an emerald: <b>19</b></p>
+              <p>Block that you chose: <b>34</b></p>
+
+              <div class=""wins-display"" aria-label=""Wins so far"">
+                <img src=""img/emerald.png"" alt=""Emerald"">
+                <span class=""wins-label"">Wins:</span>
+                <span class=""wins-count"">3</span>
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","66","2.1.0","239272","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","","","","","","","",""
+"3401","","{""regret_chosen"":78,""regret_not_winner"":20}","survey-html-form","67","2.1.0","242675","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","34","19","","1","","","[34]","nonhot_win_number"
+"","","","html-keyboard-response","68","2.1.0","243775","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","10","10","1.2199999999999998","0","1","0","[]","NA"
+"148","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/emerald.png""
+                alt=""Win""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#1a7f37; margin-bottom:6px;"">
+                You got emerald!
+              </h2>
+
+              <p>Block that had an emerald: <b>10</b></p>
+              <p>Block that you chose: <b>10</b></p>
+
+              <div class=""wins-display"" aria-label=""Wins so far"">
+                <img src=""img/emerald.png"" alt=""Emerald"">
+                <span class=""wins-label"">Wins:</span>
+                <span class=""wins-count"">4</span>
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","69","2.1.0","243923","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","","","","","","","",""
+"2501","","{""regret_chosen"":0}","survey-html-form","70","2.1.0","246425","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","10","10","","0","","","[]","NA"
+"","","","html-keyboard-response","71","2.1.0","247426","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","11","36","1.2099999999999997","1","0","16","[4,16,10,17,35,11,29,1,26,3,27,23,2,7,14,21]","nonhot_win_number"
+"228","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/creeper.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You got nothing.
+              </h2>
+
+              <p>Block that had an emerald: <b>36</b></p>
+              <p>Block that you chose: <b>11</b></p>
+
+              <div class=""wins-display"" aria-label=""Wins so far"">
+                <img src=""img/emerald.png"" alt=""Emerald"">
+                <span class=""wins-label"">Wins:</span>
+                <span class=""wins-count"">4</span>
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","72","2.1.0","247655","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","","","","","","","",""
+"7251","","{""regret_chosen"":65,""regret_not_winner"":24}","survey-html-form","73","2.1.0","254908","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","11","36","","1","","","[4,16,10,17,35,11,29,1,26,3,27,23,2,7,14,21]","nonhot_win_number"
+"","","","html-keyboard-response","74","2.1.0","256944","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","6","33","1.1999999999999997","1","0","2","[6,33]","hot_win_number"
+"689","
+            <div style=""max-width:720px; margin:0 auto;"">
+              <img
+                src=""img/creeper.png""
+                alt=""Loss""
+                style=""
+                  display:block;
+                  margin: 0 auto 14px;
+                  width: min(280px, 60vw);
+                  border-radius: 14px;
+                  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+                ""
+              />
+
+              <h2 style=""color:#b3122a; margin-bottom:6px;"">
+                You got nothing.
+              </h2>
+
+              <p>Block that had an emerald: <b>33</b></p>
+              <p>Block that you chose: <b>6</b></p>
+
+              <div class=""wins-display"" aria-label=""Wins so far"">
+                <img src=""img/emerald.png"" alt=""Emerald"">
+                <span class=""wins-label"">Wins:</span>
+                <span class=""wins-count"">4</span>
+              </div>
+
+              <p style=""margin-top:14px;"">Press any key to continue.</p>
+            </div>
+          "," ","html-keyboard-response","75","2.1.0","257634","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","","","","","","","",""
+"4105","","{""regret_chosen"":80,""regret_not_winner"":23}","survey-html-form","76","2.1.0","261741","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","6","33","","1","","","[6,33]","hot_win_number"
+"19582","","{""feedback"":"""",""age"":18,""gamble_freq_12mo"":""Never"",""hot_reliance"":""Sometimes"",""race"":""Asian"",""gender"":""Male"",""ethnicity"":""Non-Hispanic""}","survey-html-form","77","2.1.0","281326","696adf62cb09922b70940372","696adf62cb09922b70940372","697191ef92bff03015a0bf86","69719915968e623ae09930e1","2026-01-22T03:27:25.211Z","","","","","","","","","","",""
