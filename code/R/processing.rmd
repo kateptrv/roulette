@@ -36,6 +36,33 @@ comp_attempts <- data_raw |>
   )
 ```
 
+```{r}
+safe_fromJSON <- function(x) {
+  tryCatch(fromJSON(x), error = function(e) NULL)
+}
+
+demographics <- data_raw |>
+  filter(trial_type == "survey-html-form") |>
+  transmute(
+    prolific_pid,
+    resp = map(response, safe_fromJSON)
+  ) |>
+  filter(map_lgl(resp, ~ !is.null(.x) && (("age" %in% names(.x)) || ("gamble_freq_12mo" %in% names(.x)) || ("hot_reliance" %in% names(.x))))) |>
+  group_by(prolific_pid) |>
+  slice_tail(n = 1) |>   # if multiple, keep the last one
+  ungroup() |>
+  transmute(
+    prolific_pid,
+    feedback         = map_chr(resp, ~ .x$feedback %||% NA_character_),
+    age              = map_int(resp, ~ as.integer(.x$age %||% NA_integer_)),
+    gamble_freq_12mo  = map_chr(resp, ~ .x$gamble_freq_12mo %||% NA_character_),
+    hot_reliance      = map_chr(resp, ~ .x$hot_reliance %||% NA_character_) |> as.integer(),
+    race             = map_chr(resp, ~ .x$race %||% NA_character_),
+    gender           = map_chr(resp, ~ .x$gender %||% NA_character_),
+    ethnicity         = map_chr(resp, ~ .x$ethnicity %||% NA_character_)
+  )
+```
+
 # Full (24 trials)
 
 ## Processing
@@ -82,7 +109,8 @@ data_clean_full <- data_raw |>
     banner_yn = ifelse(banner_yn == 0, "No Banner", "Banner")
   ) |>
   left_join(comp_attempts, by = "prolific_pid") |>
-  select(-c(comp_attempts, comp_passed))
+  select(-c(comp_attempts, comp_passed)) |>
+  left_join(demographics, by = "prolific_pid")
 
 write_csv(data_clean_full, "../../data/data_clean_full.csv")
 
@@ -147,7 +175,8 @@ data_clean_slim <- data_raw |>
     banner_yn = ifelse(banner_yn == 0, "No Banner", "Banner")
   ) |>
   left_join(comp_attempts, by = "prolific_pid") |>
-  select(-c(comp_attempts, comp_passed))
+  select(-c(comp_attempts, comp_passed))|>
+  left_join(demographics, by = "prolific_pid")
 
 write_csv(data_clean_slim, "../../data/data_clean_slim.csv")
   

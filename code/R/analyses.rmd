@@ -24,7 +24,8 @@ data_full <- read_csv("../../data/data_clean_full.csv") |>
   filter(comp_tries_to_pass <= 1) |>
   group_by(prolific_pid) |>
   filter(max(trial) == 24) |>
-  ungroup()
+  mutate(n_hot_choice = sum(choice_hot == "Chose Hot")) |>
+  ungroup() 
 ```
 
 ```{r}
@@ -274,7 +275,7 @@ data_full |>
 
 ```{r}
 data_full |>
-  filter(win_status == "Lost") |>
+  filter(win_status == "Lost" & outcome_rel_to_hot == "hot_win_number") |>
   pivot_longer(cols = c(regret_chosen, regret_notchosen_winner), names_to = "regret_type", values_to = "regret_value") |>
   group_by(prolific_pid) |>
   mutate(regret_pmc = regret_value - mean(regret_value, na.rm = TRUE)) |>

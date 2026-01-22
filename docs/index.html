@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Roulette Study</title>
+    <title>Minecraft Study</title>
 
     <script src="https://unpkg.com/jspsych@8.2.2"></script>
     <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@2.1.0"></script>
@@ -17,21 +17,113 @@
 
     <style>
       body { font-family: Arial, sans-serif; text-align: center; }
+
       .roulette-grid {
         display: grid;
-        grid-template-columns: repeat(6, 60px);
-        grid-gap: 8px;
+        grid-template-columns: repeat(6, 64px);
+        grid-gap: 10px;
         justify-content: center;
         margin-top: 20px;
       }
+
+      /* --- TILE: Minecraft stone block background + corner number --- */
       .roulette-number {
-        padding: 15px;
-        border: 1px solid #000;
+        width: 64px;
+        height: 64px;
+        position: relative;
         cursor: pointer;
-        border-radius: 6px;
-        background-color: lightgray;
+        user-select: none;
+
+        border-radius: 10px;
+        border: 1px solid rgba(0,0,0,0.12);
+        box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+        transition: transform 120ms ease, box-shadow 120ms ease, border-color 120ms ease;
+
+        background-image: url("img/stone.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
       }
 
+      .roulette-number:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 10px 22px rgba(0,0,0,0.10);
+        border-color: rgba(0,0,0,0.18);
+      }
+
+      .roulette-number:active {
+        transform: translateY(0px);
+        box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+      }
+
+      /* small number in the top-left corner */
+      .tile-num {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+
+        font-size: 12px;
+        font-weight: 800;
+        line-height: 1;
+        letter-spacing: -0.02em;
+
+        color: rgba(255,255,255,0.95);
+        text-shadow:
+          0 1px 2px rgba(0,0,0,0.70),
+          0 0 6px rgba(0,0,0,0.35);
+
+        padding: 2px 5px;
+        border-radius: 6px;
+        background: rgba(0,0,0,0.35);
+        border: 1px solid rgba(255,255,255,0.12);
+      }
+
+      /* optional: subtle highlight for "hot" tiles */
+      .roulette-number.hot::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border-radius: 10px;
+        box-shadow: inset 0 0 0 3px rgba(179,18,42,0.45);
+        pointer-events: none;
+      }
+
+      /* optional: show selection */
+      .roulette-number.selected::after {
+        content: "";
+        position: absolute;
+        inset: -3px;
+        border-radius: 12px;
+        box-shadow: 0 0 0 3px rgba(17,17,17,0.22);
+        pointer-events: none;
+      }
+
+      /* Wins indicator (emerald + count) */
+      .wins-display {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        margin-top: 20px;
+        font-weight: 800;
+        font-variant-numeric: tabular-nums;
+      }
+
+      .wins-display img {
+        width: 22px;
+        height: 22px;
+        image-rendering: pixelated;
+      }
+
+      .wins-display .wins-label {
+        color: rgba(0,0,0,0.78);
+        font-weight: 800;
+      }
+
+      .wins-display .wins-count {
+        min-width: 22px;
+        text-align: left;
+      }
 
       /* ---- Instruction style ---- */
       .instr-wrap {
@@ -70,8 +162,8 @@
       }
 
       .instr-list {
-        display: inline-block;       
-        text-align: left;             
+        display: inline-block;
+        text-align: left;
         margin: 12px auto 0;
         padding-left: 22px;
         max-width: 760px;
@@ -79,7 +171,7 @@
 
       .instr-list li {
         margin: 8px 0;
-        padding-left: 4px;          
+        padding-left: 4px;
       }
 
       .instr-list li::marker {
@@ -95,45 +187,7 @@
         color: rgba(0,0,0,0.75);
         text-align: center;
       }
-      /* ---- Roulette tiles ---- */
-      .roulette-number {
-        padding: 14px 0;
-        border-radius: 12px;
-        border: 1px solid rgba(0,0,0,0.10);
-        background: #ffffff;
-        cursor: pointer;
-        user-select: none;
-        font-weight: 700;
-        letter-spacing: -0.01em;
-        box-shadow: 0 6px 16px rgba(0,0,0,0.08);
-        transition: transform 120ms ease, box-shadow 120ms ease, border-color 120ms ease;
-      }
 
-      .roulette-number:hover {
-        transform: translateY(-1px);
-        box-shadow: 0 10px 22px rgba(0,0,0,0.10);
-        border-color: rgba(0,0,0,0.18);
-      }
-
-      .roulette-number:active {
-        transform: translateY(0px);
-        box-shadow: 0 6px 16px rgba(0,0,0,0.08);
-      }
-
-      .roulette-number.red {
-        color: #b3122a;
-      }
-
-      .roulette-number.black {
-        color: #121212;
-      }
-
-      .roulette-number.selected {
-        outline: 3px solid rgba(17,17,17,0.18);
-        outline-offset: 2px;
-      }
-
-      #balance-display { font-weight: bold; margin-top: 20px; }
       /* ---- Hot numbers ---- */
       #banner {
         max-width: 820px;
@@ -235,9 +289,11 @@
         font-size: 13px;
         color: rgba(0,0,0,0.62);
       }
+
       .regret-card, .regret-card * {
         font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
       }
+
       .regret-range {
         -webkit-appearance: none;
         appearance: none;
@@ -281,11 +337,9 @@
   <body></body>
 
   <script>
-
     /**********************************
      Prolific and Datapipe integration
     ***********************************/
-
     const DATAPIPE_EXPERIMENT_ID = "z22US4du5wwq";
     const PROLIFIC_COMPLETION_CODE = "C3W77LI9";
 
@@ -311,27 +365,23 @@
     /**********************************
      Trial structure
     ***********************************/
-
     const TOTAL_TRIALS = 24;
-    const HOT_SET_SIZES = [1, 2, 3, 8, 16]; // hot bar size 
+    const HOT_SET_SIZES = [1, 2, 3, 8, 16];
     const NUMBERS = Array.from({ length: 36 }, (_, i) => i + 1);
     const WIN_BLOCKS = 4;
 
-    // spreading out winning trials so that they are not all clumped together
     const win_positions = [];
     for (let b = 0; b < WIN_BLOCKS; b++) {
       const posWithinBlock = jsPsych.randomization.sampleWithoutReplacement([2, 3, 4, 5], 1)[0];
       win_positions.push(b * 6 + posWithinBlock);
     }
 
-    // default 
     let trials = Array.from({ length: TOTAL_TRIALS }, () => ({
       banner: 0,
       win_status: 0,
       hot_set_size: 0,
       outcome_rel_to_hot: "NA"
     }));
-
 
     win_positions.forEach((pos) => {
       trials[pos] = { banner: 0, win_status: 1, hot_set_size: 0, outcome_rel_to_hot: "NA" };
@@ -348,8 +398,6 @@
       }
     });
 
-    //console.table(banner_templates);
-
     let nonwin_indices = trials
       .map((t, i) => (t.win_status === 0 ? i : null))
       .filter((i) => i !== null);
@@ -357,21 +405,21 @@
     let chosen_indices = jsPsych.randomization.sampleWithoutReplacement(nonwin_indices, banner_templates.length);
     chosen_indices.forEach((idx, j) => (trials[idx] = banner_templates[j]));
 
-    //console.table(trials);
+    let balance = 0.00;
+    let wins_so_far = 0;
 
-    let balance = 0.30;
-
-    // Standard roulette colors for 1–36
-    const RED_NUMBERS = new Set([1,3,5,7,9,12,14,16,18,19,21,23,25,27,30,32,34,36]);
-
+    /**********************************
+     GRID RENDERER (stone tiles + corner numbers)
+    ***********************************/
     function makeRouletteGrid(hotNumbers) {
       let html = `<div class='roulette-grid'>`;
       NUMBERS.forEach((n) => {
-        const colorClass = RED_NUMBERS.has(n) ? "red" : "black";
-
         const hotClass = (hotNumbers && hotNumbers.includes(n)) ? "hot" : "";
-
-        html += `<div class='roulette-number ${colorClass} ${hotClass}' data-num='${n}'>${n}</div>`;
+        html += `
+          <div class='roulette-number ${hotClass}' data-num='${n}' aria-label='Number ${n}' role='button' tabindex='0'>
+            <span class='tile-num'>${n}</span>
+          </div>
+        `;
       });
       html += `</div>`;
       return html;
@@ -380,18 +428,16 @@
     /**********************************
      Start
     ***********************************/
-
     let timeline = [];
 
     /**********************************
-     Instructions
+     Instructions (unchanged)
     ***********************************/
-
     function instrPage(innerHtml, opts = {}) {
       const title = opts.title ? `<div class="instr-title">${opts.title}</div>` : "";
       return `
         <div class="instr-wrap">
-          <img class="instr-hero" src="img/roulette.png" alt="Roulette illustration">
+          <img class="instr-hero" src="img/pickaxe.png" alt="Pickaxe">
           ${title}
           <div class="instr-text">
             ${innerHtml}
@@ -400,109 +446,76 @@
       `;
     }
 
-    // Lisst of instruction pages
     var instructions_pages = [
       `
       <div class="instr-wrap">
-        <img class="instr-hero" src="img/roulette.png" alt="Roulette illustration">
-        <div class="instr-title">Welcome to the roulette game!</div>
+        <img class="instr-hero" src="img/pickaxe.png" alt="Pickaxe">
+        <div class="instr-title">Welcome to the Minecraft game!</div>
         <div class="instr-text">
-          <p><b>We will now explain how the game works.</b> The instructions are spread across several pages.</p>
-          <p>Please read each page carefully. You can use the buttons on the screen (or your keyboard) to navigate.</p>
+          <p><b>We will now explain how the game works.</b> The instructions are spread across several pages. Please read each page carefully. You can use the buttons on the screen (or your keyboard) to navigate.</p>
         </div>
       </div>
       `,
-
       `
       <div class="instr-wrap">
-        <img class="instr-hero" src="img/roulette.png" alt="Roulette illustration">
+        <img class="instr-hero" src="img/blocks.png" alt="Minecraft illustration">
         <div class="instr-text">
-          <p>In a real roulette game, players place bets on a spinning wheel with numbered slots. A ball lands on one number, and that number wins.</p>
-          <p>There are many different ways to bet in real roulette (for example, betting on colors or groups of numbers).</p>
-        </div>
-      </div>
-      `,
-
-      `
-      <div class="instr-wrap">
-        <img class="instr-hero" src="img/choose_screen.png" alt="Roulette illustration">
-        <div class="instr-text">
-          <p>This game is simpler than real roulette and works a little differently.</p>
+          <p>The game consists of <b>24 rounds</b></p>
           <p>On each round:</p>
           <ul class="instr-list">
-            <li>You can bet on only <b>one number</b></li>
-            <li>The numbers range from <b>1 to 36</b></li>
-            <li>You will always bet exactly <b>1 cent</b></li>
-            <li>There are no other types of bets in this game</li>
+            <li>You will see 36 stone blocks labeled with numbers <b>1 to 36</b> in the corner</li>
+            <li>You can choose <b>one block to mine</b> by clicking on it</li>
           </ul>
-          <div class="instr-note">The game consists of <b>24 rounds</b>.</div>
+          <div class="instr-note">There is exactly 1 block on any given round that contains an emerald!</div>
         </div>
       </div>
       `,
 
       `
       <div class="instr-wrap">
-        <img class="instr-hero" src="img/choose_screen.png" alt="Roulette illustration">
+        <img class="instr-hero" src="img/loss_mc.png" alt="Roulette illustration">
         <div class="instr-text">
-          <p>At the start of the game, you will have <b>30 cents</b> in your wallet.</p>
-          <p>You will use this money to place your bets across the game.</p>
-          <div class="instr-note">You will be able to see how much money you have right above the roulette grid.</div>
+          <p>If the block you mined does not contain an emerald, you get nothing for that round.</p>
         </div>
       </div>
       `,
-
-      `
-      <div class="instr-wrap">
-        <img class="instr-hero" src="img/lost_screen.png" alt="Roulette illustration">
-        <div class="instr-text">
-          <p>On each round, you bet <b>1 cent</b> on a number.</p>
-          <p>If the winning number is <b>not</b> the number you chose, then you lose your bet and your wallet <b>decreases by 1 cent</b>.</p>
-        </div>
-      </div>
-      `,
-
       `
       <div class="instr-wrap">
         <img class="instr-hero" src="img/won_screen.png" alt="Roulette illustration">
         <div class="instr-text">
-          <p>If the winning number <b>is</b> the number you chose, then you receive <b>36 cents total</b> back.</p>
-          <p>This includes your original 1 cent bet and <b>your profit of 35 cents</b>.</p>
+          <p>If the block you mined <b>contains an emerald</b>, then you receive <b>+1 emerald (= $0.25) in your wallet</b>.</p>
         </div>
       </div>
       `,
-
       `
       <div class="instr-wrap">
-        <img class="instr-hero" src="img/bonus.png" alt="Roulette illustration">
+        <img class="instr-hero" src="img/emerald.png" alt="Roulette illustration">
         <div class="instr-text">
-          <p>Your goal is to earn as much money as you can during the game.</p>
-          <div class="instr-note"><b>At the end of the game, the money left in your wallet will be paid to you as a bonus on Prolific.</b></div>
+          <p>Your goal is to mine as many emeralds as you can during the game.</p>
+          <div class="instr-note"><b>At the end of the game, all your emeralds will be converted to a bonus payment on Prolific!</b></div>
         </div>
       </div>
       `,
-
       `
       <div class="instr-wrap">
-        <img class="instr-hero" src="img/reflection.png" alt="Roulette illustration">
+        <img class="instr-hero" src="img/reflection_mc.png" alt="Roulette illustration">
         <div class="instr-text">
-          <p>After seeing the outcome, you will be asked to reflect on your feelings about your most recent bet and its outcome.</p>
+          <p>After seeing the outcome, you will be asked to reflect on your feelings about your most recent choice of a block to mine.</p>
           <p>Use your mouse to record your answer and press “Continue” to proceed to the next round.</p>
           <div class="instr-note"><b>Please report your feelings openly and honestly</b> regardless of how strong or weak they are! There are no right or wrong answers.</div>
         </div>
       </div>
       `,
-
-        `
+      `
       <div class="instr-wrap">
-        <img class="instr-hero" src="img/hot_numbers.png" alt="Roulette illustration">
+        <img class="instr-hero" src="img/hot_blocks.png" alt="Roulette illustration">
         <div class="instr-text">
-          <p>On some rounds, you will see a banner above the roulette grid that says <b>HOT NUMBERS</b>.</p>
-          <p>Hot numbers are numbers that have been winning frequently in the past. The number of hot numbers can vary.</p></p>
-          <div class="instr-note">Hot numbers are provided for your information only and you do NOT have to choose a hot number.</div>
+          <p>Finally, on some rounds, you will see a banner above the block grid that says <b>HOT BLOCKS</b>.</p>
+          <p>Hot blocks are blocks that have been spawning emeralds frequently in the past. The number of hot blocks can vary.</p></p>
+          <div class="instr-note">Note that hot blocks are provided for your information only and you do NOT have to choose a hot block.</div>
         </div>
       </div>
       `,
-
       `
       <div class="instr-wrap">
         <img class="instr-hero" src="img/survey.png" alt="Roulette illustration">
@@ -511,10 +524,9 @@
         </div>
       </div>
       `,
-
-              `
+      `
       <div class="instr-wrap">
-        <img class="instr-hero" src="img/roulette.png" alt="Roulette illustration">
+        <img class="instr-hero" src="img/pickaxe.png" alt="Roulette illustration">
         <div class="instr-text">
           <p>You are now almost ready to begin the game! Please proceed to the next page for a quick comprehension check.</p>
         </div>
@@ -530,7 +542,6 @@
       button_label_next: "Next"
     };
 
-    // Comprehension check
     const comprehension = {
       type: jsPsychSurveyMultiChoice,
       preamble: `
@@ -539,27 +550,27 @@
       `,
       questions: [
         {
-          prompt: "In this game, you can choose more than one number from the numbers 1–36 on each round.",
+          prompt: "On each round, there are between 1 and 3 blocks that contain an emerald.",
           options: ["True", "False"],
           required: true
         },
         {
-          prompt: "You always bet exactly 1 cent on each round.",
+          prompt: "On each round, you can mine exactly one block.",
           options: ["True", "False"],
           required: true
         },
         {
-          prompt: "If the number you chose wins, you get 36 cents on top of your original bet.",
+          prompt: "If the block you choose hides a creeper, you lose all emeralds you have collected so far.",
           options: ["True", "False"],
           required: true
         },
         {
-          prompt: "Hot numbers are shown to give you information, but you are not required to choose them.",
+          prompt: "Blocks labeled as HOT BLOCKS are shown to give you information, but you are not required to choose one of them.",
           options: ["True", "False"],
           required: true
         },
         {
-          prompt: "The money you earn during the game will be paid to you on Prolific in addition to your base payment.",
+          prompt: "The number of emeralds you collect during the game will be converted into a bonus payment on Prolific, in addition to your base payment.",
           options: ["True", "False"],
           required: true
         }
@@ -567,14 +578,13 @@
       on_finish: function(data) {
         data.correct =
           (data.response["Q0"] === "False" &&
-          data.response["Q1"] === "True"  &&
-          data.response["Q2"] === "False" &&
-          data.response["Q3"] === "True"  &&
-          data.response["Q4"] === "True");
+           data.response["Q1"] === "True"  &&
+           data.response["Q2"] === "False" &&
+           data.response["Q3"] === "True"  &&
+           data.response["Q4"] === "True");
       }
     };
 
-    // Fail comprehension
     const fail_comprehension = {
       timeline: [{
         type: jsPsychHtmlButtonResponse,
@@ -589,12 +599,9 @@
         const last_comp = jsPsych.data.get()
           .filter({ trial_type: "survey-multi-choice" })
           .last(1).values()[0];
-
         return !(last_comp && last_comp.correct === true);
       }
     };
-
-   // Loop until they get it right
 
     const loop_node = {
       timeline: [instructions, comprehension, fail_comprehension],
@@ -602,21 +609,17 @@
         const last_comp = jsPsych.data.get()
           .filter({ trial_type: "survey-multi-choice" })
           .last(1).values()[0];
-
         return !(last_comp && last_comp.correct === true);
       }
     };
-
-    // TO DO: count how many times they failed comprehension
-
-    // Ready to begin
 
     const ready_to_begin = {
       type: jsPsychHtmlKeyboardResponse,
       stimulus: `
         <h3>You are now ready to begin the game.</h3>
-        <p>Remember, your goal is to earn as much money as you can.</p>
-        <p><b>May the odds be in your favor!</b></p>
+        <img class="instr-hero" src="img/heart.png" alt="Minecraft illustration">
+        <p>Remember, your goal is to mine as many emeralds as you can.</p>
+        <p><b>Happy mining!</b></p>
         <p>Press any key to start.</p>
       `
     };
@@ -629,7 +632,6 @@
      Main trial sequence
     ***********************************/
     trials.forEach((trial, idx) => {
-      // choice screen
       timeline.push({
         type: jsPsychHtmlKeyboardResponse,
         stimulus: function() {
@@ -642,7 +644,7 @@
           let bannerHTML = trial.banner
             ? `
               <div id="banner">
-                <div class="banner-title">HOT NUMBERS</div>
+                <div class="banner-title">HOT BLOCKS</div>
                 <div class="banner-list">${hotNumbers.join(", ")}</div>
               </div>
             `
@@ -651,20 +653,28 @@
           return `
             ${bannerHTML}
             <h2>Round ${idx + 1} of ${TOTAL_TRIALS}</h2>
-            <p>Select a number to bet on!</p>
-            <div id="balance-display">Balance: $${balance.toFixed(2)}</div>
+            <p>Choose a block to mine!</p>
+            <div class="wins-display" aria-label="Wins so far">
+              <img src="img/emerald.png" alt="Emerald">
+              <span class="wins-label">Wins:</span>
+              <span class="wins-count">${wins_so_far}</span>
+            </div>
             ${makeRouletteGrid(hotNumbers)}
-            <p><i>Click a number to continue.</i></p>
+            <p><i>Pick a block to continue.</i></p>
           `;
         },
         choices: "NO_KEYS",
         on_load: function() {
+          // click handler
           document.querySelectorAll(".roulette-number").forEach((el) => {
             el.addEventListener("click", () => {
+              // optional: visual feedback for selected tile
+              document.querySelectorAll(".roulette-number").forEach(x => x.classList.remove("selected"));
+              el.classList.add("selected");
+
               let choice = parseInt(el.dataset.num);
 
               let outcome;
-
               if (trial.win_status === 1) {
                 outcome = choice;
               } else {
@@ -672,9 +682,7 @@
                   const H = trial.hot_numbers || [];
 
                   if (trial.outcome_rel_to_hot === "hot_win_number") {
-                    // Safeguard if participant chooses the only hot number
                     const hotNotChoice = H.filter(n => n !== choice);
-
                     if (hotNotChoice.length > 0) {
                       outcome = jsPsych.randomization.sampleWithoutReplacement(hotNotChoice, 1)[0];
                     } else {
@@ -683,8 +691,6 @@
                     }
                   } else {
                     const nonHot = NUMBERS.filter((n) => !H.includes(n) && n !== choice);
-
-                    // Technically this shouldn't ever be empty, but just in case
                     if (nonHot.length > 0) {
                       outcome = jsPsych.randomization.sampleWithoutReplacement(nonHot, 1)[0];
                     } else {
@@ -700,8 +706,12 @@
                 }
               }
 
-              if (outcome === choice) balance += 0.35;
-              else balance -= 0.01;
+              if (outcome === choice) {
+                balance += 0.35;
+                wins_so_far += 1;
+              } else {
+                balance -= 0.01;
+              }
 
               jsPsych.finishTrial({
                 trial_index: idx,
@@ -716,6 +726,16 @@
               });
             });
           });
+
+          // optional: allow keyboard selection via Enter/Space (accessibility)
+          document.querySelectorAll(".roulette-number").forEach((el) => {
+            el.addEventListener("keydown", (e) => {
+              if (e.key === "Enter" || e.key === " ") {
+                e.preventDefault();
+                el.click();
+              }
+            });
+          });
         }
       });
 
@@ -728,8 +748,8 @@
             .last(1).values()[0];
           const win = last.choice === last.outcome;
 
-          const imgSrc = win ? "img/gain.png" : "img/loss.png";
-          const headingText = win ? "You WON!" : "You lost.";
+          const imgSrc = win ? "img/emerald.png" : "img/creeper.png";
+          const headingText = win ? "You got emerald!" : "You got nothing.";
           const headingColor = win ? "#1a7f37" : "#b3122a";
 
           return `
@@ -750,10 +770,13 @@
                 ${headingText}
               </h2>
 
-              <p>Winning number: <b>${last.outcome}</b></p>
+              <p>Block that had an emerald: <b>${last.outcome}</b></p>
+              <p>Block that you chose: <b>${last.choice}</b></p>
 
-              <div id="balance-display">
-                Balance: $${balance.toFixed(2)}
+              <div class="wins-display" aria-label="Wins so far">
+                <img src="img/emerald.png" alt="Emerald">
+                <span class="wins-label">Wins:</span>
+                <span class="wins-count">${wins_so_far}</span>
               </div>
 
               <p style="margin-top:14px;">Press any key to continue.</p>
@@ -812,15 +835,13 @@
             <div class="regret-card">
               <div class="regret-title">Reflection</div>
               <div class="regret-meta">
-                <div>You chose number <b>${choice}</b>.</div>
-                <div>The winning number was <b>${outcome}</b>.</div>
+                <div>You chose block <b>${choice}</b>.</div>
+                <div>The winning block was <b>${outcome}</b>.</div>
               </div>
 
               ${sliderBlock("regret_chosen", `How much do you regret choosing <b>${choice}</b>?`)}
 
               ${lost ? sliderBlock("regret_not_winner", `How much do you regret <b>NOT</b> choosing <b>${outcome}</b>?`) : ""}
-
-              ${probe !== null ? sliderBlock("regret_not_hot_probe", `How much do you regret <b>NOT</b> choosing hot number <b>${probe}</b>?`) : ""}
 
               <div class="regret-hint">Move each slider at least once to continue.</div>
             </div>
@@ -892,6 +913,7 @@
       type: jsPsychHtmlKeyboardResponse,
       stimulus: `
         <h2>All done!</h2>
+        <img class="instr-hero" src="img/heart.png" alt="Minecraft illustration">
         <p>Press any key to return to Prolific and complete your submission.</p>
       `,
       on_finish: function() {
