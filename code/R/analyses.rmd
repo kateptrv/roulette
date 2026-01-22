@@ -18,10 +18,13 @@ p_load(tidyverse, tidyr, dplyr, ggplot2, stats, sjPlot, readr, ggpubr, patchwork
 
 ```{r}
 data_slim <- read_csv("../../data/data_clean_slim.csv") |>
-  filter(comp_tries_to_pass <= 2)
+  filter(comp_tries_to_pass <= 1)
 
 data_full <- read_csv("../../data/data_clean_full.csv") |>
-  filter(comp_tries_to_pass <= 2)
+  filter(comp_tries_to_pass <= 1) |>
+  group_by(prolific_pid) |>
+  filter(max(trial) == 24) |>
+  ungroup()
 ```
 
 ```{r}
@@ -55,7 +58,7 @@ data_slim |>
 ```
 
 ```{r}
-data_slim |>
+data_full |>
   filter(win_status == "Lost" & hot_set_size > 0) |>
   ggplot(aes(x = outcome_rel_to_hot, y = regret_notchosen_winner, color = outcome_rel_to_hot, fill = outcome_rel_to_hot)) +
   stat_summary(
@@ -70,7 +73,7 @@ data_slim |>
 ```{r}
 
 p1 <- data_full |>
-  filter(win_status == "Lost" & outcome_rel_to_hot == "hot_win_number") |>
+  filter(win_status == "Lost") |>
   ggplot(aes(x = as.factor(hot_set_size), y = regret_chosen, color = choice_hot, fill = choice_hot)) +
   stat_summary(
   fun.data = mean_cl_boot, conf.int = .95, B = 5000,
@@ -88,7 +91,7 @@ p1 <- data_full |>
   facet_wrap(~choice_hot)
 
 p2 <- data_full |>
-  filter(win_status == "Lost" & outcome_rel_to_hot == "hot_win_number") |>
+  filter(win_status == "Lost") |>
   ggplot(aes(x = as.factor(hot_set_size), y = regret_notchosen_winner, color = choice_hot, fill = choice_hot)) +
   stat_summary(
   fun.data = mean_cl_boot, conf.int = .95, B = 5000,
@@ -110,7 +113,7 @@ p1 + p2
 ```
 
 ```{r}
-p1 <- data_slim |>
+p1 <- data_full |>
   filter(win_status == "Lost" & outcome_rel_to_hot == "hot_win_number") |>
   group_by(prolific_pid) |>
   mutate(regret_chosen_pmc = regret_chosen - mean(regret_chosen, na.rm = TRUE)) |>
@@ -122,7 +125,7 @@ p1 <- data_slim |>
   geom = "pointrange", linewidth = 1, size = 1,
   shape = 21
 ) +
-  ylim(-50,50) +
+  ylim(-10,20) +
   labs(x = "N of hot numbers",
      y = "Regret (person-centered)",
      title = "Commission regret",
@@ -132,19 +135,19 @@ p1 <- data_slim |>
   theme(legend.position = "bottom") +
   facet_wrap(~choice_hot)
 
-p2 <- data_slim |>
+p2 <- data_full |>
   filter(win_status == "Lost" & outcome_rel_to_hot == "hot_win_number") |>
   group_by(prolific_pid) |>
   mutate(regret_notchosen_winner_pmc = regret_notchosen_winner - mean(regret_notchosen_winner, na.rm = TRUE)) |>
   ungroup() |>
-  ggplot(aes(x = as.factor(hot_set_size), y = regret_notchosen_winner, color = choice_hot, fill = choice_hot)) +
+  ggplot(aes(x = as.factor(hot_set_size), y = regret_notchosen_winner_pmc, color = choice_hot, fill = choice_hot)) +
   geom_hline(yintercept = 0, linetype = "dashed", color = "black") +
   stat_summary(
   fun.data = mean_cl_boot, conf.int = .95, B = 5000,
   geom = "pointrange", linewidth = 1, size = 1,
   shape = 21
 ) +
-  ylim(-50,50) +
+  ylim(-10,20) +
   labs(x = "N of hot numbers",
      y = "Regret (person-centered)",
      title = "Omission regret",
@@ -174,14 +177,14 @@ data_slim |>
 ```
 
 ```{r}
-data_lost <- data |>
-  filter(win_status == "Lost")
+data_lost <- data_full |>
+  filter(win_status == "Lost" & outcome_rel_to_hot == "hot_win_number")
 
-model1 <- lmer(regret_notchosen_winner ~ outcome_rel_to_hot * hot_set_size + (1|prolific_pid), data = data_lost)
+model1 <- lmer(regret_notchosen_winner ~ choice_hot * hot_set_size + (1|prolific_pid), data = data_lost)
 tab_model(model1)
 sjPlot::plot_model(model1, type = "int")
 
-model2 <- lmer(regret_chosen ~ outcome_rel_to_hot * hot_set_size + (1|prolific_pid), data = data_lost)
+model2 <- lmer(regret_chosen ~  choice_hot * hot_set_size + (1|prolific_pid), data = data_lost)
 tab_model(model2)
 sjPlot::plot_model(model2, type = "int")
 
@@ -189,14 +192,15 @@ sjPlot::plot_model(model2, type = "int")
 
 
 ```{r}
-data_slim |> 
+data_full |> 
   filter(win_status == "Lost") |>
   mutate(distance = abs(chosen_number - winner_number)) |>
   ggplot(aes(x = distance, y = regret_chosen)) +
   geom_point(aes(alpha = 0.2)) +
   geom_smooth(method = "lm", se = TRUE, linewidth = 1) +
   labs(x = "Distance from Winner",
-     y = "Regret about choosing") 
+     y = "Regret about choosing") +
+  stat_cor(method = "pearson", label.x.npc = "left", label.y.npc = "top")
 
 ```
 
@@ -208,17 +212,30 @@ data_slim |>
   geom_point(aes(alpha = 0.2)) +
   geom_smooth(method = "lm", se = TRUE, linewidth = 1) +
   labs(x = "Distance from Winner",
-     y = "Regret about not choosing")
+     y = "Regret about not choosing") + 
+  stat_cor(method = "pearson", label.x.npc = "left", label.y.npc = "top")
 ```
 
 ```{r}
 data_slim |>
-  filter(win_status == "Lost") |>
+  filter(win_status == "Lost" & outcome_rel_to_hot == "hot_win_number") |>
+  filter(choice_hot == "Chose Hot") |>
   ggplot(aes(x = regret_chosen, y = regret_notchosen_winner)) +
   geom_point(aes(alpha = 0.2)) +
   geom_smooth(method = "lm", se = TRUE, linewidth = 1) +
   labs(x = "Regret about choosing losing",
-     y = "Regret about not choosing winning")
+     y = "Regret about not choosing winning") +
+  stat_cor(method = "pearson", label.x.npc = "left", label.y.npc = "top") 
+
+data_slim |>
+  filter(win_status == "Lost" & outcome_rel_to_hot == "hot_win_number") |>
+  filter(choice_hot == "Chose Non-Hot") |>
+  ggplot(aes(x = regret_chosen, y = regret_notchosen_winner)) +
+  geom_point(aes(alpha = 0.2)) +
+  geom_smooth(method = "lm", se = TRUE, linewidth = 1) +
+  labs(x = "Regret about choosing losing",
+     y = "Regret about not choosing winning") +
+  stat_cor(method = "pearson", label.x.npc = "left", label.y.npc = "top") 
 ```
 
 ```{r}
@@ -238,7 +255,7 @@ data_slim |>
 data_full |>
   filter(win_status == "Lost" & outcome_rel_to_hot == "hot_win_number") |>
   pivot_longer(cols = c(regret_chosen, regret_notchosen_winner), names_to = "regret_type", values_to = "regret_value") |>
-  ggplot(aes(x = as.factor(hot_set_size), y = regret_value, color = interaction(regret_type, choice_hot), fill = interaction(regret_type, choice_hot))) +
+  ggplot(aes(x = choice_hot, y = regret_value, color = interaction(regret_type, choice_hot), fill = interaction(regret_type, choice_hot))) +
   stat_summary(
   fun.data = mean_cl_boot, conf.int = .95, B = 5000,
   geom = "pointrange", linewidth = 1, size = 1,
@@ -252,32 +269,30 @@ data_full |>
   scale_color_manual(values = pal_combined, name = "Participant's choice:") +
   scale_fill_manual(values = pal_combined, name = "Participant's choice:") +
   theme(legend.position = "bottom") +
-  facet_wrap(~ choice_hot)
+  facet_wrap(~ hot_set_size, nrow = 1)
 ```
 
 ```{r}
 data_full |>
-  filter(win_status == "Lost" & outcome_rel_to_hot == "hot_win_number") |>
+  filter(win_status == "Lost") |>
+  pivot_longer(cols = c(regret_chosen, regret_notchosen_winner), names_to = "regret_type", values_to = "regret_value") |>
   group_by(prolific_pid) |>
-  mutate(regret_chosen_pmc = regret_chosen - mean(regret_chosen, na.rm = TRUE),
-         regret_notchosen_winner_pmc = regret_notchosen_winner - mean(regret_notchosen_winner, na.rm = TRUE)) |>
+  mutate(regret_pmc = regret_value - mean(regret_value, na.rm = TRUE)) |>
   ungroup() |>
-  pivot_longer(cols = c(regret_chosen_pmc, regret_notchosen_winner_pmc), names_to = "regret_type", values_to = "regret_value") |>
-  ggplot(aes(x = as.factor(hot_set_size), y = regret_value, color = interaction(regret_type, choice_hot), fill = interaction(regret_type, choice_hot))) +
+  ggplot(aes(x = choice_hot, y = regret_pmc, color = interaction(regret_type, choice_hot), fill = interaction(regret_type, choice_hot))) +
   stat_summary(
   fun.data = mean_cl_boot, conf.int = .95, B = 5000,
   geom = "pointrange", linewidth = 1, size = 1,
   shape = 21,
   position = position_dodge(width = 0.3)
 ) +
-  ylim(-50,50) +
   labs(x = "N of hot numbers",
      y = "Regret (person-centered)",
      subtitle = "Hot number won") +
   scale_color_manual(values = pal_combined, name = "Participant's choice:") +
   scale_fill_manual(values = pal_combined, name = "Participant's choice:") +
   theme(legend.position = "bottom") +
-  facet_wrap(~ choice_hot)
+  facet_wrap(~ hot_set_size, nrow = 1)
 ```
 
 

@@ -46,7 +46,7 @@ list.files("data", all.files = TRUE)
 #download all files in the osf project into ../../data
 osf_retrieve_node("https://osf.io/u36hw/") |>
   osf_ls_files(n_max = Inf) |>
-  osf_download(conflicts = "overwrite", path = "data/")
+  osf_download(conflicts = "skip", path = "data/")
 ```
 
 ```{r}

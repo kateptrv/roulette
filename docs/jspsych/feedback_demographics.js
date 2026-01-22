@@ -37,6 +37,32 @@ const feedback_demographics = {
           </label>
         </div>
 
+        <!-- Hot-number reliance -->
+        <div style="margin-bottom:2em;">
+          <div style="margin-bottom:0.5em;">
+            <strong>Decision strategy</strong>
+          </div>
+
+          <div style="margin-bottom:0.5em;">
+            When making your choices in the game, how much did you rely on the “hot numbers” information?
+          </div>
+
+          <label style="display:block; margin:0.25em 0;">
+            <input type="radio" name="hot_reliance" value="Not at all">
+            Not at all
+          </label>
+
+          <label style="display:block; margin:0.25em 0;">
+            <input type="radio" name="hot_reliance" value="Sometimes">
+            Sometimes
+          </label>
+
+          <label style="display:block; margin:0.25em 0;">
+            <input type="radio" name="hot_reliance" value="All the time">
+            All the time
+          </label>
+        </div>
+
 
         <!-- Demographics Section -->
         <div style="
@@ -99,6 +125,7 @@ const feedback_demographics = {
       response.feedback = data.response.feedback;
       response.age = parseInt(data.response.age);
       response.gamble_freq_12mo = data.response.gamble_freq_12mo;
+      response.hot_reliance = data.response.hot_reliance;
   
       // Race
       response.race =

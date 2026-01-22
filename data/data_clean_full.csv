@@ -119,6 +119,30 @@ prolific_pid,trial,balance,chosen_number,winner_number,banner_yn,win_status,hot_
 5d42486206811e001ada5b4b,22,1.1599999999999997,8,34,Banner,Lost,16,hot_win_number,Chose Non-Hot,100,100,0,4
 5d42486206811e001ada5b4b,23,1.1499999999999997,16,8,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,4
 5d42486206811e001ada5b4b,24,1.4999999999999996,16,16,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,4
+5d88db42c1d06e001a1fdcab,1,0.29,6,7,No Banner,Lost,0,NA,Chose Non-Hot,78,89,NA,1
+5d88db42c1d06e001a1fdcab,2,0.27999999999999997,21,13,No Banner,Lost,0,NA,Chose Non-Hot,77,95,NA,1
+5d88db42c1d06e001a1fdcab,3,0.6299999999999999,28,28,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+5d88db42c1d06e001a1fdcab,4,0.6199999999999999,30,1,No Banner,Lost,0,NA,Chose Non-Hot,76,87,NA,1
+5d88db42c1d06e001a1fdcab,5,0.6099999999999999,6,2,Banner,Lost,16,nonhot_win_number,Chose Hot,72,79,46,1
+5d88db42c1d06e001a1fdcab,6,0.5999999999999999,23,33,Banner,Lost,2,hot_win_number,Chose Hot,100,100,NA,1
+5d88db42c1d06e001a1fdcab,7,0.5899999999999999,33,32,No Banner,Lost,0,NA,Chose Non-Hot,86,93,NA,1
+5d88db42c1d06e001a1fdcab,8,0.5799999999999998,4,2,Banner,Lost,3,hot_win_number,Chose Hot,77,87,15,1
+5d88db42c1d06e001a1fdcab,9,0.9299999999999998,17,17,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+5d88db42c1d06e001a1fdcab,10,0.9199999999999998,25,16,No Banner,Lost,0,NA,Chose Non-Hot,77,27,NA,1
+5d88db42c1d06e001a1fdcab,11,0.9099999999999998,35,12,No Banner,Lost,0,NA,Chose Non-Hot,91,20,NA,1
+5d88db42c1d06e001a1fdcab,12,0.8999999999999998,24,29,No Banner,Lost,0,NA,Chose Non-Hot,78,98,NA,1
+5d88db42c1d06e001a1fdcab,13,0.8899999999999998,28,18,Banner,Lost,8,nonhot_win_number,Chose Hot,93,93,2,1
+5d88db42c1d06e001a1fdcab,14,0.8799999999999998,26,25,No Banner,Lost,0,NA,Chose Non-Hot,87,94,NA,1
+5d88db42c1d06e001a1fdcab,15,0.8699999999999998,19,30,Banner,Lost,8,hot_win_number,Chose Hot,87,93,0,1
+5d88db42c1d06e001a1fdcab,16,0.8599999999999998,11,8,Banner,Lost,16,hot_win_number,Chose Hot,89,97,0,1
+5d88db42c1d06e001a1fdcab,17,1.2099999999999995,2,2,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+5d88db42c1d06e001a1fdcab,18,1.1999999999999995,27,15,Banner,Lost,1,nonhot_win_number,Chose Hot,91,97,NA,1
+5d88db42c1d06e001a1fdcab,19,1.1899999999999995,32,28,Banner,Lost,3,nonhot_win_number,Chose Hot,94,95,0,1
+5d88db42c1d06e001a1fdcab,20,1.1799999999999995,21,4,No Banner,Lost,0,NA,Chose Non-Hot,96,99,NA,1
+5d88db42c1d06e001a1fdcab,21,1.1699999999999997,28,30,Banner,Lost,2,nonhot_win_number,Chose Hot,99,99,2,1
+5d88db42c1d06e001a1fdcab,22,1.1599999999999997,22,25,Banner,Lost,1,nonhot_win_number,Chose Hot,98,100,NA,1
+5d88db42c1d06e001a1fdcab,23,1.1499999999999997,10,2,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1
+5d88db42c1d06e001a1fdcab,24,1.4999999999999996,24,24,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
 5dd61a909ca8a35c14d8d610,1,0.29,3,30,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,0,0,0,1
 5dd61a909ca8a35c14d8d610,2,0.27999999999999997,12,27,Banner,Lost,8,nonhot_win_number,Chose Non-Hot,0,0,0,1
 5dd61a909ca8a35c14d8d610,3,0.26999999999999996,7,9,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,1
@@ -143,6 +167,54 @@ prolific_pid,trial,balance,chosen_number,winner_number,banner_yn,win_status,hot_
 5dd61a909ca8a35c14d8d610,22,1.5199999999999998,17,29,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,1
 5dd61a909ca8a35c14d8d610,23,1.5099999999999998,7,11,Banner,Lost,2,hot_win_number,Chose Hot,0,0,NA,1
 5dd61a909ca8a35c14d8d610,24,1.4999999999999998,29,25,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,1
+5e07a0898dffa00ff1aaf60f,1,0.29,23,36,Banner,Lost,8,nonhot_win_number,Chose Non-Hot,12,13,13,2
+5e07a0898dffa00ff1aaf60f,2,0.27999999999999997,27,18,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,2
+5e07a0898dffa00ff1aaf60f,3,0.26999999999999996,32,20,Banner,Lost,3,nonhot_win_number,Chose Hot,0,0,0,2
+5e07a0898dffa00ff1aaf60f,4,0.6199999999999999,15,15,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
+5e07a0898dffa00ff1aaf60f,5,0.6099999999999999,12,19,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,2
+5e07a0898dffa00ff1aaf60f,6,0.5999999999999999,14,17,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,2
+5e07a0898dffa00ff1aaf60f,7,0.5899999999999999,5,12,Banner,Lost,1,nonhot_win_number,Chose Hot,100,0,NA,2
+5e07a0898dffa00ff1aaf60f,8,0.5799999999999998,26,29,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,2
+5e07a0898dffa00ff1aaf60f,9,0.5699999999999998,18,12,Banner,Lost,2,nonhot_win_number,Chose Hot,0,0,0,2
+5e07a0898dffa00ff1aaf60f,10,0.9199999999999998,28,28,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
+5e07a0898dffa00ff1aaf60f,11,0.9099999999999998,16,5,Banner,Lost,16,nonhot_win_number,Chose Non-Hot,0,0,0,2
+5e07a0898dffa00ff1aaf60f,12,0.8999999999999998,10,14,Banner,Lost,2,hot_win_number,Chose Hot,61,20,NA,2
+5e07a0898dffa00ff1aaf60f,13,0.8899999999999998,20,25,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,2
+5e07a0898dffa00ff1aaf60f,14,0.8799999999999998,2,31,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,2
+5e07a0898dffa00ff1aaf60f,15,0.8699999999999998,29,16,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,2
+5e07a0898dffa00ff1aaf60f,16,0.8599999999999998,15,22,Banner,Lost,8,hot_win_number,Chose Non-Hot,0,0,0,2
+5e07a0898dffa00ff1aaf60f,17,0.8499999999999998,16,24,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,0,0,0,2
+5e07a0898dffa00ff1aaf60f,18,1.1999999999999995,9,9,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
+5e07a0898dffa00ff1aaf60f,19,1.1899999999999995,28,14,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,2
+5e07a0898dffa00ff1aaf60f,20,1.1799999999999995,17,8,Banner,Lost,3,hot_win_number,Chose Non-Hot,0,0,0,2
+5e07a0898dffa00ff1aaf60f,21,1.5299999999999998,9,9,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
+5e07a0898dffa00ff1aaf60f,22,1.5199999999999998,23,34,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,2
+5e07a0898dffa00ff1aaf60f,23,1.5099999999999998,18,24,Banner,Lost,16,hot_win_number,Chose Non-Hot,0,0,0,2
+5e07a0898dffa00ff1aaf60f,24,1.4999999999999998,16,32,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,2
+5e2ac2aa0038f21089a533a4,1,0.29,23,2,No Banner,Lost,0,NA,Chose Non-Hot,100,50,NA,2
+5e2ac2aa0038f21089a533a4,2,0.27999999999999997,27,35,No Banner,Lost,0,NA,Chose Non-Hot,100,54,NA,2
+5e2ac2aa0038f21089a533a4,3,0.6299999999999999,33,33,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
+5e2ac2aa0038f21089a533a4,4,0.6199999999999999,3,20,Banner,Lost,2,hot_win_number,Chose Non-Hot,100,53,0,2
+5e2ac2aa0038f21089a533a4,5,0.6099999999999999,12,4,Banner,Lost,3,hot_win_number,Chose Non-Hot,100,58,0,2
+5e2ac2aa0038f21089a533a4,6,0.5999999999999999,31,6,No Banner,Lost,0,NA,Chose Non-Hot,100,52,NA,2
+5e2ac2aa0038f21089a533a4,7,0.5899999999999999,9,18,Banner,Lost,16,hot_win_number,Chose Non-Hot,100,56,0,2
+5e2ac2aa0038f21089a533a4,8,0.5799999999999998,27,22,No Banner,Lost,0,NA,Chose Non-Hot,100,52,NA,2
+5e2ac2aa0038f21089a533a4,9,0.5699999999999998,33,31,No Banner,Lost,0,NA,Chose Non-Hot,100,55,NA,2
+5e2ac2aa0038f21089a533a4,10,0.5599999999999998,14,6,No Banner,Lost,0,NA,Chose Non-Hot,100,56,NA,2
+5e2ac2aa0038f21089a533a4,11,0.5499999999999998,29,30,No Banner,Lost,0,NA,Chose Non-Hot,100,54,NA,2
+5e2ac2aa0038f21089a533a4,12,0.8999999999999998,31,31,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
+5e2ac2aa0038f21089a533a4,13,0.8899999999999998,17,8,Banner,Lost,2,nonhot_win_number,Chose Non-Hot,100,57,0,2
+5e2ac2aa0038f21089a533a4,14,0.8799999999999998,20,13,No Banner,Lost,0,NA,Chose Non-Hot,100,51,NA,2
+5e2ac2aa0038f21089a533a4,15,0.8699999999999998,17,28,Banner,Lost,8,nonhot_win_number,Chose Non-Hot,100,54,0,2
+5e2ac2aa0038f21089a533a4,16,0.8599999999999998,13,8,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,100,59,0,2
+5e2ac2aa0038f21089a533a4,17,0.8499999999999998,34,29,No Banner,Lost,0,NA,Chose Non-Hot,100,53,NA,2
+5e2ac2aa0038f21089a533a4,18,1.1999999999999995,8,8,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
+5e2ac2aa0038f21089a533a4,19,1.1899999999999995,24,28,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,100,55,0,2
+5e2ac2aa0038f21089a533a4,20,1.1799999999999995,8,25,Banner,Lost,16,nonhot_win_number,Chose Non-Hot,100,57,0,2
+5e2ac2aa0038f21089a533a4,21,1.1699999999999997,20,35,Banner,Lost,8,hot_win_number,Chose Hot,100,51,0,2
+5e2ac2aa0038f21089a533a4,22,1.1599999999999997,33,29,No Banner,Lost,0,NA,Chose Non-Hot,100,55,NA,2
+5e2ac2aa0038f21089a533a4,23,1.1499999999999997,17,2,Banner,Lost,3,nonhot_win_number,Chose Non-Hot,100,50,0,2
+5e2ac2aa0038f21089a533a4,24,1.4999999999999996,26,26,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
 5e59ee3a2bff541fcf05d86e,1,0.29,36,12,Banner,Lost,2,hot_win_number,Chose Hot,72,76,NA,1
 5e59ee3a2bff541fcf05d86e,2,0.27999999999999997,22,20,Banner,Lost,1,nonhot_win_number,Chose Hot,44,29,NA,1
 5e59ee3a2bff541fcf05d86e,3,0.26999999999999996,16,34,No Banner,Lost,0,NA,Chose Non-Hot,25,29,NA,1
@@ -215,6 +287,54 @@ prolific_pid,trial,balance,chosen_number,winner_number,banner_yn,win_status,hot_
 5ed559e5afbd830e2117ed55,22,1.1599999999999997,34,10,No Banner,Lost,0,NA,Chose Non-Hot,57,74,NA,1
 5ed559e5afbd830e2117ed55,23,1.1499999999999997,10,3,Banner,Lost,16,hot_win_number,Chose Hot,58,79,0,1
 5ed559e5afbd830e2117ed55,24,1.4999999999999996,25,25,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+5ef55b1c3395621b627d3ae9,1,0.29,36,32,Banner,Lost,1,nonhot_win_number,Chose Hot,2,50,NA,1
+5ef55b1c3395621b627d3ae9,2,0.27999999999999997,9,30,No Banner,Lost,0,NA,Chose Non-Hot,94,58,NA,1
+5ef55b1c3395621b627d3ae9,3,0.26999999999999996,11,12,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,49,84,1,1
+5ef55b1c3395621b627d3ae9,4,0.25999999999999995,14,9,Banner,Lost,16,hot_win_number,Chose Hot,72,85,1,1
+5ef55b1c3395621b627d3ae9,5,0.6099999999999999,5,5,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+5ef55b1c3395621b627d3ae9,6,0.5999999999999999,29,36,Banner,Lost,3,hot_win_number,Chose Hot,71,93,0,1
+5ef55b1c3395621b627d3ae9,7,0.5899999999999999,8,24,No Banner,Lost,0,NA,Chose Non-Hot,82,93,NA,1
+5ef55b1c3395621b627d3ae9,8,0.5799999999999998,4,13,No Banner,Lost,0,NA,Chose Non-Hot,90,100,NA,1
+5ef55b1c3395621b627d3ae9,9,0.5699999999999998,2,29,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1
+5ef55b1c3395621b627d3ae9,10,0.9199999999999998,25,25,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+5ef55b1c3395621b627d3ae9,11,0.9099999999999998,4,34,Banner,Lost,8,hot_win_number,Chose Hot,51,92,56,1
+5ef55b1c3395621b627d3ae9,12,0.8999999999999998,21,32,Banner,Lost,16,nonhot_win_number,Chose Hot,100,100,0,1
+5ef55b1c3395621b627d3ae9,13,0.8899999999999998,18,21,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1
+5ef55b1c3395621b627d3ae9,14,0.8799999999999998,7,27,Banner,Lost,3,nonhot_win_number,Chose Hot,100,100,0,1
+5ef55b1c3395621b627d3ae9,15,0.8699999999999998,16,23,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1
+5ef55b1c3395621b627d3ae9,16,1.2199999999999998,3,3,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+5ef55b1c3395621b627d3ae9,17,1.2099999999999995,20,23,Banner,Lost,2,hot_win_number,Chose Hot,100,100,NA,1
+5ef55b1c3395621b627d3ae9,18,1.1999999999999995,8,18,Banner,Lost,8,nonhot_win_number,Chose Hot,82,100,0,1
+5ef55b1c3395621b627d3ae9,19,1.1899999999999995,19,32,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1
+5ef55b1c3395621b627d3ae9,20,1.1799999999999995,27,36,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1
+5ef55b1c3395621b627d3ae9,21,1.1699999999999997,32,16,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1
+5ef55b1c3395621b627d3ae9,22,1.1599999999999997,6,9,Banner,Lost,2,nonhot_win_number,Chose Hot,100,100,0,1
+5ef55b1c3395621b627d3ae9,23,1.5099999999999998,11,11,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+5ef55b1c3395621b627d3ae9,24,1.4999999999999998,14,27,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1
+5fd18d125e1f92195b1717bc,1,0.29,21,24,No Banner,Lost,0,NA,Chose Non-Hot,65,50,NA,4
+5fd18d125e1f92195b1717bc,2,0.27999999999999997,5,7,No Banner,Lost,0,NA,Chose Non-Hot,45,46,NA,4
+5fd18d125e1f92195b1717bc,3,0.26999999999999996,29,17,No Banner,Lost,0,NA,Chose Non-Hot,72,49,NA,4
+5fd18d125e1f92195b1717bc,4,0.25999999999999995,3,6,Banner,Lost,16,nonhot_win_number,Chose Hot,22,43,0,4
+5fd18d125e1f92195b1717bc,5,0.6099999999999999,5,5,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,4
+5fd18d125e1f92195b1717bc,6,0.5999999999999999,34,14,No Banner,Lost,0,NA,Chose Non-Hot,29,56,NA,4
+5fd18d125e1f92195b1717bc,7,0.5899999999999999,10,9,Banner,Lost,3,hot_win_number,Chose Non-Hot,43,51,0,4
+5fd18d125e1f92195b1717bc,8,0.5799999999999998,28,27,No Banner,Lost,0,NA,Chose Non-Hot,64,69,NA,4
+5fd18d125e1f92195b1717bc,9,0.9299999999999998,5,5,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,4
+5fd18d125e1f92195b1717bc,10,0.9199999999999998,19,2,No Banner,Lost,0,NA,Chose Non-Hot,60,71,NA,4
+5fd18d125e1f92195b1717bc,11,0.9099999999999998,14,10,Banner,Lost,8,nonhot_win_number,Chose Hot,21,51,0,4
+5fd18d125e1f92195b1717bc,12,0.8999999999999998,22,4,Banner,Lost,16,hot_win_number,Chose Non-Hot,70,66,0,4
+5fd18d125e1f92195b1717bc,13,0.8899999999999998,17,32,No Banner,Lost,0,NA,Chose Non-Hot,46,55,NA,4
+5fd18d125e1f92195b1717bc,14,0.8799999999999998,33,13,Banner,Lost,2,nonhot_win_number,Chose Hot,54,63,0,4
+5fd18d125e1f92195b1717bc,15,0.8699999999999998,6,2,Banner,Lost,1,nonhot_win_number,Chose Hot,62,83,NA,4
+5fd18d125e1f92195b1717bc,16,1.2199999999999998,20,20,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,4
+5fd18d125e1f92195b1717bc,17,1.2099999999999995,27,17,No Banner,Lost,0,NA,Chose Non-Hot,49,52,NA,4
+5fd18d125e1f92195b1717bc,18,1.1999999999999995,31,8,Banner,Lost,1,nonhot_win_number,Chose Hot,74,52,NA,4
+5fd18d125e1f92195b1717bc,19,1.1899999999999995,19,8,Banner,Lost,2,hot_win_number,Chose Non-Hot,75,88,59,4
+5fd18d125e1f92195b1717bc,20,1.1799999999999995,31,36,No Banner,Lost,0,NA,Chose Non-Hot,46,63,NA,4
+5fd18d125e1f92195b1717bc,21,1.1699999999999997,29,5,Banner,Lost,3,nonhot_win_number,Chose Hot,51,57,0,4
+5fd18d125e1f92195b1717bc,22,1.1599999999999997,11,16,No Banner,Lost,0,NA,Chose Non-Hot,64,73,NA,4
+5fd18d125e1f92195b1717bc,23,1.5099999999999998,12,12,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,4
+5fd18d125e1f92195b1717bc,24,1.4999999999999998,20,24,Banner,Lost,8,hot_win_number,Chose Non-Hot,50,59,0,4
 606cf604adbb6982bb382881,1,0.29,6,24,Banner,Lost,16,nonhot_win_number,Chose Hot,76,90,0,2
 606cf604adbb6982bb382881,2,0.27999999999999997,21,30,No Banner,Lost,0,NA,Chose Non-Hot,71,100,NA,2
 606cf604adbb6982bb382881,3,0.26999999999999996,22,24,Banner,Lost,2,nonhot_win_number,Chose Hot,79,97,0,2
@@ -311,6 +431,30 @@ prolific_pid,trial,balance,chosen_number,winner_number,banner_yn,win_status,hot_
 6100ac178a474bfcc555379b,22,1.1599999999999997,3,10,Banner,Lost,3,nonhot_win_number,Chose Hot,4,1,0,1
 6100ac178a474bfcc555379b,23,1.1499999999999997,27,3,No Banner,Lost,0,NA,Chose Non-Hot,44,29,NA,1
 6100ac178a474bfcc555379b,24,1.4999999999999996,27,27,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+61109efff90b5bcc15b68b75,1,0.29,15,24,Banner,Lost,8,nonhot_win_number,Chose Non-Hot,0,34,0,1
+61109efff90b5bcc15b68b75,2,0.27999999999999997,15,25,No Banner,Lost,0,NA,Chose Non-Hot,0,28,NA,1
+61109efff90b5bcc15b68b75,3,0.26999999999999996,21,27,Banner,Lost,3,hot_win_number,Chose Hot,6,37,0,1
+61109efff90b5bcc15b68b75,4,0.25999999999999995,15,12,Banner,Lost,2,hot_win_number,Chose Non-Hot,0,47,0,1
+61109efff90b5bcc15b68b75,5,0.6099999999999999,15,15,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+61109efff90b5bcc15b68b75,6,0.5999999999999999,15,11,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,1
+61109efff90b5bcc15b68b75,7,0.5899999999999999,15,8,Banner,Lost,3,nonhot_win_number,Chose Non-Hot,0,35,0,1
+61109efff90b5bcc15b68b75,8,0.5799999999999998,21,23,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,12,37,0,1
+61109efff90b5bcc15b68b75,9,0.9299999999999998,15,15,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+61109efff90b5bcc15b68b75,10,0.9199999999999998,21,8,No Banner,Lost,0,NA,Chose Non-Hot,0,63,NA,1
+61109efff90b5bcc15b68b75,11,0.9099999999999998,15,17,No Banner,Lost,0,NA,Chose Non-Hot,0,21,NA,1
+61109efff90b5bcc15b68b75,12,0.8999999999999998,15,36,No Banner,Lost,0,NA,Chose Non-Hot,0,29,NA,1
+61109efff90b5bcc15b68b75,13,0.8899999999999998,15,17,No Banner,Lost,0,NA,Chose Non-Hot,0,15,NA,1
+61109efff90b5bcc15b68b75,14,0.8799999999999998,15,19,Banner,Lost,16,hot_win_number,Chose Non-Hot,0,19,0,1
+61109efff90b5bcc15b68b75,15,0.8699999999999998,15,3,Banner,Lost,8,hot_win_number,Chose Non-Hot,0,16,0,1
+61109efff90b5bcc15b68b75,16,1.2199999999999998,15,15,No Banner,Won,0,NA,Chose Non-Hot,10,NA,NA,1
+61109efff90b5bcc15b68b75,17,1.2099999999999995,15,8,Banner,Lost,16,nonhot_win_number,Chose Non-Hot,0,19,0,1
+61109efff90b5bcc15b68b75,18,1.1999999999999995,15,1,No Banner,Lost,0,NA,Chose Non-Hot,0,17,NA,1
+61109efff90b5bcc15b68b75,19,1.1899999999999995,15,27,No Banner,Lost,0,NA,Chose Non-Hot,12,20,NA,1
+61109efff90b5bcc15b68b75,20,1.1799999999999995,15,13,No Banner,Lost,0,NA,Chose Non-Hot,0,13,NA,1
+61109efff90b5bcc15b68b75,21,1.1699999999999997,15,30,No Banner,Lost,0,NA,Chose Non-Hot,0,15,NA,1
+61109efff90b5bcc15b68b75,22,1.1599999999999997,15,25,Banner,Lost,2,nonhot_win_number,Chose Non-Hot,0,26,0,1
+61109efff90b5bcc15b68b75,23,1.5099999999999998,15,15,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+61109efff90b5bcc15b68b75,24,1.4999999999999998,15,18,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,0,13,0,1
 611b00c6f6cc82766cd07c16,1,0.29,13,2,Banner,Lost,1,nonhot_win_number,Chose Hot,19,19,NA,3
 611b00c6f6cc82766cd07c16,2,0.27999999999999997,5,8,No Banner,Lost,0,NA,Chose Non-Hot,5,6,NA,3
 611b00c6f6cc82766cd07c16,3,0.6299999999999999,15,15,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,3
@@ -431,6 +575,78 @@ prolific_pid,trial,balance,chosen_number,winner_number,banner_yn,win_status,hot_
 6144b21806fb764e5f179bc2,22,1.1599999999999997,19,15,Banner,Lost,3,nonhot_win_number,Chose Non-Hot,16,18,4,1
 6144b21806fb764e5f179bc2,23,1.5099999999999998,19,19,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
 6144b21806fb764e5f179bc2,24,1.4999999999999998,19,12,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1
+614f23fabc0fcaa3cdfb9e05,1,0.29,21,20,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,18,55,0,2
+614f23fabc0fcaa3cdfb9e05,2,0.27999999999999997,14,18,No Banner,Lost,0,NA,Chose Non-Hot,59,74,NA,2
+614f23fabc0fcaa3cdfb9e05,3,0.6299999999999999,24,24,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
+614f23fabc0fcaa3cdfb9e05,4,0.6199999999999999,21,13,No Banner,Lost,0,NA,Chose Non-Hot,57,86,NA,2
+614f23fabc0fcaa3cdfb9e05,5,0.6099999999999999,33,25,Banner,Lost,1,nonhot_win_number,Chose Hot,32,63,NA,2
+614f23fabc0fcaa3cdfb9e05,6,0.5999999999999999,5,29,No Banner,Lost,0,NA,Chose Non-Hot,55,72,NA,2
+614f23fabc0fcaa3cdfb9e05,7,0.5899999999999999,8,26,No Banner,Lost,0,NA,Chose Non-Hot,44,67,NA,2
+614f23fabc0fcaa3cdfb9e05,8,0.5799999999999998,24,22,No Banner,Lost,0,NA,Chose Non-Hot,41,71,NA,2
+614f23fabc0fcaa3cdfb9e05,9,0.5699999999999998,15,30,Banner,Lost,16,nonhot_win_number,Chose Hot,39,69,0,2
+614f23fabc0fcaa3cdfb9e05,10,0.5599999999999998,29,14,No Banner,Lost,0,NA,Chose Non-Hot,51,68,NA,2
+614f23fabc0fcaa3cdfb9e05,11,0.5499999999999998,24,5,Banner,Lost,2,nonhot_win_number,Chose Hot,42,71,0,2
+614f23fabc0fcaa3cdfb9e05,12,0.8999999999999998,25,25,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
+614f23fabc0fcaa3cdfb9e05,13,0.8899999999999998,8,6,Banner,Lost,2,hot_win_number,Chose Hot,33,8,NA,2
+614f23fabc0fcaa3cdfb9e05,14,0.8799999999999998,24,21,No Banner,Lost,0,NA,Chose Non-Hot,47,79,NA,2
+614f23fabc0fcaa3cdfb9e05,15,1.2299999999999998,12,12,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
+614f23fabc0fcaa3cdfb9e05,16,1.2199999999999998,25,5,Banner,Lost,3,nonhot_win_number,Chose Hot,29,76,0,2
+614f23fabc0fcaa3cdfb9e05,17,1.2099999999999995,33,5,No Banner,Lost,0,NA,Chose Non-Hot,49,82,NA,2
+614f23fabc0fcaa3cdfb9e05,18,1.1999999999999995,21,3,Banner,Lost,3,hot_win_number,Chose Non-Hot,73,83,0,2
+614f23fabc0fcaa3cdfb9e05,19,1.1899999999999995,24,28,No Banner,Lost,0,NA,Chose Non-Hot,43,67,NA,2
+614f23fabc0fcaa3cdfb9e05,20,1.1799999999999995,6,13,Banner,Lost,8,nonhot_win_number,Chose Hot,41,76,0,2
+614f23fabc0fcaa3cdfb9e05,21,1.5299999999999998,28,28,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
+614f23fabc0fcaa3cdfb9e05,22,1.5199999999999998,17,29,No Banner,Lost,0,NA,Chose Non-Hot,33,75,NA,2
+614f23fabc0fcaa3cdfb9e05,23,1.5099999999999998,10,19,Banner,Lost,8,hot_win_number,Chose Hot,22,60,0,2
+614f23fabc0fcaa3cdfb9e05,24,1.4999999999999998,12,15,Banner,Lost,16,hot_win_number,Chose Hot,44,70,0,2
+614f4893a7f27d638ea5e58c,1,0.29,15,3,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,1
+614f4893a7f27d638ea5e58c,2,0.27999999999999997,15,9,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,1
+614f4893a7f27d638ea5e58c,3,0.6299999999999999,15,15,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+614f4893a7f27d638ea5e58c,4,0.6199999999999999,11,28,Banner,Lost,1,nonhot_win_number,Chose Hot,0,0,NA,1
+614f4893a7f27d638ea5e58c,5,0.6099999999999999,15,27,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,1
+614f4893a7f27d638ea5e58c,6,0.5999999999999999,6,17,Banner,Lost,2,nonhot_win_number,Chose Hot,0,0,0,1
+614f4893a7f27d638ea5e58c,7,0.5899999999999999,15,6,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,1
+614f4893a7f27d638ea5e58c,8,0.5799999999999998,16,31,Banner,Lost,2,hot_win_number,Chose Hot,0,0,NA,1
+614f4893a7f27d638ea5e58c,9,0.5699999999999998,9,20,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,1
+614f4893a7f27d638ea5e58c,10,0.5599999999999998,21,27,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,1
+614f4893a7f27d638ea5e58c,11,0.9099999999999998,22,22,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+614f4893a7f27d638ea5e58c,12,0.8999999999999998,9,3,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,1
+614f4893a7f27d638ea5e58c,13,0.8899999999999998,14,33,Banner,Lost,3,nonhot_win_number,Chose Hot,0,0,0,1
+614f4893a7f27d638ea5e58c,14,0.8799999999999998,21,1,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,1
+614f4893a7f27d638ea5e58c,15,0.8699999999999998,5,3,Banner,Lost,8,hot_win_number,Chose Hot,0,0,0,1
+614f4893a7f27d638ea5e58c,16,0.8599999999999998,33,24,Banner,Lost,16,hot_win_number,Chose Hot,0,0,0,1
+614f4893a7f27d638ea5e58c,17,1.2099999999999995,22,22,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+614f4893a7f27d638ea5e58c,18,1.1999999999999995,30,3,Banner,Lost,8,nonhot_win_number,Chose Hot,0,0,0,1
+614f4893a7f27d638ea5e58c,19,1.1899999999999995,32,24,Banner,Lost,16,nonhot_win_number,Chose Hot,0,0,0,1
+614f4893a7f27d638ea5e58c,20,1.1799999999999995,26,9,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,1
+614f4893a7f27d638ea5e58c,21,1.1699999999999997,22,11,Banner,Lost,1,nonhot_win_number,Chose Hot,0,0,NA,1
+614f4893a7f27d638ea5e58c,22,1.1599999999999997,29,8,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,1
+614f4893a7f27d638ea5e58c,23,1.5099999999999998,8,8,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+614f4893a7f27d638ea5e58c,24,1.4999999999999998,8,15,Banner,Lost,3,hot_win_number,Chose Hot,0,0,0,1
+61647de75314468d5cb57f93,1,0.29,16,29,No Banner,Lost,0,NA,Chose Non-Hot,40,87,NA,1
+61647de75314468d5cb57f93,2,0.27999999999999997,30,26,No Banner,Lost,0,NA,Chose Non-Hot,63,85,NA,1
+61647de75314468d5cb57f93,3,0.6299999999999999,23,23,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+61647de75314468d5cb57f93,4,0.6199999999999999,21,31,No Banner,Lost,0,NA,Chose Non-Hot,73,39,NA,1
+61647de75314468d5cb57f93,5,0.6099999999999999,27,32,Banner,Lost,8,nonhot_win_number,Chose Non-Hot,72,43,0,1
+61647de75314468d5cb57f93,6,0.5999999999999999,15,4,Banner,Lost,2,hot_win_number,Chose Hot,69,100,NA,1
+61647de75314468d5cb57f93,7,0.5899999999999999,23,27,Banner,Lost,16,hot_win_number,Chose Hot,60,100,0,1
+61647de75314468d5cb57f93,8,0.5799999999999998,23,35,No Banner,Lost,0,NA,Chose Non-Hot,100,21,NA,1
+61647de75314468d5cb57f93,9,0.9299999999999998,32,32,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+61647de75314468d5cb57f93,10,0.9199999999999998,27,10,No Banner,Lost,0,NA,Chose Non-Hot,76,25,NA,1
+61647de75314468d5cb57f93,11,0.9099999999999998,18,16,No Banner,Lost,0,NA,Chose Non-Hot,43,100,NA,1
+61647de75314468d5cb57f93,12,0.8999999999999998,27,7,No Banner,Lost,0,NA,Chose Non-Hot,74,56,NA,1
+61647de75314468d5cb57f93,13,0.8899999999999998,9,30,Banner,Lost,3,nonhot_win_number,Chose Hot,100,47,24,1
+61647de75314468d5cb57f93,14,0.8799999999999998,3,12,Banner,Lost,1,nonhot_win_number,Chose Hot,26,8,NA,1
+61647de75314468d5cb57f93,15,0.8699999999999998,20,25,Banner,Lost,2,nonhot_win_number,Chose Hot,59,33,3,1
+61647de75314468d5cb57f93,16,0.8599999999999998,23,29,Banner,Lost,8,hot_win_number,Chose Hot,73,66,16,1
+61647de75314468d5cb57f93,17,1.2099999999999995,23,23,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+61647de75314468d5cb57f93,18,1.1999999999999995,30,36,Banner,Lost,16,nonhot_win_number,Chose Hot,69,43,2,1
+61647de75314468d5cb57f93,19,1.1899999999999995,30,19,No Banner,Lost,0,NA,Chose Non-Hot,66,74,NA,1
+61647de75314468d5cb57f93,20,1.1799999999999995,23,22,No Banner,Lost,0,NA,Chose Non-Hot,59,100,NA,1
+61647de75314468d5cb57f93,21,1.1699999999999997,16,21,Banner,Lost,3,hot_win_number,Chose Non-Hot,76,100,10,1
+61647de75314468d5cb57f93,22,1.5199999999999996,23,23,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+61647de75314468d5cb57f93,23,1.5099999999999996,32,8,No Banner,Lost,0,NA,Chose Non-Hot,100,62,NA,1
+61647de75314468d5cb57f93,24,1.4999999999999996,27,28,Banner,Lost,1,nonhot_win_number,Chose Hot,71,57,NA,1
 6234afc11b0f28d2f618991c,1,0.29,10,27,Banner,Lost,16,nonhot_win_number,Chose Hot,2,2,0,1
 6234afc11b0f28d2f618991c,2,0.27999999999999997,26,3,No Banner,Lost,0,NA,Chose Non-Hot,2,2,NA,1
 6234afc11b0f28d2f618991c,3,0.26999999999999996,33,18,Banner,Lost,3,hot_win_number,Chose Hot,4,2,0,1
@@ -479,6 +695,82 @@ prolific_pid,trial,balance,chosen_number,winner_number,banner_yn,win_status,hot_
 62e641e757a7c8640079fbd9,22,1.1599999999999997,24,19,Banner,Lost,8,nonhot_win_number,Chose Non-Hot,100,100,0,2
 62e641e757a7c8640079fbd9,23,1.1499999999999997,8,36,No Banner,Lost,0,NA,Chose Non-Hot,80,50,NA,2
 62e641e757a7c8640079fbd9,24,1.4999999999999996,17,17,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
+63d141f0a7b0e7ea9526e89d,1,0.29,20,21,Banner,Lost,8,nonhot_win_number,Chose Non-Hot,39,83,0,1
+63d141f0a7b0e7ea9526e89d,2,0.27999999999999997,21,23,No Banner,Lost,0,NA,Chose Non-Hot,23,42,NA,1
+63d141f0a7b0e7ea9526e89d,3,0.26999999999999996,19,1,No Banner,Lost,0,NA,Chose Non-Hot,20,73,NA,1
+63d141f0a7b0e7ea9526e89d,4,0.6199999999999999,27,27,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+63d141f0a7b0e7ea9526e89d,5,0.6099999999999999,19,28,No Banner,Lost,0,NA,Chose Non-Hot,22,48,NA,1
+63d141f0a7b0e7ea9526e89d,6,0.5999999999999999,19,15,No Banner,Lost,0,NA,Chose Non-Hot,22,74,NA,1
+63d141f0a7b0e7ea9526e89d,7,0.5899999999999999,17,24,Banner,Lost,16,hot_win_number,Chose Hot,44,50,0,1
+63d141f0a7b0e7ea9526e89d,8,0.5799999999999998,27,29,No Banner,Lost,0,NA,Chose Non-Hot,22,53,NA,1
+63d141f0a7b0e7ea9526e89d,9,0.5699999999999998,3,28,Banner,Lost,2,hot_win_number,Chose Hot,42,65,NA,1
+63d141f0a7b0e7ea9526e89d,10,0.5599999999999998,13,34,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,16,52,0,1
+63d141f0a7b0e7ea9526e89d,11,0.5499999999999998,13,5,Banner,Lost,3,hot_win_number,Chose Hot,41,61,0,1
+63d141f0a7b0e7ea9526e89d,12,0.8999999999999998,12,12,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+63d141f0a7b0e7ea9526e89d,13,0.8899999999999998,1,15,No Banner,Lost,0,NA,Chose Non-Hot,26,56,NA,1
+63d141f0a7b0e7ea9526e89d,14,0.8799999999999998,30,10,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,12,39,0,1
+63d141f0a7b0e7ea9526e89d,15,0.8699999999999998,34,33,No Banner,Lost,0,NA,Chose Non-Hot,29,55,NA,1
+63d141f0a7b0e7ea9526e89d,16,0.8599999999999998,13,20,No Banner,Lost,0,NA,Chose Non-Hot,29,63,NA,1
+63d141f0a7b0e7ea9526e89d,17,0.8499999999999998,19,1,Banner,Lost,2,nonhot_win_number,Chose Non-Hot,18,44,0,1
+63d141f0a7b0e7ea9526e89d,18,1.1999999999999995,30,30,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+63d141f0a7b0e7ea9526e89d,19,1.1899999999999995,13,35,No Banner,Lost,0,NA,Chose Non-Hot,19,50,NA,1
+63d141f0a7b0e7ea9526e89d,20,1.1799999999999995,27,28,No Banner,Lost,0,NA,Chose Non-Hot,20,33,NA,1
+63d141f0a7b0e7ea9526e89d,21,1.1699999999999997,13,7,Banner,Lost,3,nonhot_win_number,Chose Hot,6,40,0,1
+63d141f0a7b0e7ea9526e89d,22,1.5199999999999996,15,15,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+63d141f0a7b0e7ea9526e89d,23,1.5099999999999996,1,10,Banner,Lost,8,hot_win_number,Chose Non-Hot,10,41,0,1
+63d141f0a7b0e7ea9526e89d,24,1.4999999999999996,12,5,Banner,Lost,16,nonhot_win_number,Chose Hot,19,12,0,1
+64309be1d7d085ed8ee4c129,1,0.29,7,2,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,4
+64309be1d7d085ed8ee4c129,2,0.27999999999999997,21,12,Banner,Lost,3,hot_win_number,Chose Hot,0,0,0,4
+64309be1d7d085ed8ee4c129,3,0.26999999999999996,7,29,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,4
+64309be1d7d085ed8ee4c129,4,0.25999999999999995,23,3,Banner,Lost,3,nonhot_win_number,Chose Non-Hot,0,0,0,4
+64309be1d7d085ed8ee4c129,5,0.6099999999999999,16,16,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,4
+64309be1d7d085ed8ee4c129,6,0.5999999999999999,7,18,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,4
+64309be1d7d085ed8ee4c129,7,0.5899999999999999,23,12,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,4
+64309be1d7d085ed8ee4c129,8,0.5799999999999998,35,31,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,0,0,0,4
+64309be1d7d085ed8ee4c129,9,0.5699999999999998,27,1,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,4
+64309be1d7d085ed8ee4c129,10,0.5599999999999998,23,3,Banner,Lost,16,hot_win_number,Chose Hot,0,0,0,4
+64309be1d7d085ed8ee4c129,11,0.9099999999999998,7,7,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,4
+64309be1d7d085ed8ee4c129,12,0.8999999999999998,16,10,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,4
+64309be1d7d085ed8ee4c129,13,0.8899999999999998,31,24,Banner,Lost,16,nonhot_win_number,Chose Non-Hot,0,0,0,4
+64309be1d7d085ed8ee4c129,14,0.8799999999999998,5,21,Banner,Lost,8,hot_win_number,Chose Non-Hot,0,0,0,4
+64309be1d7d085ed8ee4c129,15,0.8699999999999998,16,20,Banner,Lost,2,nonhot_win_number,Chose Non-Hot,0,0,0,4
+64309be1d7d085ed8ee4c129,16,0.8599999999999998,23,22,Banner,Lost,2,hot_win_number,Chose Non-Hot,0,0,0,4
+64309be1d7d085ed8ee4c129,17,0.8499999999999998,24,34,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,4
+64309be1d7d085ed8ee4c129,18,1.1999999999999995,16,16,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,4
+64309be1d7d085ed8ee4c129,19,1.1899999999999995,27,33,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,4
+64309be1d7d085ed8ee4c129,20,1.1799999999999995,23,9,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,0,0,0,4
+64309be1d7d085ed8ee4c129,21,1.1699999999999997,27,10,Banner,Lost,8,nonhot_win_number,Chose Non-Hot,0,0,0,4
+64309be1d7d085ed8ee4c129,22,1.1599999999999997,18,13,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,4
+64309be1d7d085ed8ee4c129,23,1.5099999999999998,9,9,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,4
+64309be1d7d085ed8ee4c129,24,1.4999999999999998,25,29,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,4
+64d5219df0415c9a7c609c19,1,0.09000000000000001,15,22,No Banner,Lost,0,NA,Chose Non-Hot,8,4,NA,1
+64d5219df0415c9a7c609c19,2,0.08000000000000002,10,2,Banner,Lost,2,hot_win_number,Chose Non-Hot,3,2,0,1
+64d5219df0415c9a7c609c19,3,0.07000000000000002,16,14,Banner,Lost,16,hot_win_number,Chose Non-Hot,3,5,0,1
+64d5219df0415c9a7c609c19,4,0.42,21,21,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+64d5219df0415c9a7c609c19,5,0.29,21,12,No Banner,Lost,0,NA,Chose Non-Hot,11,12,NA,1
+64d5219df0415c9a7c609c19,6,0.27999999999999997,24,5,Banner,Lost,16,nonhot_win_number,Chose Non-Hot,10,11,0,1
+64d5219df0415c9a7c609c19,7,0.26999999999999996,15,10,Banner,Lost,2,nonhot_win_number,Chose Non-Hot,10,10,0,1
+64d5219df0415c9a7c609c19,8,0.25999999999999995,30,3,Banner,Lost,3,hot_win_number,Chose Non-Hot,10,10,0,1
+64d5219df0415c9a7c609c19,9,0.24999999999999992,22,35,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,5,5,0,1
+64d5219df0415c9a7c609c19,10,0.5999999999999999,26,26,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+64d5219df0415c9a7c609c19,11,0.5899999999999999,18,12,No Banner,Lost,0,NA,Chose Non-Hot,5,5,NA,1
+64d5219df0415c9a7c609c19,12,0.5799999999999998,19,9,No Banner,Lost,0,NA,Chose Non-Hot,5,5,NA,1
+64d5219df0415c9a7c609c19,13,0.5699999999999998,14,31,No Banner,Lost,0,NA,Chose Non-Hot,5,5,NA,1
+64d5219df0415c9a7c609c19,14,0.5599999999999998,17,13,Banner,Lost,2,hot_win_number,Chose Non-Hot,3,3,0,1
+64d5219df0415c9a7c609c19,15,0.5499999999999998,30,32,No Banner,Lost,0,NA,Chose Non-Hot,2,0,NA,1
+64d5219df0415c9a7c609c19,16,0.8999999999999998,20,20,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+64d5219df0415c9a7c609c19,17,0.8899999999999998,8,25,Banner,Lost,8,hot_win_number,Chose Non-Hot,5,5,0,1
+64d5219df0415c9a7c609c19,18,0.8799999999999998,26,27,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,5,5,0,1
+64d5219df0415c9a7c609c19,19,0.8699999999999998,15,5,Banner,Lost,16,hot_win_number,Chose Hot,5,5,0,1
+64d5219df0415c9a7c609c19,20,1.2199999999999998,30,30,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+64d5219df0415c9a7c609c19,21,1.2099999999999995,28,17,Banner,Lost,8,nonhot_win_number,Chose Non-Hot,3,2,0,1
+64d5219df0415c9a7c609c19,22,1.1999999999999995,10,9,No Banner,Lost,0,NA,Chose Non-Hot,2,2,NA,1
+64d5219df0415c9a7c609c19,23,1.1899999999999995,6,3,Banner,Lost,3,nonhot_win_number,Chose Non-Hot,5,5,0,1
+64d5219df0415c9a7c609c19,24,1.1799999999999995,36,1,No Banner,Lost,0,NA,Chose Non-Hot,3,3,NA,1
+64d5219df0415c9a7c609c19,25,1.5299999999999998,2,2,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+64d5219df0415c9a7c609c19,26,1.5199999999999998,25,26,No Banner,Lost,0,NA,Chose Non-Hot,2,2,NA,1
+64d5219df0415c9a7c609c19,27,1.5099999999999998,8,23,No Banner,Lost,0,NA,Chose Non-Hot,2,2,NA,1
+64d5219df0415c9a7c609c19,28,1.4999999999999998,4,7,No Banner,Lost,0,NA,Chose Non-Hot,1,1,NA,1
 6562177a48308eebbb6359ea,1,0.29,27,2,Banner,Lost,3,hot_win_number,Chose Hot,50,100,0,2
 6562177a48308eebbb6359ea,2,0.27999999999999997,33,31,No Banner,Lost,0,NA,Chose Non-Hot,10,100,NA,2
 6562177a48308eebbb6359ea,3,0.26999999999999996,28,18,Banner,Lost,1,nonhot_win_number,Chose Hot,75,100,NA,2
@@ -503,6 +795,30 @@ prolific_pid,trial,balance,chosen_number,winner_number,banner_yn,win_status,hot_
 6562177a48308eebbb6359ea,22,1.1599999999999997,20,27,No Banner,Lost,0,NA,Chose Non-Hot,40,100,NA,2
 6562177a48308eebbb6359ea,23,1.1499999999999997,6,11,No Banner,Lost,0,NA,Chose Non-Hot,20,100,NA,2
 6562177a48308eebbb6359ea,24,1.4999999999999996,6,6,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
+657f8d99678be2d216a85c3d,1,0.29,21,19,No Banner,Lost,0,NA,Chose Non-Hot,50,34,NA,4
+657f8d99678be2d216a85c3d,2,0.27999999999999997,21,22,No Banner,Lost,0,NA,Chose Non-Hot,50,24,NA,4
+657f8d99678be2d216a85c3d,3,0.26999999999999996,23,30,Banner,Lost,2,nonhot_win_number,Chose Hot,19,8,0,4
+657f8d99678be2d216a85c3d,4,0.25999999999999995,21,34,Banner,Lost,3,nonhot_win_number,Chose Non-Hot,50,14,0,4
+657f8d99678be2d216a85c3d,5,0.6099999999999999,21,21,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,4
+657f8d99678be2d216a85c3d,6,0.5999999999999999,21,36,Banner,Lost,8,nonhot_win_number,Chose Hot,50,18,0,4
+657f8d99678be2d216a85c3d,7,0.5899999999999999,29,17,Banner,Lost,2,hot_win_number,Chose Hot,38,29,NA,4
+657f8d99678be2d216a85c3d,8,0.5799999999999998,21,26,Banner,Lost,16,hot_win_number,Chose Hot,24,18,0,4
+657f8d99678be2d216a85c3d,9,0.5699999999999998,21,27,No Banner,Lost,0,NA,Chose Non-Hot,51,18,NA,4
+657f8d99678be2d216a85c3d,10,0.5599999999999998,18,26,Banner,Lost,8,hot_win_number,Chose Hot,28,26,0,4
+657f8d99678be2d216a85c3d,11,0.5499999999999998,18,6,No Banner,Lost,0,NA,Chose Non-Hot,23,24,NA,4
+657f8d99678be2d216a85c3d,12,0.8999999999999998,18,18,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,4
+657f8d99678be2d216a85c3d,13,0.8899999999999998,6,14,Banner,Lost,1,nonhot_win_number,Chose Hot,30,20,NA,4
+657f8d99678be2d216a85c3d,14,0.8799999999999998,12,8,No Banner,Lost,0,NA,Chose Non-Hot,22,22,NA,4
+657f8d99678be2d216a85c3d,15,1.2299999999999998,12,12,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,4
+657f8d99678be2d216a85c3d,16,1.2199999999999998,24,28,Banner,Lost,3,hot_win_number,Chose Hot,67,67,0,4
+657f8d99678be2d216a85c3d,17,1.2099999999999995,17,1,No Banner,Lost,0,NA,Chose Non-Hot,31,26,NA,4
+657f8d99678be2d216a85c3d,18,1.1999999999999995,23,31,Banner,Lost,1,nonhot_win_number,Chose Hot,50,20,NA,4
+657f8d99678be2d216a85c3d,19,1.1899999999999995,19,6,Banner,Lost,16,nonhot_win_number,Chose Hot,30,20,0,4
+657f8d99678be2d216a85c3d,20,1.1799999999999995,15,35,No Banner,Lost,0,NA,Chose Non-Hot,22,23,NA,4
+657f8d99678be2d216a85c3d,21,1.5299999999999998,15,15,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,4
+657f8d99678be2d216a85c3d,22,1.5199999999999998,21,7,No Banner,Lost,0,NA,Chose Non-Hot,16,19,NA,4
+657f8d99678be2d216a85c3d,23,1.5099999999999998,21,9,No Banner,Lost,0,NA,Chose Non-Hot,33,17,NA,4
+657f8d99678be2d216a85c3d,24,1.4999999999999998,36,20,No Banner,Lost,0,NA,Chose Non-Hot,20,20,NA,4
 659577f52ae73223e381362a,1,0.29,3,30,Banner,Lost,3,hot_win_number,Chose Hot,88,64,0,2
 659577f52ae73223e381362a,2,0.27999999999999997,17,24,Banner,Lost,2,nonhot_win_number,Chose Hot,33,48,0,2
 659577f52ae73223e381362a,3,0.26999999999999996,28,9,Banner,Lost,1,nonhot_win_number,Chose Hot,8,15,NA,2
@@ -551,6 +867,30 @@ prolific_pid,trial,balance,chosen_number,winner_number,banner_yn,win_status,hot_
 659daa1ed4e13d6428103c1f,22,1.1599999999999997,14,16,Banner,Lost,3,hot_win_number,Chose Non-Hot,82,83,0,2
 659daa1ed4e13d6428103c1f,23,1.5099999999999998,21,21,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
 659daa1ed4e13d6428103c1f,24,1.4999999999999998,11,4,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,89,70,0,2
+65de74dd26e4558c2fe828f9,1,0.29,6,12,Banner,Lost,2,hot_win_number,Chose Non-Hot,85,100,100,1
+65de74dd26e4558c2fe828f9,2,0.27999999999999997,33,9,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1
+65de74dd26e4558c2fe828f9,3,0.6299999999999999,30,30,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+65de74dd26e4558c2fe828f9,4,0.6199999999999999,35,15,Banner,Lost,16,nonhot_win_number,Chose Non-Hot,100,100,0,1
+65de74dd26e4558c2fe828f9,5,0.6099999999999999,20,11,Banner,Lost,3,hot_win_number,Chose Non-Hot,100,100,0,1
+65de74dd26e4558c2fe828f9,6,0.5999999999999999,22,31,Banner,Lost,8,nonhot_win_number,Chose Non-Hot,100,100,0,1
+65de74dd26e4558c2fe828f9,7,0.5899999999999999,24,17,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1
+65de74dd26e4558c2fe828f9,8,0.5799999999999998,30,5,Banner,Lost,1,nonhot_win_number,Chose Hot,100,100,NA,1
+65de74dd26e4558c2fe828f9,9,0.9299999999999998,22,22,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+65de74dd26e4558c2fe828f9,10,0.9199999999999998,8,20,No Banner,Lost,0,NA,Chose Non-Hot,85,100,NA,1
+65de74dd26e4558c2fe828f9,11,0.9099999999999998,28,12,No Banner,Lost,0,NA,Chose Non-Hot,95,100,NA,1
+65de74dd26e4558c2fe828f9,12,0.8999999999999998,18,23,No Banner,Lost,0,NA,Chose Non-Hot,97,100,NA,1
+65de74dd26e4558c2fe828f9,13,0.8899999999999998,20,34,No Banner,Lost,0,NA,Chose Non-Hot,97,100,NA,1
+65de74dd26e4558c2fe828f9,14,0.8799999999999998,15,16,Banner,Lost,16,hot_win_number,Chose Hot,100,100,0,1
+65de74dd26e4558c2fe828f9,15,1.2299999999999998,21,21,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+65de74dd26e4558c2fe828f9,16,1.2199999999999998,12,4,Banner,Lost,2,nonhot_win_number,Chose Non-Hot,98,100,0,1
+65de74dd26e4558c2fe828f9,17,1.2099999999999995,21,8,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1
+65de74dd26e4558c2fe828f9,18,1.1999999999999995,14,18,No Banner,Lost,0,NA,Chose Non-Hot,95,100,NA,1
+65de74dd26e4558c2fe828f9,19,1.1899999999999995,18,16,No Banner,Lost,0,NA,Chose Non-Hot,99,100,NA,1
+65de74dd26e4558c2fe828f9,20,1.1799999999999995,21,23,Banner,Lost,3,nonhot_win_number,Chose Non-Hot,99,100,0,1
+65de74dd26e4558c2fe828f9,21,1.1699999999999997,21,9,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1
+65de74dd26e4558c2fe828f9,22,1.1599999999999997,28,23,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,95,100,0,1
+65de74dd26e4558c2fe828f9,23,1.1499999999999997,6,33,Banner,Lost,8,hot_win_number,Chose Hot,100,100,0,1
+65de74dd26e4558c2fe828f9,24,1.4999999999999996,15,15,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
 6614a5298c82365421d9b0b9,1,0.29,18,27,No Banner,Lost,0,NA,Chose Non-Hot,75,100,NA,1
 6614a5298c82365421d9b0b9,2,0.27999999999999997,13,23,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,60,80,5,1
 6614a5298c82365421d9b0b9,3,0.26999999999999996,9,23,No Banner,Lost,0,NA,Chose Non-Hot,70,90,NA,1
@@ -599,6 +939,30 @@ prolific_pid,trial,balance,chosen_number,winner_number,banner_yn,win_status,hot_
 66231fc6e1ecba676935943a,22,1.5199999999999998,3,1,No Banner,Lost,0,NA,Chose Non-Hot,40,17,NA,1
 66231fc6e1ecba676935943a,23,1.5099999999999998,3,15,Banner,Lost,16,hot_win_number,Chose Hot,21,19,33,1
 66231fc6e1ecba676935943a,24,1.4999999999999998,11,7,No Banner,Lost,0,NA,Chose Non-Hot,42,33,NA,1
+6624638357b56eb340c8f109,1,0.29,23,20,Banner,Lost,8,hot_win_number,Chose Non-Hot,7,35,0,1
+6624638357b56eb340c8f109,2,0.27999999999999997,23,14,Banner,Lost,16,nonhot_win_number,Chose Hot,8,35,0,1
+6624638357b56eb340c8f109,3,0.26999999999999996,24,22,Banner,Lost,3,hot_win_number,Chose Hot,5,40,0,1
+6624638357b56eb340c8f109,4,0.25999999999999995,18,24,No Banner,Lost,0,NA,Chose Non-Hot,5,60,NA,1
+6624638357b56eb340c8f109,5,0.24999999999999992,33,28,No Banner,Lost,0,NA,Chose Non-Hot,5,30,NA,1
+6624638357b56eb340c8f109,6,0.5999999999999999,33,33,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+6624638357b56eb340c8f109,7,0.5899999999999999,23,13,No Banner,Lost,0,NA,Chose Non-Hot,0,20,NA,1
+6624638357b56eb340c8f109,8,0.5799999999999998,23,14,Banner,Lost,2,hot_win_number,Chose Non-Hot,0,5,0,1
+6624638357b56eb340c8f109,9,0.5699999999999998,23,31,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,1,5,0,1
+6624638357b56eb340c8f109,10,0.5599999999999998,23,26,No Banner,Lost,0,NA,Chose Non-Hot,5,5,NA,1
+6624638357b56eb340c8f109,11,0.5499999999999998,23,25,Banner,Lost,3,nonhot_win_number,Chose Non-Hot,5,5,0,1
+6624638357b56eb340c8f109,12,0.8999999999999998,23,23,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+6624638357b56eb340c8f109,13,0.8899999999999998,10,25,Banner,Lost,2,nonhot_win_number,Chose Hot,0,5,0,1
+6624638357b56eb340c8f109,14,0.8799999999999998,10,3,No Banner,Lost,0,NA,Chose Non-Hot,5,5,NA,1
+6624638357b56eb340c8f109,15,0.8699999999999998,10,27,Banner,Lost,16,hot_win_number,Chose Hot,5,10,0,1
+6624638357b56eb340c8f109,16,0.8599999999999998,10,9,No Banner,Lost,0,NA,Chose Non-Hot,0,10,NA,1
+6624638357b56eb340c8f109,17,0.8499999999999998,29,35,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,5,6,0,1
+6624638357b56eb340c8f109,18,1.1999999999999995,29,29,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+6624638357b56eb340c8f109,19,1.1899999999999995,10,7,No Banner,Lost,0,NA,Chose Non-Hot,5,5,NA,1
+6624638357b56eb340c8f109,20,1.1799999999999995,10,15,No Banner,Lost,0,NA,Chose Non-Hot,5,10,NA,1
+6624638357b56eb340c8f109,21,1.1699999999999997,10,30,No Banner,Lost,0,NA,Chose Non-Hot,0,5,NA,1
+6624638357b56eb340c8f109,22,1.1599999999999997,10,36,No Banner,Lost,0,NA,Chose Non-Hot,0,5,NA,1
+6624638357b56eb340c8f109,23,1.5099999999999998,10,10,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+6624638357b56eb340c8f109,24,1.4999999999999998,23,6,Banner,Lost,8,nonhot_win_number,Chose Non-Hot,0,6,0,1
 662692c1abc4830626fccb23,1,0.29,33,13,No Banner,Lost,0,NA,Chose Non-Hot,50,100,NA,2
 662692c1abc4830626fccb23,2,0.27999999999999997,16,29,Banner,Lost,2,nonhot_win_number,Chose Hot,50,100,0,2
 662692c1abc4830626fccb23,3,0.26999999999999996,3,12,Banner,Lost,3,nonhot_win_number,Chose Non-Hot,49,100,0,2
@@ -647,6 +1011,150 @@ prolific_pid,trial,balance,chosen_number,winner_number,banner_yn,win_status,hot_
 66293cef3c0a757dea883538,22,1.5199999999999996,35,35,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
 66293cef3c0a757dea883538,23,1.5099999999999996,12,32,Banner,Lost,1,nonhot_win_number,Chose Hot,50,100,NA,2
 66293cef3c0a757dea883538,24,1.4999999999999996,9,16,No Banner,Lost,0,NA,Chose Non-Hot,50,100,NA,2
+6632e29a99699a0b259f5cdb,1,0.29,35,22,Banner,Lost,2,hot_win_number,Chose Hot,100,0,NA,2
+6632e29a99699a0b259f5cdb,2,0.27999999999999997,7,19,No Banner,Lost,0,NA,Chose Non-Hot,5,28,NA,2
+6632e29a99699a0b259f5cdb,3,0.26999999999999996,17,36,No Banner,Lost,0,NA,Chose Non-Hot,3,0,NA,2
+6632e29a99699a0b259f5cdb,4,0.6199999999999999,12,12,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
+6632e29a99699a0b259f5cdb,5,0.6099999999999999,17,26,Banner,Lost,16,hot_win_number,Chose Hot,4,1,0,2
+6632e29a99699a0b259f5cdb,6,0.5999999999999999,12,6,No Banner,Lost,0,NA,Chose Non-Hot,18,0,NA,2
+6632e29a99699a0b259f5cdb,7,0.5899999999999999,19,21,No Banner,Lost,0,NA,Chose Non-Hot,54,4,NA,2
+6632e29a99699a0b259f5cdb,8,0.5799999999999998,23,3,No Banner,Lost,0,NA,Chose Non-Hot,52,7,NA,2
+6632e29a99699a0b259f5cdb,9,0.5699999999999998,30,36,No Banner,Lost,0,NA,Chose Non-Hot,58,11,NA,2
+6632e29a99699a0b259f5cdb,10,0.5599999999999998,23,1,Banner,Lost,8,nonhot_win_number,Chose Hot,53,13,0,2
+6632e29a99699a0b259f5cdb,11,0.5499999999999998,5,20,Banner,Lost,1,nonhot_win_number,Chose Hot,79,24,NA,2
+6632e29a99699a0b259f5cdb,12,0.8999999999999998,8,8,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
+6632e29a99699a0b259f5cdb,13,0.8899999999999998,4,31,No Banner,Lost,0,NA,Chose Non-Hot,46,15,NA,2
+6632e29a99699a0b259f5cdb,14,0.8799999999999998,9,27,Banner,Lost,1,nonhot_win_number,Chose Hot,49,20,NA,2
+6632e29a99699a0b259f5cdb,15,0.8699999999999998,5,14,Banner,Lost,16,nonhot_win_number,Chose Hot,73,27,0,2
+6632e29a99699a0b259f5cdb,16,1.2199999999999998,17,17,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
+6632e29a99699a0b259f5cdb,17,1.2099999999999995,23,36,No Banner,Lost,0,NA,Chose Non-Hot,35,17,NA,2
+6632e29a99699a0b259f5cdb,18,1.1999999999999995,1,25,Banner,Lost,8,hot_win_number,Chose Hot,58,23,0,2
+6632e29a99699a0b259f5cdb,19,1.1899999999999995,28,31,No Banner,Lost,0,NA,Chose Non-Hot,52,18,NA,2
+6632e29a99699a0b259f5cdb,20,1.1799999999999995,11,17,Banner,Lost,3,nonhot_win_number,Chose Hot,49,24,0,2
+6632e29a99699a0b259f5cdb,21,1.1699999999999997,22,36,No Banner,Lost,0,NA,Chose Non-Hot,66,21,NA,2
+6632e29a99699a0b259f5cdb,22,1.1599999999999997,22,31,Banner,Lost,3,hot_win_number,Chose Hot,58,25,0,2
+6632e29a99699a0b259f5cdb,23,1.5099999999999998,17,17,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
+6632e29a99699a0b259f5cdb,24,1.4999999999999998,2,1,Banner,Lost,2,nonhot_win_number,Chose Hot,45,0,0,2
+663dff19b292e4e2c5c11a1b,1,0.29,9,18,Banner,Lost,2,hot_win_number,Chose Non-Hot,64,77,0,2
+663dff19b292e4e2c5c11a1b,2,0.27999999999999997,3,9,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,2
+663dff19b292e4e2c5c11a1b,3,0.6299999999999999,3,3,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
+663dff19b292e4e2c5c11a1b,4,0.6199999999999999,20,16,No Banner,Lost,0,NA,Chose Non-Hot,88,88,NA,2
+663dff19b292e4e2c5c11a1b,5,0.6099999999999999,20,7,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,2
+663dff19b292e4e2c5c11a1b,6,0.5999999999999999,2,4,Banner,Lost,3,nonhot_win_number,Chose Hot,100,100,100,2
+663dff19b292e4e2c5c11a1b,7,0.5899999999999999,32,4,Banner,Lost,1,nonhot_win_number,Chose Hot,100,100,NA,2
+663dff19b292e4e2c5c11a1b,8,0.5799999999999998,8,3,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,2
+663dff19b292e4e2c5c11a1b,9,0.5699999999999998,8,28,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,2
+663dff19b292e4e2c5c11a1b,10,0.9199999999999998,16,16,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
+663dff19b292e4e2c5c11a1b,11,0.9099999999999998,12,5,Banner,Lost,16,hot_win_number,Chose Non-Hot,100,100,100,2
+663dff19b292e4e2c5c11a1b,12,0.8999999999999998,23,22,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,2
+663dff19b292e4e2c5c11a1b,13,0.8899999999999998,14,32,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,2
+663dff19b292e4e2c5c11a1b,14,0.8799999999999998,14,4,Banner,Lost,8,hot_win_number,Chose Hot,100,100,6,2
+663dff19b292e4e2c5c11a1b,15,1.2299999999999998,15,15,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
+663dff19b292e4e2c5c11a1b,16,1.2199999999999998,16,22,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,2
+663dff19b292e4e2c5c11a1b,17,1.2099999999999995,3,14,Banner,Lost,1,nonhot_win_number,Chose Hot,100,100,NA,2
+663dff19b292e4e2c5c11a1b,18,1.1999999999999995,8,21,Banner,Lost,16,nonhot_win_number,Chose Hot,100,100,100,2
+663dff19b292e4e2c5c11a1b,19,1.1899999999999995,9,12,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,2
+663dff19b292e4e2c5c11a1b,20,1.1799999999999995,6,23,Banner,Lost,8,nonhot_win_number,Chose Hot,100,100,100,2
+663dff19b292e4e2c5c11a1b,21,1.1699999999999997,21,8,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,2
+663dff19b292e4e2c5c11a1b,22,1.5199999999999996,13,13,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
+663dff19b292e4e2c5c11a1b,23,1.5099999999999996,16,33,Banner,Lost,3,hot_win_number,Chose Hot,100,100,0,2
+663dff19b292e4e2c5c11a1b,24,1.4999999999999996,20,5,Banner,Lost,2,nonhot_win_number,Chose Hot,100,100,100,2
+663e40cb2b99c777c91d0827,1,0.29,23,25,Banner,Lost,1,nonhot_win_number,Chose Hot,16,83,NA,2
+663e40cb2b99c777c91d0827,2,0.27999999999999997,26,32,Banner,Lost,8,nonhot_win_number,Chose Hot,6,78,53,2
+663e40cb2b99c777c91d0827,3,0.26999999999999996,15,32,No Banner,Lost,0,NA,Chose Non-Hot,12,75,NA,2
+663e40cb2b99c777c91d0827,4,0.25999999999999995,22,13,Banner,Lost,8,hot_win_number,Chose Non-Hot,11,79,55,2
+663e40cb2b99c777c91d0827,5,0.6099999999999999,21,21,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
+663e40cb2b99c777c91d0827,6,0.5999999999999999,17,36,No Banner,Lost,0,NA,Chose Non-Hot,8,59,NA,2
+663e40cb2b99c777c91d0827,7,0.5899999999999999,21,9,Banner,Lost,3,hot_win_number,Chose Hot,10,57,45,2
+663e40cb2b99c777c91d0827,8,0.5799999999999998,35,25,No Banner,Lost,0,NA,Chose Non-Hot,13,66,NA,2
+663e40cb2b99c777c91d0827,9,0.5699999999999998,27,13,No Banner,Lost,0,NA,Chose Non-Hot,9,74,NA,2
+663e40cb2b99c777c91d0827,10,0.5599999999999998,24,30,No Banner,Lost,0,NA,Chose Non-Hot,13,74,NA,2
+663e40cb2b99c777c91d0827,11,0.5499999999999998,22,35,No Banner,Lost,0,NA,Chose Non-Hot,6,75,NA,2
+663e40cb2b99c777c91d0827,12,0.8999999999999998,21,21,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
+663e40cb2b99c777c91d0827,13,0.8899999999999998,16,30,Banner,Lost,1,nonhot_win_number,Chose Hot,5,55,NA,2
+663e40cb2b99c777c91d0827,14,0.8799999999999998,22,32,No Banner,Lost,0,NA,Chose Non-Hot,6,65,NA,2
+663e40cb2b99c777c91d0827,15,1.2299999999999998,22,22,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
+663e40cb2b99c777c91d0827,16,1.2199999999999998,24,21,No Banner,Lost,0,NA,Chose Non-Hot,0,67,NA,2
+663e40cb2b99c777c91d0827,17,1.2099999999999995,24,4,No Banner,Lost,0,NA,Chose Non-Hot,6,61,NA,2
+663e40cb2b99c777c91d0827,18,1.1999999999999995,22,24,Banner,Lost,16,nonhot_win_number,Chose Hot,2,57,65,2
+663e40cb2b99c777c91d0827,19,1.1899999999999995,22,19,Banner,Lost,2,nonhot_win_number,Chose Non-Hot,4,64,48,2
+663e40cb2b99c777c91d0827,20,1.1799999999999995,19,1,Banner,Lost,2,hot_win_number,Chose Non-Hot,4,59,30,2
+663e40cb2b99c777c91d0827,21,1.1699999999999997,9,33,No Banner,Lost,0,NA,Chose Non-Hot,7,72,NA,2
+663e40cb2b99c777c91d0827,22,1.5199999999999996,23,23,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
+663e40cb2b99c777c91d0827,23,1.5099999999999996,22,17,Banner,Lost,16,hot_win_number,Chose Hot,6,67,31,2
+663e40cb2b99c777c91d0827,24,1.4999999999999996,14,8,Banner,Lost,3,nonhot_win_number,Chose Non-Hot,15,65,28,2
+6650bfea11f11fd1b150a7ca,1,0.29,4,5,Banner,Lost,2,nonhot_win_number,Chose Non-Hot,0,80,0,3
+6650bfea11f11fd1b150a7ca,2,0.27999999999999997,4,7,No Banner,Lost,0,NA,Chose Non-Hot,9,75,NA,3
+6650bfea11f11fd1b150a7ca,3,0.26999999999999996,4,12,Banner,Lost,16,nonhot_win_number,Chose Hot,76,92,0,3
+6650bfea11f11fd1b150a7ca,4,0.25999999999999995,4,22,No Banner,Lost,0,NA,Chose Non-Hot,72,100,NA,3
+6650bfea11f11fd1b150a7ca,5,0.6099999999999999,7,7,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,3
+6650bfea11f11fd1b150a7ca,6,0.5999999999999999,23,14,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,3
+6650bfea11f11fd1b150a7ca,7,0.5899999999999999,25,19,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,3
+6650bfea11f11fd1b150a7ca,8,0.5799999999999998,24,27,Banner,Lost,3,nonhot_win_number,Chose Non-Hot,100,100,0,3
+6650bfea11f11fd1b150a7ca,9,0.9299999999999998,30,30,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,3
+6650bfea11f11fd1b150a7ca,10,0.9199999999999998,8,13,Banner,Lost,3,hot_win_number,Chose Non-Hot,100,100,0,3
+6650bfea11f11fd1b150a7ca,11,0.9099999999999998,32,27,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,3
+6650bfea11f11fd1b150a7ca,12,0.8999999999999998,13,35,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,3
+6650bfea11f11fd1b150a7ca,13,0.8899999999999998,24,6,Banner,Lost,8,hot_win_number,Chose Hot,100,100,0,3
+6650bfea11f11fd1b150a7ca,14,0.8799999999999998,4,31,Banner,Lost,2,hot_win_number,Chose Non-Hot,100,100,0,3
+6650bfea11f11fd1b150a7ca,15,0.8699999999999998,1,36,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,3
+6650bfea11f11fd1b150a7ca,16,0.8599999999999998,17,6,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,100,100,0,3
+6650bfea11f11fd1b150a7ca,17,0.8499999999999998,2,15,Banner,Lost,1,nonhot_win_number,Chose Hot,100,100,NA,3
+6650bfea11f11fd1b150a7ca,18,1.1999999999999995,26,26,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,3
+6650bfea11f11fd1b150a7ca,19,1.1899999999999995,23,7,Banner,Lost,16,hot_win_number,Chose Hot,100,100,0,3
+6650bfea11f11fd1b150a7ca,20,1.1799999999999995,33,23,Banner,Lost,8,nonhot_win_number,Chose Non-Hot,100,100,0,3
+6650bfea11f11fd1b150a7ca,21,1.1699999999999997,13,16,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,3
+6650bfea11f11fd1b150a7ca,22,1.1599999999999997,4,26,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,3
+6650bfea11f11fd1b150a7ca,23,1.1499999999999997,4,22,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,3
+6650bfea11f11fd1b150a7ca,24,1.4999999999999996,15,15,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,3
+667231cd239aa2c8d48ea1b8,1,0.29,5,4,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,3
+667231cd239aa2c8d48ea1b8,2,0.27999999999999997,14,1,No Banner,Lost,0,NA,Chose Non-Hot,5,6,NA,3
+667231cd239aa2c8d48ea1b8,3,0.26999999999999996,23,27,No Banner,Lost,0,NA,Chose Non-Hot,2,2,NA,3
+667231cd239aa2c8d48ea1b8,4,0.25999999999999995,17,32,Banner,Lost,3,hot_win_number,Chose Non-Hot,1,3,1,3
+667231cd239aa2c8d48ea1b8,5,0.24999999999999992,15,28,No Banner,Lost,0,NA,Chose Non-Hot,3,4,NA,3
+667231cd239aa2c8d48ea1b8,6,0.5999999999999999,1,1,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,3
+667231cd239aa2c8d48ea1b8,7,0.5899999999999999,20,8,Banner,Lost,3,nonhot_win_number,Chose Hot,1,2,2,3
+667231cd239aa2c8d48ea1b8,8,0.5799999999999998,28,21,No Banner,Lost,0,NA,Chose Non-Hot,3,4,NA,3
+667231cd239aa2c8d48ea1b8,9,0.5699999999999998,26,4,Banner,Lost,8,hot_win_number,Chose Non-Hot,6,4,2,3
+667231cd239aa2c8d48ea1b8,10,0.9199999999999998,1,1,No Banner,Won,0,NA,Chose Non-Hot,2,NA,NA,3
+667231cd239aa2c8d48ea1b8,11,0.9099999999999998,1,25,No Banner,Lost,0,NA,Chose Non-Hot,5,6,NA,3
+667231cd239aa2c8d48ea1b8,12,0.8999999999999998,25,15,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,2,0,5,3
+667231cd239aa2c8d48ea1b8,13,0.8899999999999998,1,5,Banner,Lost,2,nonhot_win_number,Chose Non-Hot,2,3,3,3
+667231cd239aa2c8d48ea1b8,14,0.8799999999999998,23,8,Banner,Lost,2,hot_win_number,Chose Non-Hot,2,6,4,3
+667231cd239aa2c8d48ea1b8,15,0.8699999999999998,25,14,No Banner,Lost,0,NA,Chose Non-Hot,5,3,NA,3
+667231cd239aa2c8d48ea1b8,16,0.8599999999999998,12,7,Banner,Lost,16,hot_win_number,Chose Non-Hot,3,4,3,3
+667231cd239aa2c8d48ea1b8,17,1.2099999999999995,27,27,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,3
+667231cd239aa2c8d48ea1b8,18,1.1999999999999995,14,19,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,0,0,2,3
+667231cd239aa2c8d48ea1b8,19,1.1899999999999995,35,6,No Banner,Lost,0,NA,Chose Non-Hot,2,2,NA,3
+667231cd239aa2c8d48ea1b8,20,1.1799999999999995,3,6,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,3
+667231cd239aa2c8d48ea1b8,21,1.1699999999999997,20,12,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,3
+667231cd239aa2c8d48ea1b8,22,1.5199999999999996,17,17,No Banner,Won,0,NA,Chose Non-Hot,2,NA,NA,3
+667231cd239aa2c8d48ea1b8,23,1.5099999999999996,16,24,Banner,Lost,16,nonhot_win_number,Chose Non-Hot,2,1,2,3
+667231cd239aa2c8d48ea1b8,24,1.4999999999999996,9,1,Banner,Lost,8,nonhot_win_number,Chose Non-Hot,2,1,2,3
+6679dc943f855ba978447c25,1,0.29,13,5,No Banner,Lost,0,NA,Chose Non-Hot,0,15,NA,2
+6679dc943f855ba978447c25,2,0.27999999999999997,13,12,Banner,Lost,2,nonhot_win_number,Chose Non-Hot,0,40,0,2
+6679dc943f855ba978447c25,3,0.26999999999999996,13,18,Banner,Lost,2,hot_win_number,Chose Non-Hot,0,0,34,2
+6679dc943f855ba978447c25,4,0.25999999999999995,36,1,Banner,Lost,16,hot_win_number,Chose Hot,0,0,28,2
+6679dc943f855ba978447c25,5,0.24999999999999992,13,8,No Banner,Lost,0,NA,Chose Non-Hot,0,41,NA,2
+6679dc943f855ba978447c25,6,0.5999999999999999,13,13,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
+6679dc943f855ba978447c25,7,0.5899999999999999,13,32,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,0,37,0,2
+6679dc943f855ba978447c25,8,0.5799999999999998,28,35,No Banner,Lost,0,NA,Chose Non-Hot,0,32,NA,2
+6679dc943f855ba978447c25,9,0.5699999999999998,13,16,No Banner,Lost,0,NA,Chose Non-Hot,0,38,NA,2
+6679dc943f855ba978447c25,10,0.9199999999999998,27,27,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
+6679dc943f855ba978447c25,11,0.9099999999999998,13,14,Banner,Lost,8,hot_win_number,Chose Non-Hot,0,27,0,2
+6679dc943f855ba978447c25,12,0.8999999999999998,33,19,Banner,Lost,3,nonhot_win_number,Chose Non-Hot,0,23,0,2
+6679dc943f855ba978447c25,13,0.8899999999999998,13,1,No Banner,Lost,0,NA,Chose Non-Hot,0,29,NA,2
+6679dc943f855ba978447c25,14,0.8799999999999998,19,2,Banner,Lost,1,nonhot_win_number,Chose Hot,38,43,NA,2
+6679dc943f855ba978447c25,15,0.8699999999999998,13,9,No Banner,Lost,0,NA,Chose Non-Hot,0,27,NA,2
+6679dc943f855ba978447c25,16,0.8599999999999998,13,20,No Banner,Lost,0,NA,Chose Non-Hot,0,27,NA,2
+6679dc943f855ba978447c25,17,0.8499999999999998,13,23,No Banner,Lost,0,NA,Chose Non-Hot,0,27,NA,2
+6679dc943f855ba978447c25,18,1.1999999999999995,13,13,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
+6679dc943f855ba978447c25,19,1.1899999999999995,21,33,No Banner,Lost,0,NA,Chose Non-Hot,0,23,NA,2
+6679dc943f855ba978447c25,20,1.1799999999999995,36,7,Banner,Lost,3,hot_win_number,Chose Non-Hot,0,34,0,2
+6679dc943f855ba978447c25,21,1.1699999999999997,13,29,Banner,Lost,16,nonhot_win_number,Chose Hot,0,31,0,2
+6679dc943f855ba978447c25,22,1.1599999999999997,1,25,Banner,Lost,8,nonhot_win_number,Chose Hot,0,24,0,2
+6679dc943f855ba978447c25,23,1.1499999999999997,13,19,No Banner,Lost,0,NA,Chose Non-Hot,0,27,NA,2
+6679dc943f855ba978447c25,24,1.4999999999999996,13,13,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
 66ab42bef7dd185ce15464eb,1,0.29,16,35,No Banner,Lost,0,NA,Chose Non-Hot,0,50,NA,1
 66ab42bef7dd185ce15464eb,2,0.27999999999999997,16,20,No Banner,Lost,0,NA,Chose Non-Hot,0,50,NA,1
 66ab42bef7dd185ce15464eb,3,0.6299999999999999,10,10,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
@@ -695,6 +1203,54 @@ prolific_pid,trial,balance,chosen_number,winner_number,banner_yn,win_status,hot_
 66c3366a3b5834b89124e85a,22,1.5199999999999998,26,4,No Banner,Lost,0,NA,Chose Non-Hot,3,3,NA,1
 66c3366a3b5834b89124e85a,23,1.5099999999999998,18,31,No Banner,Lost,0,NA,Chose Non-Hot,3,3,NA,1
 66c3366a3b5834b89124e85a,24,1.4999999999999998,23,30,Banner,Lost,3,nonhot_win_number,Chose Hot,5,4,2,1
+66ce0bf15319524cb74dd391,1,0.29,3,21,Banner,Lost,8,nonhot_win_number,Chose Hot,94,87,2,1
+66ce0bf15319524cb74dd391,2,0.27999999999999997,21,6,Banner,Lost,16,hot_win_number,Chose Hot,87,91,1,1
+66ce0bf15319524cb74dd391,3,0.26999999999999996,21,6,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1
+66ce0bf15319524cb74dd391,4,0.6199999999999999,9,9,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+66ce0bf15319524cb74dd391,5,0.6099999999999999,12,8,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1
+66ce0bf15319524cb74dd391,6,0.5999999999999999,10,1,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1
+66ce0bf15319524cb74dd391,7,0.5899999999999999,21,1,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1
+66ce0bf15319524cb74dd391,8,0.5799999999999998,3,34,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1
+66ce0bf15319524cb74dd391,9,0.5699999999999998,23,21,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1
+66ce0bf15319524cb74dd391,10,0.9199999999999998,21,21,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+66ce0bf15319524cb74dd391,11,0.9099999999999998,3,4,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1
+66ce0bf15319524cb74dd391,12,0.8999999999999998,12,20,Banner,Lost,1,nonhot_win_number,Chose Hot,100,100,NA,1
+66ce0bf15319524cb74dd391,13,0.8899999999999998,15,30,Banner,Lost,2,hot_win_number,Chose Hot,100,100,NA,1
+66ce0bf15319524cb74dd391,14,0.8799999999999998,8,23,Banner,Lost,8,hot_win_number,Chose Hot,100,100,0,1
+66ce0bf15319524cb74dd391,15,0.8699999999999998,35,2,Banner,Lost,2,nonhot_win_number,Chose Hot,100,100,0,1
+66ce0bf15319524cb74dd391,16,0.8599999999999998,8,23,Banner,Lost,16,nonhot_win_number,Chose Hot,100,100,0,1
+66ce0bf15319524cb74dd391,17,0.8499999999999998,18,27,Banner,Lost,1,nonhot_win_number,Chose Hot,100,100,NA,1
+66ce0bf15319524cb74dd391,18,1.1999999999999995,21,21,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+66ce0bf15319524cb74dd391,19,1.1899999999999995,3,8,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1
+66ce0bf15319524cb74dd391,20,1.1799999999999995,3,9,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1
+66ce0bf15319524cb74dd391,21,1.1699999999999997,15,17,Banner,Lost,3,nonhot_win_number,Chose Hot,100,100,0,1
+66ce0bf15319524cb74dd391,22,1.5199999999999996,23,23,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+66ce0bf15319524cb74dd391,23,1.5099999999999996,1,11,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1
+66ce0bf15319524cb74dd391,24,1.4999999999999996,9,24,Banner,Lost,3,hot_win_number,Chose Hot,100,100,0,1
+6720378a683a5d8a933493fb,1,0.29,17,31,No Banner,Lost,0,NA,Chose Non-Hot,0,100,NA,3
+6720378a683a5d8a933493fb,2,0.27999999999999997,21,20,Banner,Lost,2,hot_win_number,Chose Hot,0,100,NA,3
+6720378a683a5d8a933493fb,3,0.6299999999999999,21,21,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,3
+6720378a683a5d8a933493fb,4,0.6199999999999999,17,1,No Banner,Lost,0,NA,Chose Non-Hot,0,100,NA,3
+6720378a683a5d8a933493fb,5,0.6099999999999999,17,21,No Banner,Lost,0,NA,Chose Non-Hot,0,100,NA,3
+6720378a683a5d8a933493fb,6,0.5999999999999999,11,30,Banner,Lost,16,hot_win_number,Chose Hot,0,100,0,3
+6720378a683a5d8a933493fb,7,0.5899999999999999,10,9,No Banner,Lost,0,NA,Chose Non-Hot,0,100,NA,3
+6720378a683a5d8a933493fb,8,0.5799999999999998,10,1,No Banner,Lost,0,NA,Chose Non-Hot,0,100,NA,3
+6720378a683a5d8a933493fb,9,0.9299999999999998,10,10,No Banner,Won,0,NA,Chose Non-Hot,100,NA,NA,3
+6720378a683a5d8a933493fb,10,0.9199999999999998,13,31,Banner,Lost,8,nonhot_win_number,Chose Hot,0,100,0,3
+6720378a683a5d8a933493fb,11,0.9099999999999998,15,5,Banner,Lost,2,nonhot_win_number,Chose Hot,0,100,0,3
+6720378a683a5d8a933493fb,12,0.8999999999999998,11,31,No Banner,Lost,0,NA,Chose Non-Hot,0,100,NA,3
+6720378a683a5d8a933493fb,13,0.8899999999999998,1,11,Banner,Lost,3,nonhot_win_number,Chose Hot,0,100,0,3
+6720378a683a5d8a933493fb,14,0.8799999999999998,1,26,No Banner,Lost,0,NA,Chose Non-Hot,0,100,NA,3
+6720378a683a5d8a933493fb,15,0.8699999999999998,7,24,No Banner,Lost,0,NA,Chose Non-Hot,0,100,NA,3
+6720378a683a5d8a933493fb,16,1.2199999999999998,7,7,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,3
+6720378a683a5d8a933493fb,17,1.2099999999999995,13,28,Banner,Lost,16,nonhot_win_number,Chose Hot,0,100,0,3
+6720378a683a5d8a933493fb,18,1.1999999999999995,13,21,Banner,Lost,3,hot_win_number,Chose Non-Hot,0,100,0,3
+6720378a683a5d8a933493fb,19,1.1899999999999995,17,35,No Banner,Lost,0,NA,Chose Non-Hot,0,100,NA,3
+6720378a683a5d8a933493fb,20,1.1799999999999995,8,29,Banner,Lost,1,nonhot_win_number,Chose Hot,0,100,NA,3
+6720378a683a5d8a933493fb,21,1.5299999999999998,8,8,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,3
+6720378a683a5d8a933493fb,22,1.5199999999999998,16,4,Banner,Lost,8,hot_win_number,Chose Hot,0,100,0,3
+6720378a683a5d8a933493fb,23,1.5099999999999998,33,24,Banner,Lost,1,nonhot_win_number,Chose Hot,0,100,NA,3
+6720378a683a5d8a933493fb,24,1.4999999999999998,33,13,No Banner,Lost,0,NA,Chose Non-Hot,0,100,NA,3
 676ca3da9773676ad989ef10,1,0.29,16,1,No Banner,Lost,0,NA,Chose Non-Hot,61,89,NA,1
 676ca3da9773676ad989ef10,2,0.27999999999999997,15,29,No Banner,Lost,0,NA,Chose Non-Hot,51,92,NA,1
 676ca3da9773676ad989ef10,3,0.26999999999999996,14,23,No Banner,Lost,0,NA,Chose Non-Hot,46,86,NA,1
@@ -743,6 +1299,54 @@ prolific_pid,trial,balance,chosen_number,winner_number,banner_yn,win_status,hot_
 6785704c3b1ab8813a4958b0,22,1.5199999999999998,29,31,Banner,Lost,1,nonhot_win_number,Chose Hot,23,8,NA,2
 6785704c3b1ab8813a4958b0,23,1.5099999999999998,5,10,Banner,Lost,16,nonhot_win_number,Chose Hot,9,10,0,2
 6785704c3b1ab8813a4958b0,24,1.4999999999999998,6,25,Banner,Lost,3,hot_win_number,Chose Hot,15,33,0,2
+67a8ef6331f586a361a8ec33,1,0.29,23,32,Banner,Lost,8,hot_win_number,Chose Hot,54,58,51,1
+67a8ef6331f586a361a8ec33,2,0.27999999999999997,17,21,No Banner,Lost,0,NA,Chose Non-Hot,45,49,NA,1
+67a8ef6331f586a361a8ec33,3,0.26999999999999996,19,1,Banner,Lost,3,hot_win_number,Chose Non-Hot,43,38,38,1
+67a8ef6331f586a361a8ec33,4,0.6199999999999999,17,17,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+67a8ef6331f586a361a8ec33,5,0.6099999999999999,26,31,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,52,51,47,1
+67a8ef6331f586a361a8ec33,6,0.5999999999999999,12,36,Banner,Lost,8,nonhot_win_number,Chose Non-Hot,37,41,27,1
+67a8ef6331f586a361a8ec33,7,0.5899999999999999,26,23,No Banner,Lost,0,NA,Chose Non-Hot,38,38,NA,1
+67a8ef6331f586a361a8ec33,8,0.5799999999999998,13,29,No Banner,Lost,0,NA,Chose Non-Hot,48,39,NA,1
+67a8ef6331f586a361a8ec33,9,0.5699999999999998,13,4,Banner,Lost,1,nonhot_win_number,Chose Hot,34,37,NA,1
+67a8ef6331f586a361a8ec33,10,0.5599999999999998,28,22,No Banner,Lost,0,NA,Chose Non-Hot,43,42,NA,1
+67a8ef6331f586a361a8ec33,11,0.9099999999999998,26,26,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+67a8ef6331f586a361a8ec33,12,0.8999999999999998,18,13,Banner,Lost,16,hot_win_number,Chose Non-Hot,43,40,45,1
+67a8ef6331f586a361a8ec33,13,0.8899999999999998,26,5,No Banner,Lost,0,NA,Chose Non-Hot,41,50,NA,1
+67a8ef6331f586a361a8ec33,14,0.8799999999999998,28,14,Banner,Lost,16,nonhot_win_number,Chose Hot,38,49,54,1
+67a8ef6331f586a361a8ec33,15,0.8699999999999998,7,23,No Banner,Lost,0,NA,Chose Non-Hot,41,49,NA,1
+67a8ef6331f586a361a8ec33,16,0.8599999999999998,29,34,No Banner,Lost,0,NA,Chose Non-Hot,57,59,NA,1
+67a8ef6331f586a361a8ec33,17,1.2099999999999995,33,33,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+67a8ef6331f586a361a8ec33,18,1.1999999999999995,26,15,No Banner,Lost,0,NA,Chose Non-Hot,50,48,NA,1
+67a8ef6331f586a361a8ec33,19,1.1899999999999995,5,34,Banner,Lost,3,nonhot_win_number,Chose Non-Hot,42,60,51,1
+67a8ef6331f586a361a8ec33,20,1.1799999999999995,13,14,No Banner,Lost,0,NA,Chose Non-Hot,42,42,NA,1
+67a8ef6331f586a361a8ec33,21,1.5299999999999998,35,35,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+67a8ef6331f586a361a8ec33,22,1.5199999999999998,5,33,Banner,Lost,2,nonhot_win_number,Chose Non-Hot,32,38,48,1
+67a8ef6331f586a361a8ec33,23,1.5099999999999998,35,1,Banner,Lost,2,hot_win_number,Chose Non-Hot,39,43,46,1
+67a8ef6331f586a361a8ec33,24,1.4999999999999998,25,34,No Banner,Lost,0,NA,Chose Non-Hot,49,50,NA,1
+694163cd8dce97079e97bd07,1,0.29,2,23,No Banner,Lost,0,NA,Chose Non-Hot,2,2,NA,1
+694163cd8dce97079e97bd07,2,0.27999999999999997,4,29,Banner,Lost,2,nonhot_win_number,Chose Hot,13,65,3,1
+694163cd8dce97079e97bd07,3,0.26999999999999996,21,20,Banner,Lost,3,hot_win_number,Chose Hot,27,49,10,1
+694163cd8dce97079e97bd07,4,0.6199999999999999,18,18,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+694163cd8dce97079e97bd07,5,0.6099999999999999,5,36,Banner,Lost,16,hot_win_number,Chose Hot,66,90,3,1
+694163cd8dce97079e97bd07,6,0.5999999999999999,2,36,No Banner,Lost,0,NA,Chose Non-Hot,6,75,NA,1
+694163cd8dce97079e97bd07,7,0.5899999999999999,3,13,Banner,Lost,1,nonhot_win_number,Chose Hot,100,97,NA,1
+694163cd8dce97079e97bd07,8,0.5799999999999998,30,34,Banner,Lost,1,nonhot_win_number,Chose Hot,100,21,NA,1
+694163cd8dce97079e97bd07,9,0.5699999999999998,17,25,Banner,Lost,16,nonhot_win_number,Chose Hot,79,97,0,1
+694163cd8dce97079e97bd07,10,0.5599999999999998,3,24,Banner,Lost,8,hot_win_number,Chose Hot,91,100,9,1
+694163cd8dce97079e97bd07,11,0.9099999999999998,21,21,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+694163cd8dce97079e97bd07,12,0.8999999999999998,18,9,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,1
+694163cd8dce97079e97bd07,13,0.8899999999999998,29,36,Banner,Lost,3,nonhot_win_number,Chose Hot,96,100,4,1
+694163cd8dce97079e97bd07,14,0.8799999999999998,10,5,No Banner,Lost,0,NA,Chose Non-Hot,7,53,NA,1
+694163cd8dce97079e97bd07,15,0.8699999999999998,2,10,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,1
+694163cd8dce97079e97bd07,16,0.8599999999999998,23,20,No Banner,Lost,0,NA,Chose Non-Hot,66,55,NA,1
+694163cd8dce97079e97bd07,17,1.2099999999999995,8,8,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+694163cd8dce97079e97bd07,18,1.1999999999999995,20,1,Banner,Lost,2,hot_win_number,Chose Hot,100,100,NA,1
+694163cd8dce97079e97bd07,19,1.1899999999999995,18,2,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,1
+694163cd8dce97079e97bd07,20,1.1799999999999995,2,20,Banner,Lost,8,nonhot_win_number,Chose Hot,0,65,0,1
+694163cd8dce97079e97bd07,21,1.1699999999999997,33,15,No Banner,Lost,0,NA,Chose Non-Hot,78,100,NA,1
+694163cd8dce97079e97bd07,22,1.5199999999999996,10,10,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+694163cd8dce97079e97bd07,23,1.5099999999999996,21,18,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,1
+694163cd8dce97079e97bd07,24,1.4999999999999996,18,32,No Banner,Lost,0,NA,Chose Non-Hot,0,16,NA,1
 6942cbf167c9650a2b6c9b11,1,0.29,25,24,Banner,Lost,16,nonhot_win_number,Chose Hot,10,49,6,1
 6942cbf167c9650a2b6c9b11,2,0.27999999999999997,25,17,No Banner,Lost,0,NA,Chose Non-Hot,13,28,NA,1
 6942cbf167c9650a2b6c9b11,3,0.26999999999999996,25,12,No Banner,Lost,0,NA,Chose Non-Hot,20,30,NA,1
@@ -767,6 +1371,54 @@ prolific_pid,trial,balance,chosen_number,winner_number,banner_yn,win_status,hot_
 6942cbf167c9650a2b6c9b11,22,1.1599999999999997,36,10,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,17,27,0,1
 6942cbf167c9650a2b6c9b11,23,1.5099999999999998,36,36,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
 6942cbf167c9650a2b6c9b11,24,1.4999999999999998,36,6,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,1
+695985ba61685b28e8a91158,1,0.29,7,4,No Banner,Lost,0,NA,Chose Non-Hot,21,23,NA,3
+695985ba61685b28e8a91158,2,0.27999999999999997,21,22,No Banner,Lost,0,NA,Chose Non-Hot,26,29,NA,3
+695985ba61685b28e8a91158,3,0.26999999999999996,15,4,Banner,Lost,2,nonhot_win_number,Chose Hot,15,10,1,3
+695985ba61685b28e8a91158,4,0.25999999999999995,18,3,No Banner,Lost,0,NA,Chose Non-Hot,9,10,NA,3
+695985ba61685b28e8a91158,5,0.6099999999999999,33,33,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,3
+695985ba61685b28e8a91158,6,0.5999999999999999,27,13,Banner,Lost,16,nonhot_win_number,Chose Hot,6,7,6,3
+695985ba61685b28e8a91158,7,0.5899999999999999,17,34,Banner,Lost,3,nonhot_win_number,Chose Hot,1,3,0,3
+695985ba61685b28e8a91158,8,0.5799999999999998,20,6,Banner,Lost,8,hot_win_number,Chose Non-Hot,3,5,0,3
+695985ba61685b28e8a91158,9,0.5699999999999998,36,5,No Banner,Lost,0,NA,Chose Non-Hot,3,3,NA,3
+695985ba61685b28e8a91158,10,0.5599999999999998,14,28,No Banner,Lost,0,NA,Chose Non-Hot,7,8,NA,3
+695985ba61685b28e8a91158,11,0.9099999999999998,25,25,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,3
+695985ba61685b28e8a91158,12,0.8999999999999998,11,2,No Banner,Lost,0,NA,Chose Non-Hot,2,4,NA,3
+695985ba61685b28e8a91158,13,0.8899999999999998,24,29,No Banner,Lost,0,NA,Chose Non-Hot,3,6,NA,3
+695985ba61685b28e8a91158,14,0.8799999999999998,5,26,Banner,Lost,8,nonhot_win_number,Chose Non-Hot,5,3,0,3
+695985ba61685b28e8a91158,15,0.8699999999999998,19,5,Banner,Lost,3,hot_win_number,Chose Non-Hot,3,5,0,3
+695985ba61685b28e8a91158,16,1.2199999999999998,1,1,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,3
+695985ba61685b28e8a91158,17,1.2099999999999995,36,12,No Banner,Lost,0,NA,Chose Non-Hot,9,0,NA,3
+695985ba61685b28e8a91158,18,1.1999999999999995,29,18,No Banner,Lost,0,NA,Chose Non-Hot,9,0,NA,3
+695985ba61685b28e8a91158,19,1.1899999999999995,30,33,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,8,0,0,3
+695985ba61685b28e8a91158,20,1.1799999999999995,27,13,No Banner,Lost,0,NA,Chose Non-Hot,20,16,NA,3
+695985ba61685b28e8a91158,21,1.1699999999999997,22,17,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,14,12,0,3
+695985ba61685b28e8a91158,22,1.5199999999999996,8,8,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,3
+695985ba61685b28e8a91158,23,1.5099999999999996,17,23,Banner,Lost,2,hot_win_number,Chose Non-Hot,12,8,0,3
+695985ba61685b28e8a91158,24,1.4999999999999996,26,7,Banner,Lost,16,hot_win_number,Chose Non-Hot,13,17,0,3
+695bd4f6bbdb5a636882ce78,1,0.29,16,10,No Banner,Lost,0,NA,Chose Non-Hot,0,100,NA,1
+695bd4f6bbdb5a636882ce78,2,0.27999999999999997,16,27,No Banner,Lost,0,NA,Chose Non-Hot,0,100,NA,1
+695bd4f6bbdb5a636882ce78,3,0.6299999999999999,16,16,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+695bd4f6bbdb5a636882ce78,4,0.6199999999999999,14,25,Banner,Lost,8,nonhot_win_number,Chose Non-Hot,0,100,0,1
+695bd4f6bbdb5a636882ce78,5,0.6099999999999999,14,12,No Banner,Lost,0,NA,Chose Non-Hot,0,100,NA,1
+695bd4f6bbdb5a636882ce78,6,0.5999999999999999,13,16,Banner,Lost,1,nonhot_win_number,Chose Hot,0,100,NA,1
+695bd4f6bbdb5a636882ce78,7,0.5899999999999999,8,24,Banner,Lost,2,hot_win_number,Chose Hot,0,100,NA,1
+695bd4f6bbdb5a636882ce78,8,0.5799999999999998,16,9,Banner,Lost,8,hot_win_number,Chose Hot,0,0,100,1
+695bd4f6bbdb5a636882ce78,9,0.5699999999999998,16,13,No Banner,Lost,0,NA,Chose Non-Hot,0,100,NA,1
+695bd4f6bbdb5a636882ce78,10,0.5599999999999998,16,30,Banner,Lost,3,nonhot_win_number,Chose Non-Hot,0,0,0,1
+695bd4f6bbdb5a636882ce78,11,0.5499999999999998,9,23,Banner,Lost,1,nonhot_win_number,Chose Hot,0,0,NA,1
+695bd4f6bbdb5a636882ce78,12,0.8999999999999998,16,16,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+695bd4f6bbdb5a636882ce78,13,0.8899999999999998,14,25,Banner,Lost,3,hot_win_number,Chose Non-Hot,0,0,0,1
+695bd4f6bbdb5a636882ce78,14,0.8799999999999998,14,2,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,1
+695bd4f6bbdb5a636882ce78,15,1.2299999999999998,16,16,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+695bd4f6bbdb5a636882ce78,16,1.2199999999999998,16,15,Banner,Lost,16,nonhot_win_number,Chose Non-Hot,0,0,0,1
+695bd4f6bbdb5a636882ce78,17,1.2099999999999995,16,8,Banner,Lost,2,nonhot_win_number,Chose Non-Hot,0,0,0,1
+695bd4f6bbdb5a636882ce78,18,1.1999999999999995,16,35,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,1
+695bd4f6bbdb5a636882ce78,19,1.1899999999999995,16,15,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,1
+695bd4f6bbdb5a636882ce78,20,1.1799999999999995,16,21,Banner,Lost,16,hot_win_number,Chose Non-Hot,0,0,0,1
+695bd4f6bbdb5a636882ce78,21,1.1699999999999997,16,24,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,1
+695bd4f6bbdb5a636882ce78,22,1.1599999999999997,16,10,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,1
+695bd4f6bbdb5a636882ce78,23,1.1499999999999997,16,9,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,1
+695bd4f6bbdb5a636882ce78,24,1.4999999999999996,16,16,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
 695f9adb2064ccdd40b77cdd,1,0.29,36,15,Banner,Lost,2,hot_win_number,Chose Hot,63,100,NA,4
 695f9adb2064ccdd40b77cdd,2,0.27999999999999997,16,5,No Banner,Lost,0,NA,Chose Non-Hot,100,59,NA,4
 695f9adb2064ccdd40b77cdd,3,0.6299999999999999,12,12,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,4
@@ -815,3 +1467,51 @@ prolific_pid,trial,balance,chosen_number,winner_number,banner_yn,win_status,hot_
 695ff63580d6ce826e06277f,22,1.1599999999999997,30,27,Banner,Lost,2,nonhot_win_number,Chose Non-Hot,77,79,2,1
 695ff63580d6ce826e06277f,23,1.1499999999999997,31,29,Banner,Lost,3,hot_win_number,Chose Hot,81,83,2,1
 695ff63580d6ce826e06277f,24,1.4999999999999996,15,15,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
+696003f9b6ac164d5a0e51f9,1,0.29,2,32,Banner,Lost,1,nonhot_win_number,Chose Hot,76,100,NA,2
+696003f9b6ac164d5a0e51f9,2,0.27999999999999997,22,11,No Banner,Lost,0,NA,Chose Non-Hot,80,100,NA,2
+696003f9b6ac164d5a0e51f9,3,0.6299999999999999,1,1,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
+696003f9b6ac164d5a0e51f9,4,0.6199999999999999,29,25,No Banner,Lost,0,NA,Chose Non-Hot,84,95,NA,2
+696003f9b6ac164d5a0e51f9,5,0.6099999999999999,20,29,Banner,Lost,8,nonhot_win_number,Chose Non-Hot,85,100,0,2
+696003f9b6ac164d5a0e51f9,6,0.5999999999999999,20,13,No Banner,Lost,0,NA,Chose Non-Hot,90,93,NA,2
+696003f9b6ac164d5a0e51f9,7,0.5899999999999999,24,2,No Banner,Lost,0,NA,Chose Non-Hot,91,100,NA,2
+696003f9b6ac164d5a0e51f9,8,0.5799999999999998,19,31,No Banner,Lost,0,NA,Chose Non-Hot,86,100,NA,2
+696003f9b6ac164d5a0e51f9,9,0.5699999999999998,5,11,Banner,Lost,2,hot_win_number,Chose Non-Hot,80,95,0,2
+696003f9b6ac164d5a0e51f9,10,0.5599999999999998,16,21,Banner,Lost,3,hot_win_number,Chose Hot,87,95,0,2
+696003f9b6ac164d5a0e51f9,11,0.5499999999999998,35,26,No Banner,Lost,0,NA,Chose Non-Hot,94,100,NA,2
+696003f9b6ac164d5a0e51f9,12,0.8999999999999998,6,6,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
+696003f9b6ac164d5a0e51f9,13,0.8899999999999998,31,29,No Banner,Lost,0,NA,Chose Non-Hot,83,95,NA,2
+696003f9b6ac164d5a0e51f9,14,0.8799999999999998,7,10,Banner,Lost,8,hot_win_number,Chose Hot,93,95,0,2
+696003f9b6ac164d5a0e51f9,15,0.8699999999999998,32,23,Banner,Lost,1,nonhot_win_number,Chose Hot,94,100,NA,2
+696003f9b6ac164d5a0e51f9,16,1.2199999999999998,12,12,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
+696003f9b6ac164d5a0e51f9,17,1.2099999999999995,7,23,No Banner,Lost,0,NA,Chose Non-Hot,82,96,NA,2
+696003f9b6ac164d5a0e51f9,18,1.1999999999999995,20,5,Banner,Lost,2,nonhot_win_number,Chose Non-Hot,99,89,0,2
+696003f9b6ac164d5a0e51f9,19,1.1899999999999995,26,16,Banner,Lost,16,hot_win_number,Chose Hot,96,90,0,2
+696003f9b6ac164d5a0e51f9,20,1.1799999999999995,19,6,No Banner,Lost,0,NA,Chose Non-Hot,95,100,NA,2
+696003f9b6ac164d5a0e51f9,21,1.5299999999999998,12,12,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
+696003f9b6ac164d5a0e51f9,22,1.5199999999999998,26,5,No Banner,Lost,0,NA,Chose Non-Hot,96,84,NA,2
+696003f9b6ac164d5a0e51f9,23,1.5099999999999998,22,15,Banner,Lost,3,nonhot_win_number,Chose Non-Hot,93,89,0,2
+696003f9b6ac164d5a0e51f9,24,1.4999999999999998,6,18,Banner,Lost,16,nonhot_win_number,Chose Hot,100,100,0,2
+696672bf58495a18f8a1851a,1,0.29,18,5,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,5
+696672bf58495a18f8a1851a,2,0.27999999999999997,30,28,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,5
+696672bf58495a18f8a1851a,3,0.26999999999999996,23,13,Banner,Lost,3,hot_win_number,Chose Hot,6,24,6,5
+696672bf58495a18f8a1851a,4,0.25999999999999995,24,2,No Banner,Lost,0,NA,Chose Non-Hot,10,10,NA,5
+696672bf58495a18f8a1851a,5,0.6099999999999999,26,26,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,5
+696672bf58495a18f8a1851a,6,0.5999999999999999,29,18,No Banner,Lost,0,NA,Chose Non-Hot,7,6,NA,5
+696672bf58495a18f8a1851a,7,0.5899999999999999,9,36,Banner,Lost,16,nonhot_win_number,Chose Hot,7,5,5,5
+696672bf58495a18f8a1851a,8,0.5799999999999998,1,33,No Banner,Lost,0,NA,Chose Non-Hot,11,8,NA,5
+696672bf58495a18f8a1851a,9,0.5699999999999998,24,21,No Banner,Lost,0,NA,Chose Non-Hot,11,6,NA,5
+696672bf58495a18f8a1851a,10,0.9199999999999998,10,10,No Banner,Won,0,NA,Chose Non-Hot,9,NA,NA,5
+696672bf58495a18f8a1851a,11,0.9099999999999998,11,27,Banner,Lost,8,hot_win_number,Chose Non-Hot,6,7,6,5
+696672bf58495a18f8a1851a,12,0.8999999999999998,12,30,No Banner,Lost,0,NA,Chose Non-Hot,5,9,NA,5
+696672bf58495a18f8a1851a,13,0.8899999999999998,32,23,Banner,Lost,2,nonhot_win_number,Chose Hot,5,8,7,5
+696672bf58495a18f8a1851a,14,0.8799999999999998,1,13,Banner,Lost,1,nonhot_win_number,Chose Hot,8,10,NA,5
+696672bf58495a18f8a1851a,15,0.8699999999999998,8,20,No Banner,Lost,0,NA,Chose Non-Hot,8,8,NA,5
+696672bf58495a18f8a1851a,16,0.8599999999999998,16,4,No Banner,Lost,0,NA,Chose Non-Hot,9,9,NA,5
+696672bf58495a18f8a1851a,17,0.8499999999999998,2,21,Banner,Lost,1,nonhot_win_number,Chose Hot,9,10,NA,5
+696672bf58495a18f8a1851a,18,1.1999999999999995,18,18,No Banner,Won,0,NA,Chose Non-Hot,8,NA,NA,5
+696672bf58495a18f8a1851a,19,1.1899999999999995,19,31,Banner,Lost,8,nonhot_win_number,Chose Hot,12,5,7,5
+696672bf58495a18f8a1851a,20,1.1799999999999995,22,4,No Banner,Lost,0,NA,Chose Non-Hot,13,17,NA,5
+696672bf58495a18f8a1851a,21,1.1699999999999997,7,34,Banner,Lost,3,nonhot_win_number,Chose Hot,8,5,11,5
+696672bf58495a18f8a1851a,22,1.1599999999999997,13,31,Banner,Lost,2,hot_win_number,Chose Hot,9,6,NA,5
+696672bf58495a18f8a1851a,23,1.5099999999999998,23,23,No Banner,Won,0,NA,Chose Non-Hot,8,NA,NA,5
+696672bf58495a18f8a1851a,24,1.4999999999999998,7,27,Banner,Lost,16,hot_win_number,Chose Hot,7,8,13,5

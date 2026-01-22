@@ -45,7 +45,7 @@ data_clean_full <- data_raw |>
   group_by(prolific_pid) |>
   mutate(max_trial = max(trial_index)) |>
   ungroup() |>
-  filter(max_trial >= 60) |>
+  filter(max_trial >= 50) |>
   filter(trial_type != "instructions" & trial_type != "survey-multi-choice") |>
   select(prolific_pid, balance, choice, outcome, response, banner, win_status, hot_set_size, hot_numbers, outcome_rel_to_hot, trial_type, rt) |>
   group_by(prolific_pid) |>
@@ -60,7 +60,7 @@ data_clean_full <- data_raw |>
     hot_nums <- fromJSON(.y)
     .x %in% hot_nums
   })) %>%
-  mutate(choice_hot = case_when(choice_hot == TRUE ~ "Chose Hot Number", TRUE ~ "Chose Non-Hot Number")) |>
+  mutate(choice_hot = case_when(choice_hot == TRUE ~ "Chose Hot", TRUE ~ "Chose Non-Hot")) |>
   select(-c(trial_type, rt, hot_numbers)) %>% 
   mutate(
     response_parsed = map(response, ~ fromJSON(.x))
@@ -125,7 +125,7 @@ data_clean_slim <- data_raw |>
     hot_nums <- fromJSON(.y)
     .x %in% hot_nums
   })) %>%
-  mutate(choice_hot = case_when(choice_hot == TRUE ~ "Chose Hot Number", TRUE ~ "Chose Non-Hot Number")) |>
+  mutate(choice_hot = case_when(choice_hot == TRUE ~ "Chose Hot", TRUE ~ "Chose Non-Hot")) |>
   select(-c(trial_type, rt, hot_numbers)) %>% 
   mutate(
     response_parsed = map(response, ~ fromJSON(.x))

@@ -147,10 +147,6 @@ prolific_pid,trial,balance,chosen_number,winner_number,banner_yn,win_status,hot_
 648746670a6ffb0022fdb933,2,0.08000000000000002,7,33,Banner,Lost,2,hot_win_number,Chose Hot,85,95,NA,2
 648746670a6ffb0022fdb933,3,0.07000000000000002,17,23,Banner,Lost,16,hot_win_number,Chose Hot,25,80,0,2
 648746670a6ffb0022fdb933,4,0.42,26,26,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2
-64d5219df0415c9a7c609c19,1,0.09000000000000001,15,22,No Banner,Lost,0,NA,Chose Non-Hot,8,4,NA,1
-64d5219df0415c9a7c609c19,2,0.08000000000000002,10,2,Banner,Lost,2,hot_win_number,Chose Non-Hot,3,2,0,1
-64d5219df0415c9a7c609c19,3,0.07000000000000002,16,14,Banner,Lost,16,hot_win_number,Chose Non-Hot,3,5,0,1
-64d5219df0415c9a7c609c19,4,0.42,21,21,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1
 64ef5620f0a6cf6a9568a4b4,1,0.09000000000000001,16,19,No Banner,Lost,0,NA,Chose Non-Hot,89,84,NA,1
 64ef5620f0a6cf6a9568a4b4,2,0.08000000000000002,8,31,Banner,Lost,2,hot_win_number,Chose Hot,100,100,NA,1
 64ef5620f0a6cf6a9568a4b4,3,0.07000000000000002,27,35,Banner,Lost,16,hot_win_number,Chose Hot,93,70,77,1
