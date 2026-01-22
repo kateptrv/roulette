@@ -1,4 +1,28 @@
 prolific_pid,trial,balance,chosen_number,winner_number,banner_yn,win_status,hot_set_size,outcome_rel_to_hot,choice_hot,regret_chosen,regret_notchosen_winner,regret_notchosen_hot_loser,comp_tries_to_pass,feedback,age,gamble_freq_12mo,hot_reliance,race,gender,ethnicity
+561bbdf9811d22000df3138a,1,-0.01,11,8,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+561bbdf9811d22000df3138a,2,-0.02,16,23,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+561bbdf9811d22000df3138a,3,0.32999999999999996,26,26,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+561bbdf9811d22000df3138a,4,0.31999999999999995,11,33,Banner,Lost,8,nonhot_win_number,Chose Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+561bbdf9811d22000df3138a,5,0.30999999999999994,35,6,Banner,Lost,16,nonhot_win_number,Chose Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+561bbdf9811d22000df3138a,6,0.29999999999999993,36,10,Banner,Lost,2,hot_win_number,Chose Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+561bbdf9811d22000df3138a,7,0.2899999999999999,22,13,Banner,Lost,8,hot_win_number,Chose Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+561bbdf9811d22000df3138a,8,0.2799999999999999,18,9,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+561bbdf9811d22000df3138a,9,0.2699999999999999,25,14,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+561bbdf9811d22000df3138a,10,0.2599999999999999,25,20,Banner,Lost,2,nonhot_win_number,Chose Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+561bbdf9811d22000df3138a,11,0.2499999999999999,29,34,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+561bbdf9811d22000df3138a,12,0.5999999999999999,7,7,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+561bbdf9811d22000df3138a,13,0.5899999999999999,5,3,Banner,Lost,16,hot_win_number,Chose Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+561bbdf9811d22000df3138a,14,0.5799999999999998,29,17,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+561bbdf9811d22000df3138a,15,0.5699999999999998,15,31,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+561bbdf9811d22000df3138a,16,0.5599999999999998,12,3,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+561bbdf9811d22000df3138a,17,0.9099999999999998,23,23,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+561bbdf9811d22000df3138a,18,0.8999999999999998,33,10,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+561bbdf9811d22000df3138a,19,0.8899999999999998,33,8,Banner,Lost,3,nonhot_win_number,Chose Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+561bbdf9811d22000df3138a,20,0.8799999999999998,7,20,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+561bbdf9811d22000df3138a,21,0.8699999999999998,10,18,Banner,Lost,3,hot_win_number,Chose Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+561bbdf9811d22000df3138a,22,1.2199999999999998,3,3,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+561bbdf9811d22000df3138a,23,1.2099999999999995,22,3,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+561bbdf9811d22000df3138a,24,1.1999999999999995,31,28,Banner,Lost,1,nonhot_win_number,Chose Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
 578673a9275be6000135880e,1,-0.01,16,11,No Banner,Lost,0,NA,Chose Non-Hot,58,88,NA,1,,35,Never,NA,White,Male,Non-Hispanic
 578673a9275be6000135880e,2,-0.02,11,9,No Banner,Lost,0,NA,Chose Non-Hot,59,87,NA,1,,35,Never,NA,White,Male,Non-Hispanic
 578673a9275be6000135880e,3,-0.03,3,29,Banner,Lost,3,hot_win_number,Chose Hot,86,95,NA,1,,35,Never,NA,White,Male,Non-Hispanic
@@ -119,6 +143,30 @@ prolific_pid,trial,balance,chosen_number,winner_number,banner_yn,win_status,hot_
 5d6466d84e9aae0001598a5a,22,1.2199999999999998,28,33,Banner,Lost,8,nonhot_win_number,Chose Hot,8,19,NA,1,,39,Never,NA,White,Female,Non-Hispanic
 5d6466d84e9aae0001598a5a,23,1.2099999999999995,28,6,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,12,19,NA,1,,39,Never,NA,White,Female,Non-Hispanic
 5d6466d84e9aae0001598a5a,24,1.1999999999999995,28,32,Banner,Lost,2,nonhot_win_number,Chose Non-Hot,7,16,NA,1,,39,Never,NA,White,Female,Non-Hispanic
+5ec44da606cb7931f04a35e9,1,-0.01,12,20,Banner,Lost,2,nonhot_win_number,Chose Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+5ec44da606cb7931f04a35e9,2,-0.02,15,3,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+5ec44da606cb7931f04a35e9,3,0.32999999999999996,24,24,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+5ec44da606cb7931f04a35e9,4,0.31999999999999995,15,16,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+5ec44da606cb7931f04a35e9,5,0.30999999999999994,32,23,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+5ec44da606cb7931f04a35e9,6,0.29999999999999993,15,4,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+5ec44da606cb7931f04a35e9,7,0.2899999999999999,8,11,Banner,Lost,3,nonhot_win_number,Chose Non-Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+5ec44da606cb7931f04a35e9,8,0.2799999999999999,11,3,Banner,Lost,2,hot_win_number,Chose Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+5ec44da606cb7931f04a35e9,9,0.2699999999999999,33,25,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+5ec44da606cb7931f04a35e9,10,0.2599999999999999,12,14,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+5ec44da606cb7931f04a35e9,11,0.2499999999999999,22,12,Banner,Lost,16,nonhot_win_number,Chose Non-Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+5ec44da606cb7931f04a35e9,12,0.5999999999999999,18,18,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+5ec44da606cb7931f04a35e9,13,0.5899999999999999,19,17,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+5ec44da606cb7931f04a35e9,14,0.5799999999999998,4,23,Banner,Lost,3,hot_win_number,Chose Non-Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+5ec44da606cb7931f04a35e9,15,0.5699999999999998,24,11,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+5ec44da606cb7931f04a35e9,16,0.9199999999999998,10,10,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+5ec44da606cb7931f04a35e9,17,0.9099999999999998,15,13,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+5ec44da606cb7931f04a35e9,18,0.8999999999999998,12,30,Banner,Lost,8,nonhot_win_number,Chose Non-Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+5ec44da606cb7931f04a35e9,19,0.8899999999999998,11,12,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+5ec44da606cb7931f04a35e9,20,0.8799999999999998,18,19,Banner,Lost,16,hot_win_number,Chose Non-Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+5ec44da606cb7931f04a35e9,21,1.2299999999999998,18,18,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+5ec44da606cb7931f04a35e9,22,1.2199999999999998,10,7,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+5ec44da606cb7931f04a35e9,23,1.2099999999999995,18,25,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+5ec44da606cb7931f04a35e9,24,1.1999999999999995,18,21,Banner,Lost,8,hot_win_number,Chose Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
 5ee00b8630f30b34f2a5dc1c,1,-0.01,33,7,No Banner,Lost,0,NA,Chose Non-Hot,94,100,NA,1,,36,A few times,NA,White,Male,Non-Hispanic
 5ee00b8630f30b34f2a5dc1c,2,-0.02,7,34,No Banner,Lost,0,NA,Chose Non-Hot,89,100,NA,1,,36,A few times,NA,White,Male,Non-Hispanic
 5ee00b8630f30b34f2a5dc1c,3,-0.03,35,22,No Banner,Lost,0,NA,Chose Non-Hot,92,100,NA,1,,36,A few times,NA,White,Male,Non-Hispanic
@@ -191,6 +239,30 @@ prolific_pid,trial,balance,chosen_number,winner_number,banner_yn,win_status,hot_
 5f9e1fc8517e0d3d1b35859e,22,0.8599999999999998,22,4,No Banner,Lost,0,NA,Chose Non-Hot,35,56,NA,1,,26,Never,NA,American Indian/Alaska Native,Female,Non-Hispanic
 5f9e1fc8517e0d3d1b35859e,23,1.2099999999999995,1,1,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,26,Never,NA,American Indian/Alaska Native,Female,Non-Hispanic
 5f9e1fc8517e0d3d1b35859e,24,1.1999999999999995,3,30,Banner,Lost,16,nonhot_win_number,Chose Hot,26,74,NA,1,,26,Never,NA,American Indian/Alaska Native,Female,Non-Hispanic
+60906c79f8cfd718d6dcb3df,1,-0.01,22,32,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+60906c79f8cfd718d6dcb3df,2,-0.02,13,2,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+60906c79f8cfd718d6dcb3df,3,-0.03,25,19,Banner,Lost,2,hot_win_number,Chose Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+60906c79f8cfd718d6dcb3df,4,0.31999999999999995,15,15,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+60906c79f8cfd718d6dcb3df,5,0.30999999999999994,30,1,Banner,Lost,3,nonhot_win_number,Chose Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+60906c79f8cfd718d6dcb3df,6,0.29999999999999993,7,3,Banner,Lost,8,nonhot_win_number,Chose Hot,99,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+60906c79f8cfd718d6dcb3df,7,0.2899999999999999,22,27,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+60906c79f8cfd718d6dcb3df,8,0.2799999999999999,6,26,Banner,Lost,1,nonhot_win_number,Chose Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+60906c79f8cfd718d6dcb3df,9,0.2699999999999999,27,13,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+60906c79f8cfd718d6dcb3df,10,0.6199999999999999,13,13,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+60906c79f8cfd718d6dcb3df,11,0.6099999999999999,4,3,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+60906c79f8cfd718d6dcb3df,12,0.5999999999999999,8,15,Banner,Lost,1,nonhot_win_number,Chose Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+60906c79f8cfd718d6dcb3df,13,0.5899999999999999,22,14,Banner,Lost,2,nonhot_win_number,Chose Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+60906c79f8cfd718d6dcb3df,14,0.5799999999999998,16,6,Banner,Lost,16,nonhot_win_number,Chose Non-Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+60906c79f8cfd718d6dcb3df,15,0.5699999999999998,8,33,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+60906c79f8cfd718d6dcb3df,16,0.5599999999999998,3,32,Banner,Lost,8,hot_win_number,Chose Non-Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+60906c79f8cfd718d6dcb3df,17,0.5499999999999998,3,1,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+60906c79f8cfd718d6dcb3df,18,0.8999999999999998,3,3,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+60906c79f8cfd718d6dcb3df,19,0.8899999999999998,20,23,Banner,Lost,16,hot_win_number,Chose Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+60906c79f8cfd718d6dcb3df,20,0.8799999999999998,33,22,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+60906c79f8cfd718d6dcb3df,21,0.8699999999999998,24,25,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+60906c79f8cfd718d6dcb3df,22,0.8599999999999998,19,7,Banner,Lost,3,hot_win_number,Chose Non-Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+60906c79f8cfd718d6dcb3df,23,1.2099999999999995,32,32,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+60906c79f8cfd718d6dcb3df,24,1.1999999999999995,9,15,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
 616c1cc2510fe9022f6577f8,1,-0.01,1,31,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,2,I was happy I won as much as I did.,56,A few times,NA,White,Male,Non-Hispanic
 616c1cc2510fe9022f6577f8,2,-0.02,31,33,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,2,I was happy I won as much as I did.,56,A few times,NA,White,Male,Non-Hispanic
 616c1cc2510fe9022f6577f8,3,0.32999999999999996,31,31,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,I was happy I won as much as I did.,56,A few times,NA,White,Male,Non-Hispanic
@@ -311,6 +383,30 @@ prolific_pid,trial,balance,chosen_number,winner_number,banner_yn,win_status,hot_
 65f8c7701b92017a3902e203,22,0.8599999999999998,31,14,Banner,Lost,8,hot_win_number,Chose Non-Hot,45,45,NA,1,,29,Never,NA,White,Female,Non-Hispanic
 65f8c7701b92017a3902e203,23,1.2099999999999995,19,19,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,29,Never,NA,White,Female,Non-Hispanic
 65f8c7701b92017a3902e203,24,1.1999999999999995,29,36,Banner,Lost,16,nonhot_win_number,Chose Hot,45,40,NA,1,,29,Never,NA,White,Female,Non-Hispanic
+66202bf7f2f540fe348b8430,1,-0.01,19,23,Banner,Lost,2,hot_win_number,Chose Hot,40,60,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+66202bf7f2f540fe348b8430,2,-0.02,8,9,Banner,Lost,3,hot_win_number,Chose Hot,55,65,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+66202bf7f2f540fe348b8430,3,-0.03,1,9,No Banner,Lost,0,NA,Chose Non-Hot,15,10,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+66202bf7f2f540fe348b8430,4,-0.04,33,24,Banner,Lost,8,hot_win_number,Chose Hot,24,40,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+66202bf7f2f540fe348b8430,5,0.31,30,30,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+66202bf7f2f540fe348b8430,6,0.3,13,18,Banner,Lost,1,nonhot_win_number,Chose Hot,7,8,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+66202bf7f2f540fe348b8430,7,0.29,3,5,Banner,Lost,16,hot_win_number,Chose Hot,6,12,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+66202bf7f2f540fe348b8430,8,0.27999999999999997,34,21,No Banner,Lost,0,NA,Chose Non-Hot,12,14,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+66202bf7f2f540fe348b8430,9,0.26999999999999996,1,14,Banner,Lost,3,nonhot_win_number,Chose Hot,2,5,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+66202bf7f2f540fe348b8430,10,0.6199999999999999,29,29,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+66202bf7f2f540fe348b8430,11,0.6099999999999999,20,36,No Banner,Lost,0,NA,Chose Non-Hot,6,11,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+66202bf7f2f540fe348b8430,12,0.5999999999999999,36,28,No Banner,Lost,0,NA,Chose Non-Hot,2,4,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+66202bf7f2f540fe348b8430,13,0.5899999999999999,13,16,No Banner,Lost,0,NA,Chose Non-Hot,6,7,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+66202bf7f2f540fe348b8430,14,0.5799999999999998,15,10,Banner,Lost,1,nonhot_win_number,Chose Hot,3,7,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+66202bf7f2f540fe348b8430,15,0.5699999999999998,6,9,No Banner,Lost,0,NA,Chose Non-Hot,2,2,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+66202bf7f2f540fe348b8430,16,0.9199999999999998,31,31,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+66202bf7f2f540fe348b8430,17,0.9099999999999998,36,27,No Banner,Lost,0,NA,Chose Non-Hot,3,6,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+66202bf7f2f540fe348b8430,18,0.8999999999999998,4,32,No Banner,Lost,0,NA,Chose Non-Hot,2,3,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+66202bf7f2f540fe348b8430,19,0.8899999999999998,30,10,Banner,Lost,8,nonhot_win_number,Chose Hot,23,18,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+66202bf7f2f540fe348b8430,20,0.8799999999999998,14,36,Banner,Lost,2,nonhot_win_number,Chose Hot,4,4,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+66202bf7f2f540fe348b8430,21,0.8699999999999998,21,16,Banner,Lost,16,nonhot_win_number,Chose Hot,5,6,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+66202bf7f2f540fe348b8430,22,1.2199999999999998,20,20,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+66202bf7f2f540fe348b8430,23,1.2099999999999995,18,8,No Banner,Lost,0,NA,Chose Non-Hot,2,2,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+66202bf7f2f540fe348b8430,24,1.1999999999999995,5,30,No Banner,Lost,0,NA,Chose Non-Hot,2,3,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
 662613a0c132844f74a62143,1,-0.01,17,11,No Banner,Lost,0,NA,Chose Non-Hot,57,87,NA,1,"I think the hotblock was fake.  I don't remember ever finding an emerald on a ""hot block""",41,About once a week,NA,White,Male,Non-Hispanic
 662613a0c132844f74a62143,2,-0.02,7,16,Banner,Lost,2,nonhot_win_number,Chose Hot,71,70,NA,1,"I think the hotblock was fake.  I don't remember ever finding an emerald on a ""hot block""",41,About once a week,NA,White,Male,Non-Hispanic
 662613a0c132844f74a62143,3,-0.03,25,13,Banner,Lost,8,hot_win_number,Chose Hot,36,83,NA,1,"I think the hotblock was fake.  I don't remember ever finding an emerald on a ""hot block""",41,About once a week,NA,White,Male,Non-Hispanic

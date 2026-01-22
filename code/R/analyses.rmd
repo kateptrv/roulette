@@ -11,26 +11,31 @@ output:
 knit: reprex::reprex_render
 ---
 
+# Setup
+
 ```{r}
 if(!suppressWarnings(require(pacman))){install.packages("pacman");library("pacman")}
-p_load(tidyverse, tidyr, dplyr, ggplot2, stats, sjPlot, readr, ggpubr, patchwork, lubridate, ggthemr, ggdist, ggpubr, showtext, usethis, data.table, png, grid, purrr, ggimage, osfr, jsonlite, lme4)
+p_load(tidyverse, tidyr, dplyr, ggplot2, stats, sjPlot, readr, ggpubr, patchwork, lubridate, ggthemr, ggdist, ggpubr, showtext, usethis, data.table, png, grid, purrr, ggimage, osfr, jsonlite, lme4, janitor, brms)
 ```
 
 ```{r}
-data_slim <- read_csv("../../data/data_clean_slim.csv") |>
-  filter(comp_tries_to_pass <= 2)
-
 data_full <- read_csv("../../data/data_clean_full.csv") |>
   filter(comp_tries_to_pass <= 2) |>
   group_by(prolific_pid) |>
   filter(max(trial) == 24) |>
   mutate(n_hot_choice = sum(choice_hot == "Chose Hot")) |>
-  ungroup() 
+  ungroup()
+
+data_slim <- read_csv("../../data/data_clean_slim.csv") |>
+  filter(comp_tries_to_pass <= 2) |>
+  group_by(prolific_pid) |>
+  mutate(n_hot_choice = sum(choice_hot == "Chose Hot")) |>
+  ungroup()
 
 data_mc_full <- read_csv("../../data/data_clean_mc_full.csv") |>
   filter(comp_tries_to_pass <= 2) |>
   group_by(prolific_pid) |>
-  filter(max(trial) == 24) |>
+  mutate(n_hot_choice = sum(choice_hot == "Chose Hot")) |>
   ungroup()
 ```
 
@@ -50,8 +55,137 @@ pal_combined <- c(
 "#8B1E3F", "#1F4E79",  "#D16C7C", "#7FA6C9")
 ```
 
+# Sample characteristics 
+
+## Study 1a
+
+```{r}
+data_full |>
+  group_by(prolific_pid) |>
+  select(prolific_pid, feedback:n_hot_choice) |>
+  distinct() |>
+  # 89 collected, 75 with 2 or fewer tries on the comprehension check
+  ungroup() |>
+  psych::describe() 
+
+data_full |>
+  group_by(prolific_pid) |>
+  select(prolific_pid, feedback:n_hot_choice) |>
+  distinct() |>
+  ungroup() |>
+  tabyl(gender)
+
+data_full |>
+  group_by(prolific_pid) |>
+  select(prolific_pid, feedback:n_hot_choice) |>
+  distinct() |>
+  ungroup() |>
+  tabyl(race)
+
+data_full |>
+  group_by(prolific_pid) |>
+  select(prolific_pid, feedback:n_hot_choice) |>
+  distinct() |>
+  ungroup() |>
+  tabyl(ethnicity)
+
+data_full |>
+  group_by(prolific_pid) |>
+  select(prolific_pid, feedback:n_hot_choice) |>
+  distinct() |>
+  ungroup() |>
+  tabyl(gamble_freq_12mo)
+
+
+```
+
+## Study 1b
+
+```{r}
+data_slim |>
+  group_by(prolific_pid) |>
+  select(prolific_pid, feedback:n_hot_choice) |>
+  distinct() |>
+  # 72 collected, 54 with 2 or fewer tries on the comprehension check
+  ungroup() |>
+  psych::describe()
+
+data_slim |>
+  group_by(prolific_pid) |>
+  select(prolific_pid, feedback:n_hot_choice) |>
+  distinct() |>
+  ungroup() |>
+  tabyl(gender)
+
+data_slim |>
+  group_by(prolific_pid) |>
+  select(prolific_pid, feedback:n_hot_choice) |>
+  distinct() |>
+  ungroup() |>
+  tabyl(race)
+
+data_slim |>
+  group_by(prolific_pid) |>
+  select(prolific_pid, feedback:n_hot_choice) |>
+  distinct() |>
+  ungroup() |>
+  tabyl(ethnicity)
+
+data_slim |>
+  group_by(prolific_pid) |>
+  select(prolific_pid, feedback:n_hot_choice) |>
+  distinct() |>
+  ungroup() |>
+  tabyl(gamble_freq_12mo)
+
+```
+
+## Study 2
+
 ```{r}
 data_mc_full |>
+  group_by(prolific_pid) |>
+  select(prolific_pid, feedback:n_hot_choice) |>
+  distinct() |>
+  # 72 collected, 54 with 2 or fewer tries on the comprehension check
+  ungroup() |>
+  psych::describe()
+
+# note: prolific screeners set for people who report video games/computer games as hobbies
+data_mc_full |>
+  group_by(prolific_pid) |>
+  select(prolific_pid, feedback:n_hot_choice) |>
+  distinct() |>
+  ungroup() |>
+  tabyl(gender)
+
+data_mc_full |>
+  group_by(prolific_pid) |>
+  select(prolific_pid, feedback:n_hot_choice) |>
+  distinct() |>
+  ungroup() |>
+  tabyl(race)
+
+data_mc_full |>
+  group_by(prolific_pid) |>
+  select(prolific_pid, feedback:n_hot_choice) |>
+  distinct() |>
+  ungroup() |>
+  tabyl(ethnicity)
+
+data_mc_full |>
+  group_by(prolific_pid) |>
+  select(prolific_pid, feedback:n_hot_choice) |>
+  distinct() |>
+  ungroup() |>
+  tabyl(gamble_freq_12mo)
+
+```
+
+# Study 1a analyses
+
+```{r}
+data_full |>
   ggplot(aes(x = win_status, y = regret_chosen, color = win_status, fill = win_status)) +
   geom_point(aes(alpha = 0.2), position = position_jitter(w = 0.1)) +
   stat_summary(
@@ -65,7 +199,7 @@ data_mc_full |>
 ```
 
 ```{r}
-data_mc_full |>
+data_full |>
   filter(win_status == "Lost" & hot_set_size > 0) |>
   ggplot(aes(x = outcome_rel_to_hot, y = regret_notchosen_winner, color = outcome_rel_to_hot, fill = outcome_rel_to_hot)) +
   stat_summary(
@@ -77,6 +211,7 @@ data_mc_full |>
      y = "Regret not chosen") +
   facet_wrap(~hot_set_size, nrow = 1) 
 ```
+
 ```{r}
 
 p1 <- data_mc_full |>
@@ -167,7 +302,6 @@ p2 <- data_mc_full |>
 p1 + p2 
 ```
 
-
 ```{r}
 data_slim |>
   filter(win_status == "Lost" & outcome_rel_to_hot == "hot_win_number") |>
@@ -196,7 +330,6 @@ tab_model(model2)
 sjPlot::plot_model(model2, type = "int")
 
 ```
-
 
 ```{r}
 data_full |> 
@@ -257,9 +390,8 @@ data_slim |>
   facet_wrap(~hot_set_size, nrow = 1)
 ```
 
-
 ```{r}
-data_mc_full |>
+data_full |>
   filter(win_status == "Lost" & outcome_rel_to_hot == "hot_win_number") |>
   pivot_longer(cols = c(regret_chosen, regret_notchosen_winner), names_to = "regret_type", values_to = "regret_value") |>
   ggplot(aes(x = choice_hot, y = regret_value, color = interaction(regret_type, choice_hot), fill = interaction(regret_type, choice_hot))) +
@@ -280,7 +412,7 @@ data_mc_full |>
 ```
 
 ```{r}
-data_mc_full |>
+data_full |>
   filter(win_status == "Lost" & outcome_rel_to_hot == "hot_win_number") |>
   pivot_longer(cols = c(regret_chosen, regret_notchosen_winner), names_to = "regret_type", values_to = "regret_value") |>
   group_by(prolific_pid) |>
@@ -295,13 +427,63 @@ data_mc_full |>
 ) +
   labs(x = "N of hot numbers",
      y = "Regret (person-centered)",
-     subtitle = "Hot number won") +
+     subtitle = "Study 2a") +
   scale_color_manual(values = pal_combined, name = "Participant's choice:") +
   scale_fill_manual(values = pal_combined, name = "Participant's choice:") +
   theme(legend.position = "bottom") +
   facet_wrap(~ hot_set_size, nrow = 1)
 ```
 
+```{r}
+data_model <- data_full |>
+  filter(win_status == "Lost" & outcome_rel_to_hot == "hot_win_number") |>
+  pivot_longer(cols = c(regret_chosen, regret_notchosen_winner), names_to = "regret_type", values_to = "regret_value") |>
+  mutate(regret_type = case_when(regret_type == "regret_chosen" ~ "Commission",
+                                 regret_type == "regret_notchosen_winner" ~ "Omission")) |>
+  group_by(prolific_pid) |>
+  mutate(regret_pmc = regret_value - mean(regret_value, na.rm = TRUE)) |>
+  ungroup() |>
+  mutate(hot_set_size = factor(hot_set_size))
+
+model1 <- bf(
+  regret_pmc ~ regret_type * choice_hot * hot_set_size +
+    (1 | prolific_pid)
+)
+
+model1_fit <- brm(
+  formula = model1,
+  data = data_model,
+  family = student,
+  chains = 4,
+  cores = 4,
+  iter = 4000,
+  warmup = 1000,
+  seed = 1234
+)
+
+print(model1_fit)
+pp_check(model1_fit)
+tab_model(model1_fit)
+
+```
+
+```{r}
+ce <- conditional_effects(
+  model1_fit,
+  effects = "hot_set_size:choice_hot",
+  conditions = data.frame(regret_type = c("Commission", "Omission")),
+  re_formula = NA,
+  prob = 0.95
+)
+
+plot(ce, plot = FALSE)[[1]] +
+  ggplot2::labs(
+    x = "Hot set size",
+    y = "Predicted regret (person-centered)",
+    color = "Choice",
+    fill  = "Choice"
+  )
+```
 
 ```{r}
 # session info

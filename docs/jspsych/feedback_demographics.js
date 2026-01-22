@@ -9,7 +9,7 @@ const feedback_demographics = {
           <label for="feedback"><strong>Feedback:</strong></label><br>
           <textarea name="feedback" id="feedback" rows="4" 
                     style="width:100%;"
-                    placeholder="Please provide any feedback you have about the experiment."></textarea>
+                    placeholder="Please provide any feedback you have about the experiment (optional)."></textarea>
         </div>
 
       <!-- Gaming History Section -->
@@ -39,9 +39,11 @@ const feedback_demographics = {
 
         <!-- Hot-block reliance -->
         <div style="margin-bottom:2em;">
-          <div style="margin-bottom:0.5em;">
-            <strong>Decision strategy</strong>
-          </div>
+          <label for="feedback"><strong>Feedback:</strong></label><br>
+          <textarea name="feedback" id="feedback" rows="4" 
+                    style="width:100%;"
+                    placeholder="What was your strategy for deciding which blocks to consider?"></textarea>
+        </div>
 
           <div style="margin-bottom:0.5em;">
             When deciding which block to mine, how much did you rely on the “hot blocks” information?
