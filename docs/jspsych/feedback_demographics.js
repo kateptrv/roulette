@@ -12,13 +12,13 @@ const feedback_demographics = {
                     placeholder="Please provide any feedback you have about the experiment."></textarea>
         </div>
 
-      <!-- Gambling History Section -->
+      <!-- Gaming History Section -->
       <div style="margin-bottom:2em;">
-        <div style="margin-bottom:0.75em;"><strong>Gambling history</strong></div>
+        <div style="margin-bottom:0.75em;"><strong>Gaming history</strong></div>
 
         <div style="margin-bottom:1.25em;">
           <div style="margin-bottom:0.5em;">
-            In the past <strong>12 months</strong>, how often have you gambled for money (including online betting, casinos, sports betting, lottery, etc.)?
+            In the past <strong>12 months</strong>, how often have you played Minecraft?
           </div>
           <label style="display:block; margin:0.25em 0;">
             <input type="radio" name="gamble_freq_12mo" value="Never"> Never
@@ -37,14 +37,14 @@ const feedback_demographics = {
           </label>
         </div>
 
-        <!-- Hot-number reliance -->
+        <!-- Hot-block reliance -->
         <div style="margin-bottom:2em;">
           <div style="margin-bottom:0.5em;">
             <strong>Decision strategy</strong>
           </div>
 
           <div style="margin-bottom:0.5em;">
-            When making your choices in the game, how much did you rely on the “hot numbers” information?
+            When deciding which block to mine, how much did you rely on the “hot blocks” information?
           </div>
 
           <label style="display:block; margin:0.25em 0;">
