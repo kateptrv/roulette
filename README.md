@@ -1,93 +1,87 @@
-# Project name
+# The Role of Counterfactual Salience in the Subjective Experience of Regret
+------------------------------------------------------------------------
 
-## General points
+## Contents
 
-- for folder and file names: 
-	+ don't use white space in either folder or filenames, use an underscore "_" instead
-	+ (almost always) use lower case only
-- always use relative paths in your code
-	+ for example, to save a figure from an R script inside the `code/R/` folder the path should be "../../figures/figure_name.pdf"
-- keep your folder structure organized
-	+ we recommend adhering to the folder structure in this repository 
-	+ more complex projects may have additional folders such as `videos/`, `tables/`, ...
-- note: some of the folders are empty except for a `.keep` file
-	+ the `.keep` file is just there to make sure that github includes the otherwise empty folder 
-	+ feel free to delete the `.keep` file once you've added another file to that folder
-- each code subfolder has a readme file that should be updated with information about the code scripts 
-- use github issues to keep track of any larger decisions that we make along the way 
-- make sure to create a slack channel for each project, link up the github repository with the slack channel, and add the people working on the project to the github repo and slack channel 
-- see our lab wiki for more help: https://github.com/cicl-stanford/wiki/wiki
+1. [Overview](#overview)
+2. [Experiments](#experiments)
+3. [Repository structure](#repository-structure)
+4. [CRediT author statement](#credit-author-statement)
 
-## Repository structure 
+------------------------------------------------------------------------
+
+## Overview {#overview}
+
+This repository contains materials, experiment code, and analysis scripts for a set of behavioral experiments examining how **counterfactual salience**—-the degree to which unchosen alternatives capture attention-—shapes the subjective experience of regret. Across 3 studies, we test the hypothesis that regret is driven not only by the outcomes, but by how decision makers allocate attention across the choice set. By selectively highlighting subsets of options, we manipulate the salience of specific counterfactuals and examine how this alters regret for chosen versus unchosen alternatives.
+
+------------------------------------------------------------------------
+
+## Studies {#experiments}
+
+### Study 1a: Roulette-style choice task (24 trials)
+
+Participants completed a multi-round choice task in which they selected one option from a grid of 36 options on each trial. Outcomes were pre-determined such that most trials resulted in losses, with a small number of evenly spaced wins.
+
+On a subset of loss trials, a banner highlighted a set of options labeled as "hot"—described as having been successful in the past. The size of this hot set varied (1, 2, 3, 8, or 16 options), allowing us to manipulate the salience of specific counterfactual alternatives by varying how narrowly attention was drawn to a subset of options.
+
+After each outcome, participants reported:
+- regret for the chosen option (commission regret), and
+- regret for not choosing the winning option (omission regret)
+
+---
+
+### Study 1b: Roulette-style choice task (4 trials)
+
+Study 1b replicated the central contrast of Study 1a. Participants completed a shortened task consisting of four trial types:
+- loss with no highlighted options,
+- loss with a small hot set (2 options),
+- loss with a large hot set (16 options), and
+- a no-banner win trial.
+
+This design allowed us to isolate the role of counterfactual salience by contrasting conditions in which attention was narrowly focused on a small set of alternatives versus broadly distributed across many plausible options. 
+
+---
+
+### 2: Minecraft-style mining task (24 trials)
+
+Experiment 2 re-framed Study 1a as a Minecraft-style mining game.
+
+Participants chose blocks to mine from a 6×6 grid rendered using stone textures. Some blocks yielded emeralds (wins), while most yielded nothing (losses). The underlying structure of the task was identical to previous experiments.
+
+------------------------------------------------------------------------
+
+## Repository structure {#repository-structure}
 
 ```
-├── code
-│   ├── R
-│   ├── bash
-│   ├── experiments
-│   └── python
-├── data
-├── figures
-├── papers
-├── presentation
-└── writeup
+├── code/            # data processing, visualization, and analysis scripts
+│   ├── R/
+│   ├── python/
+│   └── bash/
+├── data/            # raw and processed behavioral data
+├── experiments/     # jsPsych experiments and associated materials
+│   ├── img/
+│   └── jspsych/
+├── figures/         # figures used in analyses and manuscripts
+├── papers/          # related papers and drafts
+├── presentation/    # slides and presentation materials
+└── writeup/         # manuscript text and supplementary materials
 ```
 
-### code 
+All paths in code use relative references to ensure portability and reproducibility.
 
-Put all your code here. Use a separate folder for scripts based on the programming language. 
+------------------------------------------------------------------------
+## DE-ANONYMIZED FOR PEER REVIEW
+## CRediT author statement {#credit-author-statement}
 
-#### experiments 
+*What is a [CRediT author statement](https://www.elsevier.com/authors/policies-and-guidelines/credit-author-statement)?*
 
-The experiments folder is for the online (or in lab) experiments. Each experiment should be in its own folder. When you run another experiment, make sure to create a new folder (so that we always know what an experiment looked like when it was run). In readme file for the experiments folder, provide a brief summary of each experiment. Also note down any additional information that may not be saved within each experiment (e.g. how much the payment was for MTurk participants).
+| Role | Contribution |
+|----------------------|--------------------------------------------------|
+| **Author A** | Conceptualization; Methodology; Software; Formal analysis; Investigation; Data curation; Writing – original draft; Visualization |
+| **Author B** | Conceptualization; Methodology; Writing – review & editing; Supervision |
+| **Author C** | Conceptualization; Writing – review & editing; Supervision; Funding acquisition |
 
-### data 
+------------------------------------------------------------------------
 
-Put your raw data files here. Any data wrangling to that file should happen in your code scripts. 
-
-### figures 
-
-Save all your figures here. You may want to include additional subfolder here such as `plots/`, `diagrams/` etc. 
-
-### papers 
-
-Put research papers here that are relevant for your project. 
-
-### presentation
-
-Put your project presentation here (e.g. your keynote, powerpoint, google slides, or pdf file).
-
-### writeup 
-
-Put all your writing here. This folder structure is likely to expand for more complex projects. For example, you could add a subfolders like folders `journal/cognition/submission/`, `proceedings/cogsci/resubmission/` etc. 
-
-## CRediT author statement 
-
-Each public repository should have a [credit author statement](https://www.elsevier.com/authors/policies-and-guidelines/credit-author-statement) 
-
-| Term                       | Definition                                                                                                                                                                                                    |
-|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Conceptualization          | Ideas; formulation or evolution of overarching research goals and aims                                                                                                                                        |
-| Methodology                | Development or design of methodology; creation of models                                                                                                                                                      |
-| Software                   | Programming, software development; designing computer programs; implementation of the computer code and supporting algorithms; testing of existing code components                                            |
-| Validation                 | Verification, whether as a part of the activity or separate, of the overall replication/ reproducibility of results/experiments and other research outputs                                                    |
-| Formal analysis            | Application of statistical, mathematical, computational, or other formal techniques to analyze or synthesize study data                                                                                       |
-| Investigation              | Conducting a research and investigation process, specifically performing the experiments, or data/evidence collection                                                                                         |
-| Resources                  | Provision of study materials, reagents, materials, patients, laboratory samples, animals, instrumentation, computing resources, or other analysis tools                                                       |
-| Data Curation              | Management activities to annotate (produce metadata), scrub data and maintain research data (including software code, where it is necessary for interpreting the data itself) for initial use and later reuse |
-| Writing - Original Draft   | Preparation, creation and/or presentation of the published work, specifically writing the initial draft (including substantive translation)                                                                   |
-| Writing - Review & Editing | Preparation, creation and/or presentation of the published work by those from the original research group, specifically critical review, commentary or revision – including pre-or postpublication stages     |
-| Visualization              | Preparation, creation and/or presentation of the published work, specifically visualization/ data presentation                                                                                                |
-| Supervision                | Oversight and leadership responsibility for the research activity planning and execution, including mentorship external to the core team                                                                      |
-| Project administration     | Management and coordination responsibility for the research activity planning and execution                                                                                                                   |
-| Funding acquisition        | Acquisition of the financial support for the project leading to this publication                                                                                                                              |
-
-**Sample CRediT author statement**
-- Zhang San: Conceptualization, Methodology, Software 
-- Priya Singh: Data curation, Writing- Original draft preparation
-- Wang Wu: Visualization, Investigation 
-- Jan Jansen: Supervision 
-- Ajay Kumar: Software, Validation
-- Sun Qi: Writing-Reviewing and Editing
-
-
+*Questions or issues?*  
+Please open a GitHub issue for questions or suggestions.
