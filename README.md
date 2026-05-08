@@ -92,14 +92,8 @@ emeralds (wins); most yielded nothing (losses).
 
 ## Experiment demos
 
-Live, browser-playable demos of the tasks (hosted via GitHub Pages from
-`docs/`):
-
--   **Studies 1a & 1b (roulette task):**
-    <https://kateptrv.github.io/roulette/index_roulette.html>
--   **Study 2 (Minecraft-style task):**
-    <https://kateptrv.github.io/roulette/index_minecraft.html>
--   **Landing page:** <https://kateptrv.github.io/roulette/>
+**Study 2**
+    <https://kateptrv.github.io/you-see-you-regret-cogsci26/)>
 
 ------------------------------------------------------------------------
 
