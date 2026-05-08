@@ -93,7 +93,7 @@ emeralds (wins); most yielded nothing (losses).
 ## Experiment demos
 
 **Study 2**
-    <https://kateptrv.github.io/you-see-you-regret-cogsci26/)>
+    <https://kateptrv.github.io/you-see-you-regret-cogsci26/>
 
 ------------------------------------------------------------------------
 
