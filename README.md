@@ -4,7 +4,7 @@ Kate Petrova\*, Nick Madibekov, Tobias Gerstenberg, James J. Gross\
 
 
 ``` bibtex
-@inproceedings{petrova2026lyouseeyouregret,
+@inproceedings{petrova2026youseeyouregret,
   title     = {What You See is What You Regret},
   booktitle = {Proceedings of the 48th {Annual} {Conference} of the {Cognitive} {Science} {Society}},
   author    = {Petrova, Kate and Madibekov, Nick and Gerstenberg, Tobias and Gross, James J.},
