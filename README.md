@@ -1,10 +1,16 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
+# What You See is What You Regret
+Kate Petrova\*, Nick Madibekov, Tobias Gerstenberg, James J. Gross\
+48th Annual Meeting of the Cognitive Science Society (CogSci 2026, Rio de Janeiro, Brazil)
 
-# What You See is What You Regret: The Role of Counterfactual Salience in the Subjective Experience of Regret
+
+``` bibtex
+@inproceedings{petrova2026lyouseeyouregret,
+  title     = {What You See is What You Regret},
+  booktitle = {Proceedings of the 48th {Annual} {Conference} of the {Cognitive} {Science} {Society}},
+  author    = {Petrova, Kate and Madibekov, Nick and Gerstenberg, Tobias and Gross, James J.},
+  year      = {2026}
+}
+```
 
 ------------------------------------------------------------------------
 
