@@ -24,7 +24,7 @@ Kate Petrova\*, Nick Madibekov, Tobias Gerstenberg, James J. Gross\
 
 ------------------------------------------------------------------------
 
-## Overview {#overview}
+## Overview
 
 This repository contains materials, experiment code, behavioral data,
 and analysis scripts for a series of behavioral experiments examining
@@ -39,7 +39,7 @@ both omission and commission regret.
 
 ------------------------------------------------------------------------
 
-## Studies {#studies}
+## Studies
 
 ### Study 1a: Roulette task with externally cued counterfactuals (4 trials)
 
@@ -90,7 +90,7 @@ emeralds (wins); most yielded nothing (losses).
 
 ------------------------------------------------------------------------
 
-## Experiment demos {#experiment-demos}
+## Experiment demos
 
 Live, browser-playable demos of the tasks (hosted via GitHub Pages from
 `docs/`):
@@ -103,7 +103,7 @@ Live, browser-playable demos of the tasks (hosted via GitHub Pages from
 
 ------------------------------------------------------------------------
 
-## Repository structure {#repository-structure}
+## Repository structure
 
 ```         
 ├── code/             # data processing, visualization, and analysis scripts
@@ -129,7 +129,7 @@ reproducibility.
 
 ------------------------------------------------------------------------
 
-## CRediT author statement {#credit-author-statement}
+## CRediT author statement
 
 *What is a [CRediT author
 statement](https://www.elsevier.com/authors/policies-and-guidelines/credit-author-statement)?*
