@@ -1,0 +1,601 @@
+prolific_pid,trial,balance,chosen_number,winner_number,banner_yn,win_status,hot_set_size,outcome_rel_to_hot,choice_hot,regret_chosen,regret_notchosen_winner,regret_notchosen_hot_loser,comp_tries_to_pass,feedback,age,gamble_freq_12mo,hot_reliance,race,gender,ethnicity
+P0005,1,-0.01,11,8,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+P0005,2,-0.02,16,23,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+P0005,3,0.32999999999999996,26,26,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+P0005,4,0.31999999999999995,11,33,Banner,Lost,8,nonhot_win_number,Chose Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+P0005,5,0.30999999999999994,35,6,Banner,Lost,16,nonhot_win_number,Chose Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+P0005,6,0.29999999999999993,36,10,Banner,Lost,2,hot_win_number,Chose Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+P0005,7,0.2899999999999999,22,13,Banner,Lost,8,hot_win_number,Chose Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+P0005,8,0.2799999999999999,18,9,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+P0005,9,0.2699999999999999,25,14,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+P0005,10,0.2599999999999999,25,20,Banner,Lost,2,nonhot_win_number,Chose Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+P0005,11,0.2499999999999999,29,34,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+P0005,12,0.5999999999999999,7,7,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+P0005,13,0.5899999999999999,5,3,Banner,Lost,16,hot_win_number,Chose Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+P0005,14,0.5799999999999998,29,17,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+P0005,15,0.5699999999999998,15,31,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+P0005,16,0.5599999999999998,12,3,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+P0005,17,0.9099999999999998,23,23,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+P0005,18,0.8999999999999998,33,10,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+P0005,19,0.8899999999999998,33,8,Banner,Lost,3,nonhot_win_number,Chose Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+P0005,20,0.8799999999999998,7,20,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+P0005,21,0.8699999999999998,10,18,Banner,Lost,3,hot_win_number,Chose Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+P0005,22,1.2199999999999998,3,3,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+P0005,23,1.2099999999999995,22,3,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+P0005,24,1.1999999999999995,31,28,Banner,Lost,1,nonhot_win_number,Chose Hot,100,100,NA,1,,41,Never,NA,White,Male,Non-Hispanic
+P0011,1,-0.01,16,11,No Banner,Lost,0,NA,Chose Non-Hot,58,88,NA,1,,35,Never,NA,White,Male,Non-Hispanic
+P0011,2,-0.02,11,9,No Banner,Lost,0,NA,Chose Non-Hot,59,87,NA,1,,35,Never,NA,White,Male,Non-Hispanic
+P0011,3,-0.03,3,29,Banner,Lost,3,hot_win_number,Chose Hot,86,95,NA,1,,35,Never,NA,White,Male,Non-Hispanic
+P0011,4,0.31999999999999995,25,25,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,35,Never,NA,White,Male,Non-Hispanic
+P0011,5,0.30999999999999994,28,12,Banner,Lost,1,nonhot_win_number,Chose Hot,40,72,NA,1,,35,Never,NA,White,Male,Non-Hispanic
+P0011,6,0.29999999999999993,12,11,Banner,Lost,16,nonhot_win_number,Chose Hot,51,76,NA,1,,35,Never,NA,White,Male,Non-Hispanic
+P0011,7,0.2899999999999999,8,32,Banner,Lost,3,nonhot_win_number,Chose Hot,44,78,NA,1,,35,Never,NA,White,Male,Non-Hispanic
+P0011,8,0.2799999999999999,9,1,Banner,Lost,2,hot_win_number,Chose Hot,97,100,NA,1,,35,Never,NA,White,Male,Non-Hispanic
+P0011,9,0.2699999999999999,35,34,No Banner,Lost,0,NA,Chose Non-Hot,37,65,NA,1,,35,Never,NA,White,Male,Non-Hispanic
+P0011,10,0.2599999999999999,20,32,No Banner,Lost,0,NA,Chose Non-Hot,52,74,NA,1,,35,Never,NA,White,Male,Non-Hispanic
+P0011,11,0.6099999999999999,18,18,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,35,Never,NA,White,Male,Non-Hispanic
+P0011,12,0.5999999999999999,29,16,Banner,Lost,1,nonhot_win_number,Chose Hot,68,81,NA,1,,35,Never,NA,White,Male,Non-Hispanic
+P0011,13,0.5899999999999999,30,11,Banner,Lost,8,hot_win_number,Chose Hot,38,65,NA,1,,35,Never,NA,White,Male,Non-Hispanic
+P0011,14,0.5799999999999998,25,18,No Banner,Lost,0,NA,Chose Non-Hot,42,69,NA,1,,35,Never,NA,White,Male,Non-Hispanic
+P0011,15,0.5699999999999998,18,32,Banner,Lost,16,hot_win_number,Chose Hot,43,71,NA,1,,35,Never,NA,White,Male,Non-Hispanic
+P0011,16,0.9199999999999998,15,15,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,35,Never,NA,White,Male,Non-Hispanic
+P0011,17,0.9099999999999998,21,3,No Banner,Lost,0,NA,Chose Non-Hot,29,59,NA,1,,35,Never,NA,White,Male,Non-Hispanic
+P0011,18,0.8999999999999998,11,9,No Banner,Lost,0,NA,Chose Non-Hot,49,74,NA,1,,35,Never,NA,White,Male,Non-Hispanic
+P0011,19,0.8899999999999998,27,14,No Banner,Lost,0,NA,Chose Non-Hot,37,60,NA,1,,35,Never,NA,White,Male,Non-Hispanic
+P0011,20,0.8799999999999998,23,9,No Banner,Lost,0,NA,Chose Non-Hot,32,55,NA,1,,35,Never,NA,White,Male,Non-Hispanic
+P0011,21,0.8699999999999998,20,36,Banner,Lost,8,nonhot_win_number,Chose Hot,48,67,NA,1,,35,Never,NA,White,Male,Non-Hispanic
+P0011,22,1.2199999999999998,22,22,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,35,Never,NA,White,Male,Non-Hispanic
+P0011,23,1.2099999999999995,9,23,Banner,Lost,2,nonhot_win_number,Chose Hot,29,52,NA,1,,35,Never,NA,White,Male,Non-Hispanic
+P0011,24,1.1999999999999995,27,3,No Banner,Lost,0,NA,Chose Non-Hot,22,57,NA,1,,35,Never,NA,White,Male,Non-Hispanic
+P0013,1,-0.01,25,13,No Banner,Lost,0,NA,Chose Non-Hot,51,100,NA,1,,47,Never,NA,White,Male,Non-Hispanic
+P0013,2,-0.02,6,16,No Banner,Lost,0,NA,Chose Non-Hot,39,81,NA,1,,47,Never,NA,White,Male,Non-Hispanic
+P0013,3,-0.03,2,33,No Banner,Lost,0,NA,Chose Non-Hot,82,83,NA,1,,47,Never,NA,White,Male,Non-Hispanic
+P0013,4,-0.04,11,26,Banner,Lost,16,nonhot_win_number,Chose Hot,89,87,NA,1,,47,Never,NA,White,Male,Non-Hispanic
+P0013,5,0.31,26,26,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,47,Never,NA,White,Male,Non-Hispanic
+P0013,6,0.3,26,12,No Banner,Lost,0,NA,Chose Non-Hot,74,81,NA,1,,47,Never,NA,White,Male,Non-Hispanic
+P0013,7,0.29,12,4,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,70,78,NA,1,,47,Never,NA,White,Male,Non-Hispanic
+P0013,8,0.27999999999999997,36,8,Banner,Lost,3,hot_win_number,Chose Hot,96,99,NA,1,,47,Never,NA,White,Male,Non-Hispanic
+P0013,9,0.6299999999999999,8,8,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,47,Never,NA,White,Male,Non-Hispanic
+P0013,10,0.6199999999999999,8,19,No Banner,Lost,0,NA,Chose Non-Hot,83,93,NA,1,,47,Never,NA,White,Male,Non-Hispanic
+P0013,11,0.6099999999999999,26,10,No Banner,Lost,0,NA,Chose Non-Hot,84,89,NA,1,,47,Never,NA,White,Male,Non-Hispanic
+P0013,12,0.5999999999999999,10,9,No Banner,Lost,0,NA,Chose Non-Hot,89,89,NA,1,,47,Never,NA,White,Male,Non-Hispanic
+P0013,13,0.5899999999999999,23,32,Banner,Lost,2,nonhot_win_number,Chose Hot,87,88,NA,1,,47,Never,NA,White,Male,Non-Hispanic
+P0013,14,0.5799999999999998,11,33,Banner,Lost,16,hot_win_number,Chose Hot,88,89,NA,1,,47,Never,NA,White,Male,Non-Hispanic
+P0013,15,0.9299999999999998,32,32,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,47,Never,NA,White,Male,Non-Hispanic
+P0013,16,0.9199999999999998,32,22,Banner,Lost,8,nonhot_win_number,Chose Non-Hot,33,35,NA,1,,47,Never,NA,White,Male,Non-Hispanic
+P0013,17,0.9099999999999998,10,4,No Banner,Lost,0,NA,Chose Non-Hot,90,90,NA,1,,47,Never,NA,White,Male,Non-Hispanic
+P0013,18,0.8999999999999998,4,2,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,56,59,NA,1,,47,Never,NA,White,Male,Non-Hispanic
+P0013,19,0.8899999999999998,2,17,Banner,Lost,3,nonhot_win_number,Chose Hot,92,88,NA,1,,47,Never,NA,White,Male,Non-Hispanic
+P0013,20,0.8799999999999998,16,24,No Banner,Lost,0,NA,Chose Non-Hot,31,32,NA,1,,47,Never,NA,White,Male,Non-Hispanic
+P0013,21,0.8699999999999998,24,18,No Banner,Lost,0,NA,Chose Non-Hot,47,60,NA,1,,47,Never,NA,White,Male,Non-Hispanic
+P0013,22,1.2199999999999998,18,18,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,47,Never,NA,White,Male,Non-Hispanic
+P0013,23,1.2099999999999995,20,4,Banner,Lost,8,hot_win_number,Chose Hot,51,49,NA,1,,47,Never,NA,White,Male,Non-Hispanic
+P0013,24,1.1999999999999995,4,8,Banner,Lost,2,hot_win_number,Chose Non-Hot,69,73,NA,1,,47,Never,NA,White,Male,Non-Hispanic
+P0017,1,-0.01,21,34,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,60,54,NA,2,I still don't get it. It was all just a guess after all?,43,Never,NA,White,Male,Non-Hispanic
+P0017,2,-0.02,4,10,No Banner,Lost,0,NA,Chose Non-Hot,44,44,NA,2,I still don't get it. It was all just a guess after all?,43,Never,NA,White,Male,Non-Hispanic
+P0017,3,0.32999999999999996,19,19,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,I still don't get it. It was all just a guess after all?,43,Never,NA,White,Male,Non-Hispanic
+P0017,4,0.31999999999999995,11,29,No Banner,Lost,0,NA,Chose Non-Hot,44,58,NA,2,I still don't get it. It was all just a guess after all?,43,Never,NA,White,Male,Non-Hispanic
+P0017,5,0.30999999999999994,27,20,Banner,Lost,8,nonhot_win_number,Chose Hot,41,41,NA,2,I still don't get it. It was all just a guess after all?,43,Never,NA,White,Male,Non-Hispanic
+P0017,6,0.29999999999999993,30,34,No Banner,Lost,0,NA,Chose Non-Hot,46,80,NA,2,I still don't get it. It was all just a guess after all?,43,Never,NA,White,Male,Non-Hispanic
+P0017,7,0.2899999999999999,28,8,No Banner,Lost,0,NA,Chose Non-Hot,63,66,NA,2,I still don't get it. It was all just a guess after all?,43,Never,NA,White,Male,Non-Hispanic
+P0017,8,0.2799999999999999,26,36,Banner,Lost,2,nonhot_win_number,Chose Hot,72,60,NA,2,I still don't get it. It was all just a guess after all?,43,Never,NA,White,Male,Non-Hispanic
+P0017,9,0.2699999999999999,10,14,No Banner,Lost,0,NA,Chose Non-Hot,58,61,NA,2,I still don't get it. It was all just a guess after all?,43,Never,NA,White,Male,Non-Hispanic
+P0017,10,0.6199999999999999,22,22,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,I still don't get it. It was all just a guess after all?,43,Never,NA,White,Male,Non-Hispanic
+P0017,11,0.6099999999999999,14,36,Banner,Lost,3,nonhot_win_number,Chose Non-Hot,64,62,NA,2,I still don't get it. It was all just a guess after all?,43,Never,NA,White,Male,Non-Hispanic
+P0017,12,0.5999999999999999,23,14,No Banner,Lost,0,NA,Chose Non-Hot,49,54,NA,2,I still don't get it. It was all just a guess after all?,43,Never,NA,White,Male,Non-Hispanic
+P0017,13,0.5899999999999999,10,25,Banner,Lost,2,hot_win_number,Chose Hot,74,65,NA,2,I still don't get it. It was all just a guess after all?,43,Never,NA,White,Male,Non-Hispanic
+P0017,14,0.5799999999999998,15,5,No Banner,Lost,0,NA,Chose Non-Hot,62,65,NA,2,I still don't get it. It was all just a guess after all?,43,Never,NA,White,Male,Non-Hispanic
+P0017,15,0.5699999999999998,8,33,Banner,Lost,16,nonhot_win_number,Chose Hot,61,61,NA,2,I still don't get it. It was all just a guess after all?,43,Never,NA,White,Male,Non-Hispanic
+P0017,16,0.5599999999999998,8,24,Banner,Lost,1,nonhot_win_number,Chose Hot,61,62,NA,2,I still don't get it. It was all just a guess after all?,43,Never,NA,White,Male,Non-Hispanic
+P0017,17,0.9099999999999998,4,4,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,I still don't get it. It was all just a guess after all?,43,Never,NA,White,Male,Non-Hispanic
+P0017,18,0.8999999999999998,35,33,Banner,Lost,3,hot_win_number,Chose Hot,59,59,NA,2,I still don't get it. It was all just a guess after all?,43,Never,NA,White,Male,Non-Hispanic
+P0017,19,0.8899999999999998,4,6,No Banner,Lost,0,NA,Chose Non-Hot,67,62,NA,2,I still don't get it. It was all just a guess after all?,43,Never,NA,White,Male,Non-Hispanic
+P0017,20,0.8799999999999998,4,17,Banner,Lost,16,hot_win_number,Chose Hot,55,64,NA,2,I still don't get it. It was all just a guess after all?,43,Never,NA,White,Male,Non-Hispanic
+P0017,21,1.2299999999999998,8,8,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,I still don't get it. It was all just a guess after all?,43,Never,NA,White,Male,Non-Hispanic
+P0017,22,1.2199999999999998,4,1,No Banner,Lost,0,NA,Chose Non-Hot,59,51,NA,2,I still don't get it. It was all just a guess after all?,43,Never,NA,White,Male,Non-Hispanic
+P0017,23,1.2099999999999995,2,33,Banner,Lost,8,hot_win_number,Chose Hot,57,56,NA,2,I still don't get it. It was all just a guess after all?,43,Never,NA,White,Male,Non-Hispanic
+P0017,24,1.1999999999999995,14,6,No Banner,Lost,0,NA,Chose Non-Hot,56,53,NA,2,I still don't get it. It was all just a guess after all?,43,Never,NA,White,Male,Non-Hispanic
+P0028,1,-0.01,34,14,No Banner,Lost,0,NA,Chose Non-Hot,62,86,NA,3,This was a fun experiment.,47,Never,NA,White,Male,Non-Hispanic
+P0028,2,-0.02,24,3,No Banner,Lost,0,NA,Chose Non-Hot,75,90,NA,3,This was a fun experiment.,47,Never,NA,White,Male,Non-Hispanic
+P0028,3,0.32999999999999996,12,12,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,3,This was a fun experiment.,47,Never,NA,White,Male,Non-Hispanic
+P0028,4,0.31999999999999995,32,21,No Banner,Lost,0,NA,Chose Non-Hot,75,85,NA,3,This was a fun experiment.,47,Never,NA,White,Male,Non-Hispanic
+P0028,5,0.30999999999999994,23,31,Banner,Lost,1,nonhot_win_number,Chose Hot,90,75,NA,3,This was a fun experiment.,47,Never,NA,White,Male,Non-Hispanic
+P0028,6,0.29999999999999993,18,33,No Banner,Lost,0,NA,Chose Non-Hot,76,83,NA,3,This was a fun experiment.,47,Never,NA,White,Male,Non-Hispanic
+P0028,7,0.2899999999999999,19,22,No Banner,Lost,0,NA,Chose Non-Hot,80,88,NA,3,This was a fun experiment.,47,Never,NA,White,Male,Non-Hispanic
+P0028,8,0.2799999999999999,12,35,No Banner,Lost,0,NA,Chose Non-Hot,70,83,NA,3,This was a fun experiment.,47,Never,NA,White,Male,Non-Hispanic
+P0028,9,0.2699999999999999,31,22,No Banner,Lost,0,NA,Chose Non-Hot,80,90,NA,3,This was a fun experiment.,47,Never,NA,White,Male,Non-Hispanic
+P0028,10,0.2599999999999999,11,1,Banner,Lost,3,nonhot_win_number,Chose Hot,90,95,NA,3,This was a fun experiment.,47,Never,NA,White,Male,Non-Hispanic
+P0028,11,0.2499999999999999,22,23,No Banner,Lost,0,NA,Chose Non-Hot,86,94,NA,3,This was a fun experiment.,47,Never,NA,White,Male,Non-Hispanic
+P0028,12,0.5999999999999999,24,24,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,3,This was a fun experiment.,47,Never,NA,White,Male,Non-Hispanic
+P0028,13,0.5899999999999999,21,34,No Banner,Lost,0,NA,Chose Non-Hot,80,82,NA,3,This was a fun experiment.,47,Never,NA,White,Male,Non-Hispanic
+P0028,14,0.5799999999999998,1,15,Banner,Lost,2,hot_win_number,Chose Hot,90,96,NA,3,This was a fun experiment.,47,Never,NA,White,Male,Non-Hispanic
+P0028,15,0.9299999999999998,20,20,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,3,This was a fun experiment.,47,Never,NA,White,Male,Non-Hispanic
+P0028,16,0.9199999999999998,3,6,Banner,Lost,16,nonhot_win_number,Chose Hot,83,90,NA,3,This was a fun experiment.,47,Never,NA,White,Male,Non-Hispanic
+P0028,17,0.9099999999999998,23,20,No Banner,Lost,0,NA,Chose Non-Hot,71,85,NA,3,This was a fun experiment.,47,Never,NA,White,Male,Non-Hispanic
+P0028,18,0.8999999999999998,14,8,Banner,Lost,2,nonhot_win_number,Chose Hot,77,70,NA,3,This was a fun experiment.,47,Never,NA,White,Male,Non-Hispanic
+P0028,19,0.8899999999999998,19,15,Banner,Lost,16,hot_win_number,Chose Hot,80,88,NA,3,This was a fun experiment.,47,Never,NA,White,Male,Non-Hispanic
+P0028,20,0.8799999999999998,26,9,Banner,Lost,3,hot_win_number,Chose Hot,83,92,NA,3,This was a fun experiment.,47,Never,NA,White,Male,Non-Hispanic
+P0028,21,0.8699999999999998,25,10,Banner,Lost,1,nonhot_win_number,Chose Hot,90,70,NA,3,This was a fun experiment.,47,Never,NA,White,Male,Non-Hispanic
+P0028,22,1.2199999999999998,23,23,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,3,This was a fun experiment.,47,Never,NA,White,Male,Non-Hispanic
+P0028,23,1.2099999999999995,22,11,Banner,Lost,8,hot_win_number,Chose Hot,85,90,NA,3,This was a fun experiment.,47,Never,NA,White,Male,Non-Hispanic
+P0028,24,1.1999999999999995,23,6,Banner,Lost,8,nonhot_win_number,Chose Hot,80,83,NA,3,This was a fun experiment.,47,Never,NA,White,Male,Non-Hispanic
+P0039,1,-0.01,28,7,Banner,Lost,16,hot_win_number,Chose Hot,19,30,NA,1,,39,Never,NA,White,Female,Non-Hispanic
+P0039,2,-0.02,28,17,No Banner,Lost,0,NA,Chose Non-Hot,18,27,NA,1,,39,Never,NA,White,Female,Non-Hispanic
+P0039,3,0.32999999999999996,28,28,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,39,Never,NA,White,Female,Non-Hispanic
+P0039,4,0.31999999999999995,4,13,Banner,Lost,2,hot_win_number,Chose Hot,12,23,NA,1,,39,Never,NA,White,Female,Non-Hispanic
+P0039,5,0.30999999999999994,28,19,No Banner,Lost,0,NA,Chose Non-Hot,12,19,NA,1,,39,Never,NA,White,Female,Non-Hispanic
+P0039,6,0.29999999999999993,28,2,Banner,Lost,16,nonhot_win_number,Chose Hot,15,22,NA,1,,39,Never,NA,White,Female,Non-Hispanic
+P0039,7,0.2899999999999999,28,7,No Banner,Lost,0,NA,Chose Non-Hot,15,21,NA,1,,39,Never,NA,White,Female,Non-Hispanic
+P0039,8,0.2799999999999999,28,13,No Banner,Lost,0,NA,Chose Non-Hot,12,20,NA,1,,39,Never,NA,White,Female,Non-Hispanic
+P0039,9,0.6299999999999999,28,28,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,39,Never,NA,White,Female,Non-Hispanic
+P0039,10,0.6199999999999999,9,8,Banner,Lost,3,hot_win_number,Chose Hot,19,28,NA,1,,39,Never,NA,White,Female,Non-Hispanic
+P0039,11,0.6099999999999999,28,36,No Banner,Lost,0,NA,Chose Non-Hot,10,26,NA,1,,39,Never,NA,White,Female,Non-Hispanic
+P0039,12,0.5999999999999999,28,11,No Banner,Lost,0,NA,Chose Non-Hot,15,26,NA,1,,39,Never,NA,White,Female,Non-Hispanic
+P0039,13,0.5899999999999999,28,19,No Banner,Lost,0,NA,Chose Non-Hot,15,24,NA,1,,39,Never,NA,White,Female,Non-Hispanic
+P0039,14,0.5799999999999998,28,34,Banner,Lost,8,hot_win_number,Chose Hot,14,19,NA,1,,39,Never,NA,White,Female,Non-Hispanic
+P0039,15,0.5699999999999998,27,35,Banner,Lost,3,nonhot_win_number,Chose Hot,11,20,NA,1,,39,Never,NA,White,Female,Non-Hispanic
+P0039,16,0.5599999999999998,28,11,No Banner,Lost,0,NA,Chose Non-Hot,8,17,NA,1,,39,Never,NA,White,Female,Non-Hispanic
+P0039,17,0.9099999999999998,28,28,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,39,Never,NA,White,Female,Non-Hispanic
+P0039,18,0.8999999999999998,28,6,No Banner,Lost,0,NA,Chose Non-Hot,11,19,NA,1,,39,Never,NA,White,Female,Non-Hispanic
+P0039,19,0.8899999999999998,28,21,No Banner,Lost,0,NA,Chose Non-Hot,10,17,NA,1,,39,Never,NA,White,Female,Non-Hispanic
+P0039,20,0.8799999999999998,28,5,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,9,16,NA,1,,39,Never,NA,White,Female,Non-Hispanic
+P0039,21,1.2299999999999998,28,28,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,39,Never,NA,White,Female,Non-Hispanic
+P0039,22,1.2199999999999998,28,33,Banner,Lost,8,nonhot_win_number,Chose Hot,8,19,NA,1,,39,Never,NA,White,Female,Non-Hispanic
+P0039,23,1.2099999999999995,28,6,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,12,19,NA,1,,39,Never,NA,White,Female,Non-Hispanic
+P0039,24,1.1999999999999995,28,32,Banner,Lost,2,nonhot_win_number,Chose Non-Hot,7,16,NA,1,,39,Never,NA,White,Female,Non-Hispanic
+P0055,1,-0.01,12,20,Banner,Lost,2,nonhot_win_number,Chose Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+P0055,2,-0.02,15,3,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+P0055,3,0.32999999999999996,24,24,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+P0055,4,0.31999999999999995,15,16,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+P0055,5,0.30999999999999994,32,23,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+P0055,6,0.29999999999999993,15,4,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+P0055,7,0.2899999999999999,8,11,Banner,Lost,3,nonhot_win_number,Chose Non-Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+P0055,8,0.2799999999999999,11,3,Banner,Lost,2,hot_win_number,Chose Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+P0055,9,0.2699999999999999,33,25,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+P0055,10,0.2599999999999999,12,14,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+P0055,11,0.2499999999999999,22,12,Banner,Lost,16,nonhot_win_number,Chose Non-Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+P0055,12,0.5999999999999999,18,18,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+P0055,13,0.5899999999999999,19,17,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+P0055,14,0.5799999999999998,4,23,Banner,Lost,3,hot_win_number,Chose Non-Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+P0055,15,0.5699999999999998,24,11,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+P0055,16,0.9199999999999998,10,10,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+P0055,17,0.9099999999999998,15,13,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+P0055,18,0.8999999999999998,12,30,Banner,Lost,8,nonhot_win_number,Chose Non-Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+P0055,19,0.8899999999999998,11,12,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+P0055,20,0.8799999999999998,18,19,Banner,Lost,16,hot_win_number,Chose Non-Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+P0055,21,1.2299999999999998,18,18,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+P0055,22,1.2199999999999998,10,7,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+P0055,23,1.2099999999999995,18,25,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+P0055,24,1.1999999999999995,18,21,Banner,Lost,8,hot_win_number,Chose Hot,100,100,NA,1,,60,Never,NA,White,Male,Non-Hispanic
+P0057,1,-0.01,33,7,No Banner,Lost,0,NA,Chose Non-Hot,94,100,NA,1,,36,A few times,NA,White,Male,Non-Hispanic
+P0057,2,-0.02,7,34,No Banner,Lost,0,NA,Chose Non-Hot,89,100,NA,1,,36,A few times,NA,White,Male,Non-Hispanic
+P0057,3,-0.03,35,22,No Banner,Lost,0,NA,Chose Non-Hot,92,100,NA,1,,36,A few times,NA,White,Male,Non-Hispanic
+P0057,4,-0.04,36,20,No Banner,Lost,0,NA,Chose Non-Hot,85,92,NA,1,,36,A few times,NA,White,Male,Non-Hispanic
+P0057,5,0.31,1,1,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,36,A few times,NA,White,Male,Non-Hispanic
+P0057,6,0.3,2,30,No Banner,Lost,0,NA,Chose Non-Hot,95,100,NA,1,,36,A few times,NA,White,Male,Non-Hispanic
+P0057,7,0.29,22,31,Banner,Lost,3,hot_win_number,Chose Non-Hot,99,100,NA,1,,36,A few times,NA,White,Male,Non-Hispanic
+P0057,8,0.27999999999999997,9,32,Banner,Lost,2,nonhot_win_number,Chose Hot,74,100,NA,1,,36,A few times,NA,White,Male,Non-Hispanic
+P0057,9,0.26999999999999996,9,19,No Banner,Lost,0,NA,Chose Non-Hot,82,100,NA,1,,36,A few times,NA,White,Male,Non-Hispanic
+P0057,10,0.25999999999999995,9,18,No Banner,Lost,0,NA,Chose Non-Hot,84,100,NA,1,,36,A few times,NA,White,Male,Non-Hispanic
+P0057,11,0.24999999999999992,32,4,Banner,Lost,3,nonhot_win_number,Chose Hot,83,100,NA,1,,36,A few times,NA,White,Male,Non-Hispanic
+P0057,12,0.5999999999999999,20,20,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,36,A few times,NA,White,Male,Non-Hispanic
+P0057,13,0.5899999999999999,9,10,Banner,Lost,8,nonhot_win_number,Chose Hot,74,100,NA,1,,36,A few times,NA,White,Male,Non-Hispanic
+P0057,14,0.5799999999999998,21,22,Banner,Lost,16,hot_win_number,Chose Hot,91,100,NA,1,,36,A few times,NA,White,Male,Non-Hispanic
+P0057,15,0.5699999999999998,9,34,No Banner,Lost,0,NA,Chose Non-Hot,84,100,NA,1,,36,A few times,NA,White,Male,Non-Hispanic
+P0057,16,0.5599999999999998,22,36,Banner,Lost,8,hot_win_number,Chose Hot,72,100,NA,1,,36,A few times,NA,White,Male,Non-Hispanic
+P0057,17,0.9099999999999998,24,24,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,36,A few times,NA,White,Male,Non-Hispanic
+P0057,18,0.8999999999999998,22,17,Banner,Lost,1,nonhot_win_number,Chose Hot,59,100,NA,1,,36,A few times,NA,White,Male,Non-Hispanic
+P0057,19,0.8899999999999998,32,14,Banner,Lost,2,hot_win_number,Chose Hot,100,100,NA,1,,36,A few times,NA,White,Male,Non-Hispanic
+P0057,20,0.8799999999999998,32,15,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,90,100,NA,1,,36,A few times,NA,White,Male,Non-Hispanic
+P0057,21,0.8699999999999998,22,1,No Banner,Lost,0,NA,Chose Non-Hot,86,100,NA,1,,36,A few times,NA,White,Male,Non-Hispanic
+P0057,22,1.2199999999999998,17,17,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,36,A few times,NA,White,Male,Non-Hispanic
+P0057,23,1.2099999999999995,1,31,No Banner,Lost,0,NA,Chose Non-Hot,80,100,NA,1,,36,A few times,NA,White,Male,Non-Hispanic
+P0057,24,1.1999999999999995,20,9,Banner,Lost,16,nonhot_win_number,Chose Hot,55,87,NA,1,,36,A few times,NA,White,Male,Non-Hispanic
+P0061,1,-0.01,16,30,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,"this was dope, thanks",25,A few times,NA,White,Male,Non-Hispanic
+P0061,2,-0.02,30,4,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,"this was dope, thanks",25,A few times,NA,White,Male,Non-Hispanic
+P0061,3,-0.03,19,4,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,"this was dope, thanks",25,A few times,NA,White,Male,Non-Hispanic
+P0061,4,-0.04,4,26,Banner,Lost,16,hot_win_number,Chose Hot,100,100,NA,1,"this was dope, thanks",25,A few times,NA,White,Male,Non-Hispanic
+P0061,5,-0.05,4,2,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,100,100,NA,1,"this was dope, thanks",25,A few times,NA,White,Male,Non-Hispanic
+P0061,6,0.3,4,4,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,"this was dope, thanks",25,A few times,NA,White,Male,Non-Hispanic
+P0061,7,0.29,4,8,No Banner,Lost,0,NA,Chose Non-Hot,45,55,NA,1,"this was dope, thanks",25,A few times,NA,White,Male,Non-Hispanic
+P0061,8,0.27999999999999997,16,17,Banner,Lost,2,nonhot_win_number,Chose Hot,100,100,NA,1,"this was dope, thanks",25,A few times,NA,White,Male,Non-Hispanic
+P0061,9,0.26999999999999996,17,10,Banner,Lost,3,hot_win_number,Chose Hot,100,100,NA,1,"this was dope, thanks",25,A few times,NA,White,Male,Non-Hispanic
+P0061,10,0.25999999999999995,17,12,Banner,Lost,2,hot_win_number,Chose Hot,100,100,NA,1,"this was dope, thanks",25,A few times,NA,White,Male,Non-Hispanic
+P0061,11,0.6099999999999999,4,4,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,"this was dope, thanks",25,A few times,NA,White,Male,Non-Hispanic
+P0061,12,0.5999999999999999,4,17,No Banner,Lost,0,NA,Chose Non-Hot,20,20,NA,1,"this was dope, thanks",25,A few times,NA,White,Male,Non-Hispanic
+P0061,13,0.5899999999999999,4,33,Banner,Lost,16,nonhot_win_number,Chose Hot,30,30,NA,1,"this was dope, thanks",25,A few times,NA,White,Male,Non-Hispanic
+P0061,14,0.5799999999999998,4,9,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,"this was dope, thanks",25,A few times,NA,White,Male,Non-Hispanic
+P0061,15,0.9299999999999998,4,4,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,"this was dope, thanks",25,A few times,NA,White,Male,Non-Hispanic
+P0061,16,0.9199999999999998,13,30,Banner,Lost,3,nonhot_win_number,Chose Hot,100,100,NA,1,"this was dope, thanks",25,A few times,NA,White,Male,Non-Hispanic
+P0061,17,0.9099999999999998,4,20,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,1,"this was dope, thanks",25,A few times,NA,White,Male,Non-Hispanic
+P0061,18,0.8999999999999998,18,17,Banner,Lost,1,nonhot_win_number,Chose Hot,100,100,NA,1,"this was dope, thanks",25,A few times,NA,White,Male,Non-Hispanic
+P0061,19,0.8899999999999998,13,36,Banner,Lost,8,hot_win_number,Chose Hot,100,100,NA,1,"this was dope, thanks",25,A few times,NA,White,Male,Non-Hispanic
+P0061,20,0.8799999999999998,4,29,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,1,"this was dope, thanks",25,A few times,NA,White,Male,Non-Hispanic
+P0061,21,0.8699999999999998,4,19,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,1,"this was dope, thanks",25,A few times,NA,White,Male,Non-Hispanic
+P0061,22,1.2199999999999998,4,4,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,"this was dope, thanks",25,A few times,NA,White,Male,Non-Hispanic
+P0061,23,1.2099999999999995,4,30,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,1,"this was dope, thanks",25,A few times,NA,White,Male,Non-Hispanic
+P0061,24,1.1999999999999995,13,8,Banner,Lost,8,nonhot_win_number,Chose Hot,100,100,NA,1,"this was dope, thanks",25,A few times,NA,White,Male,Non-Hispanic
+P0064,1,-0.01,3,15,Banner,Lost,1,nonhot_win_number,Chose Hot,74,19,NA,1,,26,Never,NA,American Indian/Alaska Native,Female,Non-Hispanic
+P0064,2,-0.02,6,30,Banner,Lost,16,hot_win_number,Chose Hot,17,56,NA,1,,26,Never,NA,American Indian/Alaska Native,Female,Non-Hispanic
+P0064,3,-0.03,6,29,No Banner,Lost,0,NA,Chose Non-Hot,45,24,NA,1,,26,Never,NA,American Indian/Alaska Native,Female,Non-Hispanic
+P0064,4,-0.04,28,11,No Banner,Lost,0,NA,Chose Non-Hot,14,43,NA,1,,26,Never,NA,American Indian/Alaska Native,Female,Non-Hispanic
+P0064,5,0.31,27,27,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,26,Never,NA,American Indian/Alaska Native,Female,Non-Hispanic
+P0064,6,0.3,10,12,No Banner,Lost,0,NA,Chose Non-Hot,20,42,NA,1,,26,Never,NA,American Indian/Alaska Native,Female,Non-Hispanic
+P0064,7,0.29,13,30,Banner,Lost,1,nonhot_win_number,Chose Hot,82,12,NA,1,,26,Never,NA,American Indian/Alaska Native,Female,Non-Hispanic
+P0064,8,0.27999999999999997,16,17,No Banner,Lost,0,NA,Chose Non-Hot,13,40,NA,1,,26,Never,NA,American Indian/Alaska Native,Female,Non-Hispanic
+P0064,9,0.26999999999999996,15,6,Banner,Lost,3,hot_win_number,Chose Non-Hot,24,52,NA,1,,26,Never,NA,American Indian/Alaska Native,Female,Non-Hispanic
+P0064,10,0.25999999999999995,14,19,Banner,Lost,8,hot_win_number,Chose Non-Hot,44,73,NA,1,,26,Never,NA,American Indian/Alaska Native,Female,Non-Hispanic
+P0064,11,0.24999999999999992,13,31,No Banner,Lost,0,NA,Chose Non-Hot,45,76,NA,1,,26,Never,NA,American Indian/Alaska Native,Female,Non-Hispanic
+P0064,12,0.5999999999999999,21,21,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,26,Never,NA,American Indian/Alaska Native,Female,Non-Hispanic
+P0064,13,0.5899999999999999,9,7,No Banner,Lost,0,NA,Chose Non-Hot,17,41,NA,1,,26,Never,NA,American Indian/Alaska Native,Female,Non-Hispanic
+P0064,14,0.5799999999999998,9,30,No Banner,Lost,0,NA,Chose Non-Hot,18,19,NA,1,,26,Never,NA,American Indian/Alaska Native,Female,Non-Hispanic
+P0064,15,0.9299999999999998,9,9,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,26,Never,NA,American Indian/Alaska Native,Female,Non-Hispanic
+P0064,16,0.9199999999999998,8,36,Banner,Lost,8,nonhot_win_number,Chose Hot,15,31,NA,1,,26,Never,NA,American Indian/Alaska Native,Female,Non-Hispanic
+P0064,17,0.9099999999999998,7,1,Banner,Lost,3,nonhot_win_number,Chose Non-Hot,7,46,NA,1,,26,Never,NA,American Indian/Alaska Native,Female,Non-Hispanic
+P0064,18,0.8999999999999998,6,1,Banner,Lost,2,hot_win_number,Chose Non-Hot,26,100,NA,1,,26,Never,NA,American Indian/Alaska Native,Female,Non-Hispanic
+P0064,19,0.8899999999999998,35,3,Banner,Lost,2,nonhot_win_number,Chose Hot,24,19,NA,1,,26,Never,NA,American Indian/Alaska Native,Female,Non-Hispanic
+P0064,20,0.8799999999999998,4,20,No Banner,Lost,0,NA,Chose Non-Hot,20,41,NA,1,,26,Never,NA,American Indian/Alaska Native,Female,Non-Hispanic
+P0064,21,0.8699999999999998,3,21,No Banner,Lost,0,NA,Chose Non-Hot,28,37,NA,1,,26,Never,NA,American Indian/Alaska Native,Female,Non-Hispanic
+P0064,22,0.8599999999999998,22,4,No Banner,Lost,0,NA,Chose Non-Hot,35,56,NA,1,,26,Never,NA,American Indian/Alaska Native,Female,Non-Hispanic
+P0064,23,1.2099999999999995,1,1,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,26,Never,NA,American Indian/Alaska Native,Female,Non-Hispanic
+P0064,24,1.1999999999999995,3,30,Banner,Lost,16,nonhot_win_number,Chose Hot,26,74,NA,1,,26,Never,NA,American Indian/Alaska Native,Female,Non-Hispanic
+P0071,1,-0.01,22,32,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+P0071,2,-0.02,13,2,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+P0071,3,-0.03,25,19,Banner,Lost,2,hot_win_number,Chose Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+P0071,4,0.31999999999999995,15,15,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+P0071,5,0.30999999999999994,30,1,Banner,Lost,3,nonhot_win_number,Chose Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+P0071,6,0.29999999999999993,7,3,Banner,Lost,8,nonhot_win_number,Chose Hot,99,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+P0071,7,0.2899999999999999,22,27,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+P0071,8,0.2799999999999999,6,26,Banner,Lost,1,nonhot_win_number,Chose Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+P0071,9,0.2699999999999999,27,13,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+P0071,10,0.6199999999999999,13,13,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+P0071,11,0.6099999999999999,4,3,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+P0071,12,0.5999999999999999,8,15,Banner,Lost,1,nonhot_win_number,Chose Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+P0071,13,0.5899999999999999,22,14,Banner,Lost,2,nonhot_win_number,Chose Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+P0071,14,0.5799999999999998,16,6,Banner,Lost,16,nonhot_win_number,Chose Non-Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+P0071,15,0.5699999999999998,8,33,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+P0071,16,0.5599999999999998,3,32,Banner,Lost,8,hot_win_number,Chose Non-Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+P0071,17,0.5499999999999998,3,1,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+P0071,18,0.8999999999999998,3,3,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+P0071,19,0.8899999999999998,20,23,Banner,Lost,16,hot_win_number,Chose Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+P0071,20,0.8799999999999998,33,22,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+P0071,21,0.8699999999999998,24,25,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+P0071,22,0.8599999999999998,19,7,Banner,Lost,3,hot_win_number,Chose Non-Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+P0071,23,1.2099999999999995,32,32,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+P0071,24,1.1999999999999995,9,15,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,7,I have no feedback or comments. Thank you.,37,Never,NA,Black/African American,Male,
+P0089,1,-0.01,1,31,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,2,I was happy I won as much as I did.,56,A few times,NA,White,Male,Non-Hispanic
+P0089,2,-0.02,31,33,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,2,I was happy I won as much as I did.,56,A few times,NA,White,Male,Non-Hispanic
+P0089,3,0.32999999999999996,31,31,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,I was happy I won as much as I did.,56,A few times,NA,White,Male,Non-Hispanic
+P0089,4,0.31999999999999995,31,3,No Banner,Lost,0,NA,Chose Non-Hot,24,27,NA,2,I was happy I won as much as I did.,56,A few times,NA,White,Male,Non-Hispanic
+P0089,5,0.30999999999999994,31,28,Banner,Lost,1,nonhot_win_number,Chose Hot,58,58,NA,2,I was happy I won as much as I did.,56,A few times,NA,White,Male,Non-Hispanic
+P0089,6,0.29999999999999993,15,8,Banner,Lost,2,nonhot_win_number,Chose Hot,0,0,NA,2,I was happy I won as much as I did.,56,A few times,NA,White,Male,Non-Hispanic
+P0089,7,0.2899999999999999,31,19,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,2,I was happy I won as much as I did.,56,A few times,NA,White,Male,Non-Hispanic
+P0089,8,0.2799999999999999,31,15,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,2,I was happy I won as much as I did.,56,A few times,NA,White,Male,Non-Hispanic
+P0089,9,0.2699999999999999,2,24,Banner,Lost,8,hot_win_number,Chose Hot,9,9,NA,2,I was happy I won as much as I did.,56,A few times,NA,White,Male,Non-Hispanic
+P0089,10,0.2599999999999999,21,32,Banner,Lost,3,hot_win_number,Chose Hot,0,0,NA,2,I was happy I won as much as I did.,56,A few times,NA,White,Male,Non-Hispanic
+P0089,11,0.6099999999999999,31,31,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,I was happy I won as much as I did.,56,A few times,NA,White,Male,Non-Hispanic
+P0089,12,0.5999999999999999,3,14,Banner,Lost,3,nonhot_win_number,Chose Hot,0,0,NA,2,I was happy I won as much as I did.,56,A few times,NA,White,Male,Non-Hispanic
+P0089,13,0.5899999999999999,28,7,Banner,Lost,1,nonhot_win_number,Chose Hot,0,0,NA,2,I was happy I won as much as I did.,56,A few times,NA,White,Male,Non-Hispanic
+P0089,14,0.5799999999999998,31,9,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,2,I was happy I won as much as I did.,56,A few times,NA,White,Male,Non-Hispanic
+P0089,15,0.5699999999999998,31,12,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,2,I was happy I won as much as I did.,56,A few times,NA,White,Male,Non-Hispanic
+P0089,16,0.9199999999999998,31,31,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,I was happy I won as much as I did.,56,A few times,NA,White,Male,Non-Hispanic
+P0089,17,0.9099999999999998,31,25,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,2,I was happy I won as much as I did.,56,A few times,NA,White,Male,Non-Hispanic
+P0089,18,0.8999999999999998,33,2,Banner,Lost,2,hot_win_number,Chose Hot,68,68,NA,2,I was happy I won as much as I did.,56,A few times,NA,White,Male,Non-Hispanic
+P0089,19,0.8899999999999998,4,28,Banner,Lost,8,nonhot_win_number,Chose Hot,0,0,NA,2,I was happy I won as much as I did.,56,A few times,NA,White,Male,Non-Hispanic
+P0089,20,0.8799999999999998,31,15,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,2,I was happy I won as much as I did.,56,A few times,NA,White,Male,Non-Hispanic
+P0089,21,0.8699999999999998,31,22,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,2,I was happy I won as much as I did.,56,A few times,NA,White,Male,Non-Hispanic
+P0089,22,0.8599999999999998,2,33,Banner,Lost,16,hot_win_number,Chose Hot,0,0,NA,2,I was happy I won as much as I did.,56,A few times,NA,White,Male,Non-Hispanic
+P0089,23,1.2099999999999995,31,31,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,I was happy I won as much as I did.,56,A few times,NA,White,Male,Non-Hispanic
+P0089,24,1.1999999999999995,2,15,Banner,Lost,16,nonhot_win_number,Chose Hot,0,0,NA,2,I was happy I won as much as I did.,56,A few times,NA,White,Male,Non-Hispanic
+P0096,1,-0.01,16,2,Banner,Lost,8,nonhot_win_number,Chose Hot,31,58,NA,1,"I bet I never got any of them right. I mean, maybe 3 times I found the emerald, but I don't think I *actually* did. The odds are so small. ",48,Never,NA,White,Female,Non-Hispanic
+P0096,2,-0.02,1,3,Banner,Lost,1,nonhot_win_number,Chose Hot,83,34,NA,1,"I bet I never got any of them right. I mean, maybe 3 times I found the emerald, but I don't think I *actually* did. The odds are so small. ",48,Never,NA,White,Female,Non-Hispanic
+P0096,3,-0.03,21,4,No Banner,Lost,0,NA,Chose Non-Hot,27,11,NA,1,"I bet I never got any of them right. I mean, maybe 3 times I found the emerald, but I don't think I *actually* did. The odds are so small. ",48,Never,NA,White,Female,Non-Hispanic
+P0096,4,0.31999999999999995,23,23,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,"I bet I never got any of them right. I mean, maybe 3 times I found the emerald, but I don't think I *actually* did. The odds are so small. ",48,Never,NA,White,Female,Non-Hispanic
+P0096,5,0.30999999999999994,19,15,No Banner,Lost,0,NA,Chose Non-Hot,46,65,NA,1,"I bet I never got any of them right. I mean, maybe 3 times I found the emerald, but I don't think I *actually* did. The odds are so small. ",48,Never,NA,White,Female,Non-Hispanic
+P0096,6,0.29999999999999993,12,23,No Banner,Lost,0,NA,Chose Non-Hot,27,72,NA,1,"I bet I never got any of them right. I mean, maybe 3 times I found the emerald, but I don't think I *actually* did. The odds are so small. ",48,Never,NA,White,Female,Non-Hispanic
+P0096,7,0.2899999999999999,3,2,No Banner,Lost,0,NA,Chose Non-Hot,76,87,NA,1,"I bet I never got any of them right. I mean, maybe 3 times I found the emerald, but I don't think I *actually* did. The odds are so small. ",48,Never,NA,White,Female,Non-Hispanic
+P0096,8,0.2799999999999999,26,15,Banner,Lost,2,hot_win_number,Chose Non-Hot,40,57,NA,1,"I bet I never got any of them right. I mean, maybe 3 times I found the emerald, but I don't think I *actually* did. The odds are so small. ",48,Never,NA,White,Female,Non-Hispanic
+P0096,9,0.6299999999999999,24,24,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,"I bet I never got any of them right. I mean, maybe 3 times I found the emerald, but I don't think I *actually* did. The odds are so small. ",48,Never,NA,White,Female,Non-Hispanic
+P0096,10,0.6199999999999999,18,8,Banner,Lost,2,nonhot_win_number,Chose Hot,11,37,NA,1,"I bet I never got any of them right. I mean, maybe 3 times I found the emerald, but I don't think I *actually* did. The odds are so small. ",48,Never,NA,White,Female,Non-Hispanic
+P0096,11,0.6099999999999999,4,20,No Banner,Lost,0,NA,Chose Non-Hot,27,45,NA,1,"I bet I never got any of them right. I mean, maybe 3 times I found the emerald, but I don't think I *actually* did. The odds are so small. ",48,Never,NA,White,Female,Non-Hispanic
+P0096,12,0.5999999999999999,17,6,Banner,Lost,8,hot_win_number,Chose Non-Hot,70,37,NA,1,"I bet I never got any of them right. I mean, maybe 3 times I found the emerald, but I don't think I *actually* did. The odds are so small. ",48,Never,NA,White,Female,Non-Hispanic
+P0096,13,0.5899999999999999,26,21,No Banner,Lost,0,NA,Chose Non-Hot,58,33,NA,1,"I bet I never got any of them right. I mean, maybe 3 times I found the emerald, but I don't think I *actually* did. The odds are so small. ",48,Never,NA,White,Female,Non-Hispanic
+P0096,14,0.5799999999999998,27,9,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,52,49,NA,1,"I bet I never got any of them right. I mean, maybe 3 times I found the emerald, but I don't think I *actually* did. The odds are so small. ",48,Never,NA,White,Female,Non-Hispanic
+P0096,15,0.5699999999999998,1,21,Banner,Lost,3,nonhot_win_number,Chose Non-Hot,52,44,NA,1,"I bet I never got any of them right. I mean, maybe 3 times I found the emerald, but I don't think I *actually* did. The odds are so small. ",48,Never,NA,White,Female,Non-Hispanic
+P0096,16,0.5599999999999998,34,19,No Banner,Lost,0,NA,Chose Non-Hot,18,32,NA,1,"I bet I never got any of them right. I mean, maybe 3 times I found the emerald, but I don't think I *actually* did. The odds are so small. ",48,Never,NA,White,Female,Non-Hispanic
+P0096,17,0.5499999999999998,20,31,No Banner,Lost,0,NA,Chose Non-Hot,52,65,NA,1,"I bet I never got any of them right. I mean, maybe 3 times I found the emerald, but I don't think I *actually* did. The odds are so small. ",48,Never,NA,White,Female,Non-Hispanic
+P0096,18,0.8999999999999998,30,30,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,"I bet I never got any of them right. I mean, maybe 3 times I found the emerald, but I don't think I *actually* did. The odds are so small. ",48,Never,NA,White,Female,Non-Hispanic
+P0096,19,0.8899999999999998,15,3,No Banner,Lost,0,NA,Chose Non-Hot,35,42,NA,1,"I bet I never got any of them right. I mean, maybe 3 times I found the emerald, but I don't think I *actually* did. The odds are so small. ",48,Never,NA,White,Female,Non-Hispanic
+P0096,20,0.8799999999999998,15,13,Banner,Lost,16,nonhot_win_number,Chose Hot,74,39,NA,1,"I bet I never got any of them right. I mean, maybe 3 times I found the emerald, but I don't think I *actually* did. The odds are so small. ",48,Never,NA,White,Female,Non-Hispanic
+P0096,21,1.2299999999999998,10,10,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,"I bet I never got any of them right. I mean, maybe 3 times I found the emerald, but I don't think I *actually* did. The odds are so small. ",48,Never,NA,White,Female,Non-Hispanic
+P0096,22,1.2199999999999998,21,20,No Banner,Lost,0,NA,Chose Non-Hot,83,94,NA,1,"I bet I never got any of them right. I mean, maybe 3 times I found the emerald, but I don't think I *actually* did. The odds are so small. ",48,Never,NA,White,Female,Non-Hispanic
+P0096,23,1.2099999999999995,24,7,Banner,Lost,3,hot_win_number,Chose Hot,89,99,NA,1,"I bet I never got any of them right. I mean, maybe 3 times I found the emerald, but I don't think I *actually* did. The odds are so small. ",48,Never,NA,White,Female,Non-Hispanic
+P0096,24,1.1999999999999995,3,24,Banner,Lost,16,hot_win_number,Chose Hot,52,61,NA,1,"I bet I never got any of them right. I mean, maybe 3 times I found the emerald, but I don't think I *actually* did. The odds are so small. ",48,Never,NA,White,Female,Non-Hispanic
+P0131,1,-0.01,8,1,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,2,Interesting task!,38,A few times,NA,Multiracial/Mixed,Male,Hispanic
+P0131,2,-0.02,2,22,No Banner,Lost,0,NA,Chose Non-Hot,60,60,NA,2,Interesting task!,38,A few times,NA,Multiracial/Mixed,Male,Hispanic
+P0131,3,0.32999999999999996,6,6,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,Interesting task!,38,A few times,NA,Multiracial/Mixed,Male,Hispanic
+P0131,4,0.31999999999999995,22,16,No Banner,Lost,0,NA,Chose Non-Hot,36,64,NA,2,Interesting task!,38,A few times,NA,Multiracial/Mixed,Male,Hispanic
+P0131,5,0.30999999999999994,33,27,No Banner,Lost,0,NA,Chose Non-Hot,37,81,NA,2,Interesting task!,38,A few times,NA,Multiracial/Mixed,Male,Hispanic
+P0131,6,0.29999999999999993,8,30,Banner,Lost,3,nonhot_win_number,Chose Hot,82,37,NA,2,Interesting task!,38,A few times,NA,Multiracial/Mixed,Male,Hispanic
+P0131,7,0.2899999999999999,4,23,Banner,Lost,16,hot_win_number,Chose Hot,74,75,NA,2,Interesting task!,38,A few times,NA,Multiracial/Mixed,Male,Hispanic
+P0131,8,0.2799999999999999,35,5,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,34,68,NA,2,Interesting task!,38,A few times,NA,Multiracial/Mixed,Male,Hispanic
+P0131,9,0.2699999999999999,31,16,No Banner,Lost,0,NA,Chose Non-Hot,27,71,NA,2,Interesting task!,38,A few times,NA,Multiracial/Mixed,Male,Hispanic
+P0131,10,0.6199999999999999,24,24,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,Interesting task!,38,A few times,NA,Multiracial/Mixed,Male,Hispanic
+P0131,11,0.6099999999999999,32,29,Banner,Lost,2,nonhot_win_number,Chose Hot,80,91,NA,2,Interesting task!,38,A few times,NA,Multiracial/Mixed,Male,Hispanic
+P0131,12,0.5999999999999999,13,15,Banner,Lost,1,nonhot_win_number,Chose Hot,86,86,NA,2,Interesting task!,38,A few times,NA,Multiracial/Mixed,Male,Hispanic
+P0131,13,0.5899999999999999,29,32,Banner,Lost,3,hot_win_number,Chose Non-Hot,30,71,NA,2,Interesting task!,38,A few times,NA,Multiracial/Mixed,Male,Hispanic
+P0131,14,0.5799999999999998,28,33,Banner,Lost,8,nonhot_win_number,Chose Hot,71,40,NA,2,Interesting task!,38,A few times,NA,Multiracial/Mixed,Male,Hispanic
+P0131,15,0.5699999999999998,2,19,No Banner,Lost,0,NA,Chose Non-Hot,23,70,NA,2,Interesting task!,38,A few times,NA,Multiracial/Mixed,Male,Hispanic
+P0131,16,0.5599999999999998,16,30,Banner,Lost,2,hot_win_number,Chose Hot,75,75,NA,2,Interesting task!,38,A few times,NA,Multiracial/Mixed,Male,Hispanic
+P0131,17,0.9099999999999998,17,17,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,Interesting task!,38,A few times,NA,Multiracial/Mixed,Male,Hispanic
+P0131,18,0.8999999999999998,27,31,No Banner,Lost,0,NA,Chose Non-Hot,26,76,NA,2,Interesting task!,38,A few times,NA,Multiracial/Mixed,Male,Hispanic
+P0131,19,0.8899999999999998,26,32,Banner,Lost,8,hot_win_number,Chose Hot,84,86,NA,2,Interesting task!,38,A few times,NA,Multiracial/Mixed,Male,Hispanic
+P0131,20,0.8799999999999998,6,27,No Banner,Lost,0,NA,Chose Non-Hot,38,75,NA,2,Interesting task!,38,A few times,NA,Multiracial/Mixed,Male,Hispanic
+P0131,21,1.2299999999999998,33,33,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,Interesting task!,38,A few times,NA,Multiracial/Mixed,Male,Hispanic
+P0131,22,1.2199999999999998,3,24,Banner,Lost,16,nonhot_win_number,Chose Hot,78,65,NA,2,Interesting task!,38,A few times,NA,Multiracial/Mixed,Male,Hispanic
+P0131,23,1.2099999999999995,34,28,No Banner,Lost,0,NA,Chose Non-Hot,66,48,NA,2,Interesting task!,38,A few times,NA,Multiracial/Mixed,Male,Hispanic
+P0131,24,1.1999999999999995,6,31,No Banner,Lost,0,NA,Chose Non-Hot,29,88,NA,2,Interesting task!,38,A few times,NA,Multiracial/Mixed,Male,Hispanic
+P0133,1,-0.01,22,33,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,41,Never,NA,Asian,Female,Non-Hispanic
+P0133,2,-0.02,8,34,Banner,Lost,2,nonhot_win_number,Chose Hot,50,100,NA,1,,41,Never,NA,Asian,Female,Non-Hispanic
+P0133,3,0.32999999999999996,24,24,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,41,Never,NA,Asian,Female,Non-Hispanic
+P0133,4,0.31999999999999995,25,17,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,41,Never,NA,Asian,Female,Non-Hispanic
+P0133,5,0.30999999999999994,13,26,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,100,100,NA,1,,41,Never,NA,Asian,Female,Non-Hispanic
+P0133,6,0.29999999999999993,31,24,Banner,Lost,3,nonhot_win_number,Chose Hot,32,100,NA,1,,41,Never,NA,Asian,Female,Non-Hispanic
+P0133,7,0.2899999999999999,13,3,Banner,Lost,16,nonhot_win_number,Chose Hot,45,100,NA,1,,41,Never,NA,Asian,Female,Non-Hispanic
+P0133,8,0.2799999999999999,17,5,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,41,Never,NA,Asian,Female,Non-Hispanic
+P0133,9,0.2699999999999999,33,2,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,41,Never,NA,Asian,Female,Non-Hispanic
+P0133,10,0.2599999999999999,6,12,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,41,Never,NA,Asian,Female,Non-Hispanic
+P0133,11,0.2499999999999999,34,30,Banner,Lost,16,hot_win_number,Chose Hot,38,100,NA,1,,41,Never,NA,Asian,Female,Non-Hispanic
+P0133,12,0.5999999999999999,21,21,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,41,Never,NA,Asian,Female,Non-Hispanic
+P0133,13,0.5899999999999999,14,6,Banner,Lost,2,hot_win_number,Chose Non-Hot,100,100,NA,1,,41,Never,NA,Asian,Female,Non-Hispanic
+P0133,14,0.5799999999999998,28,16,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,41,Never,NA,Asian,Female,Non-Hispanic
+P0133,15,0.5699999999999998,10,19,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,41,Never,NA,Asian,Female,Non-Hispanic
+P0133,16,0.5599999999999998,25,13,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,41,Never,NA,Asian,Female,Non-Hispanic
+P0133,17,0.5499999999999998,18,12,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,41,Never,NA,Asian,Female,Non-Hispanic
+P0133,18,0.8999999999999998,8,8,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,41,Never,NA,Asian,Female,Non-Hispanic
+P0133,19,0.8899999999999998,18,34,Banner,Lost,8,hot_win_number,Chose Hot,22,100,NA,1,,41,Never,NA,Asian,Female,Non-Hispanic
+P0133,20,0.8799999999999998,20,6,Banner,Lost,3,hot_win_number,Chose Hot,40,100,NA,1,,41,Never,NA,Asian,Female,Non-Hispanic
+P0133,21,1.2299999999999998,24,24,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,41,Never,NA,Asian,Female,Non-Hispanic
+P0133,22,1.2199999999999998,17,10,Banner,Lost,1,nonhot_win_number,Chose Hot,100,100,NA,1,,41,Never,NA,Asian,Female,Non-Hispanic
+P0133,23,1.2099999999999995,9,3,Banner,Lost,8,nonhot_win_number,Chose Hot,27,100,NA,1,,41,Never,NA,Asian,Female,Non-Hispanic
+P0133,24,1.1999999999999995,22,26,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,41,Never,NA,Asian,Female,Non-Hispanic
+P0136,1,-0.01,30,21,Banner,Lost,3,nonhot_win_number,Chose Hot,50,50,NA,1,,29,Never,NA,White,Female,Non-Hispanic
+P0136,2,-0.02,22,36,No Banner,Lost,0,NA,Chose Non-Hot,50,50,NA,1,,29,Never,NA,White,Female,Non-Hispanic
+P0136,3,-0.03,16,5,No Banner,Lost,0,NA,Chose Non-Hot,55,55,NA,1,,29,Never,NA,White,Female,Non-Hispanic
+P0136,4,-0.04,13,2,No Banner,Lost,0,NA,Chose Non-Hot,55,55,NA,1,,29,Never,NA,White,Female,Non-Hispanic
+P0136,5,0.31,18,18,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,29,Never,NA,White,Female,Non-Hispanic
+P0136,6,0.3,28,15,Banner,Lost,2,nonhot_win_number,Chose Hot,50,50,NA,1,,29,Never,NA,White,Female,Non-Hispanic
+P0136,7,0.29,21,11,Banner,Lost,8,nonhot_win_number,Chose Hot,60,55,NA,1,,29,Never,NA,White,Female,Non-Hispanic
+P0136,8,0.27999999999999997,21,36,Banner,Lost,3,hot_win_number,Chose Hot,55,55,NA,1,,29,Never,NA,White,Female,Non-Hispanic
+P0136,9,0.26999999999999996,17,28,No Banner,Lost,0,NA,Chose Non-Hot,55,55,NA,1,,29,Never,NA,White,Female,Non-Hispanic
+P0136,10,0.6199999999999999,24,24,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,29,Never,NA,White,Female,Non-Hispanic
+P0136,11,0.6099999999999999,9,22,No Banner,Lost,0,NA,Chose Non-Hot,40,40,NA,1,,29,Never,NA,White,Female,Non-Hispanic
+P0136,12,0.5999999999999999,13,25,No Banner,Lost,0,NA,Chose Non-Hot,40,40,NA,1,,29,Never,NA,White,Female,Non-Hispanic
+P0136,13,0.5899999999999999,7,16,No Banner,Lost,0,NA,Chose Non-Hot,55,55,NA,1,,29,Never,NA,White,Female,Non-Hispanic
+P0136,14,0.5799999999999998,31,20,No Banner,Lost,0,NA,Chose Non-Hot,55,55,NA,1,,29,Never,NA,White,Female,Non-Hispanic
+P0136,15,0.5699999999999998,9,34,Banner,Lost,1,nonhot_win_number,Chose Hot,75,40,NA,1,,29,Never,NA,White,Female,Non-Hispanic
+P0136,16,0.5599999999999998,17,3,No Banner,Lost,0,NA,Chose Non-Hot,50,50,NA,1,,29,Never,NA,White,Female,Non-Hispanic
+P0136,17,0.5499999999999998,23,30,Banner,Lost,16,hot_win_number,Chose Hot,50,50,NA,1,,29,Never,NA,White,Female,Non-Hispanic
+P0136,18,0.8999999999999998,1,1,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,29,Never,NA,White,Female,Non-Hispanic
+P0136,19,0.8899999999999998,26,10,Banner,Lost,1,nonhot_win_number,Chose Hot,55,50,NA,1,,29,Never,NA,White,Female,Non-Hispanic
+P0136,20,0.8799999999999998,19,32,No Banner,Lost,0,NA,Chose Non-Hot,50,50,NA,1,,29,Never,NA,White,Female,Non-Hispanic
+P0136,21,0.8699999999999998,17,25,Banner,Lost,2,hot_win_number,Chose Non-Hot,60,60,NA,1,,29,Never,NA,White,Female,Non-Hispanic
+P0136,22,0.8599999999999998,31,14,Banner,Lost,8,hot_win_number,Chose Non-Hot,45,45,NA,1,,29,Never,NA,White,Female,Non-Hispanic
+P0136,23,1.2099999999999995,19,19,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,29,Never,NA,White,Female,Non-Hispanic
+P0136,24,1.1999999999999995,29,36,Banner,Lost,16,nonhot_win_number,Chose Hot,45,40,NA,1,,29,Never,NA,White,Female,Non-Hispanic
+P0142,1,-0.01,19,23,Banner,Lost,2,hot_win_number,Chose Hot,40,60,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+P0142,2,-0.02,8,9,Banner,Lost,3,hot_win_number,Chose Hot,55,65,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+P0142,3,-0.03,1,9,No Banner,Lost,0,NA,Chose Non-Hot,15,10,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+P0142,4,-0.04,33,24,Banner,Lost,8,hot_win_number,Chose Hot,24,40,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+P0142,5,0.31,30,30,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+P0142,6,0.3,13,18,Banner,Lost,1,nonhot_win_number,Chose Hot,7,8,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+P0142,7,0.29,3,5,Banner,Lost,16,hot_win_number,Chose Hot,6,12,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+P0142,8,0.27999999999999997,34,21,No Banner,Lost,0,NA,Chose Non-Hot,12,14,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+P0142,9,0.26999999999999996,1,14,Banner,Lost,3,nonhot_win_number,Chose Hot,2,5,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+P0142,10,0.6199999999999999,29,29,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+P0142,11,0.6099999999999999,20,36,No Banner,Lost,0,NA,Chose Non-Hot,6,11,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+P0142,12,0.5999999999999999,36,28,No Banner,Lost,0,NA,Chose Non-Hot,2,4,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+P0142,13,0.5899999999999999,13,16,No Banner,Lost,0,NA,Chose Non-Hot,6,7,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+P0142,14,0.5799999999999998,15,10,Banner,Lost,1,nonhot_win_number,Chose Hot,3,7,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+P0142,15,0.5699999999999998,6,9,No Banner,Lost,0,NA,Chose Non-Hot,2,2,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+P0142,16,0.9199999999999998,31,31,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+P0142,17,0.9099999999999998,36,27,No Banner,Lost,0,NA,Chose Non-Hot,3,6,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+P0142,18,0.8999999999999998,4,32,No Banner,Lost,0,NA,Chose Non-Hot,2,3,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+P0142,19,0.8899999999999998,30,10,Banner,Lost,8,nonhot_win_number,Chose Hot,23,18,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+P0142,20,0.8799999999999998,14,36,Banner,Lost,2,nonhot_win_number,Chose Hot,4,4,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+P0142,21,0.8699999999999998,21,16,Banner,Lost,16,nonhot_win_number,Chose Hot,5,6,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+P0142,22,1.2199999999999998,20,20,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+P0142,23,1.2099999999999995,18,8,No Banner,Lost,0,NA,Chose Non-Hot,2,2,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+P0142,24,1.1999999999999995,5,30,No Banner,Lost,0,NA,Chose Non-Hot,2,3,NA,1,,27,About once a month,NA,White,Male,Non-Hispanic
+P0145,1,-0.01,17,11,No Banner,Lost,0,NA,Chose Non-Hot,57,87,NA,1,"I think the hotblock was fake.  I don't remember ever finding an emerald on a ""hot block""",41,About once a week,NA,White,Male,Non-Hispanic
+P0145,2,-0.02,7,16,Banner,Lost,2,nonhot_win_number,Chose Hot,71,70,NA,1,"I think the hotblock was fake.  I don't remember ever finding an emerald on a ""hot block""",41,About once a week,NA,White,Male,Non-Hispanic
+P0145,3,-0.03,25,13,Banner,Lost,8,hot_win_number,Chose Hot,36,83,NA,1,"I think the hotblock was fake.  I don't remember ever finding an emerald on a ""hot block""",41,About once a week,NA,White,Male,Non-Hispanic
+P0145,4,-0.04,28,25,Banner,Lost,8,nonhot_win_number,Chose Hot,58,65,NA,1,"I think the hotblock was fake.  I don't remember ever finding an emerald on a ""hot block""",41,About once a week,NA,White,Male,Non-Hispanic
+P0145,5,-0.05,31,20,Banner,Lost,2,hot_win_number,Chose Hot,46,81,NA,1,"I think the hotblock was fake.  I don't remember ever finding an emerald on a ""hot block""",41,About once a week,NA,White,Male,Non-Hispanic
+P0145,6,0.3,7,7,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,"I think the hotblock was fake.  I don't remember ever finding an emerald on a ""hot block""",41,About once a week,NA,White,Male,Non-Hispanic
+P0145,7,0.29,7,11,No Banner,Lost,0,NA,Chose Non-Hot,62,69,NA,1,"I think the hotblock was fake.  I don't remember ever finding an emerald on a ""hot block""",41,About once a week,NA,White,Male,Non-Hispanic
+P0145,8,0.27999999999999997,29,21,Banner,Lost,16,hot_win_number,Chose Hot,17,40,NA,1,"I think the hotblock was fake.  I don't remember ever finding an emerald on a ""hot block""",41,About once a week,NA,White,Male,Non-Hispanic
+P0145,9,0.6299999999999999,13,13,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,"I think the hotblock was fake.  I don't remember ever finding an emerald on a ""hot block""",41,About once a week,NA,White,Male,Non-Hispanic
+P0145,10,0.6199999999999999,27,11,Banner,Lost,1,nonhot_win_number,Chose Hot,75,75,NA,1,"I think the hotblock was fake.  I don't remember ever finding an emerald on a ""hot block""",41,About once a week,NA,White,Male,Non-Hispanic
+P0145,11,0.6099999999999999,7,27,No Banner,Lost,0,NA,Chose Non-Hot,55,73,NA,1,"I think the hotblock was fake.  I don't remember ever finding an emerald on a ""hot block""",41,About once a week,NA,White,Male,Non-Hispanic
+P0145,12,0.5999999999999999,23,26,No Banner,Lost,0,NA,Chose Non-Hot,69,71,NA,1,"I think the hotblock was fake.  I don't remember ever finding an emerald on a ""hot block""",41,About once a week,NA,White,Male,Non-Hispanic
+P0145,13,0.5899999999999999,27,22,Banner,Lost,16,nonhot_win_number,Chose Hot,72,74,NA,1,"I think the hotblock was fake.  I don't remember ever finding an emerald on a ""hot block""",41,About once a week,NA,White,Male,Non-Hispanic
+P0145,14,0.5799999999999998,7,36,No Banner,Lost,0,NA,Chose Non-Hot,54,54,NA,1,"I think the hotblock was fake.  I don't remember ever finding an emerald on a ""hot block""",41,About once a week,NA,White,Male,Non-Hispanic
+P0145,15,0.9299999999999998,17,17,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,"I think the hotblock was fake.  I don't remember ever finding an emerald on a ""hot block""",41,About once a week,NA,White,Male,Non-Hispanic
+P0145,16,0.9199999999999998,15,28,Banner,Lost,1,nonhot_win_number,Chose Hot,68,64,NA,1,"I think the hotblock was fake.  I don't remember ever finding an emerald on a ""hot block""",41,About once a week,NA,White,Male,Non-Hispanic
+P0145,17,0.9099999999999998,23,34,Banner,Lost,3,hot_win_number,Chose Hot,55,54,NA,1,"I think the hotblock was fake.  I don't remember ever finding an emerald on a ""hot block""",41,About once a week,NA,White,Male,Non-Hispanic
+P0145,18,0.8999999999999998,7,1,No Banner,Lost,0,NA,Chose Non-Hot,61,61,NA,1,"I think the hotblock was fake.  I don't remember ever finding an emerald on a ""hot block""",41,About once a week,NA,White,Male,Non-Hispanic
+P0145,19,0.8899999999999998,13,21,No Banner,Lost,0,NA,Chose Non-Hot,41,54,NA,1,"I think the hotblock was fake.  I don't remember ever finding an emerald on a ""hot block""",41,About once a week,NA,White,Male,Non-Hispanic
+P0145,20,0.8799999999999998,11,33,No Banner,Lost,0,NA,Chose Non-Hot,39,45,NA,1,"I think the hotblock was fake.  I don't remember ever finding an emerald on a ""hot block""",41,About once a week,NA,White,Male,Non-Hispanic
+P0145,21,0.8699999999999998,26,17,No Banner,Lost,0,NA,Chose Non-Hot,49,57,NA,1,"I think the hotblock was fake.  I don't remember ever finding an emerald on a ""hot block""",41,About once a week,NA,White,Male,Non-Hispanic
+P0145,22,0.8599999999999998,2,35,No Banner,Lost,0,NA,Chose Non-Hot,47,40,NA,1,"I think the hotblock was fake.  I don't remember ever finding an emerald on a ""hot block""",41,About once a week,NA,White,Male,Non-Hispanic
+P0145,23,1.2099999999999995,11,11,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,"I think the hotblock was fake.  I don't remember ever finding an emerald on a ""hot block""",41,About once a week,NA,White,Male,Non-Hispanic
+P0145,24,1.1999999999999995,28,31,Banner,Lost,3,nonhot_win_number,Chose Hot,76,84,NA,1,"I think the hotblock was fake.  I don't remember ever finding an emerald on a ""hot block""",41,About once a week,NA,White,Male,Non-Hispanic
+P0171,1,-0.01,21,2,No Banner,Lost,0,NA,Chose Non-Hot,94,2,NA,1,,51,Never,NA,White,Female,Non-Hispanic
+P0171,2,-0.02,16,36,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,,51,Never,NA,White,Female,Non-Hispanic
+P0171,3,0.32999999999999996,23,23,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,51,Never,NA,White,Female,Non-Hispanic
+P0171,4,0.31999999999999995,27,2,No Banner,Lost,0,NA,Chose Non-Hot,100,94,NA,1,,51,Never,NA,White,Female,Non-Hispanic
+P0171,5,0.30999999999999994,2,21,No Banner,Lost,0,NA,Chose Non-Hot,100,99,NA,1,,51,Never,NA,White,Female,Non-Hispanic
+P0171,6,0.29999999999999993,14,33,Banner,Lost,16,nonhot_win_number,Chose Hot,94,99,NA,1,,51,Never,NA,White,Female,Non-Hispanic
+P0171,7,0.2899999999999999,35,29,Banner,Lost,16,hot_win_number,Chose Hot,99,96,NA,1,,51,Never,NA,White,Female,Non-Hispanic
+P0171,8,0.2799999999999999,32,19,No Banner,Lost,0,NA,Chose Non-Hot,100,99,NA,1,,51,Never,NA,White,Female,Non-Hispanic
+P0171,9,0.2699999999999999,19,29,No Banner,Lost,0,NA,Chose Non-Hot,98,99,NA,1,,51,Never,NA,White,Female,Non-Hispanic
+P0171,10,0.6199999999999999,15,15,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,51,Never,NA,White,Female,Non-Hispanic
+P0171,11,0.6099999999999999,9,31,No Banner,Lost,0,NA,Chose Non-Hot,97,92,NA,1,,51,Never,NA,White,Female,Non-Hispanic
+P0171,12,0.5999999999999999,22,3,Banner,Lost,2,nonhot_win_number,Chose Hot,88,87,NA,1,,51,Never,NA,White,Female,Non-Hispanic
+P0171,13,0.5899999999999999,6,34,Banner,Lost,2,hot_win_number,Chose Hot,100,95,NA,1,,51,Never,NA,White,Female,Non-Hispanic
+P0171,14,0.5799999999999998,31,6,No Banner,Lost,0,NA,Chose Non-Hot,94,95,NA,1,,51,Never,NA,White,Female,Non-Hispanic
+P0171,15,0.5699999999999998,30,31,Banner,Lost,3,hot_win_number,Chose Hot,96,82,NA,1,,51,Never,NA,White,Female,Non-Hispanic
+P0171,16,0.9199999999999998,18,18,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,51,Never,NA,White,Female,Non-Hispanic
+P0171,17,0.9099999999999998,33,11,Banner,Lost,8,hot_win_number,Chose Hot,77,85,NA,1,,51,Never,NA,White,Female,Non-Hispanic
+P0171,18,0.8999999999999998,29,27,No Banner,Lost,0,NA,Chose Non-Hot,69,84,NA,1,,51,Never,NA,White,Female,Non-Hispanic
+P0171,19,0.8899999999999998,35,32,No Banner,Lost,0,NA,Chose Non-Hot,74,83,NA,1,,51,Never,NA,White,Female,Non-Hispanic
+P0171,20,0.8799999999999998,34,32,Banner,Lost,1,nonhot_win_number,Chose Hot,95,74,NA,1,,51,Never,NA,White,Female,Non-Hispanic
+P0171,21,1.2299999999999998,15,15,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,51,Never,NA,White,Female,Non-Hispanic
+P0171,22,1.2199999999999998,5,23,Banner,Lost,1,nonhot_win_number,Chose Hot,75,77,NA,1,,51,Never,NA,White,Female,Non-Hispanic
+P0171,23,1.2099999999999995,2,27,Banner,Lost,3,nonhot_win_number,Chose Hot,96,62,NA,1,,51,Never,NA,White,Female,Non-Hispanic
+P0171,24,1.1999999999999995,14,6,Banner,Lost,8,nonhot_win_number,Chose Hot,60,86,NA,1,,51,Never,NA,White,Female,Non-Hispanic
+P0208,1,-0.01,36,3,No Banner,Lost,0,NA,Chose Non-Hot,4,5,NA,1,"It only seemed to make me regret ful if there was only 2 or 3 choices, When there were too many to have much chance it didn't matter to me.",67,Never,NA,White,Female,Non-Hispanic
+P0208,2,-0.02,30,32,No Banner,Lost,0,NA,Chose Non-Hot,8,8,NA,1,"It only seemed to make me regret ful if there was only 2 or 3 choices, When there were too many to have much chance it didn't matter to me.",67,Never,NA,White,Female,Non-Hispanic
+P0208,3,-0.03,31,7,Banner,Lost,1,nonhot_win_number,Chose Hot,29,5,NA,1,"It only seemed to make me regret ful if there was only 2 or 3 choices, When there were too many to have much chance it didn't matter to me.",67,Never,NA,White,Female,Non-Hispanic
+P0208,4,-0.04,35,33,Banner,Lost,2,nonhot_win_number,Chose Hot,24,3,NA,1,"It only seemed to make me regret ful if there was only 2 or 3 choices, When there were too many to have much chance it didn't matter to me.",67,Never,NA,White,Female,Non-Hispanic
+P0208,5,0.31,7,7,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,"It only seemed to make me regret ful if there was only 2 or 3 choices, When there were too many to have much chance it didn't matter to me.",67,Never,NA,White,Female,Non-Hispanic
+P0208,6,0.3,5,16,Banner,Lost,3,hot_win_number,Chose Hot,45,72,NA,1,"It only seemed to make me regret ful if there was only 2 or 3 choices, When there were too many to have much chance it didn't matter to me.",67,Never,NA,White,Female,Non-Hispanic
+P0208,7,0.29,20,7,Banner,Lost,16,hot_win_number,Chose Hot,11,13,NA,1,"It only seemed to make me regret ful if there was only 2 or 3 choices, When there were too many to have much chance it didn't matter to me.",67,Never,NA,White,Female,Non-Hispanic
+P0208,8,0.27999999999999997,20,10,No Banner,Lost,0,NA,Chose Non-Hot,9,12,NA,1,"It only seemed to make me regret ful if there was only 2 or 3 choices, When there were too many to have much chance it didn't matter to me.",67,Never,NA,White,Female,Non-Hispanic
+P0208,9,0.26999999999999996,28,17,Banner,Lost,3,nonhot_win_number,Chose Hot,7,8,NA,1,"It only seemed to make me regret ful if there was only 2 or 3 choices, When there were too many to have much chance it didn't matter to me.",67,Never,NA,White,Female,Non-Hispanic
+P0208,10,0.25999999999999995,5,16,Banner,Lost,16,nonhot_win_number,Chose Hot,7,7,NA,1,"It only seemed to make me regret ful if there was only 2 or 3 choices, When there were too many to have much chance it didn't matter to me.",67,Never,NA,White,Female,Non-Hispanic
+P0208,11,0.24999999999999992,4,13,No Banner,Lost,0,NA,Chose Non-Hot,7,7,NA,1,"It only seemed to make me regret ful if there was only 2 or 3 choices, When there were too many to have much chance it didn't matter to me.",67,Never,NA,White,Female,Non-Hispanic
+P0208,12,0.5999999999999999,32,32,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,"It only seemed to make me regret ful if there was only 2 or 3 choices, When there were too many to have much chance it didn't matter to me.",67,Never,NA,White,Female,Non-Hispanic
+P0208,13,0.5899999999999999,30,33,Banner,Lost,8,hot_win_number,Chose Hot,5,5,NA,1,"It only seemed to make me regret ful if there was only 2 or 3 choices, When there were too many to have much chance it didn't matter to me.",67,Never,NA,White,Female,Non-Hispanic
+P0208,14,0.5799999999999998,23,16,Banner,Lost,2,hot_win_number,Chose Hot,60,60,NA,1,"It only seemed to make me regret ful if there was only 2 or 3 choices, When there were too many to have much chance it didn't matter to me.",67,Never,NA,White,Female,Non-Hispanic
+P0208,15,0.5699999999999998,32,11,No Banner,Lost,0,NA,Chose Non-Hot,5,6,NA,1,"It only seemed to make me regret ful if there was only 2 or 3 choices, When there were too many to have much chance it didn't matter to me.",67,Never,NA,White,Female,Non-Hispanic
+P0208,16,0.9199999999999998,33,33,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,"It only seemed to make me regret ful if there was only 2 or 3 choices, When there were too many to have much chance it didn't matter to me.",67,Never,NA,White,Female,Non-Hispanic
+P0208,17,0.9099999999999998,15,16,No Banner,Lost,0,NA,Chose Non-Hot,26,54,NA,1,"It only seemed to make me regret ful if there was only 2 or 3 choices, When there were too many to have much chance it didn't matter to me.",67,Never,NA,White,Female,Non-Hispanic
+P0208,18,0.8999999999999998,28,22,No Banner,Lost,0,NA,Chose Non-Hot,7,9,NA,1,"It only seemed to make me regret ful if there was only 2 or 3 choices, When there were too many to have much chance it didn't matter to me.",67,Never,NA,White,Female,Non-Hispanic
+P0208,19,0.8899999999999998,16,9,No Banner,Lost,0,NA,Chose Non-Hot,40,6,NA,1,"It only seemed to make me regret ful if there was only 2 or 3 choices, When there were too many to have much chance it didn't matter to me.",67,Never,NA,White,Female,Non-Hispanic
+P0208,20,0.8799999999999998,16,13,No Banner,Lost,0,NA,Chose Non-Hot,5,7,NA,1,"It only seemed to make me regret ful if there was only 2 or 3 choices, When there were too many to have much chance it didn't matter to me.",67,Never,NA,White,Female,Non-Hispanic
+P0208,21,0.8699999999999998,16,19,No Banner,Lost,0,NA,Chose Non-Hot,5,6,NA,1,"It only seemed to make me regret ful if there was only 2 or 3 choices, When there were too many to have much chance it didn't matter to me.",67,Never,NA,White,Female,Non-Hispanic
+P0208,22,0.8599999999999998,16,6,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,8,11,NA,1,"It only seemed to make me regret ful if there was only 2 or 3 choices, When there were too many to have much chance it didn't matter to me.",67,Never,NA,White,Female,Non-Hispanic
+P0208,23,0.8499999999999998,15,11,Banner,Lost,8,nonhot_win_number,Chose Hot,5,7,NA,1,"It only seemed to make me regret ful if there was only 2 or 3 choices, When there were too many to have much chance it didn't matter to me.",67,Never,NA,White,Female,Non-Hispanic
+P0208,24,1.1999999999999995,16,16,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,"It only seemed to make me regret ful if there was only 2 or 3 choices, When there were too many to have much chance it didn't matter to me.",67,Never,NA,White,Female,Non-Hispanic
+P0211,1,-0.01,29,10,Banner,Lost,2,hot_win_number,Chose Hot,35,81,NA,2,That was a very fun and interesting survey. It was fun to game-ify the context of the survey.,27,A few times,NA,White,Female,Non-Hispanic
+P0211,2,-0.02,35,20,Banner,Lost,1,nonhot_win_number,Chose Hot,30,17,NA,2,That was a very fun and interesting survey. It was fun to game-ify the context of the survey.,27,A few times,NA,White,Female,Non-Hispanic
+P0211,3,-0.03,27,33,No Banner,Lost,0,NA,Chose Non-Hot,43,18,NA,2,That was a very fun and interesting survey. It was fun to game-ify the context of the survey.,27,A few times,NA,White,Female,Non-Hispanic
+P0211,4,0.31999999999999995,17,17,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,That was a very fun and interesting survey. It was fun to game-ify the context of the survey.,27,A few times,NA,White,Female,Non-Hispanic
+P0211,5,0.30999999999999994,11,12,Banner,Lost,8,nonhot_win_number,Chose Hot,67,37,NA,2,That was a very fun and interesting survey. It was fun to game-ify the context of the survey.,27,A few times,NA,White,Female,Non-Hispanic
+P0211,6,0.29999999999999993,30,6,Banner,Lost,8,hot_win_number,Chose Hot,43,33,NA,2,That was a very fun and interesting survey. It was fun to game-ify the context of the survey.,27,A few times,NA,White,Female,Non-Hispanic
+P0211,7,0.2899999999999999,21,15,No Banner,Lost,0,NA,Chose Non-Hot,19,4,NA,2,That was a very fun and interesting survey. It was fun to game-ify the context of the survey.,27,A few times,NA,White,Female,Non-Hispanic
+P0211,8,0.2799999999999999,14,1,No Banner,Lost,0,NA,Chose Non-Hot,29,14,NA,2,That was a very fun and interesting survey. It was fun to game-ify the context of the survey.,27,A few times,NA,White,Female,Non-Hispanic
+P0211,9,0.6299999999999999,25,25,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,That was a very fun and interesting survey. It was fun to game-ify the context of the survey.,27,A few times,NA,White,Female,Non-Hispanic
+P0211,10,0.6199999999999999,11,36,No Banner,Lost,0,NA,Chose Non-Hot,19,16,NA,2,That was a very fun and interesting survey. It was fun to game-ify the context of the survey.,27,A few times,NA,White,Female,Non-Hispanic
+P0211,11,0.6099999999999999,8,10,No Banner,Lost,0,NA,Chose Non-Hot,39,22,NA,2,That was a very fun and interesting survey. It was fun to game-ify the context of the survey.,27,A few times,NA,White,Female,Non-Hispanic
+P0211,12,0.5999999999999999,21,27,Banner,Lost,16,hot_win_number,Chose Hot,41,45,NA,2,That was a very fun and interesting survey. It was fun to game-ify the context of the survey.,27,A few times,NA,White,Female,Non-Hispanic
+P0211,13,0.5899999999999999,24,23,Banner,Lost,2,nonhot_win_number,Chose Hot,45,39,NA,2,That was a very fun and interesting survey. It was fun to game-ify the context of the survey.,27,A few times,NA,White,Female,Non-Hispanic
+P0211,14,0.5799999999999998,33,1,No Banner,Lost,0,NA,Chose Non-Hot,37,21,NA,2,That was a very fun and interesting survey. It was fun to game-ify the context of the survey.,27,A few times,NA,White,Female,Non-Hispanic
+P0211,15,0.5699999999999998,15,18,Banner,Lost,3,hot_win_number,Chose Non-Hot,89,77,NA,2,That was a very fun and interesting survey. It was fun to game-ify the context of the survey.,27,A few times,NA,White,Female,Non-Hispanic
+P0211,16,0.5599999999999998,9,2,Banner,Lost,1,nonhot_win_number,Chose Hot,28,15,NA,2,That was a very fun and interesting survey. It was fun to game-ify the context of the survey.,27,A few times,NA,White,Female,Non-Hispanic
+P0211,17,0.9099999999999998,26,26,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,That was a very fun and interesting survey. It was fun to game-ify the context of the survey.,27,A few times,NA,White,Female,Non-Hispanic
+P0211,18,0.8999999999999998,14,20,No Banner,Lost,0,NA,Chose Non-Hot,24,17,NA,2,That was a very fun and interesting survey. It was fun to game-ify the context of the survey.,27,A few times,NA,White,Female,Non-Hispanic
+P0211,19,0.8899999999999998,35,18,No Banner,Lost,0,NA,Chose Non-Hot,16,12,NA,2,That was a very fun and interesting survey. It was fun to game-ify the context of the survey.,27,A few times,NA,White,Female,Non-Hispanic
+P0211,20,0.8799999999999998,14,2,No Banner,Lost,0,NA,Chose Non-Hot,18,17,NA,2,That was a very fun and interesting survey. It was fun to game-ify the context of the survey.,27,A few times,NA,White,Female,Non-Hispanic
+P0211,21,0.8699999999999998,36,3,Banner,Lost,3,nonhot_win_number,Chose Hot,17,29,NA,2,That was a very fun and interesting survey. It was fun to game-ify the context of the survey.,27,A few times,NA,White,Female,Non-Hispanic
+P0211,22,1.2199999999999998,27,27,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,That was a very fun and interesting survey. It was fun to game-ify the context of the survey.,27,A few times,NA,White,Female,Non-Hispanic
+P0211,23,1.2099999999999995,7,6,No Banner,Lost,0,NA,Chose Non-Hot,77,82,NA,2,That was a very fun and interesting survey. It was fun to game-ify the context of the survey.,27,A few times,NA,White,Female,Non-Hispanic
+P0211,24,1.1999999999999995,19,20,Banner,Lost,16,nonhot_win_number,Chose Hot,55,50,NA,2,That was a very fun and interesting survey. It was fun to game-ify the context of the survey.,27,A few times,NA,White,Female,Non-Hispanic
+P0221,1,-0.01,21,10,No Banner,Lost,0,NA,Chose Non-Hot,74,70,NA,1,,44,Never,NA,White,Female,Non-Hispanic
+P0221,2,-0.02,17,8,No Banner,Lost,0,NA,Chose Non-Hot,72,71,NA,1,,44,Never,NA,White,Female,Non-Hispanic
+P0221,3,-0.03,14,35,No Banner,Lost,0,NA,Chose Non-Hot,70,71,NA,1,,44,Never,NA,White,Female,Non-Hispanic
+P0221,4,-0.04,11,24,Banner,Lost,16,hot_win_number,Chose Hot,72,70,NA,1,,44,Never,NA,White,Female,Non-Hispanic
+P0221,5,-0.05,1,11,No Banner,Lost,0,NA,Chose Non-Hot,80,73,NA,1,,44,Never,NA,White,Female,Non-Hispanic
+P0221,6,0.3,18,18,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,44,Never,NA,White,Female,Non-Hispanic
+P0221,7,0.29,27,12,No Banner,Lost,0,NA,Chose Non-Hot,76,77,NA,1,,44,Never,NA,White,Female,Non-Hispanic
+P0221,8,0.27999999999999997,27,6,Banner,Lost,2,hot_win_number,Chose Hot,96,97,NA,1,,44,Never,NA,White,Female,Non-Hispanic
+P0221,9,0.6299999999999999,27,27,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,44,Never,NA,White,Female,Non-Hispanic
+P0221,10,0.6199999999999999,16,28,No Banner,Lost,0,NA,Chose Non-Hot,74,63,NA,1,,44,Never,NA,White,Female,Non-Hispanic
+P0221,11,0.6099999999999999,12,32,Banner,Lost,16,nonhot_win_number,Chose Hot,72,69,NA,1,,44,Never,NA,White,Female,Non-Hispanic
+P0221,12,0.5999999999999999,5,17,Banner,Lost,2,nonhot_win_number,Chose Hot,93,96,NA,1,,44,Never,NA,White,Female,Non-Hispanic
+P0221,13,0.5899999999999999,8,36,Banner,Lost,8,nonhot_win_number,Chose Hot,75,73,NA,1,,44,Never,NA,White,Female,Non-Hispanic
+P0221,14,0.5799999999999998,15,12,Banner,Lost,3,hot_win_number,Chose Hot,91,90,NA,1,,44,Never,NA,White,Female,Non-Hispanic
+P0221,15,0.9299999999999998,21,21,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,44,Never,NA,White,Female,Non-Hispanic
+P0221,16,0.9199999999999998,21,6,Banner,Lost,3,nonhot_win_number,Chose Hot,94,93,NA,1,,44,Never,NA,White,Female,Non-Hispanic
+P0221,17,0.9099999999999998,22,19,Banner,Lost,8,hot_win_number,Chose Hot,86,74,NA,1,,44,Never,NA,White,Female,Non-Hispanic
+P0221,18,0.8999999999999998,33,4,No Banner,Lost,0,NA,Chose Non-Hot,68,54,NA,1,,44,Never,NA,White,Female,Non-Hispanic
+P0221,19,0.8899999999999998,21,8,No Banner,Lost,0,NA,Chose Non-Hot,60,55,NA,1,,44,Never,NA,White,Female,Non-Hispanic
+P0221,20,0.8799999999999998,31,3,Banner,Lost,1,nonhot_win_number,Chose Hot,96,15,NA,1,,44,Never,NA,White,Female,Non-Hispanic
+P0221,21,0.8699999999999998,18,12,No Banner,Lost,0,NA,Chose Non-Hot,58,61,NA,1,,44,Never,NA,White,Female,Non-Hispanic
+P0221,22,1.2199999999999998,20,20,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,44,Never,NA,White,Female,Non-Hispanic
+P0221,23,1.2099999999999995,20,35,No Banner,Lost,0,NA,Chose Non-Hot,67,34,NA,1,,44,Never,NA,White,Female,Non-Hispanic
+P0221,24,1.1999999999999995,3,19,Banner,Lost,1,nonhot_win_number,Chose Hot,38,16,NA,1,,44,Never,NA,White,Female,Non-Hispanic
+P0223,1,-0.01,22,33,No Banner,Lost,0,NA,Chose Non-Hot,15,13,NA,2,,44,Never,NA,White,Female,Non-Hispanic
+P0223,2,-0.02,9,34,Banner,Lost,1,nonhot_win_number,Chose Hot,43,1,NA,2,,44,Never,NA,White,Female,Non-Hispanic
+P0223,3,-0.03,7,23,Banner,Lost,8,hot_win_number,Chose Non-Hot,0,8,NA,2,,44,Never,NA,White,Female,Non-Hispanic
+P0223,4,-0.04,15,13,No Banner,Lost,0,NA,Chose Non-Hot,0,20,NA,2,,44,Never,NA,White,Female,Non-Hispanic
+P0223,5,-0.05,34,5,No Banner,Lost,0,NA,Chose Non-Hot,0,18,NA,2,,44,Never,NA,White,Female,Non-Hispanic
+P0223,6,0.3,20,20,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,,44,Never,NA,White,Female,Non-Hispanic
+P0223,7,0.29,12,35,No Banner,Lost,0,NA,Chose Non-Hot,0,35,NA,2,,44,Never,NA,White,Female,Non-Hispanic
+P0223,8,0.27999999999999997,17,7,Banner,Lost,16,nonhot_win_number,Chose Hot,0,23,NA,2,,44,Never,NA,White,Female,Non-Hispanic
+P0223,9,0.26999999999999996,36,6,No Banner,Lost,0,NA,Chose Non-Hot,0,25,NA,2,,44,Never,NA,White,Female,Non-Hispanic
+P0223,10,0.25999999999999995,2,11,No Banner,Lost,0,NA,Chose Non-Hot,0,33,NA,2,,44,Never,NA,White,Female,Non-Hispanic
+P0223,11,0.24999999999999992,9,7,Banner,Lost,3,nonhot_win_number,Chose Hot,0,51,NA,2,,44,Never,NA,White,Female,Non-Hispanic
+P0223,12,0.5999999999999999,19,19,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,,44,Never,NA,White,Female,Non-Hispanic
+P0223,13,0.5899999999999999,6,36,Banner,Lost,2,nonhot_win_number,Chose Hot,12,25,NA,2,,44,Never,NA,White,Female,Non-Hispanic
+P0223,14,0.5799999999999998,8,5,No Banner,Lost,0,NA,Chose Non-Hot,0,46,NA,2,,44,Never,NA,White,Female,Non-Hispanic
+P0223,15,0.5699999999999998,4,23,No Banner,Lost,0,NA,Chose Non-Hot,0,39,NA,2,,44,Never,NA,White,Female,Non-Hispanic
+P0223,16,0.9199999999999998,21,21,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,,44,Never,NA,White,Female,Non-Hispanic
+P0223,17,0.9099999999999998,12,20,Banner,Lost,8,nonhot_win_number,Chose Hot,0,57,NA,2,,44,Never,NA,White,Female,Non-Hispanic
+P0223,18,0.8999999999999998,26,14,No Banner,Lost,0,NA,Chose Non-Hot,0,31,NA,2,,44,Never,NA,White,Female,Non-Hispanic
+P0223,19,0.8899999999999998,15,19,Banner,Lost,1,nonhot_win_number,Chose Hot,25,24,NA,2,,44,Never,NA,White,Female,Non-Hispanic
+P0223,20,0.8799999999999998,30,19,Banner,Lost,2,hot_win_number,Chose Non-Hot,20,31,NA,2,,44,Never,NA,White,Female,Non-Hispanic
+P0223,21,0.8699999999999998,8,7,Banner,Lost,3,hot_win_number,Chose Hot,0,70,NA,2,,44,Never,NA,White,Female,Non-Hispanic
+P0223,22,0.8599999999999998,11,27,Banner,Lost,16,hot_win_number,Chose Hot,0,16,NA,2,,44,Never,NA,White,Female,Non-Hispanic
+P0223,23,0.8499999999999998,26,13,No Banner,Lost,0,NA,Chose Non-Hot,0,12,NA,2,,44,Never,NA,White,Female,Non-Hispanic
+P0223,24,1.1999999999999995,12,12,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,,44,Never,NA,White,Female,Non-Hispanic
+P0230,1,-0.01,11,33,Banner,Lost,8,hot_win_number,Chose Hot,69,74,NA,1,,49,Never,NA,White,Female,Non-Hispanic
+P0230,2,-0.02,6,20,Banner,Lost,2,hot_win_number,Chose Hot,70,75,NA,1,,49,Never,NA,White,Female,Non-Hispanic
+P0230,3,-0.03,33,20,Banner,Lost,16,hot_win_number,Chose Hot,72,73,NA,1,,49,Never,NA,White,Female,Non-Hispanic
+P0230,4,0.31999999999999995,8,8,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,49,Never,NA,White,Female,Non-Hispanic
+P0230,5,0.30999999999999994,11,12,No Banner,Lost,0,NA,Chose Non-Hot,70,70,NA,1,,49,Never,NA,White,Female,Non-Hispanic
+P0230,6,0.29999999999999993,13,5,Banner,Lost,3,nonhot_win_number,Chose Non-Hot,75,74,NA,1,,49,Never,NA,White,Female,Non-Hispanic
+P0230,7,0.2899999999999999,26,2,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,75,75,NA,1,,49,Never,NA,White,Female,Non-Hispanic
+P0230,8,0.2799999999999999,28,3,No Banner,Lost,0,NA,Chose Non-Hot,74,77,NA,1,,49,Never,NA,White,Female,Non-Hispanic
+P0230,9,0.2699999999999999,4,17,No Banner,Lost,0,NA,Chose Non-Hot,72,73,NA,1,,49,Never,NA,White,Female,Non-Hispanic
+P0230,10,0.6199999999999999,15,15,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,49,Never,NA,White,Female,Non-Hispanic
+P0230,11,0.6099999999999999,27,7,No Banner,Lost,0,NA,Chose Non-Hot,77,77,NA,1,,49,Never,NA,White,Female,Non-Hispanic
+P0230,12,0.5999999999999999,8,16,No Banner,Lost,0,NA,Chose Non-Hot,76,83,NA,1,,49,Never,NA,White,Female,Non-Hispanic
+P0230,13,0.5899999999999999,8,34,No Banner,Lost,0,NA,Chose Non-Hot,85,77,NA,1,,49,Never,NA,White,Female,Non-Hispanic
+P0230,14,0.5799999999999998,9,18,No Banner,Lost,0,NA,Chose Non-Hot,75,75,NA,1,,49,Never,NA,White,Female,Non-Hispanic
+P0230,15,0.5699999999999998,9,31,Banner,Lost,2,nonhot_win_number,Chose Non-Hot,79,82,NA,1,,49,Never,NA,White,Female,Non-Hispanic
+P0230,16,0.5599999999999998,19,1,No Banner,Lost,0,NA,Chose Non-Hot,76,71,NA,1,,49,Never,NA,White,Female,Non-Hispanic
+P0230,17,0.9099999999999998,19,19,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,49,Never,NA,White,Female,Non-Hispanic
+P0230,18,0.8999999999999998,33,34,Banner,Lost,8,nonhot_win_number,Chose Non-Hot,78,81,NA,1,,49,Never,NA,White,Female,Non-Hispanic
+P0230,19,0.8899999999999998,9,27,Banner,Lost,1,nonhot_win_number,Chose Non-Hot,67,68,NA,1,,49,Never,NA,White,Female,Non-Hispanic
+P0230,20,0.8799999999999998,20,35,No Banner,Lost,0,NA,Chose Non-Hot,74,76,NA,1,,49,Never,NA,White,Female,Non-Hispanic
+P0230,21,0.8699999999999998,26,4,Banner,Lost,3,hot_win_number,Chose Hot,77,79,NA,1,,49,Never,NA,White,Female,Non-Hispanic
+P0230,22,1.2199999999999998,20,20,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,49,Never,NA,White,Female,Non-Hispanic
+P0230,23,1.2099999999999995,10,29,Banner,Lost,16,nonhot_win_number,Chose Hot,77,80,NA,1,,49,Never,NA,White,Female,Non-Hispanic
+P0230,24,1.1999999999999995,10,3,No Banner,Lost,0,NA,Chose Non-Hot,80,86,NA,1,,49,Never,NA,White,Female,Non-Hispanic
+P0236,1,-0.01,11,9,Banner,Lost,8,hot_win_number,Chose Non-Hot,17,42,NA,1,,18,Never,NA,Asian,Male,Non-Hispanic
+P0236,2,-0.02,5,28,No Banner,Lost,0,NA,Chose Non-Hot,36,28,NA,1,,18,Never,NA,Asian,Male,Non-Hispanic
+P0236,3,-0.03,21,25,No Banner,Lost,0,NA,Chose Non-Hot,33,53,NA,1,,18,Never,NA,Asian,Male,Non-Hispanic
+P0236,4,-0.04,12,5,No Banner,Lost,0,NA,Chose Non-Hot,31,11,NA,1,,18,Never,NA,Asian,Male,Non-Hispanic
+P0236,5,0.31,1,1,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,18,Never,NA,Asian,Male,Non-Hispanic
+P0236,6,0.3,30,16,Banner,Lost,16,hot_win_number,Chose Non-Hot,47,5,NA,1,,18,Never,NA,Asian,Male,Non-Hispanic
+P0236,7,0.29,6,11,No Banner,Lost,0,NA,Chose Non-Hot,19,3,NA,1,,18,Never,NA,Asian,Male,Non-Hispanic
+P0236,8,0.27999999999999997,1,27,No Banner,Lost,0,NA,Chose Non-Hot,43,10,NA,1,,18,Never,NA,Asian,Male,Non-Hispanic
+P0236,9,0.26999999999999996,9,36,Banner,Lost,2,nonhot_win_number,Chose Hot,89,22,NA,1,,18,Never,NA,Asian,Male,Non-Hispanic
+P0236,10,0.25999999999999995,28,3,Banner,Lost,3,nonhot_win_number,Chose Hot,63,18,NA,1,,18,Never,NA,Asian,Male,Non-Hispanic
+P0236,11,0.6099999999999999,26,26,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,18,Never,NA,Asian,Male,Non-Hispanic
+P0236,12,0.5999999999999999,36,24,Banner,Lost,3,hot_win_number,Chose Hot,59,16,NA,1,,18,Never,NA,Asian,Male,Non-Hispanic
+P0236,13,0.5899999999999999,21,35,Banner,Lost,8,nonhot_win_number,Chose Hot,66,11,NA,1,,18,Never,NA,Asian,Male,Non-Hispanic
+P0236,14,0.5799999999999998,6,15,No Banner,Lost,0,NA,Chose Non-Hot,26,5,NA,1,,18,Never,NA,Asian,Male,Non-Hispanic
+P0236,15,0.5699999999999998,1,2,No Banner,Lost,0,NA,Chose Non-Hot,39,23,NA,1,,18,Never,NA,Asian,Male,Non-Hispanic
+P0236,16,0.9199999999999998,26,26,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,18,Never,NA,Asian,Male,Non-Hispanic
+P0236,17,0.9099999999999998,10,6,No Banner,Lost,0,NA,Chose Non-Hot,31,21,NA,1,,18,Never,NA,Asian,Male,Non-Hispanic
+P0236,18,0.8999999999999998,5,15,No Banner,Lost,0,NA,Chose Non-Hot,20,8,NA,1,,18,Never,NA,Asian,Male,Non-Hispanic
+P0236,19,0.8899999999999998,35,22,Banner,Lost,1,nonhot_win_number,Chose Hot,94,6,NA,1,,18,Never,NA,Asian,Male,Non-Hispanic
+P0236,20,0.8799999999999998,2,19,No Banner,Lost,0,NA,Chose Non-Hot,19,10,NA,1,,18,Never,NA,Asian,Male,Non-Hispanic
+P0236,21,0.8699999999999998,34,19,Banner,Lost,1,nonhot_win_number,Chose Hot,78,20,NA,1,,18,Never,NA,Asian,Male,Non-Hispanic
+P0236,22,1.2199999999999998,10,10,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,18,Never,NA,Asian,Male,Non-Hispanic
+P0236,23,1.2099999999999995,11,36,Banner,Lost,16,nonhot_win_number,Chose Hot,65,24,NA,1,,18,Never,NA,Asian,Male,Non-Hispanic
+P0236,24,1.1999999999999995,6,33,Banner,Lost,2,hot_win_number,Chose Hot,80,23,NA,1,,18,Never,NA,Asian,Male,Non-Hispanic

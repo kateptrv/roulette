@@ -1,87 +1,141 @@
-# The Role of Counterfactual Salience in the Subjective Experience of Regret
+---
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+# What You See is What You Regret: The Role of Counterfactual Salience in the Subjective Experience of Regret
+
 ------------------------------------------------------------------------
 
 ## Contents
 
-1. [Overview](#overview)
-2. [Experiments](#experiments)
-3. [Repository structure](#repository-structure)
-4. [CRediT author statement](#credit-author-statement)
+1.  [Overview](#overview)
+2.  [Studies](#studies)
+3.  [Experiment demos](#experiment-demos)
+4.  [Repository structure](#repository-structure)
+5.  [CRediT author statement](#credit-author-statement)
 
 ------------------------------------------------------------------------
 
 ## Overview {#overview}
 
-This repository contains materials, experiment code, and analysis scripts for a set of behavioral experiments examining how **counterfactual salience**—-the degree to which unchosen alternatives capture attention-—shapes the subjective experience of regret. Across 3 studies, we test the hypothesis that regret is driven not only by the outcomes, but by how decision makers allocate attention across the choice set. By selectively highlighting subsets of options, we manipulate the salience of specific counterfactuals and examine how this alters regret for chosen versus unchosen alternatives.
+This repository contains materials, experiment code, behavioral data,
+and analysis scripts for a series of behavioral experiments examining
+how **counterfactual salience**—the degree to which unchosen
+alternatives capture attention—shapes the subjective experience of
+regret. Across three studies, we test the hypothesis that regret is
+driven not only by outcomes, but by how decision-makers allocate
+attention across the choice set. By manipulating which subsets of
+options are made salient (externally in Studies 1a and 1b, and
+endogenously in Study 2), we examine how counterfactual salience alters
+both omission and commission regret.
 
 ------------------------------------------------------------------------
 
-## Studies {#experiments}
+## Studies {#studies}
 
-### Study 1a: Roulette-style choice task (24 trials)
+### Study 1a: Roulette task with externally cued counterfactuals (4 trials)
 
-Participants completed a multi-round choice task in which they selected one option from a grid of 36 options on each trial. Outcomes were pre-determined such that most trials resulted in losses, with a small number of evenly spaced wins.
+Participants (*N* = 52) completed a short roulette-style choice task in
+which they selected one number from a 6×6 grid of 36 options on each
+trial. Outcomes were pre-determined.
 
-On a subset of loss trials, a banner highlighted a set of options labeled as "hot"—described as having been successful in the past. The size of this hot set varied (1, 2, 3, 8, or 16 options), allowing us to manipulate the salience of specific counterfactual alternatives by varying how narrowly attention was drawn to a subset of options.
+On counterfactually salient trials (CF+), a banner above the grid
+highlighted a set of "hot" (lucky) numbers. The hot set was either small
+(2 options) or large (16 options). On non-salient (CF-) trials, no
+banner was shown. Participants completed four trials in total: two CF+
+loss trials (one with a 2-number hot set and one with a 16-number hot
+set), one CF- loss trial, and one win trial.
 
 After each outcome, participants reported:
-- regret for the chosen option (commission regret), and
-- regret for not choosing the winning option (omission regret)
 
----
+-   regret for the chosen option (commission regret), and
+-   regret for not choosing the winning option (omission regret).
 
-### Study 1b: Roulette-style choice task (4 trials)
+------------------------------------------------------------------------
 
-Study 1b replicated the central contrast of Study 1a. Participants completed a shortened task consisting of four trial types:
-- loss with no highlighted options,
-- loss with a small hot set (2 options),
-- loss with a large hot set (16 options), and
-- a no-banner win trial.
+### Study 1b: Roulette task with externally cued counterfactuals (24 trials)
 
-This design allowed us to isolate the role of counterfactual salience by contrasting conditions in which attention was narrowly focused on a small set of alternatives versus broadly distributed across many plausible options. 
+Study 1b extended Study 1a by varying hot-set size more finely.
+Participants (*N* = 98) completed 24 trials of the same roulette-style
+task. Of the 20 loss trials, 10 were CF+ (with hot sets of size 1, 2, 3,
+8, or 16) and 10 were CF- (no banner). Four winning trials were evenly
+distributed across the task.
 
----
+This design lets us test whether expanding the size of the salient
+counterfactual set *attenuates* regret intensity across both omission
+and commission regret.
 
-### 2: Minecraft-style mining task (24 trials)
+------------------------------------------------------------------------
 
-Experiment 2 re-framed Study 1a as a Minecraft-style mining game.
+### Study 2: Minecraft-style task with endogenously constructed consideration sets (24 trials)
 
-Participants chose blocks to mine from a 6×6 grid rendered using stone textures. Some blocks yielded emeralds (wins), while most yielded nothing (losses). The underlying structure of the task was identical to previous experiments.
+Study 2 (*N* = 48) tested whether the salience effects observed in
+Studies 1a and 1b generalize when consideration sets are not externally
+cued but instead **endogenously constructed** by the decision-maker.
+
+Participants completed a Minecraft-style mining game on a 6×6 grid of
+stone-textured blocks. On 10 of the 20 loss trials, participants first
+selected a subset of 1, 2, 3, 8, or 16 blocks to consider before
+choosing one to mine. On the remaining trials, participants chose
+directly without an explicit consideration step. Some blocks yielded
+emeralds (wins); most yielded nothing (losses).
+
+------------------------------------------------------------------------
+
+## Experiment demos {#experiment-demos}
+
+Live, browser-playable demos of the tasks (hosted via GitHub Pages from
+`docs/`):
+
+-   **Studies 1a & 1b (roulette task):**
+    <https://kateptrv.github.io/roulette/index_roulette.html>
+-   **Study 2 (Minecraft-style task):**
+    <https://kateptrv.github.io/roulette/index_minecraft.html>
+-   **Landing page:** <https://kateptrv.github.io/roulette/>
 
 ------------------------------------------------------------------------
 
 ## Repository structure {#repository-structure}
 
-```
-├── code/            # data processing, visualization, and analysis scripts
-│   ├── R/
-│   ├── python/
-│   └── bash/
-├── data/            # raw and processed behavioral data
-├── experiments/     # jsPsych experiments and associated materials
-│   ├── img/
-│   └── jspsych/
-├── figures/         # figures used in analyses and manuscripts
-├── papers/          # related papers and drafts
-├── presentation/    # slides and presentation materials
-└── writeup/         # manuscript text and supplementary materials
+```         
+├── code/             # data processing, visualization, and analysis scripts
+│   ├── R/            # RMarkdown files for processing, analysis, OSF download
+│   ├── python/       # auxiliary Python scripts
+│   ├── bash/         # shell utilities
+│   └── experiments/  # notes on experiment implementation
+├── data/             # raw and processed behavioral data (per-participant + cleaned)
+├── docs/             # hosted jsPsych experiments
+│   ├── index.html            # landing / dispatcher
+│   ├── index_roulette.html   # Studies 1a / 1b task
+│   ├── index_minecraft.html  # Study 2 task
+│   ├── img/                  # task images (roulette, minecraft, feedback screens)
+│   └── jspsych/              # consent and demographic plugins
+├── figures/          # figures used in analyses and manuscripts
+├── papers/           # related papers and drafts
+├── presentation/     # slides and presentation materials
+└── writeup/          # manuscript text and supplementary materials
 ```
 
-All paths in code use relative references to ensure portability and reproducibility.
+All paths in code use relative references to ensure portability and
+reproducibility.
 
 ------------------------------------------------------------------------
-## DE-ANONYMIZED FOR PEER REVIEW
+
 ## CRediT author statement {#credit-author-statement}
 
-*What is a [CRediT author statement](https://www.elsevier.com/authors/policies-and-guidelines/credit-author-statement)?*
+*What is a [CRediT author
+statement](https://www.elsevier.com/authors/policies-and-guidelines/credit-author-statement)?*
 
 | Role | Contribution |
-|----------------------|--------------------------------------------------|
-| **Author A** | Conceptualization; Methodology; Software; Formal analysis; Investigation; Data curation; Writing – original draft; Visualization |
-| **Author B** | Conceptualization; Methodology; Writing – review & editing; Supervision |
-| **Author C** | Conceptualization; Writing – review & editing; Supervision; Funding acquisition |
+|-----------------------|------------------------------------------------|
+| **Kate Petrova** | Conceptualization; Methodology; Software; Formal analysis; Investigation; Data curation; Writing – original draft; Visualization |
+| **Nick Madibekov** | Conceptualization; Software; Writing - review & editing |
+| **Tobias Gerstenberg** | Conceptualization; Methodology; Writing – review & editing; Supervision |
+| **James J. Gross** | Conceptualization; Methodology; Writing – review & editing; Supervision; Funding acquisition |
 
 ------------------------------------------------------------------------
 
-*Questions or issues?*  
+*Questions or issues?*\
 Please open a GitHub issue for questions or suggestions.

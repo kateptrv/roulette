@@ -1,0 +1,285 @@
+prolific_pid,trial,balance,chosen_number,winner_number,banner_yn,win_status,hot_set_size,outcome_rel_to_hot,choice_hot,regret_chosen,regret_notchosen_winner,regret_notchosen_hot_loser,comp_tries_to_pass,feedback,age,gamble_freq_12mo,hot_reliance,race,gender,ethnicity
+P0001,1,0.09000000000000001,9,2,No Banner,Lost,0,NA,Chose Non-Hot,28,79,NA,2,,37,Never,NA,White,Female,Non-Hispanic
+P0001,2,0.08000000000000002,29,1,Banner,Lost,2,hot_win_number,Chose Non-Hot,84,100,0,2,,37,Never,NA,White,Female,Non-Hispanic
+P0001,3,0.07000000000000002,19,4,Banner,Lost,16,hot_win_number,Chose Non-Hot,52,100,5,2,,37,Never,NA,White,Female,Non-Hispanic
+P0001,4,0.42,17,17,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,,37,Never,NA,White,Female,Non-Hispanic
+P0007,1,0.09000000000000001,1,22,No Banner,Lost,0,NA,Chose Non-Hot,67,83,NA,2,"It was hard to choose the right number, but fun when I won.",36,Never,NA,White,Male,Non-Hispanic
+P0007,2,0.08000000000000002,3,36,Banner,Lost,2,hot_win_number,Chose Hot,75,96,NA,2,"It was hard to choose the right number, but fun when I won.",36,Never,NA,White,Male,Non-Hispanic
+P0007,3,0.07000000000000002,1,10,Banner,Lost,16,hot_win_number,Chose Hot,83,99,0,2,"It was hard to choose the right number, but fun when I won.",36,Never,NA,White,Male,Non-Hispanic
+P0007,4,0.42,1,1,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,"It was hard to choose the right number, but fun when I won.",36,Never,NA,White,Male,Non-Hispanic
+P0014,1,0.09000000000000001,36,16,No Banner,Lost,0,NA,Chose Non-Hot,0,50,NA,1,,33,Daily or almost daily,NA,White,Male,Non-Hispanic
+P0014,2,0.08000000000000002,36,15,Banner,Lost,2,hot_win_number,Chose Non-Hot,3,50,0,1,,33,Daily or almost daily,NA,White,Male,Non-Hispanic
+P0014,3,0.07000000000000002,36,9,Banner,Lost,16,hot_win_number,Chose Hot,0,50,0,1,,33,Daily or almost daily,NA,White,Male,Non-Hispanic
+P0014,4,0.42,36,36,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,33,Daily or almost daily,NA,White,Male,Non-Hispanic
+P0015,1,0.09000000000000001,11,4,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,n/a,36,Never,NA,White,Male,Non-Hispanic
+P0015,2,0.08000000000000002,20,1,Banner,Lost,2,hot_win_number,Chose Hot,100,100,NA,1,n/a,36,Never,NA,White,Male,Non-Hispanic
+P0015,3,0.07000000000000002,2,29,Banner,Lost,16,hot_win_number,Chose Hot,95,100,85,1,n/a,36,Never,NA,White,Male,Non-Hispanic
+P0015,4,0.42,12,12,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,n/a,36,Never,NA,White,Male,Non-Hispanic
+P0019,1,0.09000000000000001,5,36,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,1,,56,About once a month,NA,White,Male,Non-Hispanic
+P0019,2,0.08000000000000002,27,30,Banner,Lost,2,hot_win_number,Chose Hot,0,0,NA,1,,56,About once a month,NA,White,Male,Non-Hispanic
+P0019,3,0.07000000000000002,8,23,Banner,Lost,16,hot_win_number,Chose Hot,0,0,0,1,,56,About once a month,NA,White,Male,Non-Hispanic
+P0019,4,0.42,28,28,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,56,About once a month,NA,White,Male,Non-Hispanic
+P0020,1,0.09000000000000001,23,29,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,3,,64,About once a month,NA,White,Female,Non-Hispanic
+P0020,2,0.08000000000000002,7,23,Banner,Lost,2,hot_win_number,Chose Non-Hot,100,100,9,3,,64,About once a month,NA,White,Female,Non-Hispanic
+P0020,3,0.07000000000000002,27,23,Banner,Lost,16,hot_win_number,Chose Hot,100,100,0,3,,64,About once a month,NA,White,Female,Non-Hispanic
+P0020,4,0.42,34,34,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,3,,64,About once a month,NA,White,Female,Non-Hispanic
+P0024,1,0.09000000000000001,5,36,No Banner,Lost,0,NA,Chose Non-Hot,9,67,NA,2,,56,Never,NA,White,Female,Non-Hispanic
+P0024,2,0.08000000000000002,30,32,Banner,Lost,2,hot_win_number,Chose Hot,4,78,NA,2,,56,Never,NA,White,Female,Non-Hispanic
+P0024,3,0.07000000000000002,33,24,Banner,Lost,16,hot_win_number,Chose Hot,4,30,2,2,,56,Never,NA,White,Female,Non-Hispanic
+P0024,4,0.42,36,36,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,,56,Never,NA,White,Female,Non-Hispanic
+P0026,1,0.09000000000000001,16,31,No Banner,Lost,0,NA,Chose Non-Hot,78,95,NA,2,The last round might be given to me as a bonus. I didn't think I would win that one but thank you anyway!,45,Never,NA,Asian,Female,Non-Hispanic
+P0026,2,0.08000000000000002,34,22,Banner,Lost,2,hot_win_number,Chose Hot,79,90,NA,2,The last round might be given to me as a bonus. I didn't think I would win that one but thank you anyway!,45,Never,NA,Asian,Female,Non-Hispanic
+P0026,3,0.07000000000000002,36,27,Banner,Lost,16,hot_win_number,Chose Hot,75,85,0,2,The last round might be given to me as a bonus. I didn't think I would win that one but thank you anyway!,45,Never,NA,Asian,Female,Non-Hispanic
+P0026,4,0.42,21,21,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,The last round might be given to me as a bonus. I didn't think I would win that one but thank you anyway!,45,Never,NA,Asian,Female,Non-Hispanic
+P0029,1,0.09000000000000001,27,34,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,4,,32,A few times,NA,Asian,Female,Non-Hispanic
+P0029,2,0.08000000000000002,13,1,Banner,Lost,2,hot_win_number,Chose Non-Hot,19,0,0,4,,32,A few times,NA,Asian,Female,Non-Hispanic
+P0029,3,0.07000000000000002,29,33,Banner,Lost,16,hot_win_number,Chose Hot,27,12,0,4,,32,A few times,NA,Asian,Female,Non-Hispanic
+P0029,4,0.42,14,14,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,4,,32,A few times,NA,Asian,Female,Non-Hispanic
+P0035,1,0.09000000000000001,8,2,No Banner,Lost,0,NA,Chose Non-Hot,14,15,NA,2,,37,A few times,NA,Black/African American,Male,Non-Hispanic
+P0035,2,0.08000000000000002,3,14,Banner,Lost,2,hot_win_number,Chose Hot,100,100,NA,2,,37,A few times,NA,Black/African American,Male,Non-Hispanic
+P0035,3,0.07000000000000002,9,24,Banner,Lost,16,hot_win_number,Chose Hot,30,30,0,2,,37,A few times,NA,Black/African American,Male,Non-Hispanic
+P0035,4,0.42,13,13,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,,37,A few times,NA,Black/African American,Male,Non-Hispanic
+P0037,1,0.09000000000000001,36,26,No Banner,Lost,0,NA,Chose Non-Hot,72,18,NA,4,the comprehension check was a little harder than it should be. ,32,Never,NA,White,Female,Hispanic
+P0037,2,0.08000000000000002,2,32,Banner,Lost,2,hot_win_number,Chose Hot,92,98,NA,4,the comprehension check was a little harder than it should be. ,32,Never,NA,White,Female,Hispanic
+P0037,3,0.07000000000000002,27,10,Banner,Lost,16,hot_win_number,Chose Hot,60,48,14,4,the comprehension check was a little harder than it should be. ,32,Never,NA,White,Female,Hispanic
+P0037,4,0.42,24,24,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,4,the comprehension check was a little harder than it should be. ,32,Never,NA,White,Female,Hispanic
+P0040,1,0.09000000000000001,13,34,No Banner,Lost,0,NA,Chose Non-Hot,80,100,NA,1,"I thought it was fun! Shorter than I expected, but maybe that was because I ended up winning, I'm not sure. Thanks for the study! :) ",24,A few times,NA,White,Male,Non-Hispanic
+P0040,2,0.08000000000000002,36,31,Banner,Lost,2,hot_win_number,Chose Hot,100,100,NA,1,"I thought it was fun! Shorter than I expected, but maybe that was because I ended up winning, I'm not sure. Thanks for the study! :) ",24,A few times,NA,White,Male,Non-Hispanic
+P0040,3,0.07000000000000002,9,20,Banner,Lost,16,hot_win_number,Chose Hot,89,67,46,1,"I thought it was fun! Shorter than I expected, but maybe that was because I ended up winning, I'm not sure. Thanks for the study! :) ",24,A few times,NA,White,Male,Non-Hispanic
+P0040,4,0.42,4,4,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,"I thought it was fun! Shorter than I expected, but maybe that was because I ended up winning, I'm not sure. Thanks for the study! :) ",24,A few times,NA,White,Male,Non-Hispanic
+P0042,1,0.09000000000000001,16,3,No Banner,Lost,0,NA,Chose Non-Hot,34,100,NA,3,,57,A few times,NA,White,Female,Non-Hispanic
+P0042,2,0.08000000000000002,1,5,Banner,Lost,2,hot_win_number,Chose Hot,97,100,NA,3,,57,A few times,NA,White,Female,Non-Hispanic
+P0042,3,0.07000000000000002,13,24,Banner,Lost,16,hot_win_number,Chose Hot,85,100,0,3,,57,A few times,NA,White,Female,Non-Hispanic
+P0042,4,0.42,13,13,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,3,,57,A few times,NA,White,Female,Non-Hispanic
+P0043,1,0.09000000000000001,7,3,No Banner,Lost,0,NA,Chose Non-Hot,94,86,NA,2,thank you,39,About once a week,NA,White,Female,Non-Hispanic
+P0043,2,0.08000000000000002,14,17,Banner,Lost,2,hot_win_number,Chose Hot,75,90,NA,2,thank you,39,About once a week,NA,White,Female,Non-Hispanic
+P0043,3,0.07000000000000002,12,6,Banner,Lost,16,hot_win_number,Chose Hot,84,97,0,2,thank you,39,About once a week,NA,White,Female,Non-Hispanic
+P0043,4,0.42,12,12,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,thank you,39,About once a week,NA,White,Female,Non-Hispanic
+P0047,1,0.09000000000000001,22,10,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,This was fun; thanks.,44,A few times,NA,White,Female,Non-Hispanic
+P0047,2,0.08000000000000002,19,35,Banner,Lost,2,hot_win_number,Chose Hot,50,50,NA,1,This was fun; thanks.,44,A few times,NA,White,Female,Non-Hispanic
+P0047,3,0.07000000000000002,29,10,Banner,Lost,16,hot_win_number,Chose Hot,100,100,0,1,This was fun; thanks.,44,A few times,NA,White,Female,Non-Hispanic
+P0047,4,0.42,23,23,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,This was fun; thanks.,44,A few times,NA,White,Female,Non-Hispanic
+P0047,5,0.09000000000000001,22,19,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,This was fun; thanks.,44,A few times,NA,White,Female,Non-Hispanic
+P0047,6,0.08000000000000002,21,29,Banner,Lost,2,hot_win_number,Chose Hot,100,100,NA,1,This was fun; thanks.,44,A few times,NA,White,Female,Non-Hispanic
+P0047,7,0.07000000000000002,21,30,Banner,Lost,16,hot_win_number,Chose Hot,100,100,0,1,This was fun; thanks.,44,A few times,NA,White,Female,Non-Hispanic
+P0047,8,0.42,22,22,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,This was fun; thanks.,44,A few times,NA,White,Female,Non-Hispanic
+P0048,1,0.09000000000000001,17,3,No Banner,Lost,0,NA,Chose Non-Hot,2,99,NA,2,I always choose 17 when playing roulette; because chasing numbers typically does not work and eventually 17 will get hot.,45,About once a month,NA,White,Male,Non-Hispanic
+P0048,2,0.08000000000000002,17,24,Banner,Lost,2,hot_win_number,Chose Non-Hot,2,98,0,2,I always choose 17 when playing roulette; because chasing numbers typically does not work and eventually 17 will get hot.,45,About once a month,NA,White,Male,Non-Hispanic
+P0048,3,0.07000000000000002,17,4,Banner,Lost,16,hot_win_number,Chose Non-Hot,0,100,0,2,I always choose 17 when playing roulette; because chasing numbers typically does not work and eventually 17 will get hot.,45,About once a month,NA,White,Male,Non-Hispanic
+P0048,4,0.42,17,17,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,I always choose 17 when playing roulette; because chasing numbers typically does not work and eventually 17 will get hot.,45,About once a month,NA,White,Male,Non-Hispanic
+P0049,1,0.09000000000000001,18,32,No Banner,Lost,0,NA,Chose Non-Hot,97,97,NA,2,,62,Never,NA,White,Female,Non-Hispanic
+P0049,2,0.08000000000000002,29,9,Banner,Lost,2,hot_win_number,Chose Hot,97,100,NA,2,,62,Never,NA,White,Female,Non-Hispanic
+P0049,3,0.07000000000000002,11,4,Banner,Lost,16,hot_win_number,Chose Hot,99,98,0,2,,62,Never,NA,White,Female,Non-Hispanic
+P0049,4,0.42,17,17,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,,62,Never,NA,White,Female,Non-Hispanic
+P0059,1,0.09000000000000001,16,21,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,3,,30,About once a month,NA,White,Male,Non-Hispanic
+P0059,2,0.08000000000000002,15,26,Banner,Lost,2,hot_win_number,Chose Hot,100,100,NA,3,,30,About once a month,NA,White,Male,Non-Hispanic
+P0059,3,0.07000000000000002,14,12,Banner,Lost,16,hot_win_number,Chose Hot,100,100,0,3,,30,About once a month,NA,White,Male,Non-Hispanic
+P0059,4,0.42,27,27,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,3,,30,About once a month,NA,White,Male,Non-Hispanic
+P0060,1,0.09000000000000001,11,6,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,5,it is fun,59,Never,NA,White,Female,Non-Hispanic
+P0060,2,0.08000000000000002,7,31,Banner,Lost,2,hot_win_number,Chose Non-Hot,100,100,100,5,it is fun,59,Never,NA,White,Female,Non-Hispanic
+P0060,3,0.07000000000000002,7,34,Banner,Lost,16,hot_win_number,Chose Hot,100,100,0,5,it is fun,59,Never,NA,White,Female,Non-Hispanic
+P0060,4,0.42,30,30,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,5,it is fun,59,Never,NA,White,Female,Non-Hispanic
+P0062,1,0.09000000000000001,23,9,No Banner,Lost,0,NA,Chose Non-Hot,7,69,NA,1,,40,A few times,NA,White,Female,Non-Hispanic
+P0062,2,0.08000000000000002,23,15,Banner,Lost,2,hot_win_number,Chose Non-Hot,6,68,0,1,,40,A few times,NA,White,Female,Non-Hispanic
+P0062,3,0.07000000000000002,23,7,Banner,Lost,16,hot_win_number,Chose Hot,11,72,1,1,,40,A few times,NA,White,Female,Non-Hispanic
+P0062,4,0.42,23,23,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,40,A few times,NA,White,Female,Non-Hispanic
+P0067,1,0.09000000000000001,14,31,No Banner,Lost,0,NA,Chose Non-Hot,95,97,NA,2,fun,35,A few times,NA,Black/African American,Male,Non-Hispanic
+P0067,2,0.08000000000000002,20,34,Banner,Lost,2,hot_win_number,Chose Hot,100,100,NA,2,fun,35,A few times,NA,Black/African American,Male,Non-Hispanic
+P0067,3,0.07000000000000002,34,29,Banner,Lost,16,hot_win_number,Chose Hot,96,94,95,2,fun,35,A few times,NA,Black/African American,Male,Non-Hispanic
+P0067,4,0.42,34,34,No Banner,Won,0,NA,Chose Non-Hot,6,NA,NA,2,fun,35,A few times,NA,Black/African American,Male,Non-Hispanic
+P0068,1,0.09000000000000001,3,28,No Banner,Lost,0,NA,Chose Non-Hot,70,95,NA,4,,31,Daily or almost daily,NA,White,Male,Non-Hispanic
+P0068,2,0.08000000000000002,7,24,Banner,Lost,2,hot_win_number,Chose Hot,79,84,NA,4,,31,Daily or almost daily,NA,White,Male,Non-Hispanic
+P0068,3,0.07000000000000002,7,19,Banner,Lost,16,hot_win_number,Chose Hot,65,46,8,4,,31,Daily or almost daily,NA,White,Male,Non-Hispanic
+P0068,4,0.42,7,7,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,4,,31,Daily or almost daily,NA,White,Male,Non-Hispanic
+P0074,1,0.09000000000000001,16,4,No Banner,Lost,0,NA,Chose Non-Hot,100,8,NA,4,it was fun to gamble and play,43,A few times,NA,White,Male,Non-Hispanic
+P0074,2,0.08000000000000002,27,29,Banner,Lost,2,hot_win_number,Chose Hot,58,100,NA,4,it was fun to gamble and play,43,A few times,NA,White,Male,Non-Hispanic
+P0074,3,0.07000000000000002,10,34,Banner,Lost,16,hot_win_number,Chose Hot,27,48,51,4,it was fun to gamble and play,43,A few times,NA,White,Male,Non-Hispanic
+P0074,4,0.42,1,1,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,4,it was fun to gamble and play,43,A few times,NA,White,Male,Non-Hispanic
+P0087,1,0.09000000000000001,33,12,No Banner,Lost,0,NA,Chose Non-Hot,46,74,NA,5,Iteresting at least I won once,62,A few times,NA,White,Male,Non-Hispanic
+P0087,2,0.08000000000000002,28,34,Banner,Lost,2,hot_win_number,Chose Hot,38,84,NA,5,Iteresting at least I won once,62,A few times,NA,White,Male,Non-Hispanic
+P0087,3,0.07000000000000002,11,30,Banner,Lost,16,hot_win_number,Chose Hot,87,69,56,5,Iteresting at least I won once,62,A few times,NA,White,Male,Non-Hispanic
+P0087,4,0.42,32,32,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,5,Iteresting at least I won once,62,A few times,NA,White,Male,Non-Hispanic
+P0091,1,0.09000000000000001,25,11,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,2,nonoe,41,A few times,NA,White,Female,Non-Hispanic
+P0091,2,0.08000000000000002,25,20,Banner,Lost,2,hot_win_number,Chose Hot,68,97,NA,2,nonoe,41,A few times,NA,White,Female,Non-Hispanic
+P0091,3,0.07000000000000002,16,21,Banner,Lost,16,hot_win_number,Chose Hot,82,78,5,2,nonoe,41,A few times,NA,White,Female,Non-Hispanic
+P0091,4,0.42,25,25,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,nonoe,41,A few times,NA,White,Female,Non-Hispanic
+P0094,1,0.09000000000000001,18,9,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,2,,39,Never,NA,White,Male,Non-Hispanic
+P0094,2,0.08000000000000002,5,12,Banner,Lost,2,hot_win_number,Chose Hot,11,40,NA,2,,39,Never,NA,White,Male,Non-Hispanic
+P0094,3,0.07000000000000002,36,18,Banner,Lost,16,hot_win_number,Chose Hot,0,0,0,2,,39,Never,NA,White,Male,Non-Hispanic
+P0094,4,0.42,14,14,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,,39,Never,NA,White,Male,Non-Hispanic
+P0095,1,0.09000000000000001,18,26,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,2,I liked it. iT WAS FUN,63,About once a week,NA,White,Female,Non-Hispanic
+P0095,2,0.08000000000000002,36,31,Banner,Lost,2,hot_win_number,Chose Hot,100,100,NA,2,I liked it. iT WAS FUN,63,About once a week,NA,White,Female,Non-Hispanic
+P0095,3,0.07000000000000002,13,17,Banner,Lost,16,hot_win_number,Chose Hot,100,100,1,2,I liked it. iT WAS FUN,63,About once a week,NA,White,Female,Non-Hispanic
+P0095,4,0.42,17,17,No Banner,Won,0,NA,Chose Non-Hot,5,NA,NA,2,I liked it. iT WAS FUN,63,About once a week,NA,White,Female,Non-Hispanic
+P0097,1,0.09000000000000001,1,14,No Banner,Lost,0,NA,Chose Non-Hot,0,50,NA,1,Take care.,34,Never,NA,White,Male,Non-Hispanic
+P0097,2,0.08000000000000002,1,4,Banner,Lost,2,hot_win_number,Chose Hot,0,0,NA,1,Take care.,34,Never,NA,White,Male,Non-Hispanic
+P0097,3,0.07000000000000002,2,4,Banner,Lost,16,hot_win_number,Chose Hot,0,0,0,1,Take care.,34,Never,NA,White,Male,Non-Hispanic
+P0097,4,0.42,1,1,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,Take care.,34,Never,NA,White,Male,Non-Hispanic
+P0098,1,0.09000000000000001,21,2,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,2,it was fun,63,Never,NA,White,Female,Non-Hispanic
+P0098,2,0.08000000000000002,18,7,Banner,Lost,2,hot_win_number,Chose Hot,100,100,NA,2,it was fun,63,Never,NA,White,Female,Non-Hispanic
+P0098,3,0.07000000000000002,15,28,Banner,Lost,16,hot_win_number,Chose Hot,100,100,60,2,it was fun,63,Never,NA,White,Female,Non-Hispanic
+P0098,4,0.42,14,14,No Banner,Won,0,NA,Chose Non-Hot,1,NA,NA,2,it was fun,63,Never,NA,White,Female,Non-Hispanic
+P0099,1,0.09000000000000001,5,32,No Banner,Lost,0,NA,Chose Non-Hot,10,5,NA,1,"Fun experiment, thanks",35,About once a week,NA,Asian,Male,Non-Hispanic
+P0099,2,0.08000000000000002,1,28,Banner,Lost,2,hot_win_number,Chose Hot,100,100,NA,1,"Fun experiment, thanks",35,About once a week,NA,Asian,Male,Non-Hispanic
+P0099,3,0.07000000000000002,1,3,Banner,Lost,16,hot_win_number,Chose Hot,5,0,0,1,"Fun experiment, thanks",35,About once a week,NA,Asian,Male,Non-Hispanic
+P0099,4,0.42,1,1,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,"Fun experiment, thanks",35,About once a week,NA,Asian,Male,Non-Hispanic
+P0102,1,0.09000000000000001,18,16,No Banner,Lost,0,NA,Chose Non-Hot,22,46,NA,2,I'm guessing every single person who did this had the same result.,62,About once a week,NA,White,Male,Non-Hispanic
+P0102,2,0.08000000000000002,22,4,Banner,Lost,2,hot_win_number,Chose Hot,100,100,NA,2,I'm guessing every single person who did this had the same result.,62,About once a week,NA,White,Male,Non-Hispanic
+P0102,3,0.07000000000000002,6,35,Banner,Lost,16,hot_win_number,Chose Hot,22,85,0,2,I'm guessing every single person who did this had the same result.,62,About once a week,NA,White,Male,Non-Hispanic
+P0102,4,0.42,22,22,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,I'm guessing every single person who did this had the same result.,62,About once a week,NA,White,Male,Non-Hispanic
+P0103,1,0.09000000000000001,18,36,No Banner,Lost,0,NA,Chose Non-Hot,82,16,NA,1,thank you,46,Daily or almost daily,NA,White,Male,Non-Hispanic
+P0103,2,0.08000000000000002,21,9,Banner,Lost,2,hot_win_number,Chose Non-Hot,84,81,21,1,thank you,46,Daily or almost daily,NA,White,Male,Non-Hispanic
+P0103,3,0.07000000000000002,17,20,Banner,Lost,16,hot_win_number,Chose Hot,80,98,13,1,thank you,46,Daily or almost daily,NA,White,Male,Non-Hispanic
+P0103,4,0.42,10,10,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,thank you,46,Daily or almost daily,NA,White,Male,Non-Hispanic
+P0104,1,0.09000000000000001,23,10,No Banner,Lost,0,NA,Chose Non-Hot,0,50,NA,1,Interesting and thought-provoking study. I enjoyed participating.,57,A few times,NA,White,Male,Non-Hispanic
+P0104,2,0.08000000000000002,4,21,Banner,Lost,2,hot_win_number,Chose Non-Hot,0,30,0,1,Interesting and thought-provoking study. I enjoyed participating.,57,A few times,NA,White,Male,Non-Hispanic
+P0104,3,0.07000000000000002,23,2,Banner,Lost,16,hot_win_number,Chose Non-Hot,0,20,20,1,Interesting and thought-provoking study. I enjoyed participating.,57,A few times,NA,White,Male,Non-Hispanic
+P0104,4,0.42,23,23,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,Interesting and thought-provoking study. I enjoyed participating.,57,A few times,NA,White,Male,Non-Hispanic
+P0112,1,0.09000000000000001,11,14,No Banner,Lost,0,NA,Chose Non-Hot,67,97,NA,3,No feedback ,36,A few times,NA,White,Female,Non-Hispanic
+P0112,2,0.08000000000000002,24,32,Banner,Lost,2,hot_win_number,Chose Hot,100,100,NA,3,No feedback ,36,A few times,NA,White,Female,Non-Hispanic
+P0112,3,0.07000000000000002,32,3,Banner,Lost,16,hot_win_number,Chose Hot,99,96,0,3,No feedback ,36,A few times,NA,White,Female,Non-Hispanic
+P0112,4,0.42,32,32,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,3,No feedback ,36,A few times,NA,White,Female,Non-Hispanic
+P0116,1,0.09000000000000001,17,32,No Banner,Lost,0,NA,Chose Non-Hot,0,71,NA,2,This was a fun little game and experiment.,52,About once a month,NA,White,Male,Non-Hispanic
+P0116,2,0.08000000000000002,7,33,Banner,Lost,2,hot_win_number,Chose Hot,85,95,NA,2,This was a fun little game and experiment.,52,About once a month,NA,White,Male,Non-Hispanic
+P0116,3,0.07000000000000002,17,23,Banner,Lost,16,hot_win_number,Chose Hot,25,80,0,2,This was a fun little game and experiment.,52,About once a month,NA,White,Male,Non-Hispanic
+P0116,4,0.42,26,26,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,This was a fun little game and experiment.,52,About once a month,NA,White,Male,Non-Hispanic
+P0121,1,0.09000000000000001,16,19,No Banner,Lost,0,NA,Chose Non-Hot,89,84,NA,1,,50,Never,NA,Black/African American,Male,Non-Hispanic
+P0121,2,0.08000000000000002,8,31,Banner,Lost,2,hot_win_number,Chose Hot,100,100,NA,1,,50,Never,NA,Black/African American,Male,Non-Hispanic
+P0121,3,0.07000000000000002,27,35,Banner,Lost,16,hot_win_number,Chose Hot,93,70,77,1,,50,Never,NA,Black/African American,Male,Non-Hispanic
+P0121,4,0.42,24,24,No Banner,Won,0,NA,Chose Non-Hot,2,NA,NA,1,,50,Never,NA,Black/African American,Male,Non-Hispanic
+P0122,1,0.09000000000000001,26,27,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,2,,74,A few times,NA,White,Female,Non-Hispanic
+P0122,2,0.08000000000000002,23,34,Banner,Lost,2,hot_win_number,Chose Hot,81,100,NA,2,,74,A few times,NA,White,Female,Non-Hispanic
+P0122,3,0.07000000000000002,17,4,Banner,Lost,16,hot_win_number,Chose Hot,59,100,1,2,,74,A few times,NA,White,Female,Non-Hispanic
+P0122,4,0.42,29,29,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,,74,A few times,NA,White,Female,Non-Hispanic
+P0125,1,0.09000000000000001,23,15,No Banner,Lost,0,NA,Chose Non-Hot,75,54,NA,1,I'm glad I won at least one of the rounds.,74,A few times,NA,White,Female,Non-Hispanic
+P0125,2,0.08000000000000002,5,36,Banner,Lost,2,hot_win_number,Chose Hot,35,62,NA,1,I'm glad I won at least one of the rounds.,74,A few times,NA,White,Female,Non-Hispanic
+P0125,3,0.07000000000000002,4,36,Banner,Lost,16,hot_win_number,Chose Hot,14,15,5,1,I'm glad I won at least one of the rounds.,74,A few times,NA,White,Female,Non-Hispanic
+P0125,4,0.42,25,25,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,I'm glad I won at least one of the rounds.,74,A few times,NA,White,Female,Non-Hispanic
+P0127,1,0.09000000000000001,14,15,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,1,It was hard to choose the correct number out of 36 possible numbers,30,A few times,NA,Black/African American,Female,Non-Hispanic
+P0127,2,0.08000000000000002,20,4,Banner,Lost,2,hot_win_number,Chose Hot,100,100,NA,1,It was hard to choose the correct number out of 36 possible numbers,30,A few times,NA,Black/African American,Female,Non-Hispanic
+P0127,3,0.07000000000000002,25,10,Banner,Lost,16,hot_win_number,Chose Hot,100,100,0,1,It was hard to choose the correct number out of 36 possible numbers,30,A few times,NA,Black/African American,Female,Non-Hispanic
+P0127,4,0.42,16,16,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,It was hard to choose the correct number out of 36 possible numbers,30,A few times,NA,Black/African American,Female,Non-Hispanic
+P0135,1,0.09000000000000001,3,21,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,2,,18,Never,NA,White,Female,Non-Hispanic
+P0135,2,0.08000000000000002,3,12,Banner,Lost,2,hot_win_number,Chose Non-Hot,0,0,0,2,,18,Never,NA,White,Female,Non-Hispanic
+P0135,3,0.07000000000000002,3,4,Banner,Lost,16,hot_win_number,Chose Hot,0,0,0,2,,18,Never,NA,White,Female,Non-Hispanic
+P0135,4,0.42,3,3,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,,18,Never,NA,White,Female,Non-Hispanic
+P0140,1,0.09000000000000001,7,24,No Banner,Lost,0,NA,Chose Non-Hot,44,78,NA,1,It was a fun little experiment compared to other surveys.,38,About once a month,NA,White,Male,Non-Hispanic
+P0140,2,0.08000000000000002,23,10,Banner,Lost,2,hot_win_number,Chose Non-Hot,88,100,0,1,It was a fun little experiment compared to other surveys.,38,About once a month,NA,White,Male,Non-Hispanic
+P0140,3,0.07000000000000002,10,30,Banner,Lost,16,hot_win_number,Chose Hot,87,97,0,1,It was a fun little experiment compared to other surveys.,38,About once a month,NA,White,Male,Non-Hispanic
+P0140,4,0.42,30,30,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,It was a fun little experiment compared to other surveys.,38,About once a month,NA,White,Male,Non-Hispanic
+P0152,1,0.09000000000000001,7,10,No Banner,Lost,0,NA,Chose Non-Hot,32,71,NA,2,,26,About once a month,NA,White,Male,Non-Hispanic
+P0152,2,0.08000000000000002,21,19,Banner,Lost,2,hot_win_number,Chose Hot,66,88,NA,2,,26,About once a month,NA,White,Male,Non-Hispanic
+P0152,3,0.07000000000000002,7,34,Banner,Lost,16,hot_win_number,Chose Hot,25,54,1,2,,26,About once a month,NA,White,Male,Non-Hispanic
+P0152,4,0.42,22,22,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,,26,About once a month,NA,White,Male,Non-Hispanic
+P0152,5,0.09000000000000001,7,28,No Banner,Lost,0,NA,Chose Non-Hot,32,71,NA,2,,26,About once a month,NA,White,Male,Non-Hispanic
+P0152,6,0.08000000000000002,17,30,Banner,Lost,2,hot_win_number,Chose Non-Hot,42,79,7,2,,26,About once a month,NA,White,Male,Non-Hispanic
+P0152,7,0.07000000000000002,7,14,Banner,Lost,16,hot_win_number,Chose Hot,23,53,24,2,,26,About once a month,NA,White,Male,Non-Hispanic
+P0152,8,0.42,7,7,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,,26,About once a month,NA,White,Male,Non-Hispanic
+P0153,1,0.09000000000000001,27,2,No Banner,Lost,0,NA,Chose Non-Hot,64,26,NA,2,,46,A few times,NA,White,Female,Non-Hispanic
+P0153,2,0.08000000000000002,27,30,Banner,Lost,2,hot_win_number,Chose Non-Hot,42,52,34,2,,46,A few times,NA,White,Female,Non-Hispanic
+P0153,3,0.07000000000000002,1,3,Banner,Lost,16,hot_win_number,Chose Hot,60,49,66,2,,46,A few times,NA,White,Female,Non-Hispanic
+P0153,4,0.42,27,27,No Banner,Won,0,NA,Chose Non-Hot,2,NA,NA,2,,46,A few times,NA,White,Female,Non-Hispanic
+P0156,1,0.09000000000000001,9,17,No Banner,Lost,0,NA,Chose Non-Hot,55,10,NA,2,,40,Never,NA,White,Male,Hispanic
+P0156,2,0.08000000000000002,14,22,Banner,Lost,2,hot_win_number,Chose Hot,58,71,NA,2,,40,Never,NA,White,Male,Hispanic
+P0156,3,0.07000000000000002,16,36,Banner,Lost,16,hot_win_number,Chose Hot,56,56,0,2,,40,Never,NA,White,Male,Hispanic
+P0156,4,0.42,3,3,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,,40,Never,NA,White,Male,Hispanic
+P0161,1,0.09000000000000001,11,6,No Banner,Lost,0,NA,Chose Non-Hot,25,25,NA,2,,49,Never,NA,White,Female,Non-Hispanic
+P0161,2,0.08000000000000002,17,19,Banner,Lost,2,hot_win_number,Chose Non-Hot,15,15,5,2,,49,Never,NA,White,Female,Non-Hispanic
+P0161,3,0.07000000000000002,28,10,Banner,Lost,16,hot_win_number,Chose Hot,10,10,2,2,,49,Never,NA,White,Female,Non-Hispanic
+P0161,4,0.42,21,21,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,,49,Never,NA,White,Female,Non-Hispanic
+P0162,1,0.09000000000000001,15,5,No Banner,Lost,0,NA,Chose Non-Hot,77,89,NA,1,n/a,32,About once a week,NA,Black/African American,Male,Non-Hispanic
+P0162,2,0.08000000000000002,21,29,Banner,Lost,2,hot_win_number,Chose Hot,94,91,NA,1,n/a,32,About once a week,NA,Black/African American,Male,Non-Hispanic
+P0162,3,0.07000000000000002,21,32,Banner,Lost,16,hot_win_number,Chose Hot,83,89,84,1,n/a,32,About once a week,NA,Black/African American,Male,Non-Hispanic
+P0162,4,0.42,20,20,No Banner,Won,0,NA,Chose Non-Hot,1,NA,NA,1,n/a,32,About once a week,NA,Black/African American,Male,Non-Hispanic
+P0163,1,0.09000000000000001,14,24,No Banner,Lost,0,NA,Chose Non-Hot,9,56,NA,2,,31,Daily or almost daily,NA,,Female,Non-Hispanic
+P0163,2,0.08000000000000002,11,20,Banner,Lost,2,hot_win_number,Chose Hot,7,35,NA,2,,31,Daily or almost daily,NA,,Female,Non-Hispanic
+P0163,3,0.07000000000000002,9,25,Banner,Lost,16,hot_win_number,Chose Hot,14,24,10,2,,31,Daily or almost daily,NA,,Female,Non-Hispanic
+P0163,4,0.42,36,36,No Banner,Won,0,NA,Chose Non-Hot,8,NA,NA,2,,31,Daily or almost daily,NA,,Female,Non-Hispanic
+P0166,1,0.09000000000000001,18,32,No Banner,Lost,0,NA,Chose Non-Hot,97,77,NA,1,,47,Never,NA,White,Female,Non-Hispanic
+P0166,2,0.08000000000000002,27,7,Banner,Lost,2,hot_win_number,Chose Hot,96,91,NA,1,,47,Never,NA,White,Female,Non-Hispanic
+P0166,3,0.07000000000000002,1,9,Banner,Lost,16,hot_win_number,Chose Hot,100,100,15,1,,47,Never,NA,White,Female,Non-Hispanic
+P0166,4,0.42,8,8,No Banner,Won,0,NA,Chose Non-Hot,6,NA,NA,1,,47,Never,NA,White,Female,Non-Hispanic
+P0168,1,0.09000000000000001,22,8,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,2,interesting,67,About once a week,NA,White,Female,Non-Hispanic
+P0168,2,0.08000000000000002,5,28,Banner,Lost,2,hot_win_number,Chose Hot,100,100,NA,2,interesting,67,About once a week,NA,White,Female,Non-Hispanic
+P0168,3,0.07000000000000002,20,27,Banner,Lost,16,hot_win_number,Chose Hot,100,100,3,2,interesting,67,About once a week,NA,White,Female,Non-Hispanic
+P0168,4,0.42,24,24,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,interesting,67,About once a week,NA,White,Female,Non-Hispanic
+P0175,1,0.09000000000000001,27,21,No Banner,Lost,0,NA,Chose Non-Hot,7,0,NA,2,Seems like it's rigged to give everyone the same bonus payout because the survey is about regret.,58,A few times,NA,White,Male,Non-Hispanic
+P0175,2,0.08000000000000002,35,16,Banner,Lost,2,hot_win_number,Chose Hot,0,1,NA,2,Seems like it's rigged to give everyone the same bonus payout because the survey is about regret.,58,A few times,NA,White,Male,Non-Hispanic
+P0175,3,0.07000000000000002,27,23,Banner,Lost,16,hot_win_number,Chose Hot,3,24,0,2,Seems like it's rigged to give everyone the same bonus payout because the survey is about regret.,58,A few times,NA,White,Male,Non-Hispanic
+P0175,4,0.42,7,7,No Banner,Won,0,NA,Chose Non-Hot,5,NA,NA,2,Seems like it's rigged to give everyone the same bonus payout because the survey is about regret.,58,A few times,NA,White,Male,Non-Hispanic
+P0178,1,0.09000000000000001,9,2,No Banner,Lost,0,NA,Chose Non-Hot,93,91,NA,7,,50,Never,NA,White,Female,Non-Hispanic
+P0178,2,0.08000000000000002,23,10,Banner,Lost,2,hot_win_number,Chose Hot,92,84,NA,7,,50,Never,NA,White,Female,Non-Hispanic
+P0178,3,0.07000000000000002,23,13,Banner,Lost,16,hot_win_number,Chose Hot,88,98,90,7,,50,Never,NA,White,Female,Non-Hispanic
+P0178,4,0.42,9,9,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,7,,50,Never,NA,White,Female,Non-Hispanic
+P0182,1,0.09000000000000001,11,24,No Banner,Lost,0,NA,Chose Non-Hot,0,18,NA,1,Im not sure if it was really random but it was fun.,28,About once a week,NA,Multiracial/Mixed,Female,Non-Hispanic
+P0182,2,0.08000000000000002,11,33,Banner,Lost,2,hot_win_number,Chose Non-Hot,20,25,0,1,Im not sure if it was really random but it was fun.,28,About once a week,NA,Multiracial/Mixed,Female,Non-Hispanic
+P0182,3,0.07000000000000002,17,1,Banner,Lost,16,hot_win_number,Chose Hot,0,0,0,1,Im not sure if it was really random but it was fun.,28,About once a week,NA,Multiracial/Mixed,Female,Non-Hispanic
+P0182,4,0.42,22,22,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,Im not sure if it was really random but it was fun.,28,About once a week,NA,Multiracial/Mixed,Female,Non-Hispanic
+P0183,1,0.09000000000000001,24,7,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,2,,50,Never,NA,White,Male,Non-Hispanic
+P0183,2,0.08000000000000002,14,34,Banner,Lost,2,hot_win_number,Chose Non-Hot,100,100,1,2,,50,Never,NA,White,Male,Non-Hispanic
+P0183,3,0.07000000000000002,19,26,Banner,Lost,16,hot_win_number,Chose Hot,100,100,2,2,,50,Never,NA,White,Male,Non-Hispanic
+P0183,4,0.42,31,31,No Banner,Won,0,NA,Chose Non-Hot,2,NA,NA,2,,50,Never,NA,White,Male,Non-Hispanic
+P0184,1,0.09000000000000001,11,10,No Banner,Lost,0,NA,Chose Non-Hot,37,42,NA,1,,46,A few times,NA,White,Female,Non-Hispanic
+P0184,2,0.08000000000000002,4,9,Banner,Lost,2,hot_win_number,Chose Non-Hot,50,83,2,1,,46,A few times,NA,White,Female,Non-Hispanic
+P0184,3,0.07000000000000002,4,32,Banner,Lost,16,hot_win_number,Chose Hot,19,15,0,1,,46,A few times,NA,White,Female,Non-Hispanic
+P0184,4,0.42,11,11,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,46,A few times,NA,White,Female,Non-Hispanic
+P0186,1,0.09000000000000001,15,13,No Banner,Lost,0,NA,Chose Non-Hot,46,100,NA,1,"That was no different than regular gambling, sometimes you win, sometimes you lose.Also so far up this point I don't see a place to do a voice recording like it said I would have to, just a heads up.",49,Never,NA,White,Female,Non-Hispanic
+P0186,2,0.08000000000000002,10,12,Banner,Lost,2,hot_win_number,Chose Hot,100,100,NA,1,"That was no different than regular gambling, sometimes you win, sometimes you lose.Also so far up this point I don't see a place to do a voice recording like it said I would have to, just a heads up.",49,Never,NA,White,Female,Non-Hispanic
+P0186,3,0.07000000000000002,19,2,Banner,Lost,16,hot_win_number,Chose Hot,51,100,0,1,"That was no different than regular gambling, sometimes you win, sometimes you lose.Also so far up this point I don't see a place to do a voice recording like it said I would have to, just a heads up.",49,Never,NA,White,Female,Non-Hispanic
+P0186,4,0.42,6,6,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,"That was no different than regular gambling, sometimes you win, sometimes you lose.Also so far up this point I don't see a place to do a voice recording like it said I would have to, just a heads up.",49,Never,NA,White,Female,Non-Hispanic
+P0188,1,0.09000000000000001,12,20,No Banner,Lost,0,NA,Chose Non-Hot,100,0,NA,4,,33,Never,NA,White,Male,Non-Hispanic
+P0188,2,0.08000000000000002,34,6,Banner,Lost,2,hot_win_number,Chose Hot,100,100,NA,4,,33,Never,NA,White,Male,Non-Hispanic
+P0188,3,0.07000000000000002,12,30,Banner,Lost,16,hot_win_number,Chose Hot,100,100,100,4,,33,Never,NA,White,Male,Non-Hispanic
+P0188,4,0.42,12,12,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,4,,33,Never,NA,White,Male,Non-Hispanic
+P0189,1,0.09000000000000001,9,21,No Banner,Lost,0,NA,Chose Non-Hot,10,80,NA,3,I thought it was a fun experiment,46,About once a month,NA,White,Male,Non-Hispanic
+P0189,2,0.08000000000000002,35,11,Banner,Lost,2,hot_win_number,Chose Hot,40,90,NA,3,I thought it was a fun experiment,46,About once a month,NA,White,Male,Non-Hispanic
+P0189,3,0.07000000000000002,6,3,Banner,Lost,16,hot_win_number,Chose Hot,20,80,5,3,I thought it was a fun experiment,46,About once a month,NA,White,Male,Non-Hispanic
+P0189,4,0.42,13,13,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,3,I thought it was a fun experiment,46,About once a month,NA,White,Male,Non-Hispanic
+P0192,1,0.09000000000000001,17,10,No Banner,Lost,0,NA,Chose Non-Hot,0,79,NA,2,,29,About once a week,NA,White,Female,Non-Hispanic
+P0192,2,0.08000000000000002,29,23,Banner,Lost,2,hot_win_number,Chose Hot,47,46,NA,2,,29,About once a week,NA,White,Female,Non-Hispanic
+P0192,3,0.07000000000000002,7,36,Banner,Lost,16,hot_win_number,Chose Hot,6,90,11,2,,29,About once a week,NA,White,Female,Non-Hispanic
+P0192,4,0.42,23,23,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,,29,About once a week,NA,White,Female,Non-Hispanic
+P0195,1,0.09000000000000001,23,20,No Banner,Lost,0,NA,Chose Non-Hot,22,71,NA,2,,49,Never,NA,White,Female,Non-Hispanic
+P0195,2,0.08000000000000002,9,26,Banner,Lost,2,hot_win_number,Chose Hot,89,88,NA,2,,49,Never,NA,White,Female,Non-Hispanic
+P0195,3,0.07000000000000002,30,32,Banner,Lost,16,hot_win_number,Chose Hot,33,70,15,2,,49,Never,NA,White,Female,Non-Hispanic
+P0195,4,0.42,14,14,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,,49,Never,NA,White,Female,Non-Hispanic
+P0199,1,0.09000000000000001,21,29,No Banner,Lost,0,NA,Chose Non-Hot,38,87,NA,3,I liked the game. I wish I could have bet more numbers per round.,59,About once a month,NA,White,Male,Non-Hispanic
+P0199,2,0.08000000000000002,33,12,Banner,Lost,2,hot_win_number,Chose Hot,93,91,NA,3,I liked the game. I wish I could have bet more numbers per round.,59,About once a month,NA,White,Male,Non-Hispanic
+P0199,3,0.07000000000000002,5,27,Banner,Lost,16,hot_win_number,Chose Hot,43,87,5,3,I liked the game. I wish I could have bet more numbers per round.,59,About once a month,NA,White,Male,Non-Hispanic
+P0199,4,0.42,21,21,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,3,I liked the game. I wish I could have bet more numbers per round.,59,About once a month,NA,White,Male,Non-Hispanic
+P0200,1,0.09000000000000001,16,7,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,2,,61,A few times,NA,White,Male,Non-Hispanic
+P0200,2,0.08000000000000002,16,35,Banner,Lost,2,hot_win_number,Chose Non-Hot,0,0,0,2,,61,A few times,NA,White,Male,Non-Hispanic
+P0200,3,0.07000000000000002,16,11,Banner,Lost,16,hot_win_number,Chose Non-Hot,0,0,0,2,,61,A few times,NA,White,Male,Non-Hispanic
+P0200,4,0.42,16,16,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,,61,A few times,NA,White,Male,Non-Hispanic
+P0202,1,0.09000000000000001,21,34,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,3,None,58,A few times,NA,White,Female,Non-Hispanic
+P0202,2,0.08000000000000002,9,8,Banner,Lost,2,hot_win_number,Chose Hot,100,100,NA,3,None,58,A few times,NA,White,Female,Non-Hispanic
+P0202,3,0.07000000000000002,15,25,Banner,Lost,16,hot_win_number,Chose Non-Hot,100,100,52,3,None,58,A few times,NA,White,Female,Non-Hispanic
+P0202,4,0.42,13,13,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,3,None,58,A few times,NA,White,Female,Non-Hispanic
+P0203,1,0.09000000000000001,23,33,No Banner,Lost,0,NA,Chose Non-Hot,35,40,NA,1,How do we know if the results are truly random or set for this study?  (I'm guessing the second.),47,Never,NA,White,Female,Non-Hispanic
+P0203,2,0.08000000000000002,10,20,Banner,Lost,2,hot_win_number,Chose Hot,80,90,NA,1,How do we know if the results are truly random or set for this study?  (I'm guessing the second.),47,Never,NA,White,Female,Non-Hispanic
+P0203,3,0.07000000000000002,14,11,Banner,Lost,16,hot_win_number,Chose Hot,45,60,0,1,How do we know if the results are truly random or set for this study?  (I'm guessing the second.),47,Never,NA,White,Female,Non-Hispanic
+P0203,4,0.42,18,18,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,How do we know if the results are truly random or set for this study?  (I'm guessing the second.),47,Never,NA,White,Female,Non-Hispanic
+P0213,1,0.09000000000000001,16,11,No Banner,Lost,0,NA,Chose Non-Hot,1,99,NA,1,"I don't really have any feedback, there wasn't any mathematical reasoning or probability to chose any numbers.  It was pure gamble.",46,Never,NA,Multiracial/Mixed,Female,Non-Hispanic
+P0213,2,0.08000000000000002,24,12,Banner,Lost,2,hot_win_number,Chose Non-Hot,1,100,100,1,"I don't really have any feedback, there wasn't any mathematical reasoning or probability to chose any numbers.  It was pure gamble.",46,Never,NA,Multiracial/Mixed,Female,Non-Hispanic
+P0213,3,0.07000000000000002,22,35,Banner,Lost,16,hot_win_number,Chose Hot,2,100,100,1,"I don't really have any feedback, there wasn't any mathematical reasoning or probability to chose any numbers.  It was pure gamble.",46,Never,NA,Multiracial/Mixed,Female,Non-Hispanic
+P0213,4,0.42,6,6,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,"I don't really have any feedback, there wasn't any mathematical reasoning or probability to chose any numbers.  It was pure gamble.",46,Never,NA,Multiracial/Mixed,Female,Non-Hispanic
+P0214,1,0.09000000000000001,19,9,No Banner,Lost,0,NA,Chose Non-Hot,0,0,NA,2,"well, that was amusing, for the last round I chose the other hot number. Of course this could be rigged to always win on the 4th round. curious...",62,Never,NA,White,Non-binary,Non-Hispanic
+P0214,2,0.08000000000000002,19,5,Banner,Lost,2,hot_win_number,Chose Non-Hot,10,30,10,2,"well, that was amusing, for the last round I chose the other hot number. Of course this could be rigged to always win on the 4th round. curious...",62,Never,NA,White,Non-binary,Non-Hispanic
+P0214,3,0.07000000000000002,1,17,Banner,Lost,16,hot_win_number,Chose Hot,0,10,0,2,"well, that was amusing, for the last round I chose the other hot number. Of course this could be rigged to always win on the 4th round. curious...",62,Never,NA,White,Non-binary,Non-Hispanic
+P0214,4,0.42,2,2,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,"well, that was amusing, for the last round I chose the other hot number. Of course this could be rigged to always win on the 4th round. curious...",62,Never,NA,White,Non-binary,Non-Hispanic
+P0224,1,0.09000000000000001,23,28,No Banner,Lost,0,NA,Chose Non-Hot,4,4,NA,2,,36,Never,NA,White,Male,Non-Hispanic
+P0224,2,0.08000000000000002,14,34,Banner,Lost,2,hot_win_number,Chose Non-Hot,5,5,5,2,,36,Never,NA,White,Male,Non-Hispanic
+P0224,3,0.07000000000000002,6,11,Banner,Lost,16,hot_win_number,Chose Non-Hot,5,5,0,2,,36,Never,NA,White,Male,Non-Hispanic
+P0224,4,0.42,20,20,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,2,,36,Never,NA,White,Male,Non-Hispanic
+P0226,1,0.09000000000000001,19,14,No Banner,Lost,0,NA,Chose Non-Hot,10,6,NA,7,N/A,35,Never,NA,White,Female,Non-Hispanic
+P0226,2,0.08000000000000002,8,30,Banner,Lost,2,hot_win_number,Chose Hot,44,42,NA,7,N/A,35,Never,NA,White,Female,Non-Hispanic
+P0226,3,0.07000000000000002,29,21,Banner,Lost,16,hot_win_number,Chose Hot,23,31,23,7,N/A,35,Never,NA,White,Female,Non-Hispanic
+P0226,4,0.42,4,4,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,7,N/A,35,Never,NA,White,Female,Non-Hispanic
+P0232,1,0.09000000000000001,14,10,No Banner,Lost,0,NA,Chose Non-Hot,100,100,NA,3,this is a fun game. I'd like to participate in more like this,34,Never,NA,Black/African American,Female,
+P0232,2,0.08000000000000002,19,10,Banner,Lost,2,hot_win_number,Chose Hot,45,100,NA,3,this is a fun game. I'd like to participate in more like this,34,Never,NA,Black/African American,Female,
+P0232,3,0.07000000000000002,26,10,Banner,Lost,16,hot_win_number,Chose Hot,79,93,0,3,this is a fun game. I'd like to participate in more like this,34,Never,NA,Black/African American,Female,
+P0232,4,0.42,10,10,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,3,this is a fun game. I'd like to participate in more like this,34,Never,NA,Black/African American,Female,
+P0234,1,0.09000000000000001,11,1,No Banner,Lost,0,NA,Chose Non-Hot,25,85,NA,1,,38,Never,NA,White,Female,Non-Hispanic
+P0234,2,0.08000000000000002,27,3,Banner,Lost,2,hot_win_number,Chose Non-Hot,24,80,83,1,,38,Never,NA,White,Female,Non-Hispanic
+P0234,3,0.07000000000000002,4,19,Banner,Lost,16,hot_win_number,Chose Hot,28,44,45,1,,38,Never,NA,White,Female,Non-Hispanic
+P0234,4,0.42,29,29,No Banner,Won,0,NA,Chose Non-Hot,0,NA,NA,1,,38,Never,NA,White,Female,Non-Hispanic

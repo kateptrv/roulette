@@ -15,27 +15,42 @@ knit: reprex::reprex_render
 
 ```{r}
 if(!suppressWarnings(require(pacman))){install.packages("pacman");library("pacman")}
-p_load(tidyverse, tidyr, dplyr, ggplot2, stats, sjPlot, readr, ggpubr, patchwork, lubridate, ggthemr, ggdist, ggpubr, showtext, usethis, data.table, png, grid, purrr, ggimage, osfr, jsonlite, lme4, janitor, brms)
+p_load(tidyverse, tidyr, dplyr, ggplot2, stats, sjPlot, readr, ggpubr, patchwork, lubridate, ggthemr, ggdist, ggpubr, showtext, usethis, data.table, png, grid, purrr, ggimage, osfr, jsonlite, lme4, janitor, brms, rsample, ragg)
 ```
 
 ```{r}
-data_full <- read_csv("../../data/data_clean_full.csv") |>
+# aesthetics
+ggthemr(palette = "fresh", type = "outer", line_weight = 0.5, text_size = 16, spacing = 2, layout = "clear")
+
+swatch()
+
+showtext_auto()
+showtext_opts(nseg = 5)
+```
+
+```{r}
+data_study1b <- read_csv("../../data/data_clean_study1b.csv") |>
   filter(comp_tries_to_pass <= 2) |>
   group_by(prolific_pid) |>
   filter(max(trial) == 24) |>
   mutate(n_hot_choice = sum(choice_hot == "Chose Hot")) |>
   ungroup()
 
-data_slim <- read_csv("../../data/data_clean_slim.csv") |>
+data_study1a <- read_csv("../../data/data_clean_study1a.csv") |>
   filter(comp_tries_to_pass <= 2) |>
   group_by(prolific_pid) |>
   mutate(n_hot_choice = sum(choice_hot == "Chose Hot")) |>
   ungroup()
 
-data_mc_full <- read_csv("../../data/data_clean_mc_full.csv") |>
+data_study1b_minecraft <- read_csv("../../data/data_clean_study1b_minecraft.csv") |>
   filter(comp_tries_to_pass <= 2) |>
   group_by(prolific_pid) |>
   mutate(n_hot_choice = sum(choice_hot == "Chose Hot")) |>
+  ungroup()
+
+data_study2 <- read_csv("../../data/data_clean_study2.csv") |>
+  filter(comp_tries_to_pass <= 2) |>
+  group_by(prolific_pid) |>
   ungroup()
 ```
 
@@ -51,16 +66,15 @@ pal_om <- c(
   "Chose Non-Hot"     = "#7FA6C9"   
 )
 
-pal_combined <- c(
-"#8B1E3F", "#1F4E79",  "#D16C7C", "#7FA6C9")
+pal_combined <- c("#8B1E3F", "#1F4E79", "#D16C7C", "#C7D7EA", "#E8B7BF")
 ```
 
 # Sample characteristics 
 
-## Study 1a
+## Study 1b
 
 ```{r}
-data_full |>
+data_study1b |>
   group_by(prolific_pid) |>
   select(prolific_pid, feedback:n_hot_choice) |>
   distinct() |>
@@ -68,28 +82,28 @@ data_full |>
   ungroup() |>
   psych::describe() 
 
-data_full |>
+data_study1b |>
   group_by(prolific_pid) |>
   select(prolific_pid, feedback:n_hot_choice) |>
   distinct() |>
   ungroup() |>
   tabyl(gender)
 
-data_full |>
+data_study1b |>
   group_by(prolific_pid) |>
   select(prolific_pid, feedback:n_hot_choice) |>
   distinct() |>
   ungroup() |>
   tabyl(race)
 
-data_full |>
+data_study1b |>
   group_by(prolific_pid) |>
   select(prolific_pid, feedback:n_hot_choice) |>
   distinct() |>
   ungroup() |>
   tabyl(ethnicity)
 
-data_full |>
+data_study1b |>
   group_by(prolific_pid) |>
   select(prolific_pid, feedback:n_hot_choice) |>
   distinct() |>
@@ -99,10 +113,10 @@ data_full |>
 
 ```
 
-## Study 1b
+## Study 1a
 
 ```{r}
-data_slim |>
+data_study1a |>
   group_by(prolific_pid) |>
   select(prolific_pid, feedback:n_hot_choice) |>
   distinct() |>
@@ -110,28 +124,70 @@ data_slim |>
   ungroup() |>
   psych::describe()
 
-data_slim |>
+data_study1a |>
   group_by(prolific_pid) |>
   select(prolific_pid, feedback:n_hot_choice) |>
   distinct() |>
   ungroup() |>
   tabyl(gender)
 
-data_slim |>
+data_study1a |>
   group_by(prolific_pid) |>
   select(prolific_pid, feedback:n_hot_choice) |>
   distinct() |>
   ungroup() |>
   tabyl(race)
 
-data_slim |>
+data_study1a |>
   group_by(prolific_pid) |>
   select(prolific_pid, feedback:n_hot_choice) |>
   distinct() |>
   ungroup() |>
   tabyl(ethnicity)
 
-data_slim |>
+data_study1a |>
+  group_by(prolific_pid) |>
+  select(prolific_pid, feedback:n_hot_choice) |>
+  distinct() |>
+  ungroup() |>
+  tabyl(gamble_freq_12mo)
+
+```
+
+## Replication of 1b (not reported)
+
+```{r}
+data_study1b_minecraft |>
+  group_by(prolific_pid) |>
+  select(prolific_pid, feedback:n_hot_choice) |>
+  distinct() |>
+  # 72 collected, 54 with 2 or fewer tries on the comprehension check
+  ungroup() |>
+  psych::describe()
+
+# note: prolific screeners set for people who report video games/computer games as hobbies
+data_study1b_minecraft |>
+  group_by(prolific_pid) |>
+  select(prolific_pid, feedback:n_hot_choice) |>
+  distinct() |>
+  ungroup() |>
+  tabyl(gender)
+
+data_study1b_minecraft |>
+  group_by(prolific_pid) |>
+  select(prolific_pid, feedback:n_hot_choice) |>
+  distinct() |>
+  ungroup() |>
+  tabyl(race)
+
+data_study1b_minecraft |>
+  group_by(prolific_pid) |>
+  select(prolific_pid, feedback:n_hot_choice) |>
+  distinct() |>
+  ungroup() |>
+  tabyl(ethnicity)
+
+data_study1b_minecraft |>
   group_by(prolific_pid) |>
   select(prolific_pid, feedback:n_hot_choice) |>
   distinct() |>
@@ -143,317 +199,182 @@ data_slim |>
 ## Study 2
 
 ```{r}
-data_mc_full |>
-  group_by(prolific_pid) |>
-  select(prolific_pid, feedback:n_hot_choice) |>
-  distinct() |>
-  # 72 collected, 54 with 2 or fewer tries on the comprehension check
-  ungroup() |>
-  psych::describe()
 
-# note: prolific screeners set for people who report video games/computer games as hobbies
-data_mc_full |>
+data_study2 |>
   group_by(prolific_pid) |>
-  select(prolific_pid, feedback:n_hot_choice) |>
+  select(prolific_pid, feedback:ethnicity) |>
   distinct() |>
   ungroup() |>
   tabyl(gender)
 
-data_mc_full |>
+data_study2 |>
   group_by(prolific_pid) |>
-  select(prolific_pid, feedback:n_hot_choice) |>
+  select(prolific_pid, feedback:ethnicity) |>
   distinct() |>
   ungroup() |>
   tabyl(race)
 
-data_mc_full |>
+data_study2 |>
   group_by(prolific_pid) |>
-  select(prolific_pid, feedback:n_hot_choice) |>
+  select(prolific_pid, feedback:ethnicity) |>
   distinct() |>
   ungroup() |>
   tabyl(ethnicity)
 
-data_mc_full |>
+data_study2 |>
   group_by(prolific_pid) |>
-  select(prolific_pid, feedback:n_hot_choice) |>
+  select(prolific_pid, feedback:ethnicity) |>
   distinct() |>
   ungroup() |>
   tabyl(gamble_freq_12mo)
 
-```
-
-# Study 1a analyses
-
-```{r}
-data_full |>
-  ggplot(aes(x = win_status, y = regret_chosen, color = win_status, fill = win_status)) +
-  geom_point(aes(alpha = 0.2), position = position_jitter(w = 0.1)) +
-  stat_summary(
-  fun.data = mean_cl_boot, conf.int = .95, B = 5000,
-  geom = "pointrange", linewidth = 1, size = 1,
-  shape = 21
-) +
-  labs(x = "Won?",
-     y = "Regret") +
-  facet_wrap(~choice_hot)
-```
-
-```{r}
-data_full |>
-  filter(win_status == "Lost" & hot_set_size > 0) |>
-  ggplot(aes(x = outcome_rel_to_hot, y = regret_notchosen_winner, color = outcome_rel_to_hot, fill = outcome_rel_to_hot)) +
-  stat_summary(
-  fun.data = mean_cl_boot, conf.int = .95, B = 5000,
-  geom = "pointrange", linewidth = 1, size = 1,
-  shape = 21
-) +
-  labs(x = "Type of winning number",
-     y = "Regret not chosen") +
-  facet_wrap(~hot_set_size, nrow = 1) 
-```
-
-```{r}
-
-p1 <- data_mc_full |>
-  filter(win_status == "Lost" & outcome_rel_to_hot == "hot_win_number") |>
-  ggplot(aes(x = as.factor(hot_set_size), y = regret_chosen, color = choice_hot, fill = choice_hot)) +
-  stat_summary(
-  fun.data = mean_cl_boot, conf.int = .95, B = 5000,
-  geom = "pointrange", linewidth = 1, size = 1,
-  shape = 21
-) +
-  ylim(0,100) +
-  labs(x = "N of hot numbers",
-     y = "Regret",
-     title = "Commission regret",
-     subtitle = "Hot number won") +
-  scale_color_manual(values = pal_com, name = "Participant's choice:") +
-  scale_fill_manual(values = pal_com, name = "Participant's choice:") +
-  theme(legend.position = "bottom") +
-  facet_wrap(~choice_hot)
-
-p2 <- data_mc_full |>
-  filter(win_status == "Lost" & outcome_rel_to_hot == "hot_win_number") |>
-  ggplot(aes(x = as.factor(hot_set_size), y = regret_notchosen_winner, color = choice_hot, fill = choice_hot)) +
-  stat_summary(
-  fun.data = mean_cl_boot, conf.int = .95, B = 5000,
-  geom = "pointrange", linewidth = 1, size = 1,
-  shape = 21
-) +
-  ylim(0,100) +
-  labs(x = "N of hot numbers",
-     y = "Regret",
-     title = "Omission regret",
-     subtitle = "Hot number won") +
-  scale_color_manual(values = pal_om, name = "Participant's choice:") +
-  scale_fill_manual(values = pal_om, name = "Participant's choice:") +
-  theme(legend.position = "bottom") +
-  facet_wrap(~choice_hot)
-
-p1 + p2 
-
-```
-
-```{r}
-p1 <- data_mc_full |>
-  filter(win_status == "Lost" & outcome_rel_to_hot == "hot_win_number") |>
+data_study2 |>
   group_by(prolific_pid) |>
-  mutate(regret_chosen_pmc = regret_chosen - mean(regret_chosen, na.rm = TRUE)) |>
+  select(prolific_pid, feedback:ethnicity) |>
+  distinct() |>
   ungroup() |>
-  ggplot(aes(x = as.factor(hot_set_size), y = regret_chosen_pmc, color = choice_hot, fill = choice_hot)) +
-  geom_hline(yintercept = 0, linetype = "dashed", color = "black") +
-  stat_summary(
-  fun.data = mean_cl_boot, conf.int = .95, B = 5000,
-  geom = "pointrange", linewidth = 1, size = 1,
-  shape = 21
-) +
-  ylim(-10,20) +
-  labs(x = "N of hot numbers",
-     y = "Regret (person-centered)",
-     title = "Commission regret",
-     subtitle = "Hot number won") +
-  scale_color_manual(values = pal_com, name = "Participant's choice:") +
-  scale_fill_manual(values = pal_com, name = "Participant's choice:") +
-  theme(legend.position = "bottom") +
-  facet_wrap(~choice_hot)
-
-p2 <- data_mc_full |>
-  filter(win_status == "Lost" & outcome_rel_to_hot == "hot_win_number") |>
-  group_by(prolific_pid) |>
-  mutate(regret_notchosen_winner_pmc = regret_notchosen_winner - mean(regret_notchosen_winner, na.rm = TRUE)) |>
-  ungroup() |>
-  ggplot(aes(x = as.factor(hot_set_size), y = regret_notchosen_winner_pmc, color = choice_hot, fill = choice_hot)) +
-  geom_hline(yintercept = 0, linetype = "dashed", color = "black") +
-  stat_summary(
-  fun.data = mean_cl_boot, conf.int = .95, B = 5000,
-  geom = "pointrange", linewidth = 1, size = 1,
-  shape = 21
-) +
-  ylim(-10,20) +
-  labs(x = "N of hot numbers",
-     y = "Regret (person-centered)",
-     title = "Omission regret",
-     subtitle = "Hot number won") +
-  scale_color_manual(values = pal_om, name = "Participant's choice:") +
-  scale_fill_manual(values = pal_om, name = "Participant's choice:") +
-  theme(legend.position = "bottom") +
-  facet_wrap(~choice_hot)
-
-p1 + p2 
+  psych::describe()
 ```
 
-```{r}
-data_slim |>
-  filter(win_status == "Lost" & outcome_rel_to_hot == "hot_win_number") |>
-  ggplot(aes(x = as.factor(hot_set_size), y = regret_notchosen_winner, color = as.factor(hot_set_size), fill = as.factor(hot_set_size))) +
-  geom_point() +
-  stat_summary(
-  fun.data = mean_cl_boot, conf.int = .95, B = 5000,
-  geom = "pointrange", linewidth = 1, size = 1,
-  shape = 21
-) +
-  labs(x = "Number of hot numbers",
-     y = "Regret non-chosen") +
-  facet_wrap(~choice_hot)
-```
+# RQ1
 
 ```{r}
-data_lost <- data_mc_full |>
-  filter(win_status == "Lost" & outcome_rel_to_hot == "hot_win_number")
-
-model1 <- lmer(regret_notchosen_winner ~ choice_hot * hot_set_size + (1|prolific_pid), data = data_lost)
-tab_model(model1)
-sjPlot::plot_model(model1, type = "int")
-
-model2 <- lmer(regret_chosen ~  choice_hot * hot_set_size + (1|prolific_pid), data = data_lost)
-tab_model(model2)
-sjPlot::plot_model(model2, type = "int")
-
-```
-
-```{r}
-data_full |> 
+data_1a1b <- data_study1b |>
+  select(prolific_pid, banner_yn, win_status, regret_chosen, regret_notchosen_winner, hot_set_size, outcome_rel_to_hot, choice_hot) |>
+  mutate(
+    study = "Study 1b"
+  ) |>
+  rbind(
+    data_study1a |>
+      select(prolific_pid, banner_yn, win_status, regret_chosen, regret_notchosen_winner, hot_set_size, outcome_rel_to_hot, choice_hot) |>
+      mutate(
+        study = "Study 1a"
+      )
+  ) |>
   filter(win_status == "Lost") |>
-  mutate(distance = abs(chosen_number - winner_number)) |>
-  ggplot(aes(x = distance, y = regret_chosen)) +
-  geom_point(aes(alpha = 0.2)) +
-  geom_smooth(method = "lm", se = TRUE, linewidth = 1) +
-  labs(x = "Distance from Winner",
-     y = "Regret about choosing") +
-  stat_cor(method = "pearson", label.x.npc = "left", label.y.npc = "top")
-
-```
-
-```{r}
-data_slim |> 
-  filter(win_status == "Lost") |>
-  mutate(distance = abs(chosen_number - winner_number)) |>
-  ggplot(aes(x = distance, y = regret_notchosen_winner)) +
-  geom_point(aes(alpha = 0.2)) +
-  geom_smooth(method = "lm", se = TRUE, linewidth = 1) +
-  labs(x = "Distance from Winner",
-     y = "Regret about not choosing") + 
-  stat_cor(method = "pearson", label.x.npc = "left", label.y.npc = "top")
-```
-
-```{r}
-data_slim |>
-  filter(win_status == "Lost" & outcome_rel_to_hot == "hot_win_number") |>
-  filter(choice_hot == "Chose Hot") |>
-  ggplot(aes(x = regret_chosen, y = regret_notchosen_winner)) +
-  geom_point(aes(alpha = 0.2)) +
-  geom_smooth(method = "lm", se = TRUE, linewidth = 1) +
-  labs(x = "Regret about choosing losing",
-     y = "Regret about not choosing winning") +
-  stat_cor(method = "pearson", label.x.npc = "left", label.y.npc = "top") 
-
-data_slim |>
-  filter(win_status == "Lost" & outcome_rel_to_hot == "hot_win_number") |>
-  filter(choice_hot == "Chose Non-Hot") |>
-  ggplot(aes(x = regret_chosen, y = regret_notchosen_winner)) +
-  geom_point(aes(alpha = 0.2)) +
-  geom_smooth(method = "lm", se = TRUE, linewidth = 1) +
-  labs(x = "Regret about choosing losing",
-     y = "Regret about not choosing winning") +
-  stat_cor(method = "pearson", label.x.npc = "left", label.y.npc = "top") 
-```
-
-```{r}
-data_slim |>
-  filter(win_status == "Lost" & hot_set_size > 0) |>
-  ggplot(aes(x = outcome_rel_to_hot, y = regret_notchosen_winner, color = outcome_rel_to_hot, fill = outcome_rel_to_hot)) +
-  stat_summary(
-  fun.data = mean_cl_boot, conf.int = .95, B = 5000,
-  geom = "pointrange", linewidth = 1, ize = 1,
-  shape = 21
-) +
-  facet_wrap(~hot_set_size, nrow = 1)
-```
-
-```{r}
-data_full |>
-  filter(win_status == "Lost" & outcome_rel_to_hot == "hot_win_number") |>
-  pivot_longer(cols = c(regret_chosen, regret_notchosen_winner), names_to = "regret_type", values_to = "regret_value") |>
-  ggplot(aes(x = choice_hot, y = regret_value, color = interaction(regret_type, choice_hot), fill = interaction(regret_type, choice_hot))) +
-  stat_summary(
-  fun.data = mean_cl_boot, conf.int = .95, B = 5000,
-  geom = "pointrange", linewidth = 1, size = 1,
-  shape = 21,
-  position = position_dodge(width = 0.3)
-) +
-  ylim(0,100) +
-  labs(x = "N of hot numbers",
-     y = "Regret",
-     subtitle = "Hot number won") +
-  scale_color_manual(values = pal_combined, name = "Participant's choice:") +
-  scale_fill_manual(values = pal_combined, name = "Participant's choice:") +
-  theme(legend.position = "bottom") +
-  facet_wrap(~ hot_set_size, nrow = 1)
-```
-
-```{r}
-data_full |>
-  filter(win_status == "Lost" & outcome_rel_to_hot == "hot_win_number") |>
-  pivot_longer(cols = c(regret_chosen, regret_notchosen_winner), names_to = "regret_type", values_to = "regret_value") |>
+  pivot_longer(
+    cols = c(regret_chosen, regret_notchosen_winner),
+    names_to = "regret_type",
+    values_to = "regret_value"
+  ) |>
   group_by(prolific_pid) |>
   mutate(regret_pmc = regret_value - mean(regret_value, na.rm = TRUE)) |>
   ungroup() |>
-  ggplot(aes(x = choice_hot, y = regret_pmc, color = interaction(regret_type, choice_hot), fill = interaction(regret_type, choice_hot))) +
-  stat_summary(
-  fun.data = mean_cl_boot, conf.int = .95, B = 5000,
-  geom = "pointrange", linewidth = 1, size = 1,
-  shape = 21,
-  position = position_dodge(width = 0.3)
-) +
-  labs(x = "N of hot numbers",
-     y = "Regret (person-centered)",
-     subtitle = "Study 2a") +
-  scale_color_manual(values = pal_combined, name = "Participant's choice:") +
-  scale_fill_manual(values = pal_combined, name = "Participant's choice:") +
-  theme(legend.position = "bottom") +
-  facet_wrap(~ hot_set_size, nrow = 1)
+  mutate(
+    regret_type = recode(
+      regret_type,
+      regret_chosen = "Commission",
+      regret_notchosen_winner = "Omission"
+    ),
+    hot_set_group = case_when(
+      banner_yn == "No Banner" ~ "CF-",
+      banner_yn == "Banner" ~ "CF+",
+      TRUE ~ NA_character_
+    )) 
 ```
 
 ```{r}
-data_model <- data_full |>
-  filter(win_status == "Lost" & outcome_rel_to_hot == "hot_win_number") |>
-  pivot_longer(cols = c(regret_chosen, regret_notchosen_winner), names_to = "regret_type", values_to = "regret_value") |>
-  mutate(regret_type = case_when(regret_type == "regret_chosen" ~ "Commission",
-                                 regret_type == "regret_notchosen_winner" ~ "Omission")) |>
-  group_by(prolific_pid) |>
-  mutate(regret_pmc = regret_value - mean(regret_value, na.rm = TRUE)) |>
+data_1a1b_fig2 <- data_1a1b |>
+  filter(outcome_rel_to_hot == "hot_win_number" | is.na(outcome_rel_to_hot)) |>
+  group_by(prolific_pid, hot_set_group, regret_type) |>
+  mutate(mean_regret = mean(regret_pmc, na.rm = TRUE)) |>
   ungroup() |>
-  mutate(hot_set_size = factor(hot_set_size))
+  select(prolific_pid, hot_set_group, regret_type, mean_regret, study) |>
+  distinct()
+                  
+```
 
-model1 <- bf(
-  regret_pmc ~ regret_type * choice_hot * hot_set_size +
-    (1 | prolific_pid)
+```{r}
+plot_fig2 <- data_1a1b_fig2 |>
+  mutate(
+    study = factor(study, levels = c("Study 1a", "Study 1b")),
+    hot_set_group = factor(hot_set_group, levels = c("CF-", "CF+")),
+    regret_type = recode(
+      regret_type,
+      "Commission regret" = "Commission",
+      "Omission regret"   = "Omission"
+    ),
+    regret_type = factor(regret_type, levels = c("Commission", "Omission"))
+  ) |>
+  filter(!is.na(hot_set_group), !is.na(regret_type), !is.na(mean_regret))
+
+pal_regret_type <- c(
+  "Commission" = "#8B1E3F",
+  "Omission"   = "#1F4E79"
 )
 
-model1_fit <- brm(
-  formula = model1,
-  data = data_model,
-  family = student,
+fig_w <- 8.27
+fig_h <- 5.83
+
+fig2 <- ggplot(
+  plot_fig2,
+  aes(x = hot_set_group, y = mean_regret, color = regret_type)
+) +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "#60676A", linewidth = 0.6) +
+  stat_summary(
+    fun.data = mean_cl_boot, conf.int = .95, B = 5000,
+    geom = "pointrange", linewidth = 1.0, size = 1,
+    position = position_dodge(width = 0.35)
+  ) +
+  labs(
+    title = "A",
+    x = "Trial type",
+    y = "Regret (person-centered)",
+    color = NULL
+  ) +
+  scale_color_manual(values = pal_regret_type) +
+  facet_wrap(~ study) +
+  guides(color = guide_legend(override.aes = list(linewidth = 1.2), nrow = 1)) +
+  theme(
+    legend.position = "bottom",
+    legend.text = element_text(size = 16),
+
+    axis.text.x  = element_text(size = 16),
+    axis.text.y  = element_text(size = 16),
+    axis.title.y = element_text(size = 18),
+    axis.title.x = element_text(size = 18),
+    
+    # increase title font
+    plot.title    = element_text(size = 24, face = "bold"),
+
+    strip.text = element_text(size = 20, face = "bold"),
+
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor   = element_blank(),
+    panel.spacing = unit(1.2, "lines")
+  )
+
+print(fig2)
+
+# 4) Export (vector PDF, consistent fonts)
+ggsave(
+  filename = "../../figures/fig2.pdf",
+  plot = fig2,
+  device = pdf,
+  width = fig_w,
+  height = fig_h
+)
+```
+## 1a
+
+```{r}
+data_q1_1a <- data_study1a |>
+  filter(win_status == "Lost") |>
+  filter(outcome_rel_to_hot == "hot_win_number" | is.na(outcome_rel_to_hot)) |>
+  select(prolific_pid, banner_yn, regret_chosen, regret_notchosen_winner, outcome_rel_to_hot) |>
+  pivot_longer(
+    cols = c(regret_chosen, regret_notchosen_winner),
+    names_to = "regret_type",
+    values_to = "regret_value"
+  ) |>
+  group_by(prolific_pid) |>
+  mutate(regret_pmc = regret_value - mean(regret_value, na.rm = TRUE)) |>
+  ungroup() 
+
+tab_model(lmer(regret_pmc ~ banner_yn * regret_type + (1 | prolific_pid), data = data_q1_1a))
+
+model_q1_1a <- brm(regret_pmc ~ banner_yn * regret_type + (1 | prolific_pid),
+  data = data_q1_1a,
   chains = 4,
   cores = 4,
   iter = 4000,
@@ -461,29 +382,772 @@ model1_fit <- brm(
   seed = 1234
 )
 
-print(model1_fit)
-pp_check(model1_fit)
-tab_model(model1_fit)
+summary(model_q1_1a)
+pp_check(model_q1_1a)
+tab_model(model_q1_1a)
+```
+
+##1b
+
+```{r}
+data_q1_1b <- data_study1b |>
+  filter(win_status == "Lost") |>
+  filter(outcome_rel_to_hot == "hot_win_number" | is.na(outcome_rel_to_hot)) |>
+  select(prolific_pid, banner_yn, regret_chosen, regret_notchosen_winner, outcome_rel_to_hot) |>
+  pivot_longer(
+    cols = c(regret_chosen, regret_notchosen_winner),
+    names_to = "regret_type",
+    values_to = "regret_value"
+  ) |>
+  group_by(prolific_pid) |>
+  mutate(regret_pmc = regret_value - mean(regret_value, na.rm = TRUE)) |>
+  ungroup() 
+
+tab_model(lmer(regret_pmc ~ banner_yn * regret_type + (1 | prolific_pid), data = data_q1_1b))
+
+model_q1_1b <- brm(regret_pmc ~ banner_yn * regret_type + (1 | prolific_pid),
+  data = data_q1_1b,
+  chains = 4,
+  cores = 4,
+  iter = 4000,
+  warmup = 1000,
+  seed = 1234
+)
+
+summary(model_q1_1b)
+pp_check(model_q1_1b)
+tab_model(model_q1_1b)
+```
+
+#RQ2
+
+```{r}
+data_1a1b_fig3 <- data_1a1b |>
+  filter(outcome_rel_to_hot == "hot_win_number" | is.na(outcome_rel_to_hot)) |>
+  filter(hot_set_size > 0) |>
+  group_by(prolific_pid, hot_set_size, regret_type) |>
+  mutate(mean_regret = mean(regret_pmc, na.rm = TRUE)) |>
+  ungroup() |>
+  select(prolific_pid, hot_set_size, regret_type, mean_regret, study) |>
+  distinct()
+                  
+```
+
+```{r}
+
+plot_fig3 <- data_1a1b_fig3 |>
+  mutate(
+    study = factor(study, levels = c("Study 1a", "Study 1b")),
+    regret_type = recode(
+      regret_type,
+      "Commission regret" = "Commission",
+      "Omission regret"   = "Omission"
+    ),
+    regret_type = factor(regret_type, levels = c("Commission", "Omission"))
+  ) |>
+  mutate(hot_set_size = as.numeric(hot_set_size)) |>
+  mutate(hot_set_size = factor(hot_set_size, levels = c(2, 3, 8, 16))) 
+
+pal_regret_type <- c(
+  "Commission" = "#8B1E3F",
+  "Omission"   = "#1F4E79"
+)
+
+fig_w <- 8.27
+fig_h <- 5.83
+
+fig3 <- ggplot(
+  plot_fig3,
+  aes(x = hot_set_size, y = mean_regret, color = regret_type)
+) +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "#60676A", linewidth = 0.6) +
+  stat_summary(
+    fun.data = mean_cl_boot, conf.int = .95, B = 5000,
+    geom = "pointrange", linewidth = 1.0, size = 1,
+    position = position_dodge(width = 0.35)
+  ) +
+  labs(
+    x = "Hot set size",
+    y = "Regret (person-centered)",
+    color = NULL
+  ) +
+  scale_color_manual(values = pal_regret_type) +
+  scale_x_discrete(
+    breaks = c(1, 2, 3, 8, 16)
+  ) +
+  facet_wrap(~ study) +
+  guides(color = guide_legend(override.aes = list(linewidth = 1.2), nrow = 1)) +
+  theme(
+    legend.position = "bottom",
+    legend.text = element_text(size = 16),
+
+    axis.text.x  = element_text(size = 16),
+    axis.text.y  = element_text(size = 16),
+    axis.title.x = element_text(size = 18),
+    axis.title.y = element_text(size = 18),
+
+    strip.text = element_text(size = 22, face = "bold"),
+
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor   = element_blank(),
+    panel.spacing = unit(1.2, "lines")
+  )
+
+print(fig3)
+
+ggsave(
+  filename = "../../figures/fig3.pdf",
+  plot = fig3,
+  device = pdf,
+  width = fig_w,
+  height = fig_h
+)
+```
+```{r}
+fig3 <- ggplot(
+  plot_fig3,
+  aes(x = hot_set_size, y = mean_regret, color = regret_type)
+) +
+  geom_hline(
+    yintercept = 0,
+    linetype = "dashed",
+    color = "#60676A",
+    linewidth = 0.6
+  ) +
+
+  stat_summary(
+    fun.data = mean_cl_boot,
+    conf.int = .95,
+    B = 5000,
+    geom = "pointrange",
+    linewidth = 1.0,
+    size = 1.2,
+    shape = 16,
+    position = position_dodge(width = 0.35)
+  ) +
+
+  labs(
+    title = "B",
+    x = "Hot set size",
+    y = "Regret (person-centered)",
+    color = NULL
+  ) +
+
+  scale_color_manual(values = pal_regret_type) +
+  scale_x_discrete(drop = TRUE) +
+
+  facet_grid(
+    ~ study,
+    scales = "free_x",
+    space  = "free_x"
+  ) +
+
+  guides(
+    color = guide_legend(
+      override.aes = list(linewidth = 1.2),
+      nrow = 1
+    )
+  ) +
+
+  theme(
+    legend.position = "bottom",
+    legend.text = element_text(size = 16),
+
+    axis.text.x  = element_text(size = 16),
+    axis.text.y  = element_text(size = 16),
+    axis.title.x = element_text(size = 18),
+    axis.title.y = element_text(size = 18),
+
+    strip.text = element_text(size = 20, face = "bold"),
+    
+    plot.title = element_text(size = 24, face = "bold"),
+
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor   = element_blank(),
+    panel.spacing = unit(1.2, "lines")
+  )
+
+print(fig3)
+
+ggsave(
+  filename = "../../figures/fig3.pdf",
+  plot = fig3,
+  device = pdf,
+  width = fig_w,
+  height = fig_h
+)
+```
+```{r}
+fig_2_3_4 <- fig2 + fig3 + fig4
+
+ggsave(
+  filename = "../../figures/fig_2_3_4.pdf",
+  plot = fig_2_3_4,
+  device = pdf,
+  width = 14,
+  height = fig_h
+)
+```
+
+## 1a 
+
+```{r}
+data_q2_1a <- data_study1a |>
+  filter(win_status == "Lost") |>
+  filter(outcome_rel_to_hot == "hot_win_number" | is.na(outcome_rel_to_hot)) |>
+  filter(hot_set_size > 0) |>
+  select(prolific_pid, regret_chosen, regret_notchosen_winner, hot_set_size) |>
+  pivot_longer(
+    cols = c(regret_chosen, regret_notchosen_winner),
+    names_to = "regret_type",
+    values_to = "regret_value"
+  ) |>
+  group_by(prolific_pid) |>
+  mutate(regret_pmc = regret_value - mean(regret_value, na.rm = TRUE)) |>
+  ungroup() 
+
+tab_model(lmer(regret_pmc ~ hot_set_size * regret_type + (1 | prolific_pid), data = data_q2_1a))
+
+model_q2_1a <- brm(regret_pmc ~ hot_set_size * regret_type + (1 | prolific_pid),
+  data = data_q2_1a,
+  chains = 4,
+  cores = 4,
+  iter = 4000,
+  warmup = 1000,
+  seed = 1234
+)
+
+summary(model_q2_1a)
+pp_check(model_q2_1a)
+tab_model(model_q2_1a)
+```
+
+##1b
+
+```{r}
+data_q2_1b <- data_study1b |>
+  filter(win_status == "Lost") |>
+  filter(outcome_rel_to_hot == "hot_win_number" | is.na(outcome_rel_to_hot)) |>
+  filter(hot_set_size > 0) |>
+  select(prolific_pid, regret_chosen, regret_notchosen_winner, hot_set_size) |>
+  pivot_longer(
+    cols = c(regret_chosen, regret_notchosen_winner),
+    names_to = "regret_type",
+    values_to = "regret_value"
+  ) |>
+  group_by(prolific_pid) |>
+  mutate(regret_pmc = regret_value - mean(regret_value, na.rm = TRUE)) |>
+  ungroup() 
+
+tab_model(lmer(regret_pmc ~ hot_set_size * regret_type + (1 | prolific_pid), data = data_q2_1b))
+
+model_q2_1a <- brm(regret_pmc ~ hot_set_size * regret_type + (1 | prolific_pid),
+  data = data_q2_1a,
+  chains = 4,
+  cores = 4,
+  iter = 4000,
+  warmup = 1000,
+  seed = 1234
+)
+
+summary(model_q2_1a)
+pp_check(model_q2_1a)
+tab_model(model_q2_1a)
+```
+
+#RQ3
+
+```{r}
+data_q3 <- data_study2 |>
+  filter(win_status == "Lost") |>
+  filter(outcome_rel_to_consider == "winner_in_set" | is.na(outcome_rel_to_consider)) |>
+  select(prolific_pid, regret_chosen, regret_notchosen_winner, consider_set_size) |>
+  pivot_longer(
+    cols = c(regret_chosen, regret_notchosen_winner),
+    names_to = "regret_type",
+    values_to = "regret_value"
+  ) |>
+  group_by(prolific_pid) |>
+  mutate(regret_pmc = regret_value - mean(regret_value, na.rm = TRUE)) |>
+  ungroup() |>
+  group_by(prolific_pid, consider_set_size, regret_type) |>
+  mutate(mean_regret = mean(regret_pmc, na.rm = TRUE)) |>
+  ungroup() |>
+  select(prolific_pid, consider_set_size, regret_type, mean_regret) |>
+  mutate(consider_set_size = as.numeric(consider_set_size)) |>
+  mutate(consider_set_size = factor(consider_set_size, levels = c(0, 1, 2, 3, 8, 16))) |>
+  distinct()
+```
+
+```{r}
+plot_fig4 <- data_q3 |>
+  mutate(
+    regret_type = recode(
+      regret_type,
+      "regret_chosen" = "Commission",
+      "regret_notchosen_winner"   = "Omission"
+    ),
+    regret_type = factor(regret_type, levels = c("Commission", "Omission"))
+  ) |>
+  mutate(study = "Study 2")
+  
+pal_regret_type <- c(
+  "Commission" = "#8B1E3F",
+  "Omission"   = "#1F4E79"
+)
+
+fig_w <- 8.27
+fig_h <- 5.83
+
+fig4 <- ggplot(
+  plot_fig4,
+  aes(x = consider_set_size, y = mean_regret, color = regret_type)
+) +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "#60676A", linewidth = 0.6) +
+  stat_summary(
+    fun.data = mean_cl_boot, conf.int = .95, B = 5000,
+    geom = "pointrange", linewidth = 1.0, size = 1,
+    position = position_dodge(width = 0.35)
+  ) +
+  labs(
+    x = "Consideration set size",
+    y = "Regret (person-centered)",
+    color = NULL,
+    title = "C"
+  ) +
+  scale_color_manual(values = pal_regret_type) +
+  scale_x_discrete(
+    breaks = c(0, 1, 2, 3, 8, 16)
+  ) +
+  guides(color = guide_legend(override.aes = list(linewidth = 1.2), nrow = 1)) +
+  theme(
+    legend.position = "bottom",
+    legend.text = element_text(size = 16),
+
+    axis.text.x  = element_text(size = 16),
+    axis.text.y  = element_text(size = 16),
+    axis.title.x = element_text(size = 18),
+    axis.title.y = element_text(size = 18),
+    
+    plot.title    = element_text(size = 24, face = "bold"),
+    plot.subtitle = element_text(size = 22),
+
+    strip.text = element_text(size = 22, face = "bold", hjust = 0),
+
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor   = element_blank(),
+    panel.spacing = unit(1.2, "lines")
+  ) +
+  facet_wrap(~ study)
+
+print(fig4)
+
+ggsave(
+  filename = "../../figures/fig4.pdf",
+  plot = fig4,
+  device = pdf,
+  width = fig_w,
+  height = fig_h
+)
+```
+```{r}
+data_q3_1 <- data_study2 |>
+  filter(win_status == "Lost") |>
+  filter(outcome_rel_to_consider == "winner_in_set" | is.na(outcome_rel_to_consider)) |>
+  select(prolific_pid, regret_chosen, regret_notchosen_winner, is_no_consider_trial) |>
+  pivot_longer(
+    cols = c(regret_chosen, regret_notchosen_winner),
+    names_to = "regret_type",
+    values_to = "regret_value"
+  ) |>
+  group_by(prolific_pid) |>
+  mutate(regret_pmc = regret_value - mean(regret_value, na.rm = TRUE)) |>
+  ungroup() |>
+  group_by(prolific_pid, is_no_consider_trial, regret_type) |>
+  mutate(mean_regret = mean(regret_pmc, na.rm = TRUE)) |>
+  ungroup() 
+
+tab_model(lmer(mean_regret ~ is_no_consider_trial * regret_type + (1 | prolific_pid), data = data_q3_1))
+```
+
+# Exploratory analyses
+
+```{r}
+plot_dat_fig2 <- data_study1b |>
+  filter(
+    win_status == "Lost",
+    hot_set_size %in% c(1, 2, 3, 8, 16),
+    outcome_rel_to_hot %in% c("hot_win_number", "nonhot_win_number")
+  ) |>
+  pivot_longer(
+    cols = c(regret_chosen, regret_notchosen_winner),
+    names_to = "regret_type",
+    values_to = "regret_value"
+  ) |>
+  mutate(
+    regret_type = recode(
+      regret_type,
+      regret_chosen = "Commission",
+      regret_notchosen_winner = "Omission"
+    ),
+    outcome_rel_to_hot = recode(
+      outcome_rel_to_hot,
+      hot_win_number = "Winner in hot set",
+      nonhot_win_number = "Winner outside hot set"
+    ),
+    choice_hot = case_when(
+      choice_hot %in% c("Chose Hot", "Hot", "TRUE", "True", TRUE, 1, "1") ~ "Chose Hot",
+      choice_hot %in% c("Chose Non-Hot", "Non-Hot", "FALSE", "False", FALSE, 0, "0") ~ "Chose Non-Hot",
+      TRUE ~ NA_character_
+    )
+  ) |>
+  filter(!is.na(choice_hot)) |>
+  group_by(prolific_pid) |>
+  mutate(regret_pmc = regret_value - mean(regret_value, na.rm = TRUE)) |>
+  ungroup() |>
+  mutate(
+    legend_label = paste(regret_type, outcome_rel_to_hot, sep = " — "),
+    legend_label = factor(
+      legend_label,
+      levels = c(
+        "Commission — Winner in hot set",
+        "Commission — Winner outside hot set",
+        "Omission — Winner in hot set",
+        "Omission — Winner outside hot set"
+      )
+    ),
+    outcome_rel_to_hot = factor(
+      outcome_rel_to_hot,
+      levels = c("Winner in hot set", "Winner outside hot set")
+    ),
+    hot_set_size = factor(hot_set_size, levels = c(1, 2, 3, 8, 16)),
+    choice_hot   = factor(choice_hot, levels = c("Chose Hot", "Chose Non-Hot"))
+  )
+
+pal_fig2 <- c(
+  "Commission — Winner in hot set"         = "#8B1E3F",
+  "Commission — Winner outside hot set"    = "#D8A2AE",
+  "Omission — Winner in hot set"           = "#1F4E79",
+  "Omission — Winner outside hot set"      = "#A9C0D8"
+)
+
+p_fig2 <- ggplot(
+  plot_dat_fig2,
+  aes(
+    x = outcome_rel_to_hot,
+    y = regret_pmc,
+    color = legend_label,
+    fill  = legend_label
+  )
+) +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "black", linewidth = 0.7) +
+  stat_summary(
+    fun.data = mean_cl_boot,
+    conf.int = .95,
+    B = 5000,
+    geom = "pointrange",
+    linewidth = 1,
+    size = 1,
+    shape = 21,
+    position = position_dodge(width = 0.35)
+  ) +
+  scale_color_manual(values = pal_fig2, drop = FALSE) +
+  scale_fill_manual(values = pal_fig2, drop = FALSE) +
+  labs(
+    title = "Study 1b",
+    x = "Hot set size",
+    y = "Regret (person-centered)",
+    color = "Regret type",
+    fill  = "Regret type"
+  ) +
+  facet_grid(choice_hot ~ hot_set_size, switch = "both") +
+  theme(
+    legend.position = "bottom",
+    legend.text = element_text(size = 16),
+    legend.title = element_text(size = 18),
+
+    axis.text.x  = element_blank(),
+    axis.text.y  = element_text(size = 16),
+    axis.title.x = element_text(size = 16),
+    axis.title.y = element_text(size = 18),
+
+    strip.text = element_text(size = 18, face = "bold"),
+    
+    plot.title    = element_text(size = 24, face = "bold"),
+
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor   = element_blank(),
+    panel.spacing = unit(1.2, "lines")
+  ) +
+guides(
+  color = guide_legend(
+    nrow = 2,
+    byrow = TRUE,
+    override.aes = list(linewidth = 1.2)
+  ),
+  fill = guide_legend(
+    nrow = 2,
+    byrow = TRUE,
+    override.aes = list(linewidth = 1.2)
+  )
+)
+
+print(p_fig2)
+
+ggsave(
+  filename = "../../figures/fig2_study1b_choicehot_by_hotsetsize.pdf",
+  plot = p_fig2,
+  device = pdf,
+  width = 12,   
+  height = 6,
+  bg = "white"
+)
+```
+```{r}
+data_study1b |>
+  mutate(closeness = abs(winner_number-chosen_number)) |>
+  filter(win_status == "Lost") |>
+  ggplot(aes(x = closeness, y = regret_notchosen_hot_loser)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(
+    x = "Closeness of chosen number to winning number",
+    y = "Commission regret") +
+  facet_wrap(~ hot_set_size)
+  
+```
+
+
+# Talks
+
+```{r}
+plot_dat_all <- bind_rows(
+  
+  # Study 1b
+  data_study1b |>
+    filter(win_status == "Lost") |>
+    mutate(
+      study = "Study 1b",
+      salient_cf = if_else(banner_yn == "Banner", "CF+", "CF-"),
+      set_size = hot_set_size
+    ),
+
+  # Study 1a
+  data_study1a |>
+    filter(win_status == "Lost") |>
+    mutate(
+      study = "Study 1a",
+      salient_cf = if_else(banner_yn == "Banner", "CF+", "CF-"),
+      set_size = hot_set_size
+    ),
+  
+  # data_study1b_minecraft |>
+  #   filter(win_status == "Lost") |>
+  #   mutate(
+  #     study = "Study 2a",
+  #     salient_cf = if_else(banner_yn == "Banner", "CF+", "CF-")
+  #   ) ,
+
+  # Study 2
+  data_study2 |>
+    filter(win_status == "Lost") |>
+    mutate(
+      study = "Study 2",
+      salient_cf = if_else(consider_set_size > 0, "CF+", "CF-"),
+      set_size = consider_set_size
+    ),
+)
+```
+
+```{r}
+plot_dat_all <- plot_dat_all |>
+  pivot_longer(
+    cols = c(regret_chosen, regret_notchosen_winner),
+    names_to = "regret_type",
+    values_to = "regret_value"
+  ) |>
+  mutate(
+    regret_type = recode(
+      regret_type,
+      regret_chosen = "Commission",
+      regret_notchosen_winner = "Omission"
+    )
+  ) |>
+  group_by(prolific_pid) |>
+  mutate(regret_pmc = regret_value - mean(regret_value, na.rm = TRUE)) |>
+  ungroup() |>
+  group_by(prolific_pid, study, set_size, regret_type) |>
+  mutate(mean_regret = mean(regret_pmc, na.rm = TRUE)) |>
+  ungroup() |>
+  select(prolific_pid, mean_regret, salient_cf, regret_type, study, set_size) |>
+  distinct() #|>
+  # mutate(
+  #   legend_label = interaction(
+  #     salient_cf, regret_type,
+  #     sep = " — "
+  #   ),
+  #   legend_label = factor(
+  #     legend_label,
+  #     levels = c(
+  #       "CF+ — Commission",
+  #       "CF+ — Omission",
+  #       "CF- — Commission",
+  #       "CF- — Omission"
+  #     )
+  #   )
+  # )
+```
+
+
+```{r}
+pal_cf_regret <- c(
+  "Commission" = "#8B1E3F",
+  "Omission"   = "#1F4E79",
+  "CF- — Commission" = "#D8A2AE",
+  "CF- — Omission"   = "#A9C0D8"
+)
 
 ```
 
 ```{r}
-ce <- conditional_effects(
-  model1_fit,
-  effects = "hot_set_size:choice_hot",
-  conditions = data.frame(regret_type = c("Commission", "Omission")),
-  re_formula = NA,
-  prob = 0.95
-)
+fig_agg <- ggplot(
+  plot_dat_all,
+  aes(
+    x = set_size,
+    y = mean_regret,
+    # fill = regret_type,
+    # color = regret_type
+  )
+) +
+  stat_summary(
+    fun.data = mean_cl_boot,
+    conf.int = .95,
+    B = 5000,
+    geom = "pointrange",
+    linewidth = 1.0,
+    size = 1.2,
+    shape = 16,
+    position = position_dodge(width = 0.35)
+  ) +
 
-plot(ce, plot = FALSE)[[1]] +
-  ggplot2::labs(
-    x = "Hot set size",
-    y = "Predicted regret (person-centered)",
-    color = "Choice",
-    fill  = "Choice"
+  # scale_color_manual(values = pal_cf_regret) +
+  # scale_fill_manual(values = pal_cf_regret) +
+
+  labs(
+    x = NULL,
+    y = "Regret"
+  ) +
+
+  guides(
+    color = guide_legend(
+      nrow = 2,
+      byrow = TRUE,
+      override.aes = list(linewidth = 1.2)
+    ),
+    fill = "none"
+  ) +
+  geom_hline(
+    yintercept = 0,
+    linetype = "dashed",
+    color = "#60676A",
+    linewidth = 0.6
+  ) +
+
+  theme(
+    legend.position = "bottom",
+    legend.title = element_text(size = 16),
+    legend.text  = element_text(size = 15),
+
+    axis.text.x  = element_text(size = 16),
+    axis.text.y  = element_text(size = 16),
+    axis.title.y = element_text(size = 18),
+
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor   = element_blank(),
+    panel.spacing = unit(1.2, "lines")
   )
 ```
+
+```{r}
+fig_agg 
+  
+
+ggsave(
+  filename = "../../figures/fig_agg_cf_regret.pdf",
+  plot = fig_agg,
+  device = pdf,
+  width = 10,
+  height = 6
+)
+```
+```{r}
+plot_dat_all |>
+  filter(regret_type == "Omission",
+         study == "Study 1a") |>
+  pivot_wider(
+    names_from = salient_cf,
+    values_from = mean_regret) |>
+  rename(CF_minus = `CF-`, CF_plus = `CF+`) |>
+  t.test(Pair(CF_minus, CF_plus) ~ 1, data = _) |>
+  effectsize()
+
+plot_dat_all |>
+  filter(regret_type == "Omission",
+         study == "Study 1b") |>
+  pivot_wider(
+    names_from = salient_cf,
+    values_from = mean_regret) |>
+  rename(CF_minus = `CF-`, CF_plus = `CF+`) |>
+  # t test
+  t.test(Pair(CF_minus, CF_plus) ~ 1, data = _) |>
+  effectsize()
+
+plot_dat_all |>
+  filter(regret_type == "Omission",
+         study == "Study 2") |>
+  pivot_wider(
+    names_from = salient_cf,
+    values_from = mean_regret) |>
+  rename(CF_minus = `CF-`, CF_plus = `CF+`) |>
+  # t test
+  t.test(Pair(CF_minus, CF_plus) ~ 1, data = _) |>
+  effectsize()
+```
+
+```{r}
+plot_dat_all |>
+  filter(regret_type == "Commission",
+         study == "Study 1a") |>
+  pivot_wider(
+    names_from = salient_cf,
+    values_from = mean_regret) |>
+  rename(CF_minus = `CF-`, CF_plus = `CF+`) |>
+  t.test(Pair(CF_minus, CF_plus) ~ 1, data = _) |>
+  effectsize()
+
+plot_dat_all |>
+  filter(regret_type == "Commission",
+         study == "Study 1b") |>
+  pivot_wider(
+    names_from = salient_cf,
+    values_from = mean_regret) |>
+  rename(CF_minus = `CF-`, CF_plus = `CF+`) |>
+  # t test
+  t.test(Pair(CF_minus, CF_plus) ~ 1, data = _) |>
+  effectsize()
+
+plot_dat_all |>
+  filter(regret_type == "Commission",
+         study == "Study 2") |>
+  pivot_wider(
+    names_from = salient_cf,
+    values_from = mean_regret) |>
+  rename(CF_minus = `CF-`, CF_plus = `CF+`) |>
+  # t test
+  t.test(Pair(CF_minus, CF_plus) ~ 1, data = _) |>
+  effectsize()
+```
+
 
 ```{r}
 # session info

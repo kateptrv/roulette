@@ -1,2 +1,35 @@
+# macOS
 .DS_Store
+
+# Python
 *.pyc
+__pycache__/
+.ipynb_checkpoints/
+
+# R
+.RData
+.Rhistory
+.Rapp.history
+.Rproj.user/
+*.Rproj
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+
+# Office temp / lock files
+~$*
+
+# OS / misc
+Thumbs.db
+*.log
+
+# Raw data containing Prolific identifiers 
+data/roulette_pid-*.csv
+data/data_raw.csv
+data/data_clean.csv
+data/pid_mapping.csv
+
+# OSF / API tokens
+.Renviron
